@@ -61,6 +61,26 @@ Type a company, press Research, and the server spawns the same headless run the 
 
 Sections: company overview with scale figures, trends (reported results, guidance, industry and macro pressure), a dated catalyst timeline, the engineering estate mapped to Factory's operating patterns, a scored fit assessment arguing both sides, the top-ten contact list ranked by who to call first, the competitive field, deal shape, objections, unknowns, and the full source list.
 
+## What a rep needs that research alone does not give them
+
+A sourced dossier tells you what is true. It does not tell you whether you have been here before, what to say, how to get in, or whether any of it is still current. Five additions close that gap.
+
+**Account history.** Everything in the dossier is public. The private half is what we already know: prior opportunities, why they were lost, who championed us, who blocked us, and how long ago anyone last spoke. A rep who walks in without that is walking into an ambush. `web/crm/provider.mjs` is a seam, not an integration: it reads synthetic fixtures today and a real Salesforce adapter drops into the same shape. The panel is labeled `INTERNAL DATA` and, while the fixtures are in use, carries a loud sample warning. Every person in the fixture is fictional on purpose, because inventing deal history about a named real executive is the same sin as fabricating a citation.
+
+The useful part is not the table, it is the overlap. The server cross-references who we have already talked to against who the research says matters now, and reports the honest result — usually that *none* of the prior contacts are in the current buying center, which means rapport does not transfer and the account needs re-earning rather than resuming.
+
+**Point of view.** Why anything, why Factory, why now, and the ask. Each pillar carries cited evidence and a required `risk` field stating how a sharp buyer would push back, because a pillar with no stated counter-argument has not been thought through. "Why anything" is not allowed to mention Factory. "Why now" has to rest on a dated catalyst or openly admit there is no urgency; manufactured urgency is the fastest way to lose a senior buyer.
+
+The section that earns its place is **Do not say**: the claims a rep would be tempted to make under pressure that the evidence does not support. On the first real run it caught the tool quoting its own illustrative 30% planning assumption back as if it were the prospect's baseline. That is the exact failure that ends a deal in the room, and it is now printed in red above the outreach.
+
+**Warm paths.** Ranked routes in that beat a cold email, with the provenance of each one marked: `CRM` for a prior relationship, `public` for a cited customer reference, alumnus, or board overlap. Speculative paths are labeled speculative rather than dressed up.
+
+**Outreach.** A send-ready sequence for the top two or three targets only, because a ten-person sequence never gets sent. No placeholders and no merge fields, and every factual sentence in a body carries the source id behind it — which is what stops a sequence from confidently misquoting a prospect's own earnings back at them.
+
+**Freshness and what changed.** Every dossier states its age and turns amber, then red. Re-running archives the previous copy first, so the second visit opens with a diff: fit score moved, catalysts added, people added or gone, source count changed. Research that does not advertise its age invites someone to quote a figure that stopped being true two quarters ago.
+
+The rule holding all of this together: **public research, internal CRM data, and generated argument are three different kinds of claim and are never styled as one.** Blending them is how a rep ends up presenting an internal guess to a buyer as a sourced fact.
+
 Three design decisions carry the weight:
 
 **The agent writes JSON, not prose.** A dossier is validated against `dossier.schema.json` before it renders. Scraped narrative would have been faster to build and impossible to lay out honestly — you cannot put a fit score in a progress bar if the score only exists inside a paragraph. Structure is also what makes the output checkable.

@@ -1,0 +1,212 @@
+{
+  "company": "Best Buy Co., Inc.",
+  "generatedAt": "2026-09-24",
+  "basedOnDossier": "2026-09-24",
+  "pointOfView": {
+    "whyAnything": {
+      "claim": "Best Buy needs a controlled way to move cross-system software changes faster because marketplace expansion and AI commerce are adding integration surfaces while tariff uncertainty keeps the proof threshold for new spending high.",
+      "evidence": [
+        {
+          "point": "Best Buy's Mirakl-powered marketplace more than doubled the products available through BestBuy.com and the Best Buy app.",
+          "sourceId": "s11"
+        },
+        {
+          "point": "Ask Blue and OpenAI-related agentic-commerce work extend product, inventory, pricing, identity, measurement, and governance demands across internal and external customer surfaces.",
+          "sourceId": "s14"
+        },
+        {
+          "point": "The Consumer Technology Association forecast tariff pressure and economic uncertainty alongside 2026 market growth.",
+          "sourceId": "s18"
+        }
+      ],
+      "risk": "No public source confirms that these programs are constrained by software-delivery speed, so Best Buy may reasonably say the integration work is already on plan."
+    },
+    "whyFactory": {
+      "claim": "Factory should earn a place only by completing one governed, low-blast-radius engineering workflow across Best Buy's existing tools and review controls, not by asking Best Buy to replace its cloud, implementation, marketplace, or commerce incumbents.",
+      "evidence": [
+        {
+          "point": "Google Cloud and Accenture are established AI and delivery incumbents in Best Buy's customer-support program.",
+          "sourceId": "s10"
+        },
+        {
+          "point": "Mirakl already supplies the specialized platform behind Best Buy's U.S. marketplace.",
+          "sourceId": "s12"
+        },
+        {
+          "point": "Best Buy's public API repositories show a software footprint, but they do not disclose the private engineering stack, repository scale, review queues, or coding-assistant standard.",
+          "sourceId": "s13"
+        }
+      ],
+      "risk": "A current IDE copilot, internal team, Google Cloud, or Accenture may already complete the selected workflow at Best Buy's required quality, control, and cost, leaving no incremental role for Factory.",
+      "versus": [
+        "Do nothing and keep the current internal workflow",
+        "An IDE copilot Best Buy may already use",
+        "Google Cloud",
+        "Accenture",
+        "Mirakl",
+        "OpenAI-related commerce capabilities"
+      ]
+    },
+    "whyNow": {
+      "claim": "The credible window is before Jason Bonfig becomes CEO on November 1, 2026, when Neal Sample and Patrick McGinnis can frame one bounded engineering proof around the incoming customer, product, fulfillment, and revenue agenda.",
+      "evidence": [
+        {
+          "point": "Jason Bonfig is scheduled to become CEO effective November 1, 2026.",
+          "sourceId": "s4"
+        },
+        {
+          "point": "Best Buy reshaped its executive team around strategic priorities in July 2026, including Patrick McGinnis's revenue remit.",
+          "sourceId": "s5"
+        },
+        {
+          "point": "Best Buy raised fiscal 2027 guidance after reporting 4.1% enterprise comparable-sales growth in Q2.",
+          "sourceId": "s3"
+        }
+      ],
+      "risk": "The same leadership transition can freeze sponsorship and procurement, and no public source confirms a planning or budget deadline before November 1.",
+      "expiresOn": "2026-11-01"
+    },
+    "theAsk": {
+      "ask": "Schedule a 30-minute working session with Neal Sample and Patrick McGinnis to name one marketplace, customer-care, or digital-commerce software change with a business date, accountable owner, and buyer-owned baseline.",
+      "why": "The session commits Best Buy to no platform decision and creates a fast disqualification test before anyone requests repository access or a pilot.",
+      "fallback": "Schedule a 20-minute scoping call with Neal Sample's engineering delegate to determine whether any representative, low-blast-radius issue meets those criteria."
+    },
+    "soundbite": "Best Buy does not need another broad AI promise. It needs a quick way to prove whether one governed engineering workflow can move a revenue-linked change faster without displacing the platforms and controls already in place.",
+    "doNotSay": [
+      {
+        "claim": "Factory will deliver a 50% improvement for Best Buy.",
+        "reason": "The published 50% call-containment improvement belongs to Best Buy's Google Cloud customer-care work, not to Factory or to software engineering."
+      },
+      {
+        "claim": "Factory will reduce Best Buy's engineering headcount or produce a named enterprise ROI.",
+        "reason": "No public source provides Best Buy's engineering headcount, workflow volumes, delivery costs, or an approved productivity baseline."
+      },
+      {
+        "claim": "Best Buy has a confirmed engineering backlog that is delaying marketplace or AI commerce.",
+        "reason": "The dossier explicitly found no buyer-confirmed backlog, review queue, migration schedule, or late business date."
+      },
+      {
+        "claim": "Factory should replace Google Cloud, Accenture, Mirakl, OpenAI, or Best Buy's internal engineering teams.",
+        "reason": "Those incumbents have established roles and context; the supportable position is a bounded comparison inside the existing architecture."
+      },
+      {
+        "claim": "Best Buy uses a specific private source host, CI/CD system, coding assistant, or security workflow.",
+        "reason": "The public API repositories do not establish Best Buy's private engineering estate."
+      },
+      {
+        "claim": "Factory has a published retail reference that proves equivalent results for Best Buy.",
+        "reason": "No same-vertical, Best Buy-like published Factory customer reference was confirmed during the public warm-path search."
+      }
+    ]
+  },
+  "warmPaths": [],
+  "outreach": [
+    {
+      "targetName": "Neal Sample",
+      "targetTitle": "Executive Vice President and Chief Digital and Technology Officer",
+      "angle": "Disqualify or prove one governed engineering workflow tied to a current commerce program.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One bounded workflow before November 1",
+          "body": "Neal,\n\nBest Buy is expanding a Mirakl-powered marketplace while putting AI into customer-care and commerce workflows. With Jason Bonfig becoming CEO on November 1, there is a narrow chance to tie one engineering proof to the incoming customer, product, and fulfillment agenda.\n\nWould you and Patrick McGinnis spend 30 minutes naming one cross-system change with a business date and buyer-owned baseline? If the current workflow already clears the bar, we stop there.",
+          "why": "Lead with the transition window and make disqualification an acceptable outcome.",
+          "sourceIds": [
+            "s4",
+            "s9",
+            "s11",
+            "s14"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 5",
+          "subject": "A test that respects the incumbents",
+          "body": "Neal,\n\nGoogle Cloud and Accenture already have meaningful context in Best Buy's customer-support program, and Mirakl owns the marketplace platform. I would not propose replacing any of them.\n\nThe useful test is smaller: can one low-blast-radius issue move through the repository, tests, review, and approval path under Best Buy's controls? A 20-minute scoping call with your engineering delegate is enough to decide whether that test is worth running.",
+          "why": "Address incumbent strength directly and shrink the ask.",
+          "sourceIds": [
+            "s10",
+            "s12"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "voicemail",
+          "timing": "Day 10",
+          "body": "Neal, the public Best Buy API repositories show a software footprint but not the private tools, delivery queue, or controls, so I will not pretend to know where the bottleneck is. My question is simply whether one revenue-linked issue is missing a business date because it crosses systems or teams. If not, there is no reason to force a pilot.",
+          "why": "Use the public-record limit to earn a direct correction rather than assert hidden pain.",
+          "sourceIds": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Patrick McGinnis",
+      "targetTitle": "Executive Vice President and Chief Revenue Officer",
+      "angle": "Start from one revenue outcome and test only the engineering work blocking it.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "A revenue baseline for one software change",
+          "body": "Patrick,\n\nYour new revenue remit spans a moment when Best Buy's marketplace has more than doubled the products available online and AI commerce is opening another customer channel. The missing public fact is whether any revenue outcome is waiting on cross-system engineering work.\n\nWould you join Neal Sample for 30 minutes to name one change, its business date, and the baseline finance should use? We would stop if there is no measurable constraint.",
+          "why": "Ask the revenue owner to supply the business outcome that public research cannot establish.",
+          "sourceIds": [
+            "s5",
+            "s11",
+            "s14",
+            "s15"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 6",
+          "subject": "Use Best Buy's numbers, not ours",
+          "body": "Patrick,\n\nBest Buy reported 4.1% enterprise comparable-sales growth in Q2 and raised fiscal 2027 guidance. That makes this a poor moment for a generic productivity pitch and a good moment for a buyer-owned test.\n\nOne comparable issue, measured from ready for engineering to approved change, would show whether there is incremental value. Best Buy would set the volume, quality, effort, and cost inputs before any expansion case.",
+          "why": "Replace a top-down ROI claim with a bottom-up measurement design.",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Jason Bonfig",
+      "targetTitle": "Senior Executive Vice President and Chief Customer, Product and Fulfillment Officer; CEO-designate",
+      "angle": "Create one visible, controlled execution win for the incoming CEO agenda.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One controlled execution win for the transition",
+          "body": "Jason,\n\nYou become CEO on November 1 with customer, product, and fulfillment already in your remit. Rather than propose a broad developer-platform rollout during the transition, I would ask Neal Sample and Patrick McGinnis to identify one low-blast-radius software change tied to a business date.\n\nA 30-minute working session can establish the owner, baseline, controls, and stop conditions before anyone asks for repository access.",
+          "why": "Frame the proposal as transition risk control, not a platform purchase.",
+          "sourceIds": [
+            "s4"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 7",
+          "subject": "Marketplace and AI without another platform promise",
+          "body": "Jason,\n\nBest Buy has launched a marketplace that more than doubled online product availability and is extending AI into customer-care and commerce experiences. Those are concrete surfaces, but the public record does not show that engineering delivery is the constraint.\n\nThe honest next step is to test that premise on one representative maintenance issue. If the incumbent workflow meets Best Buy's quality, control, and cost threshold, Factory should not expand.",
+          "why": "Add current program evidence while stating the central unknown plainly.",
+          "sourceIds": [
+            "s9",
+            "s11",
+            "s13",
+            "s14"
+          ]
+        }
+      ]
+    }
+  ]
+}

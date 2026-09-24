@@ -1,0 +1,173 @@
+{
+  "_notice": "SYNTHETIC SAMPLE DATA. Not exported from any CRM and not a record of any real commercial relationship. Every person named here is fictional; the opportunity history, amounts, and loss reasons are invented to demonstrate the shape of a Salesforce integration. Real CRM data belongs in local-accounts.json, which is gitignored.",
+  "_shape": "Field names follow Salesforce objects (Account, Opportunity, Contact, Task) so a real adapter can map onto this structure without changing the UI.",
+  "provider": "sample",
+  "accounts": {
+    "lowe-s": {
+      "accountId": "0011U00000LwSaBQAV",
+      "accountName": "Lowe's Companies, Inc.",
+      "accountOwner": "Fictional AE placeholder",
+      "type": "Prospect — previously engaged",
+      "currentArr": "$0",
+      "createdDate": "2024-08-19",
+      "lastActivityDate": "2025-07-02",
+      "opportunities": [
+        {
+          "opportunityId": "0061U00000AaKmLQAV",
+          "name": "Lowe's — Engineering velocity pilot",
+          "stageName": "Closed Lost",
+          "amount": "$180,000",
+          "closeDate": "2025-06-20",
+          "type": "New Business",
+          "lossReason": "No executive sponsor; budget deferred to next fiscal year",
+          "primaryContact": "Dana Whitfield",
+          "owner": "Fictional AE placeholder",
+          "notes": "Technical evaluation went well on two repositories. Never found an economic buyer above the director line, and the security review never started before the fiscal-year budget closed."
+        },
+        {
+          "opportunityId": "0061U00000BbQrNQAV",
+          "name": "Lowe's — Pro Supply platform modernization",
+          "stageName": "Closed Lost",
+          "amount": "$240,000",
+          "closeDate": "2024-11-08",
+          "type": "New Business",
+          "lossReason": "Lost to internal build",
+          "primaryContact": "Ravi Shankaran",
+          "owner": "Fictional AE placeholder",
+          "notes": "Team elected to build an internal tooling layer instead. Worth revisiting whether that build shipped and what it cost to maintain."
+        }
+      ],
+      "contacts": [
+        {
+          "contactId": "0031U00000CcTvPQAV",
+          "name": "Dana Whitfield",
+          "title": "Director, Platform Engineering",
+          "function": "platform engineering",
+          "disposition": "champion",
+          "stillThere": true,
+          "lastTouch": "2025-07-02",
+          "note": "Ran the pilot evaluation and argued for it internally. Never given a budget to defend. The warmest asset in this account."
+        },
+        {
+          "contactId": "0031U00000DdUwQQAV",
+          "name": "Marcus Oyelaran",
+          "title": "Senior Manager, Application Security",
+          "function": "security",
+          "disposition": "neutral",
+          "stillThere": true,
+          "lastTouch": "2025-05-14",
+          "note": "Asked the hardest questions about repository access and audit logging. Not opposed, but will gate any re-entry."
+        },
+        {
+          "contactId": "0031U00000EeVxRQAV",
+          "name": "Ravi Shankaran",
+          "title": "VP, Supply Chain Technology",
+          "function": "supply chain technology",
+          "disposition": "blocker",
+          "stillThere": false,
+          "lastTouch": "2024-10-30",
+          "note": "Preferred the internal build. No longer at the company per the sample record, which removes the main prior objection."
+        }
+      ],
+      "activities": [
+        { "date": "2025-07-02", "type": "Email", "subject": "Pilot wrap-up and budget timing", "owner": "Fictional AE placeholder" },
+        { "date": "2025-05-14", "type": "Meeting", "subject": "Security and repository access review", "owner": "Fictional SE placeholder" },
+        { "date": "2025-03-11", "type": "Meeting", "subject": "Pilot scoping on two repositories", "owner": "Fictional AE placeholder" }
+      ],
+      "signals": [
+        "Two closed-lost opportunities, both on budget and sponsorship rather than on product. The objection was never technical.",
+        "The prior champion is still in place and the prior blocker is not, which inverts the political map since the last attempt.",
+        "Last activity is over a year old. Treat relationships as lapsed and re-earn them rather than resuming mid-conversation."
+      ]
+    },
+
+    "delta-air-lines": {
+      "accountId": "0011U00000DlTaCQAV",
+      "accountName": "Delta Air Lines, Inc.",
+      "accountOwner": "Fictional AE placeholder",
+      "type": "Prospect — active pipeline",
+      "currentArr": "$0",
+      "createdDate": "2026-04-02",
+      "lastActivityDate": "2026-09-16",
+      "opportunities": [
+        {
+          "opportunityId": "0061U00000FfWyTQAV",
+          "name": "Delta — Reliability engineering pilot",
+          "stageName": "Discovery",
+          "amount": "$320,000",
+          "closeDate": "2026-12-18",
+          "type": "New Business",
+          "probability": "30%",
+          "nextStep": "Working session on the operational-resilience backlog, to be scheduled",
+          "primaryContact": "Priya Raghunathan",
+          "owner": "Fictional AE placeholder",
+          "notes": "Entered through a reliability conversation rather than a productivity one. Evaluating against an incumbent platform relationship and an internal build."
+        }
+      ],
+      "contacts": [
+        {
+          "contactId": "0031U00000GgXzUQAV",
+          "name": "Priya Raghunathan",
+          "title": "Managing Director, Digital and Technology",
+          "function": "digital and technology",
+          "disposition": "champion",
+          "stillThere": true,
+          "lastTouch": "2026-09-16",
+          "note": "Believes the reliability framing. Wants a named backlog and a measurable before-and-after, not a seat count."
+        },
+        {
+          "contactId": "0031U00000HhY0VQAV",
+          "name": "Alan Brzezinski",
+          "title": "Director, Information Security",
+          "function": "security",
+          "disposition": "neutral",
+          "stillThere": true,
+          "lastTouch": "2026-08-27",
+          "note": "Raised third-party access review after last year's industry outage. Wants the control story before the value story."
+        }
+      ],
+      "activities": [
+        { "date": "2026-09-16", "type": "Meeting", "subject": "Reliability backlog walkthrough", "owner": "Fictional AE placeholder" },
+        { "date": "2026-08-27", "type": "Call", "subject": "Third-party access and change control", "owner": "Fictional SE placeholder" },
+        { "date": "2026-06-05", "type": "Email", "subject": "Intro following conference session", "owner": "Fictional AE placeholder" }
+      ],
+      "signals": [
+        "Live opportunity in Discovery with a champion who has already accepted the reliability framing. Do not re-pitch; advance to a named backlog.",
+        "Security is the gate, not the buyer. The control story needs to land before any expansion conversation.",
+        "Close date sits inside their December quarter. Confirm whether budget is calendar-year or fiscal-year bound before trusting that date."
+      ]
+    },
+
+    "best-buy": {
+      "accountId": "0011U00000BbBaDQAV",
+      "accountName": "Best Buy Co., Inc.",
+      "accountOwner": "Fictional SDR placeholder",
+      "type": "Prospect — early touch, no opportunity",
+      "currentArr": "$0",
+      "createdDate": "2026-02-10",
+      "lastActivityDate": "2026-03-04",
+      "opportunities": [],
+      "contacts": [
+        {
+          "contactId": "0031U00000IiZ1WQAV",
+          "name": "Tomas Lindqvist",
+          "title": "Senior Director, Digital Engineering",
+          "function": "digital engineering",
+          "disposition": "neutral",
+          "stillThere": true,
+          "lastTouch": "2026-03-04",
+          "note": "Took one meeting out of curiosity. Said the team was mid-replatform and to come back when that settled. No opportunity was ever created."
+        }
+      ],
+      "activities": [
+        { "date": "2026-03-04", "type": "Meeting", "subject": "Intro call — deferred on timing", "owner": "Fictional SDR placeholder" },
+        { "date": "2026-02-10", "type": "Email", "subject": "Cold outbound sequence, first reply", "owner": "Fictional SDR placeholder" }
+      ],
+      "signals": [
+        "One meeting, no opportunity, deferred on timing rather than on interest. That is a re-entry on a trigger, not a re-pitch.",
+        "The stated reason to wait was a replatform in progress. Confirming whether it finished is the single highest-value question in this account.",
+        "No security or procurement contact has ever been engaged. Assume the full review cycle is ahead of you."
+      ]
+    }
+  }
+}

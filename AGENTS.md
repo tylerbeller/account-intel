@@ -25,11 +25,15 @@ The runner resolves the Droid CLI from `DROID_BIN`, then `~/bin/droid.exe`, then
 - `.factory/skills/account-brief/` — research workflow, evidence rules, output template
 - `.factory/skills/deal-model/` — qualification scorecard, bottom-up value model, seat and ARR ladder
 - `.factory/skills/account-dossier/` — JSON dossier workflow plus `dossier.schema.json`
+- `.factory/skills/account-pov/` — the argument layer plus `pov.schema.json`
 - `.factory/droids/account-researcher.md` — read-only research subagent, used six at a time in parallel
 - `briefs/<account-slug>/` — generated markdown artifacts
 - `web/server.mjs` — dependency-free HTTP server: jobs, schema validation, source-ref integrity, verifier
 - `web/public/` — the UI
+- `web/crm/` — CRM seam: `provider.mjs` plus synthetic `sample-accounts.json`
 - `web/data/<slug>.json` — generated dossiers
+- `web/data/<slug>.pov.json` — generated point of view, warm paths, outreach
+- `web/data/history/<slug>/` — prior dossier versions, gitignored, used for "what changed"
 - `logs/` — one log per run
 
 ## Web app contract
@@ -41,7 +45,23 @@ The dossier skill writes JSON, never prose. Two checks run before anything rende
 
 Both surface in the interface rather than failing silently. If you change the schema, change the renderer in `web/public/app.js` in the same commit, or sections will quietly stop appearing.
 
-Endpoints: `GET /api/dossiers`, `GET /api/dossier/:slug`, `POST /api/research`, `GET /api/job/:slug`, `POST /api/verify/:slug`.
+The same two checks run on the point of view (`<slug>.pov.json`) against `pov.schema.json`, except that its `sourceId` and `sourceIds` values are resolved against the **dossier's** sources array rather than its own. The argument layer is not allowed to invent a citation the research did not produce.
+
+Endpoints: `GET /api/dossiers`, `GET /api/dossier/:slug`, `POST /api/research`, `GET /api/job/:slug[?kind=pov]`, `POST /api/verify/:slug`, `POST /api/pov/:slug`, `GET /api/crm/:slug`.
+
+`GET /api/dossier/:slug` returns the facts, the validation result, freshness, CRM context, the argument layer, and a diff against the previous version in one response. The keys stay separate so the UI can label provenance differently: public sourced research, internal CRM data, and generated argument are three different kinds of claim and must never be styled as one.
+
+## Three kinds of data, never blended
+
+1. **Public research** — every figure carries a source URL and a date. Rendered with citation links.
+2. **Internal CRM context** — no citations, because it is our own record. Rendered behind an `INTERNAL DATA` label, and behind a loud `SAMPLE` warning while the provider is synthetic.
+3. **Generated argument** — the point of view, warm paths, and outreach. Every factual claim inside it must trace back to a research source id.
+
+Blending these is the failure mode that loses deals: a rep quotes an internal guess to a buyer as though it were a sourced fact. The separation is a product requirement, not a styling preference.
+
+## Freshness
+
+`generatedAt` drives a computed state: fresh (14 days or less), aging (45 days or less), then stale. A stale dossier says so on its face. Research that does not advertise its age invites someone to quote a number that stopped being true two quarters ago.
 
 ## Non-negotiables
 
@@ -61,4 +81,5 @@ The runner enforces a gate: an artifact must exist, carry at least `-MinSources`
 ## Conventions
 
 - Generated artifacts are committed, so briefs are reviewable and diffable over time. Re-running an account should produce a readable diff, not a rewrite.
-- Do not put customer-confidential material, pricing quotes, or anything from a CRM in this repo. Public sources and clearly-labeled assumptions only.
+- Do not put customer-confidential material, pricing quotes, or real CRM data in this repo. Public sources and clearly-labeled assumptions only.
+- `web/crm/sample-accounts.json` is the one exception, and only because none of it is real: every person in it is fictional and every opportunity is invented, purely to show the shape of a Salesforce integration. A real export goes in `web/crm/local-accounts.json`, which is gitignored and which the provider prefers when present. If you add to the fixture, keep the people fictional — inventing deal history about a named real executive is the same sin as fabricating a citation.

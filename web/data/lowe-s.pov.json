@@ -1,0 +1,253 @@
+{
+  "company": "Lowe's Companies, Inc.",
+  "generatedAt": "2026-09-24",
+  "basedOnDossier": "2026-09-24",
+  "pointOfView": {
+    "whyAnything": {
+      "claim": "Lowe's cannot treat Pro-platform integration and AI-enabled customer workflows as business-as-usual modernization while acquisition dilution pressures margins and central teams are being reduced.",
+      "evidence": [
+        {
+          "point": "The FBM acquisition added 370 locations and a separate distribution and digital estate that must connect with Lowe's Pro business.",
+          "sourceId": "s4"
+        },
+        {
+          "point": "First-quarter gross margin fell 70 basis points, with adjusted operating-margin pressure attributed primarily to acquisition dilution.",
+          "sourceId": "s28"
+        },
+        {
+          "point": "Lowe's eliminated about 600 corporate and support roles to redirect resources toward stores.",
+          "sourceId": "s5"
+        }
+      ],
+      "risk": "Lowe's may already have the integration work on plan, and no public evidence identifies a late backlog, missed business date, or engineering bottleneck."
+    },
+    "whyFactory": {
+      "claim": "Factory is worth a bounded test only if it can complete one governed engineering task across Lowe's existing workflow without replacing its Google Cloud, OpenAI, Oracle, or security platforms.",
+      "evidence": [
+        {
+          "point": "Lowe's estate spans public JVM, Kafka, and Backstage-adjacent tooling, while private repository ownership and review queues are not public.",
+          "sourceId": "s15"
+        },
+        {
+          "point": "Google Cloud and Vertex AI are established parts of Lowe's engineering and retail-AI estate.",
+          "sourceId": "s20"
+        },
+        {
+          "point": "OpenAI already supports Lowe's Mylow and Mylow Companion products.",
+          "sourceId": "s22"
+        }
+      ],
+      "risk": "The incumbent stack or Lowe's internal teams may already complete the selected workflow well enough, and no buyer-confirmed repository access path, backlog, or coding-assistant gap is public.",
+      "versus": [
+        "Do nothing and continue with the current delivery process",
+        "Lowe's internal engineering and AI teams",
+        "An IDE copilot Lowe's may already have, but has not publicly named",
+        "Google Cloud and Vertex AI",
+        "OpenAI"
+      ]
+    },
+    "whyNow": {
+      "claim": "The credible window is the start of Seemantini Godbole's combined information-and-AI mandate, while the FBM integration is current; use it to define one measurable engineering outcome before operating patterns harden under the new remit.",
+      "evidence": [
+        {
+          "point": "Godbole's expanded remit across technology, engineering, product, data, analytics, innovation, and AI took effect September 1, 2026.",
+          "sourceId": "s10"
+        },
+        {
+          "point": "Lowe's completed the $8.8 billion FBM acquisition on October 9, 2025, adding 370 locations and a separate Pro distribution estate.",
+          "sourceId": "s4"
+        },
+        {
+          "point": "Lowe's launched AI-driven material lists in the Pro quoting workflow on May 21, 2026.",
+          "sourceId": "s7"
+        }
+      ],
+      "risk": "No public source gives a budget refresh, integration milestone, code-freeze date, or other hard deadline, so the leadership transition creates a planning window rather than a proven purchase deadline."
+    },
+    "theAsk": {
+      "ask": "Schedule a 30-minute working session with Seemantini Godbole and Joseph McFarland to name one low-blast-radius Pro or FBM engineering workflow, its business owner, its baseline, and the security approver.",
+      "why": "The session commits Lowe's only to defining a testable problem and stop conditions, not to repository access, a platform rollout, or an enterprise business case.",
+      "fallback": "Schedule a 15-minute call with Joseph McFarland to identify one Pro workflow and the engineering owner who can validate whether it is suitable."
+    },
+    "soundbite": "Lowe's has put information technology and AI under one leader while integrating acquired Pro platforms under margin and staffing pressure. Test one governed engineering task against Lowe's own baseline and controls, and stop if the incumbent process already clears the bar.",
+    "doNotSay": [
+      {
+        "claim": "Factory will reduce Lowe's engineering effort by 30%.",
+        "reason": "The 30% figure in the dossier is explicitly an illustrative planning assumption, not a Lowe's baseline or commitment."
+      },
+      {
+        "claim": "Lowe's has a large vulnerability-remediation backlog.",
+        "reason": "No public source establishes its CVE volume, patch service level, dependency scanner, or remediation queue."
+      },
+      {
+        "claim": "Lowe's uses GitHub Copilot or any other named coding assistant.",
+        "reason": "The reviewed sources do not identify Lowe's approved coding assistant."
+      },
+      {
+        "claim": "The FBM integration is late or missing a deadline.",
+        "reason": "The acquisition and integration boundary are public, but internal milestones, delays, owners, and decommission dates are not."
+      },
+      {
+        "claim": "Factory can replace Google Cloud, OpenAI, Oracle, or Lowe's internal AI teams.",
+        "reason": "Those incumbents have established positions, and the evidence supports only a complementary, bounded engineering-workflow test."
+      },
+      {
+        "claim": "Lowe's security team will approve source-code access.",
+        "reason": "The required code, model, identity, logging, retention, audit, and human-approval controls are not public."
+      }
+    ]
+  },
+  "warmPaths": [
+    {
+      "kind": "partner or vendor",
+      "path": "Google Cloud's retail account team supporting Lowe's ecommerce and Vertex AI estate",
+      "evidence": "Google Cloud publicly describes its role in Lowe's ecommerce modernization and its use of Vertex AI Vector Search for shopping experiences.",
+      "sourceId": "s20",
+      "confidence": "confirmed",
+      "action": "Ask Factory's Google Cloud alliances owner to identify the Lowe's retail account lead and request a referral to Seemantini Godbole around a complementary engineering-workflow assessment."
+    },
+    {
+      "kind": "partner or vendor",
+      "path": "KPMG's implementation team assisting Lowe's Oracle Fusion AI Data Platform work",
+      "evidence": "Oracle states that KPMG is assisting Lowe's implementation of Oracle Fusion AI Data Platform, Autonomous AI Warehouse, and OCI.",
+      "sourceId": "s35",
+      "confidence": "confirmed",
+      "action": "Ask Factory's services-partner lead to approach the KPMG account team for an introduction to the Lowe's technology owner responsible for cross-platform delivery controls."
+    },
+    {
+      "kind": "partner or vendor",
+      "path": "ReliaQuest's Lowe's security-operations team",
+      "evidence": "ReliaQuest publicly identifies Lowe's as a GreyMatter customer and describes its role in Lowe's threat-detection and response operations.",
+      "sourceId": "s19",
+      "confidence": "confirmed",
+      "action": "Ask Factory's partnerships owner to request a control-first referral from the ReliaQuest account team to Marc Varner's organization before proposing repository access."
+    }
+  ],
+  "outreach": [
+    {
+      "targetName": "Seemantini Godbole",
+      "targetTitle": "Executive Vice President, Chief Information and AI Officer",
+      "angle": "Use the newly combined information-and-AI mandate to select one governed integration workflow and measure it before discussing scale.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One governed integration backlog",
+          "body": "Seemantini, your expanded remit now joins technology, engineering, product, data, analytics, innovation, and AI while Lowe's integrates FBM's 370 locations. Rather than propose a broad rollout, I would like to test one low-blast-radius integration issue against Lowe's own controls and acceptance criteria. Would you and Joseph McFarland be open to a 30-minute working session to name the workflow, baseline, and security owner?",
+          "why": "Connect the new mandate to one small, measurable next step.",
+          "sourceIds": [
+            "s10",
+            "s4"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 5",
+          "subject": "A test that respects the incumbent stack",
+          "body": "Lowe's reduced about 600 corporate and support roles while Google Cloud and OpenAI remain established parts of its AI estate. That makes setup burden and incumbent fit part of the test, not footnotes. The proposed session would define one task, the current baseline, and a stop condition if the existing workflow already performs well. Is that a useful frame for your team?",
+          "why": "Address cost pressure and incumbent strength rather than claiming a greenfield opportunity.",
+          "sourceIds": [
+            "s5",
+            "s20",
+            "s22"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "voicemail",
+          "timing": "Day 10",
+          "body": "Seemantini, Lowe's public estate spans JVM and Kafka tooling, Vertex AI, OpenAI, and Oracle. I am calling with a narrow proposal: map one engineering issue from ready to approved change, let security define the boundary, and proceed only if the measured result clears your bar. I will send the one-page assessment outline.",
+          "why": "Add an estate-specific reason that a cross-tool assessment may be useful.",
+          "sourceIds": [
+            "s15",
+            "s20",
+            "s22",
+            "s35"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Joseph M. McFarland III",
+      "targetTitle": "Executive Vice President, Pro and Home Services",
+      "angle": "Anchor the conversation in one customer-visible Pro workflow rather than generic developer productivity.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One Pro workflow, measured end to end",
+          "body": "Joseph, FBM added 370 locations to Lowe's Pro footprint, and AI-driven material lists now feed the Pro quoting workflow. That makes a customer-visible integration task a stronger test than a generic developer demo. Would you and Seemantini Godbole spend 30 minutes naming one low-blast-radius quote, catalog, credit, or fulfillment issue with a clear business acceptance test?",
+          "why": "Ask the business owner to supply the workflow and measurable outcome.",
+          "sourceIds": [
+            "s4",
+            "s7",
+            "s10"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "linkedin",
+          "timing": "Day 4",
+          "body": "Professional spending has gained share as DIY's portion of improvement spending fell, while remodeler input costs rose 6.6% year over year in Q2 2026. A useful assessment should therefore prove one outcome in product availability, substitution, quote validity, or fulfillment, not promise broad productivity. I would value your view on which workflow is measurable.",
+          "why": "Add industry evidence that favors a Pro-specific operational angle.",
+          "sourceIds": [
+            "s31",
+            "s32"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 9",
+          "subject": "Protect margin before scaling the test",
+          "body": "First-quarter gross margin fell 70 basis points, with acquisition dilution cited as the main source of adjusted operating-margin pressure. I would not start on a critical FBM cutover. I would start with one representative issue, explicit tests, human review, rollback, and a buyer-owned baseline. If that structure is sensible, who owns the best candidate workflow?",
+          "why": "Translate margin pressure into a low-risk pilot design rather than manufactured urgency.",
+          "sourceIds": [
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Marc H. Varner",
+      "targetTitle": "Senior Vice President, Chief Information Security Officer",
+      "angle": "Invite security to define the boundary before any repository is connected.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "Controls before repository access",
+          "body": "Marc, Lowe's handles personal and payment-card information and uses ReliaQuest GreyMatter in security operations. Before proposing any engineering-agent test, I would like your team to define the allowed code, model, identity, logging, retention, audit, approval, and rollback boundary. Would a 30-minute control review with the selected service owner be the right first gate?",
+          "why": "Treat the gatekeeper as the control owner, not an approver brought in after scope is set.",
+          "sourceIds": [
+            "s3",
+            "s19"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "linkedin",
+          "timing": "Day 4",
+          "body": "I would not ask Lowe's to connect a repository before the data path, prohibited actions, human approvals, audit evidence, and stop conditions are written down. A read-only assessment can end with that control map and no production action. If useful, I can send the proposed review checklist first.",
+          "why": "Offer a concrete artifact without assuming that source-code access is possible.",
+          "sourceIds": []
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 9",
+          "subject": "A representative issue, not a critical cutover",
+          "body": "Lowe's public GitHub footprint includes JVM, Kafka, and Backstage-adjacent tooling, but it does not establish the private review or access path. The safest test is one representative issue outside a critical cutover, using Lowe's tests and review rules, with no production action and a documented rollback. Who on your team should set that boundary?",
+          "why": "Use the public estate to make the control conversation concrete while preserving the unknowns.",
+          "sourceIds": [
+            "s15"
+          ]
+        }
+      ]
+    }
+  ]
+}

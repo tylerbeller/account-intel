@@ -317,9 +317,284 @@ function sourcesCard(d) {
   );
 }
 
+// ---------- what changed since the last run ----------
+
+function changesCard(changes) {
+  if (!changes || !changes.changes || !changes.changes.length) return '';
+  const rows = changes.changes
+    .map(
+      (c) => `<tr><td><strong>${esc(c.field)}</strong></td>
+        <td style="color:var(--mut)">${c.from ? esc(c.from) : '—'}</td>
+        <td>${c.to ? esc(c.to) : '—'}</td></tr>`,
+    )
+    .join('');
+  return card(
+    'changes',
+    'What changed',
+    `Differences from the previous run${changes.since ? ` (${esc(changes.since)})` : ''}`,
+    `<table><thead><tr><th>Field</th><th>Was</th><th>Now</th></tr></thead><tbody>${rows}</tbody></table>`,
+  );
+}
+
+// ---------- account history (CRM) ----------
+
+function stageClass(stage) {
+  if (/won/i.test(stage)) return 'won';
+  if (/lost/i.test(stage)) return 'lost';
+  return 'open';
+}
+
+function crmCard(crm) {
+  if (!crm) return '';
+  const xr = crm.crossRef || {};
+
+  if (!crm.found) {
+    return card(
+      'history',
+      'Account history',
+      'No CRM record',
+      `<div class="provenance internal">Internal data${crm.synthetic ? ' · sample' : ''}</div>
+       <ul class="plain" style="margin-top:12px">${(xr.readout || [])
+         .map((r) => `<li><span class="t">${esc(r)}</span></li>`)
+         .join('')}</ul>`,
+    );
+  }
+
+  const a = crm.account;
+  const opps = (a.opportunities || []).length
+    ? `<table><thead><tr><th>Opportunity</th><th>Stage</th><th>Amount</th><th>Close</th><th>Outcome / next step</th></tr></thead><tbody>
+       ${a.opportunities
+         .map(
+           (o) => `<tr>
+             <td><strong>${esc(o.name)}</strong>${o.primaryContact ? `<div class="e" style="font-size:12px;color:var(--mut);margin-top:2px">contact: ${esc(o.primaryContact)}</div>` : ''}</td>
+             <td><span class="stage ${stageClass(o.stageName)}">${esc(o.stageName)}</span></td>
+             <td>${esc(o.amount || '—')}</td>
+             <td style="white-space:nowrap">${esc(o.closeDate || '—')}</td>
+             <td>${esc(o.lossReason || o.nextStep || '—')}${o.notes ? `<div class="e" style="font-size:12px;color:var(--mut);margin-top:4px">${esc(o.notes)}</div>` : ''}</td>
+           </tr>`,
+         )
+         .join('')}</tbody></table>`
+    : '<p class="e" style="color:var(--mut)">No opportunity has ever been created on this account.</p>';
+
+  const contacts = (a.contacts || []).length
+    ? `<table><thead><tr><th>Person</th><th>Disposition</th><th>Last touch</th><th>Note</th></tr></thead><tbody>
+       ${a.contacts
+         .map(
+           (c) => `<tr>
+             <td><strong>${esc(c.name)}</strong><div class="e" style="font-size:12px;color:var(--mut);margin-top:2px">${esc(c.title)}</div>
+               ${c.stillThere === false ? '<div class="conf unconfirmed">no longer at the company</div>' : ''}</td>
+             <td><span class="disp ${esc(c.disposition)}">${esc(c.disposition)}</span></td>
+             <td style="white-space:nowrap">${esc(c.lastTouch || '—')}</td>
+             <td style="color:var(--mut)">${esc(c.note || '')}</td>
+           </tr>`,
+         )
+         .join('')}</tbody></table>`
+    : '';
+
+  const overlap = (xr.functionMatches || []).length || (xr.nameMatches || []).length
+    ? `<h4 class="sub-head">Who you know versus who matters now</h4>
+       <ul class="plain">
+         ${(xr.nameMatches || [])
+           .map(
+             (m) => `<li><span class="t">${esc(m.contact)} is target #${esc(m.targetRank)} (${esc(m.targetRole)})</span>
+               <div class="e">Same person. You have already spoken to them.</div></li>`,
+           )
+           .join('')}
+         ${(xr.functionMatches || [])
+           .map(
+             (m) => `<li><span class="t">${esc(m.contact)} → ${esc(m.targetName)}</span>
+               <div class="e">${esc(m.contactTitle)} overlaps with ${esc(m.targetTitle)} on ${esc((m.sharedTerms || []).join(', '))}. Your prior contact sits in the same function as the current ${esc(m.targetRole)}.</div></li>`,
+           )
+           .join('')}
+       </ul>`
+    : '';
+
+  const stats = `<div class="stats">
+      <div class="stat"><div class="v">${esc(xr.state || '—')}</div><div class="l">Relationship state</div></div>
+      <div class="stat"><div class="v">${esc(a.currentArr || '—')}</div><div class="l">Current ARR</div></div>
+      <div class="stat"><div class="v">${xr.daysSinceLastActivity !== null && xr.daysSinceLastActivity !== undefined ? esc(xr.daysSinceLastActivity) + ' days' : '—'}</div><div class="l">Since last activity</div></div>
+      <div class="stat"><div class="v">${esc((xr.counts || {}).lost ?? 0)} lost · ${esc((xr.counts || {}).open ?? 0)} open</div><div class="l">Opportunity history</div></div>
+    </div>`;
+
+  return card(
+    'history',
+    'Account history',
+    `What we already know internally${a.accountOwner ? ` · owner ${esc(a.accountOwner)}` : ''}`,
+    `<div class="provenance internal">Internal data${crm.synthetic ? ' · SAMPLE, not a live CRM connection' : ''}</div>
+     ${crm.synthetic ? `<div class="banner sample">Synthetic sample data. Every person named below is fictional and the deal history is invented, to show the shape of a Salesforce integration. Never quote this to a customer.</div>` : ''}
+     ${stats}
+     <h4 class="sub-head">What this means</h4>
+     <ul class="plain">${(xr.readout || []).map((r) => `<li><span class="t">${esc(r)}</span></li>`).join('')}</ul>
+     <h4 class="sub-head">Opportunity history</h4>
+     ${opps}
+     ${contacts ? `<h4 class="sub-head">People we have touched</h4>${contacts}` : ''}
+     ${overlap}`,
+  );
+}
+
+// ---------- point of view ----------
+
+function pillar(kicker, p) {
+  if (!p) return '';
+  const ev = (p.evidence || [])
+    .map((e) => `<li>${esc(e.point)}${cite(e.sourceId)}</li>`)
+    .join('');
+  const versus = (p.versus || []).length
+    ? `<div class="versus">Competing against: ${p.versus.map((v) => `<span class="chip">${esc(v)}</span>`).join(' ')}</div>`
+    : '';
+  return `<div class="pillar">
+      <h4>${esc(kicker)}</h4>
+      <p class="claim">${esc(p.claim)}</p>
+      ${ev ? `<ul class="ev">${ev}</ul>` : ''}
+      ${versus}
+      ${p.expiresOn ? `<div class="expires">Window closes: ${esc(p.expiresOn)}</div>` : ''}
+      ${p.risk ? `<div class="risk"><span>How this gets pushed back on</span>${esc(p.risk)}</div>` : ''}
+    </div>`;
+}
+
+function povCard(povWrap, slug) {
+  if (!povWrap || !povWrap.pov) {
+    return card(
+      'pov',
+      'Point of view',
+      'Not generated yet',
+      `<p style="margin:0 0 14px;color:var(--mut)">The dossier holds the evidence. This turns it into the argument: why anything, why Factory, why now, and what to ask for. It reads the saved dossier, so it does not re-run research.</p>
+       <button class="primary-btn" id="gen-pov" data-slug="${esc(slug)}">Generate point of view</button>
+       <div class="verify-out hidden" id="pov-log"></div>`,
+    );
+  }
+
+  const p = povWrap.pov.pointOfView || {};
+  const problems = [...(povWrap.validation?.errors || []), ...(povWrap.validation?.dangling || [])];
+  const banner = problems.length
+    ? `<div class="banner"><strong>${problems.length} problem(s) in the argument layer:</strong>
+       <ul>${problems.slice(0, 6).map((e) => `<li>${esc(e)}</li>`).join('')}</ul></div>`
+    : '';
+  const staleWarn = povWrap.stale
+    ? `<div class="banner sample">This was built from an earlier version of the dossier. Regenerate it so the argument matches the current facts.</div>`
+    : '';
+
+  const dns = (p.doNotSay || []).length
+    ? `<div class="donotsay">
+         <h4>Do not say</h4>
+         <ul>${p.doNotSay.map((d) => `<li><strong>${esc(d.claim)}</strong><span>${esc(d.reason)}</span></li>`).join('')}</ul>
+       </div>`
+    : '';
+
+  return card(
+    'pov',
+    'Point of view',
+    'Why anything, why Factory, why now',
+    `${banner}${staleWarn}
+     ${p.soundbite ? `<div class="soundbite">${esc(p.soundbite)}</div>` : ''}
+     <div class="pillars">
+       ${pillar('Why anything', p.whyAnything)}
+       ${pillar('Why Factory', p.whyFactory)}
+       ${pillar('Why now', p.whyNow)}
+     </div>
+     ${
+       p.theAsk
+         ? `<div class="ask">
+              <h4>The ask</h4>
+              <p class="claim">${esc(p.theAsk.ask)}</p>
+              ${p.theAsk.why ? `<div class="e">${esc(p.theAsk.why)}</div>` : ''}
+              ${p.theAsk.fallback ? `<div class="fallback">If declined: ${esc(p.theAsk.fallback)}</div>` : ''}
+            </div>`
+         : ''
+     }
+     ${dns}
+     <div style="margin-top:16px"><button class="verify-btn" id="gen-pov" data-slug="${esc(slug)}">Regenerate</button>
+     <div class="verify-out hidden" id="pov-log"></div></div>`,
+  );
+}
+
+// ---------- warm paths (internal + public, labeled separately) ----------
+
+function warmPathsCard(crm, povWrap) {
+  const internal = [];
+  if (crm && crm.found && crm.account) {
+    for (const c of crm.account.contacts || []) {
+      if (c.stillThere === false) continue;
+      if (c.disposition === 'blocker') continue;
+      internal.push({
+        kind: 'prior relationship',
+        path: `${c.name}, ${c.title}`,
+        evidence: c.note || '',
+        confidence: c.disposition === 'champion' ? 'confirmed' : 'likely',
+        action:
+          c.disposition === 'champion'
+            ? 'Re-open with them first and ask who now owns the budget.'
+            : 'Reconnect and ask what changed since the last conversation.',
+        provenance: 'internal',
+      });
+    }
+  }
+
+  const public_ = ((povWrap && povWrap.pov && povWrap.pov.warmPaths) || []).map((w) => ({ ...w, provenance: 'public' }));
+  const all = [...internal, ...public_];
+  if (!all.length) return '';
+
+  const rows = all
+    .map(
+      (w) => `<tr>
+        <td><span class="provenance ${esc(w.provenance)} inline">${w.provenance === 'internal' ? 'CRM' : 'public'}</span></td>
+        <td><strong>${esc(w.path)}</strong><div class="e" style="font-size:12px;color:var(--mut);margin-top:3px">${esc(w.kind)}</div></td>
+        <td>${esc(w.evidence || '—')}${cite(w.sourceId)}</td>
+        <td>${esc(w.action || '—')}</td>
+        <td><span class="conf ${esc(w.confidence || '')}">${esc(w.confidence || '')}</span></td>
+      </tr>`,
+    )
+    .join('');
+
+  return card(
+    'warm',
+    'Warm paths',
+    'Routes in that beat a cold email',
+    `<table><thead><tr><th>From</th><th>Path</th><th>Evidence</th><th>Action</th><th>Confidence</th></tr></thead><tbody>${rows}</tbody></table>`,
+  );
+}
+
+// ---------- outreach sequence ----------
+
+function outreachCard(povWrap) {
+  const seqs = (povWrap && povWrap.pov && povWrap.pov.outreach) || [];
+  if (!seqs.length) return '';
+
+  const blocks = seqs
+    .map(
+      (s) => `<div class="sequence">
+        <div class="seq-head">
+          <strong>${esc(s.targetName)}</strong>
+          ${s.targetTitle ? `<span class="e">${esc(s.targetTitle)}</span>` : ''}
+          ${s.angle ? `<div class="angle">Angle: ${esc(s.angle)}</div>` : ''}
+        </div>
+        ${(s.touches || [])
+          .slice()
+          .sort((a, b) => a.order - b.order)
+          .map(
+            (t) => `<div class="touch">
+              <div class="touch-meta">
+                <span class="channel ${esc(t.channel)}">${esc(t.channel)}</span>
+                <span class="timing">${esc(t.timing)}</span>
+                ${(t.sourceIds || []).map((id) => cite(id)).join('')}
+              </div>
+              ${t.subject ? `<div class="subject">${esc(t.subject)}</div>` : ''}
+              <div class="body">${esc(t.body)}</div>
+              ${t.why ? `<div class="why">${esc(t.why)}</div>` : ''}
+            </div>`,
+          )
+          .join('')}
+      </div>`,
+    )
+    .join('');
+
+  return card('outreach', 'Outreach', 'Send-ready sequence for the top targets', blocks);
+}
+
 // ---------- render ----------
 
-function render(dossier, validation) {
+function render(payload) {
+  const { dossier, validation, freshness, crm, pov, changes } = payload;
   sourceIndex = {};
   for (const s of dossier.sources || []) sourceIndex[s.id] = s;
 
@@ -337,6 +612,8 @@ function render(dossier, validation) {
     c.fiscalYearEnd && `<span class="chip">FY ends ${esc(c.fiscalYearEnd)}</span>`,
     dossier.confidence && `<span class="chip accent">${esc(dossier.confidence)}</span>`,
     dossier.generatedAt && `<span class="chip">generated ${esc(String(dossier.generatedAt).slice(0, 10))}</span>`,
+    freshness && `<span class="chip fresh-${esc(freshness.state)}" title="${esc(freshness.note)}">${esc(freshness.state)}</span>`,
+    crm && `<span class="chip ${crm.found ? '' : 'muted'}" title="Internal CRM context">${crm.found ? esc(crm.crossRef.state) : 'no CRM record'}</span>`,
   ]
     .filter(Boolean)
     .join('');
@@ -349,6 +626,11 @@ function render(dossier, validation) {
     : '';
 
   const body = [
+    changesCard(changes),
+    povCard(pov, currentSlug),
+    crmCard(crm),
+    warmPathsCard(crm, pov),
+    outreachCard(pov),
     overviewCard(dossier),
     trendsCard(dossier),
     catalystCard(dossier),
@@ -366,6 +648,11 @@ function render(dossier, validation) {
   // link to anchors that exist.
   const nav = `<nav class="nav-pills">
       ${[
+        ['changes', 'What changed'],
+        ['pov', 'Point of view'],
+        ['history', 'Account history'],
+        ['warm', 'Warm paths'],
+        ['outreach', 'Outreach'],
         ['overview', 'Overview'],
         ['trends', 'Trends'],
         ['catalysts', 'Timing'],
@@ -402,6 +689,44 @@ function render(dossier, validation) {
 
   const btn = $('verify');
   if (btn) btn.addEventListener('click', () => verifySources(currentSlug, btn));
+
+  const povBtn = $('gen-pov');
+  if (povBtn) povBtn.addEventListener('click', () => generatePov(povBtn.dataset.slug, povBtn));
+}
+
+// ---------- point of view generation ----------
+
+async function generatePov(slug, btn) {
+  const log = $('pov-log');
+  btn.disabled = true;
+  btn.textContent = 'Generating…';
+  log.classList.remove('hidden');
+  log.textContent = 'Reading the saved dossier and building the argument…';
+
+  const res = await fetch(`/api/pov/${encodeURIComponent(slug)}`, { method: 'POST' });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    log.textContent = `Could not start: ${err.error || res.status}`;
+    btn.disabled = false;
+    btn.textContent = 'Generate point of view';
+    return;
+  }
+
+  const timer = setInterval(async () => {
+    const jr = await fetch(`/api/job/${encodeURIComponent(slug)}?kind=pov`);
+    if (!jr.ok) return;
+    const job = await jr.json();
+    log.textContent = job.log.join('\n') || 'Working…';
+    if (job.status === 'running') return;
+    clearInterval(timer);
+    if (job.status === 'done' || job.status === 'invalid') {
+      await openDossier(slug);
+    } else {
+      log.textContent = `Failed: ${job.error || 'unknown error'}`;
+      btn.disabled = false;
+      btn.textContent = 'Generate point of view';
+    }
+  }, 3000);
 }
 
 async function verifySources(slug, btn) {
@@ -430,7 +755,12 @@ async function loadList(activeSlug) {
     ? items
         .map(
           (i) => `<li><button data-slug="${esc(i.slug)}" class="${i.slug === activeSlug ? 'active' : ''}">
-            ${esc(i.name)}<span class="meta">${i.broken ? 'unreadable' : `${esc(i.verdict || 'unscored')} · ${i.sources} sources`}</span>
+            ${esc(i.name)}<span class="meta">${
+              i.broken
+                ? 'unreadable'
+                : `${esc(i.verdict || 'unscored')} · ${i.sources} sources${i.hasPov ? ' · POV' : ''}` +
+                  (i.freshness && i.freshness !== 'fresh' ? ` · <span class="fresh-${esc(i.freshness)}">${esc(i.freshness)}</span>` : '')
+            }</span>
           </button></li>`,
         )
         .join('')
@@ -444,9 +774,9 @@ async function loadList(activeSlug) {
 async function openDossier(slug) {
   const res = await fetch(`/api/dossier/${encodeURIComponent(slug)}`);
   if (!res.ok) return;
-  const { dossier, validation } = await res.json();
-  currentSlug = slug;
-  render(dossier, validation);
+  const payload = await res.json();
+  currentSlug = slug; // povCard reads this, so it must be set before render
+  render(payload);
   loadList(slug);
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }

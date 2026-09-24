@@ -4,6 +4,14 @@ logs/
 # Browser captures are regenerable, and stitched full-page shots misrender the sticky header.
 web/shots/
 
+# Real CRM exports never enter the repo. Only the synthetic fixtures in
+# web/crm/sample-accounts.json are committed.
+web/crm/local-accounts.json
+
+# Local dossier version history, kept so the app can answer "what changed".
+# Git is the system of record for committed dossiers; this is just the app's copy.
+web/data/history/
+
 # OS and editor noise
 .DS_Store
 Thumbs.db

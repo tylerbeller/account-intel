@@ -1,0 +1,237 @@
+{
+  "company": "Delta Air Lines, Inc.",
+  "generatedAt": "2026-09-24",
+  "basedOnDossier": "2026-09-24",
+  "pointOfView": {
+    "whyAnything": {
+      "claim": "Delta cannot treat software delivery and resilience as routine modernization while customer-facing AI, a hybrid mainframe-and-cloud estate, and the consequences of third-party software failure expand the operational risk surface.",
+      "evidence": [
+        {
+          "point": "Delta Concierge expanded from beta to all SkyMiles members on August 31, 2026, increasing the quality, privacy, and change-management surface of a customer-facing AI workflow.",
+          "sourceId": "s14"
+        },
+        {
+          "point": "Delta has moved hundreds of workloads while retaining a hybrid architecture built around mainframes, cloud, IBM, and Red Hat OpenShift.",
+          "sourceId": "s12"
+        },
+        {
+          "point": "Delta's litigation attributes 7,000 flight cancellations to the July 2024 CrowdStrike outage.",
+          "sourceId": "s17"
+        }
+      ],
+      "risk": "Delta may argue that these are separate product, infrastructure, and vendor-risk issues rather than evidence of a software-delivery constraint, because no public source quantifies its engineering backlog, review delay, defect rate, or change-failure rate."
+    },
+    "whyFactory": {
+      "claim": "Factory should earn a role by proving governed, end-to-end completion on one buyer-owned backlog, not by trying to replace Delta's internal engineers, IBM, Red Hat, AWS, or an IDE copilot.",
+      "evidence": [
+        {
+          "point": "Delta has a named software-engineering organization responsible for delta.com, the Fly Delta app, airport servicing technology, and employee-facing systems.",
+          "sourceId": "s8"
+        },
+        {
+          "point": "IBM and Red Hat are entrenched in Delta's hybrid-cloud modernization, so a credible proposal must fit the architecture rather than present a rip-and-replace program.",
+          "sourceId": "s12"
+        },
+        {
+          "point": "The CrowdStrike incident makes a bounded, auditable, human-approved evaluation more credible than a broad autonomy claim.",
+          "sourceId": "s17"
+        }
+      ],
+      "risk": "Delta's internal workflow or an existing copilot may already meet the agreed completion, quality, audit, and cost threshold, and the dossier does not establish Factory's access path into Delta's private toolchain or control environment.",
+      "versus": [
+        "Do nothing and keep the current delivery workflow",
+        "Delta's internal Digital & Technology organization",
+        "An IDE copilot Delta may already use",
+        "IBM and Red Hat",
+        "Amazon Web Services"
+      ]
+    },
+    "whyNow": {
+      "claim": "The credible window is now because Delta Concierge reached all SkyMiles members on August 31, 2026, and Delta publicly named the Enterprise Data and AI Office's remit on September 15, creating a current production-AI workload and a named governance owner.",
+      "evidence": [
+        {
+          "point": "Delta expanded Delta Concierge to all SkyMiles members on August 31, 2026.",
+          "sourceId": "s14"
+        },
+        {
+          "point": "On September 15, 2026, Delta published Ramnik Bajaj's responsibility for enterprise data, analytics, and artificial intelligence.",
+          "sourceId": "s10"
+        },
+        {
+          "point": "Amala Duggirala joined in 2026 to lead a newly combined Digital & Technology organization.",
+          "sourceId": "s6"
+        }
+      ],
+      "risk": "These events create an organizational opening, not a public buying deadline; no budget date, procurement window, backlog deadline, or executive commitment to an engineering-agent initiative is public."
+    },
+    "theAsk": {
+      "ask": "Schedule a 30-minute working session with Amala Duggirala and Matt Cincera to select one non-safety-critical backlog, name its business owner and date, and agree on the delivery baseline and security stop conditions for a scoped assessment.",
+      "why": "The session commits Delta to no deployment or purchase and ends the pursuit early if there is no measurable backlog or acceptable control boundary.",
+      "fallback": "Hold a 15-minute scoping call with Matt Cincera to identify one representative issue and the person who owns its acceptance criteria."
+    },
+    "soundbite": "Delta's expanding production-AI and hybrid estate make controlled software change more important, but its incumbent platforms and outage history rule out a broad productivity pitch. Factory should prove one non-safety-critical backlog end to end under Delta-defined controls, then stop unless the measured result beats the current workflow.",
+    "doNotSay": [
+      {
+        "claim": "Factory will deliver a specific ROI, productivity gain, or headcount reduction at Delta.",
+        "reason": "The dossier contains no Delta engineering baseline, accepted-issue volume, effort measure, defect rate, or published Factory result from a comparable airline."
+      },
+      {
+        "claim": "Factory can replace Delta's internal teams, IBM, Red Hat, or AWS.",
+        "reason": "Those teams and vendors hold architecture context, approved controls, and production responsibilities; the evidence supports fitting one workflow, not displacement."
+      },
+      {
+        "claim": "Factory is ready for Delta's safety-critical flight, dispatch, crew-legality, or production-operations systems.",
+        "reason": "The dossier does not establish approval for safety-critical use, production access, aviation validation, or Delta's required control boundary."
+      },
+      {
+        "claim": "Factory would have prevented the CrowdStrike outage or Delta's 7,000 cancellations.",
+        "reason": "The cited litigation describes the incident but does not establish that Factory could have detected, contained, or prevented it."
+      },
+      {
+        "claim": "Delta has a known repository backlog, coding-assistant standard, or engineering bottleneck that Factory can immediately address.",
+        "reason": "Repository count, source hosts, delivery tooling, coding assistants, queue measures, and the target backlog are explicitly unknown."
+      }
+    ]
+  },
+  "warmPaths": [
+    {
+      "kind": "partner or vendor",
+      "path": "IBM and Red Hat's Delta hybrid-cloud modernization account team",
+      "evidence": "IBM publicly describes working with Delta to move hundreds of workloads onto an open hybrid-cloud architecture built with Red Hat OpenShift. A Factory relationship with that account team is not established.",
+      "sourceId": "s12",
+      "confidence": "confirmed",
+      "action": "Ask Factory's alliances and customer teams for an approved mutual contact on the IBM or Red Hat Delta account, then request an introduction to Narayanan Krishnakumar around one modernization backlog that complements the existing architecture."
+    },
+    {
+      "kind": "partner or vendor",
+      "path": "AWS's Delta cloud account team",
+      "evidence": "AWS announced a multi-year preferred-cloud agreement with Delta in 2022, but the dossier flags the source as potentially stale and the current workload split is not public.",
+      "sourceId": "s16",
+      "confidence": "likely",
+      "action": "First verify current AWS account ownership through Factory's alliances team; if active, ask that owner for an introduction to Amala Duggirala tied to a bounded workflow inside Delta's approved cloud controls."
+    }
+  ],
+  "outreach": [
+    {
+      "targetName": "Amala Duggirala",
+      "targetTitle": "Executive Vice President and Chief Digital & Technology Officer",
+      "angle": "Use the newly combined mandate to define one governed proof tied to a production-AI or digital backlog.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One controlled proof for Delta Digital & Technology",
+          "body": "Amala, you now lead Delta's combined Digital & Technology organization as Delta Concierge moves from beta to all SkyMiles members. That creates a practical test: can one non-safety-critical engineering backlog move faster without loosening review or production controls? I propose a 30-minute working session with you and Matt Cincera to choose one backlog, baseline it, and define security stop conditions. If no issue has a measurable owner and date, we should stop there.",
+          "why": "Connect her new mandate to a small, falsifiable next step rather than a platform pitch.",
+          "sourceIds": [
+            "s5",
+            "s14"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 5",
+          "subject": "Start with the control boundary",
+          "body": "Delta's litigation attributes 7,000 canceled flights to the 2024 CrowdStrike outage, so another broad third-party tooling pitch would miss the point. The better first step is to let Delta define a read-only, human-approved assessment boundary before any code change is considered. I can send a one-page control outline covering access, logging, model routing, and production separation for your team to mark up.",
+          "why": "Address the strongest likely objection directly and offer a smaller security-first deliverable.",
+          "sourceIds": [
+            "s17"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 10",
+          "subject": "A proof, not a broad program",
+          "body": "Delta reported its highest quarterly fuel expense in the June quarter, which makes an unbounded productivity program hard to defend. I am proposing the opposite: one buyer-owned backlog, one baseline, and a stop decision if accepted work does not improve without higher defects, review effort, or control risk. Is a short working session with you and Matt worth scheduling?",
+          "why": "Tie the narrow commercial structure to Delta's current spending pressure and make the ask explicit.",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Matt Cincera",
+      "targetTitle": "Senior Vice President, Software Engineering",
+      "angle": "Let the engineering owner choose a representative issue and judge Factory against Delta's current workflow.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "A representative issue across Delta's software estate",
+          "body": "Matt, your remit spans delta.com, Fly Delta, airport servicing, and employee-facing software. Rather than pitch productivity across that estate, I would ask you to choose one non-safety-critical issue class with existing tests and review. We would baseline the current path, attempt the same acceptance criteria under Delta-defined controls, and stop if completion, quality, or auditability does not improve. Would you spend 30 minutes defining that test?",
+          "why": "Give the technical champion control over scope, comparison, and exit criteria.",
+          "sourceIds": [
+            "s8"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "linkedin",
+          "timing": "Day 4",
+          "body": "Delta has moved hundreds of workloads while retaining a mainframe-and-cloud architecture. I am interested in the work between those boundaries: repetitive changes that cross systems but do not belong in a safety-critical pilot. If one such queue has a clear owner and acceptance test, it could support an honest current-workflow comparison rather than another generic coding demo.",
+          "why": "Add the modernization-boundary angle without repeating the first ask.",
+          "sourceIds": [
+            "s12"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 9",
+          "subject": "Let Delta set the failure conditions",
+          "body": "The CrowdStrike outage gives Delta good reason to distrust a third party asking for broad access. A useful first artifact may be the failure conditions, not a demo: prohibited systems, permitted data, required logs, human approvals, rollback, and the measures that would end the assessment. If you name the repository owner, I will bring a one-page draft for that owner and security to reject or revise.",
+          "why": "Earn a technical next step by making Delta's controls the starting point.",
+          "sourceIds": [
+            "s17"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Narayanan (KK) Krishnakumar",
+      "targetTitle": "Chief Technology Officer",
+      "angle": "Prove useful engineering work at the mainframe-cloud boundary without challenging the incumbent architecture.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "A bounded proof at Delta's mainframe-cloud boundary",
+          "body": "KK, you own Delta's cloud transformation, mainframe, enterprise architecture, operations, and reliability remit. IBM says hundreds of Delta workloads have moved onto the hybrid architecture. I am not proposing to replace that foundation. I would like to test one repetitive, non-safety-critical engineering workflow at the boundary, under your architecture and quality controls, and compare it with the current path. Is there a representative queue worth examining for 30 minutes?",
+          "why": "Frame Factory as complementary to the architecture he owns and ask for a concrete queue.",
+          "sourceIds": [
+            "s9",
+            "s12"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 5",
+          "subject": "Reliability has to be part of the test",
+          "body": "Delta's litigation over the 2024 outage concerns 7,000 canceled flights. That history means speed alone is the wrong success measure. A credible assessment should require unchanged tests, review, observability, rollback, and human approval, with no production action. I can draft those constraints around one workflow your quality and security owners choose.",
+          "why": "Show that reliability and control, not output volume, define the proposed evaluation.",
+          "sourceIds": [
+            "s17"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 10",
+          "subject": "Complement IBM and Red Hat, or stop",
+          "body": "IBM and Red Hat already anchor Delta's hybrid-cloud modernization. The only sensible Factory test is work they do not already complete end to end: one owned backlog, measured against the current workflow, inside the existing architecture. If the incumbent path meets Delta's completion, quality, and audit threshold, there is no reason to add another tool. Could we identify that boundary together?",
+          "why": "Name the incumbents respectfully and make displacement a clear non-goal.",
+          "sourceIds": [
+            "s12"
+          ]
+        }
+      ]
+    }
+  ]
+}

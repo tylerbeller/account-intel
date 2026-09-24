@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Point of view, warm paths, and outreach",
+  "description": "The argument layer. The dossier holds facts; this holds what to say, who can introduce you, and what to send. Every factual claim here must carry a sourceId that resolves against the dossier's sources array.",
+  "type": "object",
+  "required": ["company", "generatedAt", "pointOfView", "warmPaths", "outreach"],
+  "properties": {
+    "company": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "basedOnDossier": {
+      "type": "string",
+      "description": "The generatedAt of the dossier this argument was built from, so a stale pairing is detectable."
+    },
+
+    "pointOfView": {
+      "type": "object",
+      "required": ["whyAnything", "whyFactory", "whyNow", "theAsk"],
+      "properties": {
+        "whyAnything": {
+          "type": "object",
+          "description": "Why the status quo is unacceptable. Must be about their business, not about Factory.",
+          "required": ["claim", "evidence", "risk"],
+          "properties": {
+            "claim": { "type": "string", "description": "One sentence a rep can say out loud, in their words." },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["point"],
+                "properties": {
+                  "point": { "type": "string" },
+                  "sourceId": { "type": "string" }
+                }
+              }
+            },
+            "risk": {
+              "type": "string",
+              "description": "Required. The weakest part of this argument, and how a sharp buyer would push back."
+            }
+          }
+        },
+        "whyFactory": {
+          "type": "object",
+          "description": "Why Factory rather than the incumbent, a copilot, or doing nothing. Name the alternative.",
+          "required": ["claim", "evidence", "risk"],
+          "properties": {
+            "claim": { "type": "string" },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["point"],
+                "properties": {
+                  "point": { "type": "string" },
+                  "sourceId": { "type": "string" }
+                }
+              }
+            },
+            "risk": { "type": "string" },
+            "versus": {
+              "type": "array",
+              "description": "The specific alternatives this claim is competing against.",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "whyNow": {
+          "type": "object",
+          "description": "Why this quarter rather than next year. Must rest on a dated event, not on urgency theater.",
+          "required": ["claim", "evidence", "risk"],
+          "properties": {
+            "claim": { "type": "string" },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["point"],
+                "properties": {
+                  "point": { "type": "string" },
+                  "sourceId": { "type": "string" }
+                }
+              }
+            },
+            "risk": { "type": "string" },
+            "expiresOn": {
+              "type": "string",
+              "description": "The date after which this window argument stops being true, when one exists."
+            }
+          }
+        },
+        "theAsk": {
+          "type": "object",
+          "description": "The specific next step being requested. A point of view with no ask is a lecture.",
+          "required": ["ask", "why"],
+          "properties": {
+            "ask": { "type": "string", "description": "One concrete, small, scheduled thing." },
+            "why": { "type": "string", "description": "Why this ask is low-risk for them to say yes to." },
+            "fallback": { "type": "string", "description": "The smaller ask if the first is declined." }
+          }
+        },
+        "soundbite": {
+          "type": "string",
+          "description": "The whole argument in one or two sentences, for a voicemail or a hallway."
+        },
+        "doNotSay": {
+          "type": "array",
+          "description": "Claims that would be tempting but are not supported by the evidence gathered. Naming them prevents a rep from inventing them under pressure.",
+          "items": {
+            "type": "object",
+            "required": ["claim", "reason"],
+            "properties": {
+              "claim": { "type": "string" },
+              "reason": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "warmPaths": {
+      "type": "array",
+      "description": "Routes into the account that are warmer than a cold email, from public evidence only. CRM-derived paths are added by the server from the CRM provider and are not written here.",
+      "items": {
+        "type": "object",
+        "required": ["kind", "path", "action"],
+        "properties": {
+          "kind": {
+            "enum": [
+              "customer reference",
+              "alumni",
+              "board or investor overlap",
+              "partner or vendor",
+              "community or conference",
+              "analyst or advisor"
+            ]
+          },
+          "path": { "type": "string", "description": "The route, named concretely." },
+          "evidence": { "type": "string" },
+          "sourceId": { "type": "string" },
+          "confidence": { "enum": ["confirmed", "likely", "speculative"] },
+          "action": { "type": "string", "description": "The single next step that uses this path." }
+        }
+      }
+    },
+
+    "outreach": {
+      "type": "array",
+      "description": "A ready-to-send sequence for the highest-ranked targets. Two or three people, not ten.",
+      "items": {
+        "type": "object",
+        "required": ["targetName", "touches"],
+        "properties": {
+          "targetName": { "type": "string" },
+          "targetTitle": { "type": "string" },
+          "angle": { "type": "string", "description": "The one idea this whole sequence is built on." },
+          "touches": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["order", "channel", "timing", "body"],
+              "properties": {
+                "order": { "type": "integer", "minimum": 1 },
+                "channel": { "enum": ["email", "linkedin", "call", "voicemail", "event", "referral"] },
+                "timing": { "type": "string", "description": "Day 1, Day 4, and so on." },
+                "subject": { "type": "string" },
+                "body": { "type": "string", "description": "Send-ready text. No placeholders, no [brackets]." },
+                "why": { "type": "string", "description": "What this touch is for, so a rep can adapt it." },
+                "sourceIds": {
+                  "type": "array",
+                  "description": "Every factual claim made in the body must be traceable.",
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
