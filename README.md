@@ -42,7 +42,9 @@ I ran the kit on Lowe's, an account nobody had prepped, and audited the output r
 
 **3. Link checking is harder than a status code.** Three separate traps showed up in one run: corporate newsrooms return HTTP 200 with a "page not found" body; SEC and Reuters answer non-browser clients with 403 or 401; and job postings return 410 within months because postings expire. A naive checker would have called a dozen valid citations broken. The checker now separates dead from blocked from soft-404 and only fails on the first.
 
-**4. Honest gaps are the most useful output.** The deal model marked five of eight qualification dimensions as **Gap** — metrics, decision criteria, decision process, paper process, identified pain. That is correct and it is the point: none of those are knowable from public research. They are exactly what a first call is for, and an account plan that invented them would be worse than one that admits them.
+**4. Once the checker was in the workflow, the agent fixed its own citations.** The first Lowe's dossier carried seven soft-404s and two dead links. After the verifier became a step in the run rather than a review afterthought, the agent re-resolved its sources and rewrote them: 28 sources, zero soft-404s, zero dead. Delta and Best Buy came back with zero dead links on the first pass. A measurement placed inside the loop changes the output; the same measurement placed at the end only grades it.
+
+**5. Honest gaps are the most useful output.** The deal model marked five of eight qualification dimensions as **Gap** — metrics, decision criteria, decision process, paper process, identified pain. That is correct and it is the point: none of those are knowable from public research. They are exactly what a first call is for, and an account plan that invented them would be worse than one that admits them.
 
 The broader lesson for selling this: an agent will produce a confident artifact whether or not it is right, so the value is in the verification you wire around it. Research is cheap now. Proof is the product.
 
