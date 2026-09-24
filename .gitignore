@@ -1,0 +1,7 @@
+# Run logs are machine- and time-specific; the artifacts in briefs/ are the output worth keeping.
+logs/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
