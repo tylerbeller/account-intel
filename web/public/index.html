@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prospect Dossier</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="mark"></span>
+        <div>
+          <h1>Prospect Dossier</h1>
+          <p>Sourced account research, built on demand</p>
+        </div>
+      </div>
+      <form id="search" class="search" autocomplete="off">
+        <input id="company" type="text" placeholder="Company name, e.g. Delta Air Lines" aria-label="Company name" />
+        <button type="submit" id="go">Research</button>
+      </form>
+    </header>
+
+    <main>
+      <aside class="sidebar">
+        <h2>Saved dossiers</h2>
+        <ul id="dossier-list" class="dossier-list"></ul>
+        <div class="sidebar-note">
+          Every figure is cited. Sections that could not be sourced say so rather than guessing.
+        </div>
+      </aside>
+
+      <section id="content" class="content">
+        <div id="empty" class="empty">
+          <h2>Start with a company name</h2>
+          <p>
+            Six research agents read the public record in parallel — filings, earnings, the engineering blog, job
+            postings, leadership pages, vendor announcements — then assemble a dossier with every claim cited.
+          </p>
+          <p class="empty-note">Research takes a few minutes. Saved dossiers load instantly from the sidebar.</p>
+        </div>
+
+        <div id="progress" class="progress hidden">
+          <div class="progress-head">
+            <span class="spinner"></span>
+            <div>
+              <h2 id="progress-title">Researching…</h2>
+              <p id="progress-sub">Fanning out six parallel researchers</p>
+            </div>
+          </div>
+          <pre id="progress-log" class="progress-log"></pre>
+        </div>
+
+        <article id="dossier" class="dossier hidden"></article>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

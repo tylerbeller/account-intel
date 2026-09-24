@@ -1,0 +1,691 @@
+{
+  "company": {
+    "name": "Best Buy Co., Inc.",
+    "ticker": "BBY [s1]",
+    "headquarters": "Richfield, Minnesota [s1]",
+    "employees": "Approximately 82,000 employees at the end of fiscal 2026 [s1]",
+    "fiscalYearEnd": "Saturday nearest the end of January; fiscal 2026 ended January 31, 2026 [s1]",
+    "industry": "Specialty consumer-electronics retail and technology services [s1]",
+    "summary": "Best Buy is an omnichannel consumer-technology retailer operating through Domestic and International segments [s1]. It enters a CEO transition with improving fiscal 2027 comparable sales, a recently appointed technology chief, and active AI, marketplace, and customer-experience programs, but its private engineering estate and specific modernization backlog are not public [s3][s4][s6][s11]."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "partially sourced",
+  "overview": {
+    "whatTheyDo": "Best Buy sells consumer electronics, appliances, computing and mobile products, entertainment products, and related services through stores and digital channels in the United States and Canada [s1].",
+    "scale": [
+      {
+        "label": "Fiscal 2026 revenue",
+        "value": "$41.69 billion",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Employees",
+        "value": "Approximately 82,000 at fiscal 2026 year-end",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Stores",
+        "value": "1,068 at fiscal 2026 year-end",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Q2 fiscal 2027 revenue",
+        "value": "$9.78 billion",
+        "sourceId": "s3"
+      }
+    ],
+    "segments": [
+      {
+        "name": "Domestic",
+        "note": "United States operations, including Best Buy, Best Buy Ads, Best Buy Health, Geek Squad, and related brands and services.",
+        "sourceId": "s1"
+      },
+      {
+        "name": "International",
+        "note": "Operations in Canada under the Best Buy and Best Buy Express brands.",
+        "sourceId": "s1"
+      }
+    ]
+  },
+  "trends": {
+    "trajectory": "Best Buy moved from fiscal 2026 revenue of $41.69 billion to positive enterprise comparable-sales growth in each of the first two fiscal 2027 quarters, then raised full-year guidance after Q2 [s1][s2][s3]. The growth agenda includes the Mirakl-powered marketplace, customer-care AI, Ask Blue, and agentic-commerce work, while tariff exposure, uneven consumer demand, and incumbent-platform concentration raise the proof threshold for new engineering spend [s9][s11][s12][s14][s18].",
+    "financials": [
+      {
+        "period": "Q1 fiscal 2027",
+        "metric": "Revenue",
+        "value": "$8.94 billion",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 fiscal 2027",
+        "metric": "Enterprise comparable sales",
+        "value": "Increased 2.0%",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 fiscal 2027",
+        "metric": "Net earnings",
+        "value": "$276 million",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 fiscal 2027",
+        "metric": "Adjusted diluted EPS",
+        "value": "$1.28",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q2 fiscal 2027",
+        "metric": "Revenue",
+        "value": "$9.78 billion",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "Q2 fiscal 2027",
+        "metric": "Enterprise comparable sales",
+        "value": "Increased 4.1%",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "Q2 fiscal 2027",
+        "metric": "Diluted EPS",
+        "value": "$1.48, increased 70%",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "Q2 fiscal 2027",
+        "metric": "Adjusted diluted EPS",
+        "value": "$1.47, increased 15%",
+        "direction": "up",
+        "sourceId": "s3"
+      }
+    ],
+    "guidance": [
+      {
+        "item": "Fiscal 2027 revenue",
+        "value": "$42.3 billion to $42.8 billion",
+        "sourceId": "s3"
+      },
+      {
+        "item": "Fiscal 2027 enterprise comparable sales",
+        "value": "Growth of 1.9% to 3.0%",
+        "sourceId": "s3"
+      },
+      {
+        "item": "Fiscal 2027 adjusted diluted EPS",
+        "value": "$6.70 to $6.90",
+        "sourceId": "s3"
+      }
+    ],
+    "industry": [
+      {
+        "trend": "CTA forecast U.S. consumer-technology revenue of $565 billion in 2026 while highlighting tariff pressure and economic uncertainty.",
+        "implication": "Best Buy needs fast pricing, assortment, promotion, and supplier-data changes, but discretionary technology programs must show a near-term revenue or margin link.",
+        "sourceId": "s18"
+      },
+      {
+        "trend": "Agentic-commerce channels are becoming part of Best Buy's customer-acquisition strategy through Ask Blue and work with OpenAI.",
+        "implication": "Product data, inventory, pricing, identity, measurement, and governance must work consistently across Best Buy and external AI surfaces.",
+        "sourceId": "s14"
+      }
+    ],
+    "pressures": [
+      {
+        "pressure": "Consumer and tariff uncertainty",
+        "evidence": "Industry forecasts pair modest technology-market growth with tariff and macroeconomic uncertainty.",
+        "sourceId": "s18"
+      },
+      {
+        "pressure": "Workforce and operating discipline",
+        "evidence": "Best Buy reported approximately 82,000 employees at fiscal 2026 year-end, down from approximately 85,000 a year earlier.",
+        "sourceId": "s1"
+      },
+      {
+        "pressure": "Concurrent transformation load",
+        "evidence": "The company is managing a CEO transition, a reshaped executive team, a new CFO, marketplace expansion, and multiple AI customer-experience programs in the same fiscal year.",
+        "sourceId": "s5"
+      }
+    ]
+  },
+  "catalysts": [
+    {
+      "date": "2025-06-26",
+      "event": "Best Buy appointed Neal Sample as executive vice president and chief digital and technology officer.",
+      "whyItMatters": "A technology leader still early in tenure has a mandate to shape the next phase of Best Buy's digital and technology transformation.",
+      "urgency": "high",
+      "sourceId": "s6"
+    },
+    {
+      "date": "2025-08-19",
+      "event": "Best Buy launched its Mirakl-powered U.S. digital marketplace, more than doubling the products available on BestBuy.com and the Best Buy app.",
+      "whyItMatters": "A third-party marketplace adds seller, catalog, pricing, fulfillment, trust, and support integration surfaces with measurable commerce outcomes.",
+      "urgency": "high",
+      "sourceId": "s11"
+    },
+    {
+      "date": "2026-04-22",
+      "event": "Best Buy announced that Jason Bonfig would succeed Corie Barry as CEO after the end of the third quarter, effective November 1, 2026.",
+      "whyItMatters": "An imminent CEO transition creates a short window to align a bounded engineering initiative to the incoming leader's customer, product, and fulfillment agenda.",
+      "urgency": "high",
+      "sourceId": "s4"
+    },
+    {
+      "date": "2026-07-14",
+      "event": "Best Buy announced a reshaped executive team around its strategic priorities.",
+      "whyItMatters": "Newly expanded revenue, strategy, operations, retail, services, legal, and risk remits make ownership clearer but may also delay decisions while responsibilities settle.",
+      "urgency": "high",
+      "sourceId": "s5"
+    },
+    {
+      "date": "2026-08-19",
+      "event": "Anne Bramman became executive vice president and chief financial officer.",
+      "whyItMatters": "A new CFO can reset investment evidence and procurement expectations, so a bottom-up value case should be established before seeking broad deployment.",
+      "urgency": "medium",
+      "sourceId": "s8"
+    },
+    {
+      "date": "2026-09-24",
+      "event": "Best Buy was publicly deploying Ask Blue and working with OpenAI on agentic commerce while also using AI internally for employee support.",
+      "whyItMatters": "AI has moved into customer and employee workflows, increasing the need for governed delivery, reliable product data, and measurable software change.",
+      "urgency": "high",
+      "sourceId": "s14"
+    }
+  ],
+  "techEstate": {
+    "stack": [
+      {
+        "technology": "Google Cloud AI",
+        "evidence": "Google Cloud documents Best Buy using its AI platform for voice and digital customer care, with a 50% improvement in call containment and faster development cycles.",
+        "sourceId": "s9"
+      },
+      {
+        "technology": "Google Cloud real-time retail services",
+        "evidence": "Google Cloud documents Best Buy deploying cost-efficient, real-time features for online shopping, customer trust, and revenue growth.",
+        "sourceId": "s20"
+      },
+      {
+        "technology": "Accenture delivery partnership",
+        "evidence": "Best Buy, Google Cloud, and Accenture announced a collaboration to deploy generative AI for customer support; this April 2024 source is older than 24 months and is corroborated by the current Google Cloud case study.",
+        "sourceId": "s10"
+      },
+      {
+        "technology": "Mirakl marketplace platform",
+        "evidence": "Best Buy's U.S. third-party marketplace is powered by Mirakl.",
+        "sourceId": "s12"
+      },
+      {
+        "technology": "OpenAI agentic-commerce integration",
+        "evidence": "Best Buy was reported working with OpenAI on agentic commerce as part of its current AI commerce strategy.",
+        "sourceId": "s14"
+      },
+      {
+        "technology": "Public developer APIs and GitHub repositories",
+        "evidence": "The BestBuyAPIs GitHub organization exposes public API documentation, SDK, command-line, and query-builder repositories; this public footprint is useful but does not establish the current private stack.",
+        "sourceId": "s13"
+      }
+    ],
+    "patterns": [
+      {
+        "pattern": "SDLC and PDLC maintenance",
+        "supported": true,
+        "theirEstate": "Google Cloud reports faster development cycles, and Best Buy maintains public developer-API repositories. Private repository count, coding assistant, CI/CD platform, review queues, and engineering headcount are not public.",
+        "sourceId": "s9"
+      },
+      {
+        "pattern": "Modernization and migration",
+        "supported": true,
+        "theirEstate": "Best Buy is operating Google Cloud AI and real-time retail services, a Mirakl marketplace, Ask Blue, and external agentic-commerce integrations. No public source names a legacy application inventory, migration schedule, or decommission plan.",
+        "sourceId": "s20"
+      },
+      {
+        "pattern": "Patching, vulnerabilities and risk",
+        "supported": false,
+        "theirEstate": "The annual report describes cybersecurity and privacy risk, but reviewed public sources do not identify Best Buy's scanners, CVE volume, patch service levels, dependency estate, or remediation backlog.",
+        "sourceId": "s1"
+      }
+    ]
+  },
+  "fit": {
+    "verdict": "moderate fit",
+    "score": 23,
+    "summary": "Best Buy has a large software-dependent retail estate, an early-tenure technology chief, active cloud and AI programs, and clear willingness to use outside platforms. The fit stops short of strong because no public source identifies a specific legacy migration, engineering backlog, developer-tool standard, security approval path, or budget owner for an engineering-agent deployment.",
+    "rubric": [
+      {
+        "dimension": "Engineering scale",
+        "score": 4,
+        "rationale": "A 1,068-store, $41.69 billion omnichannel retailer with customer-care AI, marketplace, mobile, and real-time commerce services implies a large software estate, but engineering headcount and private repository scale are not public.",
+        "sourceId": "s1"
+      },
+      {
+        "dimension": "Legacy and modernization pressure",
+        "score": 3,
+        "rationale": "Best Buy has active cloud AI, real-time retail, marketplace, and agentic-commerce work, but no reviewed source names a legacy platform being retired or a dated migration program.",
+        "sourceId": "s20"
+      },
+      {
+        "dimension": "Regulated or risk scope",
+        "score": 4,
+        "rationale": "Best Buy's retail, payments, customer-data, privacy, and public-company environment creates material cyber and audit scope, although no public source quantifies application remediation work.",
+        "sourceId": "s1"
+      },
+      {
+        "dimension": "AI mandate and executive sponsor",
+        "score": 4,
+        "rationale": "Chief Digital and Technology Officer Neal Sample is early in tenure, and Best Buy has live customer and employee AI programs, but no public executive title explicitly assigns enterprise AI governance.",
+        "sourceId": "s7"
+      },
+      {
+        "dimension": "Budget and catalyst timing",
+        "score": 4,
+        "rationale": "Best Buy raised fiscal 2027 guidance while moving through CEO, executive-team, and CFO transitions, creating a timely planning window; the applicable software budget and procurement calendar are not public.",
+        "sourceId": "s3"
+      },
+      {
+        "dimension": "Access and security posture",
+        "score": 4,
+        "rationale": "Best Buy has adopted Google Cloud, Accenture, Mirakl, and OpenAI-related capabilities, demonstrating outside-vendor access, but source-code, model-routing, and data-retention controls are not public.",
+        "sourceId": "s10"
+      }
+    ],
+    "reasonsFor": [
+      {
+        "point": "A recently appointed technology executive has a broad digital and technology mandate.",
+        "evidence": "Neal Sample was appointed chief digital and technology officer in June 2025 and remains in that role.",
+        "sourceId": "s6"
+      },
+      {
+        "point": "Current commerce and AI programs create bounded, measurable workflows.",
+        "evidence": "Marketplace, customer-care AI, Ask Blue, and agentic-commerce work create concrete surfaces where delivery speed, containment, conversion, and quality can be measured.",
+        "sourceId": "s14"
+      },
+      {
+        "point": "Best Buy can onboard outside technology partners.",
+        "evidence": "Public relationships include Google Cloud, Accenture, Mirakl, and OpenAI-related commerce work.",
+        "sourceId": "s10"
+      }
+    ],
+    "reasonsAgainst": [
+      {
+        "point": "Google Cloud and Accenture are powerful AI and delivery incumbents.",
+        "evidence": "Best Buy selected Google Cloud as an AI innovation and strategic partner and paired it with Accenture for implementation.",
+        "sourceId": "s10"
+      },
+      {
+        "point": "Leadership transition can slow sponsorship and purchasing.",
+        "evidence": "The CEO transition, executive-team reshaping, and new CFO all occur in 2026.",
+        "sourceId": "s5"
+      },
+      {
+        "point": "The company has evidence of workforce and cost discipline.",
+        "evidence": "Fiscal 2026 year-end employment was approximately 82,000 versus approximately 85,000 one year earlier.",
+        "sourceId": "s1"
+      },
+      {
+        "point": "No buyer-confirmed engineering pain is public.",
+        "evidence": "Reviewed filings, company technology material, leadership pages, public GitHub organizations, job-search results, and vendor case studies did not disclose a late engineering backlog, repository scale, patch queue, or coding-assistant standard.",
+        "sourceId": "s13"
+      }
+    ],
+    "disqualifiers": [
+      "Best Buy will not identify a named backlog, accountable owner, business date, and buyer-owned baseline.",
+      "Security and AI governance cannot approve a useful repository-access and model-routing pattern.",
+      "An incumbent already completes the selected workflow to Best Buy's quality, control, and cost threshold.",
+      "No legitimate budget owner or conditional paid next step is documented before technical work begins."
+    ]
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Neal Sample",
+      "title": "Executive Vice President and Chief Digital and Technology Officer",
+      "scope": "Best Buy's digital and technology organization.",
+      "role": "economic buyer",
+      "tenure": "Appointed in June 2025; current role confirmed as accessed September 24, 2026.",
+      "whyStartHere": "He owns the technology mandate and is early enough in tenure to value a visible delivery win tied to current AI or marketplace work.",
+      "opener": "Which customer, marketplace, or platform backlog is missing a business date because engineering work crosses too many systems or teams?",
+      "confidence": "confirmed",
+      "sourceId": "s7"
+    },
+    {
+      "rank": 2,
+      "name": "Patrick McGinnis",
+      "title": "Executive Vice President and Chief Revenue Officer",
+      "scope": "Revenue leadership under Best Buy's reshaped executive team.",
+      "role": "champion",
+      "tenure": "Current role announced in July 2026.",
+      "whyStartHere": "His new revenue remit can supply a measurable commerce outcome and an executive reason to prioritize the supporting engineering work.",
+      "opener": "Where is a revenue outcome in marketplace, membership, ads, or digital commerce waiting on a cross-system software change?",
+      "confidence": "confirmed",
+      "sourceId": "s15"
+    },
+    {
+      "rank": 3,
+      "name": "Jason Bonfig",
+      "title": "Senior Executive Vice President and Chief Customer, Product and Fulfillment Officer; CEO-designate",
+      "scope": "Customer, product, and fulfillment; selected to become CEO effective November 1, 2026.",
+      "role": "economic buyer",
+      "tenure": "CEO succession announced April 22, 2026.",
+      "whyStartHere": "His incoming CEO agenda spans the business outcomes most likely to justify a cross-functional engineering initiative.",
+      "opener": "As you bring customer, product, and fulfillment priorities into the CEO role, which execution bottleneck needs a visible win in your first two quarters?",
+      "confidence": "confirmed",
+      "sourceId": "s4"
+    },
+    {
+      "rank": 4,
+      "name": "Todd Hartman",
+      "title": "Executive Vice President and Chief Legal and Risk Officer",
+      "scope": "Legal and enterprise risk.",
+      "role": "gatekeeper",
+      "tenure": "Current role announced in July 2026.",
+      "whyStartHere": "His organization can define privacy, legal, risk, AI, and third-party requirements before any repository-connected assessment.",
+      "opener": "What code, data, model, logging, retention, human-approval, and third-party controls must a low-risk engineering assessment satisfy?",
+      "confidence": "confirmed",
+      "sourceId": "s16"
+    },
+    {
+      "rank": 5,
+      "name": "Frank Bedo",
+      "title": "Executive Vice President and Chief Strategy and Growth Officer",
+      "scope": "Corporate strategy and growth priorities.",
+      "role": "influencer",
+      "tenure": "Current role announced in July 2026.",
+      "whyStartHere": "He can connect a technical proof to the marketplace, services, ads, membership, or AI growth thesis and decide whether expansion is strategic.",
+      "opener": "Which growth priority has the clearest economics but is constrained by software delivery or integration capacity?",
+      "confidence": "confirmed",
+      "sourceId": "s17"
+    },
+    {
+      "rank": 6,
+      "name": "Anne Bramman",
+      "title": "Executive Vice President and Chief Financial Officer",
+      "scope": "Finance and investment governance.",
+      "role": "influencer",
+      "tenure": "Effective August 19, 2026.",
+      "whyStartHere": "A new CFO can insist on the buyer-owned baseline, unit economics, and procurement path needed to turn a proof into a funded program.",
+      "opener": "What buyer-owned unit and evidence threshold would finance accept before considering expansion beyond one engineering workflow?",
+      "confidence": "confirmed",
+      "sourceId": "s8"
+    },
+    {
+      "rank": 7,
+      "name": "Unknown by name",
+      "title": "Executive security leader responsible for application security and third-party technology risk",
+      "scope": "Source-code access, identity, model routing, data classification, audit logging, retention, and incident response.",
+      "role": "gatekeeper",
+      "tenure": "Not confirmed on Best Buy's public executive-leadership pages.",
+      "whyStartHere": "This role must define whether an external engineering agent can work on representative code and under which controls.",
+      "opener": "Can we document the approved code, model, identity, logging, retention, and human-review boundary before selecting a repository?",
+      "confidence": "unconfirmed",
+      "sourceId": "s1"
+    },
+    {
+      "rank": 8,
+      "name": "Unknown by name",
+      "title": "Vice president or engineering director owning the selected marketplace, customer-care, or digital-commerce workflow",
+      "scope": "Architecture, repositories, tests, delivery baseline, review path, and operational acceptance for the selected workflow.",
+      "role": "practitioner",
+      "tenure": "Not public.",
+      "whyStartHere": "This person must establish a representative task and determine whether the completed change meets Best Buy's engineering standards.",
+      "opener": "Using one real issue and your existing tests and review rules, what would make an assessment representative without touching a critical path?",
+      "confidence": "unconfirmed",
+      "sourceId": "s13"
+    }
+  ],
+  "competition": [
+    {
+      "vendor": "Google Cloud",
+      "position": "Strategic AI and cloud incumbent supporting customer care and real-time retail capabilities.",
+      "tradeoff": "Google is better positioned where Best Buy's data, identity, operations, and AI services already run on Google Cloud.",
+      "sourceId": "s9"
+    },
+    {
+      "vendor": "Accenture",
+      "position": "Implementation incumbent for Best Buy's Google Cloud generative-AI customer-support program.",
+      "tradeoff": "Accenture has established delivery relationships, transformation capacity, and context around the customer-care program.",
+      "sourceId": "s10"
+    },
+    {
+      "vendor": "Mirakl",
+      "position": "Core marketplace-platform incumbent.",
+      "tradeoff": "Mirakl owns specialized seller, catalog, and marketplace capabilities and is already embedded in the U.S. marketplace.",
+      "sourceId": "s12"
+    },
+    {
+      "vendor": "OpenAI",
+      "position": "Emerging agentic-commerce channel and AI ecosystem participant.",
+      "tradeoff": "OpenAI is better positioned for commerce experiences that originate inside its own consumer and agent interfaces.",
+      "sourceId": "s14"
+    },
+    {
+      "vendor": "Internal engineering and status quo",
+      "position": "Credible alternative because Best Buy already operates public APIs, cloud AI, real-time commerce services, and digital product teams.",
+      "tradeoff": "Internal teams have approved access, operational context, and no incremental vendor-review burden.",
+      "sourceId": "s20"
+    }
+  ],
+  "objections": [
+    {
+      "objection": "Google Cloud and Accenture already cover our AI roadmap.",
+      "response": "Treat them as the expected architecture. Test only whether the incumbent workflow already completes one governed engineering task across the repository, ticket, CI, tests, and review path; stop if it clears Best Buy's threshold."
+    },
+    {
+      "objection": "We cannot send source code or customer data to another model.",
+      "response": "Let security define the boundary first. Begin read-only, exclude customer data and secrets, document model routing and retention, and require human approval for every change."
+    },
+    {
+      "objection": "The CEO transition is the wrong time for another platform.",
+      "response": "Use the transition to select one incoming-priority workflow with a named owner and short decision window, not a company-wide rollout."
+    },
+    {
+      "objection": "Marketplace and customer-care systems are too critical for a pilot.",
+      "response": "Choose a representative low-blast-radius maintenance issue with production-grade tests, review, observability, and rollback rather than a critical launch or cutover."
+    },
+    {
+      "objection": "Show enterprise ROI before we engage.",
+      "response": "First establish one defensible unit: a comparable issue moved from ready for engineering to an approved change. Scale only after Best Buy supplies its own volume, effort, quality, and cost inputs."
+    }
+  ],
+  "unknowns": [
+    {
+      "question": "Which named marketplace, customer-care, BestBuy.com, mobile, or platform backlog is missing a business date, who owns it, and why?",
+      "whyItMatters": "Without buyer-confirmed pain, an accountable owner, and a business date, there is no defensible technical proof or value case.",
+      "searched": "Fiscal 2026 annual report, Q1 and Q2 fiscal 2027 results, executive announcements, Google Cloud and Accenture case studies, marketplace releases, and current commerce coverage."
+    },
+    {
+      "question": "Which private source host, ticketing system, CI/CD platform, code-review workflow, test framework, artifact system, observability stack, and coding assistant govern the target team?",
+      "whyItMatters": "These systems determine integration feasibility, incumbent competition, setup effort, and the measurement design.",
+      "searched": "Best Buy careers and Digital, Analytics & Technology pages, public GitHub organizations, Google Cloud material, conference searches, vendor case studies, and recent job-posting searches."
+    },
+    {
+      "question": "What code, model, identity, logging, retention, privacy, audit, human-approval, and rollback controls are required for an external engineering agent?",
+      "whyItMatters": "These controls determine whether useful repository access can be approved and whether the assessment can represent production work.",
+      "searched": "Fiscal 2026 annual-report risk disclosures, corporate leadership pages, public privacy and security-role searches, AI partnership material, and third-party security searches."
+    },
+    {
+      "question": "Which legacy applications, data platforms, integration points, or developer tools are being migrated or retired, and on what dates?",
+      "whyItMatters": "A modernization pursuit needs a named system boundary, owner, target architecture, and decommission milestone.",
+      "searched": "Annual report, Google Cloud case studies, Accenture material, marketplace announcements, public APIs, engineering-conference searches, and technology job searches."
+    },
+    {
+      "question": "What are the target team's repository count, engineering capacity, review delay, issue volume, rework rate, escaped-defect rate, and accepted-issue baseline?",
+      "whyItMatters": "The bottom-up value model cannot substitute company revenue, store count, or total employment for buyer-owned engineering measures.",
+      "searched": "Annual report, investor releases, public GitHub organizations, careers pages, engineering-content searches, and vendor case studies."
+    },
+    {
+      "question": "Which CVE, dependency, SAST, DAST, secrets, and cloud-finding queues exist, and what service levels and exception processes govern them?",
+      "whyItMatters": "The patching and vulnerability pattern remains unsupported until a named queue, control owner, and acceptance rules are established.",
+      "searched": "Annual-report cybersecurity disclosures, security-leadership searches, public breach searches, security job searches, and public technology material."
+    },
+    {
+      "question": "Who owns enterprise AI governance across Neal Sample's technology organization and Todd Hartman's legal and risk organization?",
+      "whyItMatters": "Best Buy has public AI programs, but the approval body for use cases, model routing, data classes, evaluation, and production deployment is not public.",
+      "searched": "Executive biographies, July 2026 executive-team announcement, Google Cloud and Accenture material, Ask Blue and OpenAI coverage, and annual-report governance disclosures."
+    },
+    {
+      "question": "Who owns the budget, what procurement threshold and contract set apply, and which holiday freeze, planning, or transition dates constrain a decision?",
+      "whyItMatters": "A technically successful assessment cannot convert without a legitimate paper path, budget source, and timing window.",
+      "searched": "Investor releases, fiscal calendar, CEO and CFO announcements, annual report, procurement-facing searches, and public web searches."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Fiscal 2026 Annual Report and Form 10-K filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/764478/000114036126018275/0001140361-26-018275-index.html",
+      "publisher": "Best Buy Co., Inc. / SEC",
+      "date": "2026-03-18",
+      "primary": true
+    },
+    {
+      "id": "s2",
+      "title": "Best Buy Reports Q1 FY27 Results",
+      "url": "https://corporate.bestbuy.com/2026/best-buy-reports-q1-fy27-results/",
+      "publisher": "Best Buy",
+      "date": "2026-05-28",
+      "primary": true
+    },
+    {
+      "id": "s3",
+      "title": "Best Buy Reports Q2 FY27 Results",
+      "url": "https://corporate.bestbuy.com/2026/best-buy-reports-q2-fy27-results/",
+      "publisher": "Best Buy",
+      "date": "2026-08-27",
+      "primary": true
+    },
+    {
+      "id": "s4",
+      "title": "Best Buy Announces Chief Executive Officer Succession Plans",
+      "url": "https://corporate.bestbuy.com/2026/ceo-succession-plans/",
+      "publisher": "Best Buy",
+      "date": "2026-04-22",
+      "primary": true
+    },
+    {
+      "id": "s5",
+      "title": "Best Buy announces Executive Team updates",
+      "url": "https://corporate.bestbuy.com/2026/executive-team-updates/",
+      "publisher": "Best Buy",
+      "date": "2026-07-14",
+      "primary": true
+    },
+    {
+      "id": "s6",
+      "title": "Best Buy Appoints New Technology Chief To Boost Digital Strategy",
+      "url": "https://www.forbes.com/sites/peterhigh/2025/06/27/best-buy-appoints-new-technology-chief-to-boost-digital-strategy/",
+      "publisher": "Forbes",
+      "date": "2025-06-27",
+      "primary": false
+    },
+    {
+      "id": "s7",
+      "title": "Neal Sample leadership biography",
+      "url": "https://corporate.bestbuy.com/our-leadership/neal-sample/",
+      "publisher": "Best Buy",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s8",
+      "title": "Best Buy appoints Anne Bramman as chief financial officer",
+      "url": "https://corporate.bestbuy.com/2026/anne-bramman-cfo",
+      "publisher": "Best Buy",
+      "date": "2026-08-03",
+      "primary": true
+    },
+    {
+      "id": "s9",
+      "title": "Best Buy boosts call containment and accelerates development cycles using Google Cloud AI",
+      "url": "https://cloud.google.com/customers/bestbuy-ai",
+      "publisher": "Google Cloud",
+      "date": "accessed 2026-09-24",
+      "primary": false
+    },
+    {
+      "id": "s10",
+      "title": "Best Buy, Google Cloud and Accenture Partner to Create a Better Customer Support Experience with Generative AI",
+      "url": "https://newsroom.accenture.com/news/2024/best-buy-google-cloud-and-accenture-partner-to-create-a-better-customer-support-experience-with-generative-ai",
+      "publisher": "Accenture",
+      "date": "2024-04-09",
+      "primary": false
+    },
+    {
+      "id": "s11",
+      "title": "Best Buy launches digital marketplace, more than doubling number of products available",
+      "url": "https://corporate.bestbuy.com/2025/marketplace/",
+      "publisher": "Best Buy",
+      "date": "2025-08-19",
+      "primary": true
+    },
+    {
+      "id": "s12",
+      "title": "Best Buy launches new marketplace to double product assortment",
+      "url": "https://www.mirakl.com/blog/best-buy-partners-with-mirakl-doubles-product-assortment",
+      "publisher": "Mirakl",
+      "date": "2025-08-19",
+      "primary": false
+    },
+    {
+      "id": "s13",
+      "title": "Best Buy APIs GitHub organization",
+      "url": "https://github.com/BestBuyAPIs",
+      "publisher": "GitHub / Best Buy",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s14",
+      "title": "Ecommerce Trends: How Best Buy is using AI",
+      "url": "https://www.digitalcommerce360.com/2026/09/24/ecommerce-trends-how-best-buy-is-using-ai/",
+      "publisher": "Digital Commerce 360",
+      "date": "2026-09-24",
+      "primary": false
+    },
+    {
+      "id": "s15",
+      "title": "Patrick McGinnis leadership biography",
+      "url": "https://corporate.bestbuy.com/our-leadership/patrick-mcginnis/",
+      "publisher": "Best Buy",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s16",
+      "title": "Todd Hartman leadership biography",
+      "url": "https://corporate.bestbuy.com/our-leadership/todd-hartman/",
+      "publisher": "Best Buy",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s17",
+      "title": "Frank Bedo leadership biography",
+      "url": "https://corporate.bestbuy.com/our-leadership/frank-bedo/",
+      "publisher": "Best Buy",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s18",
+      "title": "CTA: Despite Tariffs and Economic Headwinds, U.S. Consumer Tech Revenue to Hit $565 Billion in 2026",
+      "url": "https://www.ces.tech/press-releases/cta-despite-tariffs-and-economic-headwinds-u-s-consumer-tech-revenue-to-hit-565-billion-in-2026/",
+      "publisher": "Consumer Technology Association",
+      "date": "2026-01-04",
+      "primary": false
+    },
+    {
+      "id": "s20",
+      "title": "Best Buy real-time retail case study",
+      "url": "https://cloud.google.com/customers/bestbuy",
+      "publisher": "Google Cloud",
+      "date": "accessed 2026-09-24",
+      "primary": false
+    }
+  ]
+}

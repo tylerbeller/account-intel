@@ -1,6 +1,9 @@
 # Run logs are machine- and time-specific; the artifacts in briefs/ are the output worth keeping.
 logs/
 
+# Browser captures are regenerable, and stitched full-page shots misrender the sticky header.
+web/shots/
+
 # OS and editor noise
 .DS_Store
 Thumbs.db

@@ -6,6 +6,12 @@ An account research kit for enterprise sellers. One command turns an account nam
 .\scripts\new-account.ps1 -Account "Lowe's" -Mode both
 ```
 
+There is also a web app: type a company name, get a sectioned dossier with every figure cited.
+
+```powershell
+node web\server.mjs    # then open http://localhost:4317
+```
+
 ## Why this exists
 
 Building an account strategy by hand takes a day and produces something that goes stale in a month. Most of that day is not thinking, it is retrieval: earnings, leadership changes, the engineering blog, job postings, who owns security. That work is parallelizable and it is exactly what an agent is good at.
@@ -40,6 +46,34 @@ I ran the kit on Lowe's, an account nobody had prepped, and audited the output r
 
 The broader lesson for selling this: an agent will produce a confident artifact whether or not it is right, so the value is in the verification you wire around it. Research is cheap now. Proof is the product.
 
+## The web app
+
+The markdown artifacts are for reading. The web app is for a live demo: someone names a company they care about, and a dossier assembles in front of them.
+
+```powershell
+node web\server.mjs
+# Prospect dossier app  ->  http://localhost:4317
+```
+
+Type a company, press Research, and the server spawns the same headless run the CLI uses. Progress streams into the page; the dossier renders when it lands. Saved dossiers load instantly from the sidebar.
+
+Sections: company overview with scale figures, trends (reported results, guidance, industry and macro pressure), a dated catalyst timeline, the engineering estate mapped to Factory's operating patterns, a scored fit assessment arguing both sides, the top-ten contact list ranked by who to call first, the competitive field, deal shape, objections, unknowns, and the full source list.
+
+Three design decisions carry the weight:
+
+**The agent writes JSON, not prose.** A dossier is validated against `dossier.schema.json` before it renders. Scraped narrative would have been faster to build and impossible to lay out honestly — you cannot put a fit score in a progress bar if the score only exists inside a paragraph. Structure is also what makes the output checkable.
+
+**Citations are referential, not decorative.** Every claim carries a `sourceId` that must resolve against the `sources` array. The server checks for dangling references on load and the UI banners them. A citation that points at nothing is a bug, and it surfaces as one.
+
+**Link verification is in the UI.** The Sources panel has a button that resolves all of them and reports OK / bot-blocked / soft-404 / dead. It is the same `verify-sources.ps1` the CLI gate runs. Being able to press that button in front of a buyer is the entire point.
+
+```powershell
+# zero dependencies: Node built-ins only, so it always starts
+web/server.mjs        # jobs, schema validation, source-ref integrity, verifier endpoint
+web/public/           # index.html, styles.css, app.js
+web/data/<slug>.json  # generated dossiers
+```
+
 ## Demo path
 
 ```powershell
@@ -54,6 +88,9 @@ Get-ChildItem -Recurse .factory
 
 # 4. read the artifact and the gate result
 Get-Content .\briefs\lowe-s\brief.md
+
+# 5. or do the same thing in a browser, and let them pick the company
+node web\server.mjs
 ```
 
 ## Requirements

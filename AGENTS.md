@@ -13,17 +13,35 @@ Account research kit for enterprise sales. Turns an account name into a sourced 
 
 # see the prompt without spending a run
 .\scripts\new-account.ps1 -Account "Kroger" -DryRun
+
+# web app: enter a company, get a sectioned dossier
+node web\server.mjs          # http://localhost:4317
 ```
 
-The runner resolves the Droid CLI from `DROID_BIN`, then `~/bin/droid.exe`, then PATH.
+The runner resolves the Droid CLI from `DROID_BIN`, then `~/bin/droid.exe`, then PATH. The web server uses the same resolution order.
 
 ## Layout
 
 - `.factory/skills/account-brief/` — research workflow, evidence rules, output template
 - `.factory/skills/deal-model/` — qualification scorecard, bottom-up value model, seat and ARR ladder
+- `.factory/skills/account-dossier/` — JSON dossier workflow plus `dossier.schema.json`
 - `.factory/droids/account-researcher.md` — read-only research subagent, used six at a time in parallel
-- `briefs/<account-slug>/` — generated artifacts
+- `briefs/<account-slug>/` — generated markdown artifacts
+- `web/server.mjs` — dependency-free HTTP server: jobs, schema validation, source-ref integrity, verifier
+- `web/public/` — the UI
+- `web/data/<slug>.json` — generated dossiers
 - `logs/` — one log per run
+
+## Web app contract
+
+The dossier skill writes JSON, never prose. Two checks run before anything renders, both in `server.mjs`:
+
+1. **Schema validation** against `.factory/skills/account-dossier/dossier.schema.json`. A run that writes malformed JSON is marked `invalid`, not `done`.
+2. **Source-ref integrity.** Every `sourceId` in the document must exist in the `sources` array. Dangling references are reported to the UI and bannered on the page.
+
+Both surface in the interface rather than failing silently. If you change the schema, change the renderer in `web/public/app.js` in the same commit, or sections will quietly stop appearing.
+
+Endpoints: `GET /api/dossiers`, `GET /api/dossier/:slug`, `POST /api/research`, `GET /api/job/:slug`, `POST /api/verify/:slug`.
 
 ## Non-negotiables
 

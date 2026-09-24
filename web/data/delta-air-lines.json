@@ -1,0 +1,761 @@
+{
+  "company": {
+    "name": "Delta Air Lines, Inc.",
+    "ticker": "DAL [s1]",
+    "headquarters": "Atlanta, Georgia [s1]",
+    "employees": "More than 100,000 employees [s4]",
+    "fiscalYearEnd": "December 31 [s1]",
+    "industry": "Global passenger and cargo airline, loyalty business, aircraft maintenance provider, and refinery operator [s1]",
+    "summary": "Delta operates a global airline network supported by 1,314 aircraft and served approximately 200 million customers in 2025 [s1]. Its technology agenda now combines a newly unified Digital & Technology organization, a hybrid mainframe-and-cloud estate, and production AI in customer and operational workflows, while high fuel costs and aviation-system disruptions raise the proof threshold for new spending [s6][s13][s14][s20]."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "partially sourced",
+  "overview": {
+    "whatTheyDo": "Delta transports passengers and cargo, sells loyalty economics through SkyMiles and its American Express relationship, operates the Monroe refinery, and provides maintenance, repair, and overhaul services through Delta TechOps [s1].",
+    "scale": [
+      {
+        "label": "Customers served in 2025",
+        "value": "Approximately 200 million",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Fleet at December 31, 2025",
+        "value": "1,314 aircraft",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Global workforce",
+        "value": "More than 100,000 employees",
+        "sourceId": "s4"
+      },
+      {
+        "label": "June quarter 2026 operating revenue",
+        "value": "$19.8 billion",
+        "sourceId": "s3"
+      }
+    ],
+    "segments": [
+      {
+        "name": "Airline",
+        "note": "Passenger and cargo air transportation, loyalty-program economics, ancillary services, and Delta TechOps maintenance work.",
+        "sourceId": "s1"
+      },
+      {
+        "name": "Refinery",
+        "note": "The Monroe Energy refinery supplies jet fuel and exchanges non-jet products for jet fuel.",
+        "sourceId": "s1"
+      }
+    ]
+  },
+  "trends": {
+    "trajectory": "Delta entered 2026 with broad demand strength and record adjusted March-quarter revenue, then delivered record June-quarter revenue while absorbing its highest quarterly fuel expense [s2][s3][s20]. Premium, corporate, and loyalty demand support growth, but fuel inflation, operational resilience, and constrained aviation infrastructure keep cost and reliability outcomes central [s2][s3][s22].",
+    "financials": [
+      {
+        "period": "March quarter 2026",
+        "metric": "GAAP operating revenue",
+        "value": "$15.9 billion",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "March quarter 2026",
+        "metric": "Adjusted operating revenue",
+        "value": "$14.2 billion, a March-quarter record",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "March quarter 2026",
+        "metric": "GAAP net income (loss)",
+        "value": "Net loss of $289 million",
+        "direction": "down",
+        "sourceId": "s2"
+      },
+      {
+        "period": "March quarter 2026",
+        "metric": "Adjusted earnings per share",
+        "value": "$0.64",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "June quarter 2026",
+        "metric": "GAAP operating revenue",
+        "value": "$19.8 billion",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "June quarter 2026",
+        "metric": "Adjusted operating revenue",
+        "value": "$17.7 billion",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "June quarter 2026",
+        "metric": "GAAP net income",
+        "value": "$1.6 billion",
+        "direction": "unknown",
+        "sourceId": "s3"
+      },
+      {
+        "period": "June quarter 2026",
+        "metric": "Adjusted pre-tax income",
+        "value": "$1.4 billion with a 7.7% adjusted pre-tax margin",
+        "direction": "down",
+        "sourceId": "s3"
+      }
+    ],
+    "guidance": [
+      {
+        "item": "Full-year 2026 adjusted earnings per share",
+        "value": "$6.50 to $7.50",
+        "sourceId": "s3"
+      },
+      {
+        "item": "Full-year 2026 free cash flow",
+        "value": "$3 billion to $4 billion",
+        "sourceId": "s3"
+      }
+    ],
+    "industry": [
+      {
+        "trend": "IATA cut its 2026 global airline-profit forecast to $23 billion as higher fuel costs and Middle East disruption pressured the sector.",
+        "implication": "Engineering investments must show direct reliability, revenue, fuel, or operating-efficiency impact rather than broad productivity claims.",
+        "sourceId": "s20"
+      },
+      {
+        "trend": "The GAO reported that the FAA has struggled for decades to modernize outdated air-traffic-control systems.",
+        "implication": "Delta's software must absorb external disruption and support faster recovery, making operational resilience and tested fallback behavior high-value engineering outcomes.",
+        "sourceId": "s22"
+      },
+      {
+        "trend": "IATA says aircraft and engine delays, parts shortages, and workforce gaps continue to affect airline costs and growth.",
+        "implication": "Data and workflow integration across fleet planning, maintenance, parts, and operations remains a priority, but safety-critical changes require strong evidence and controls.",
+        "sourceId": "s21"
+      }
+    ],
+    "pressures": [
+      {
+        "pressure": "Fuel-cost inflation",
+        "evidence": "Delta described the June quarter as its highest quarterly fuel expense while affirming full-year guidance.",
+        "sourceId": "s3"
+      },
+      {
+        "pressure": "Operational and third-party software resilience",
+        "evidence": "A court allowed Delta to pursue much of its suit over the July 2024 CrowdStrike outage, which Delta said caused 7,000 flight cancellations.",
+        "sourceId": "s17"
+      },
+      {
+        "pressure": "Public and regulatory scrutiny of AI pricing",
+        "evidence": "U.S. House lawmakers asked Delta for information about its use of AI in ticket pricing.",
+        "sourceId": "s18"
+      }
+    ]
+  },
+  "catalysts": [
+    {
+      "date": "2025-10-29",
+      "event": "Delta began a beta rollout of Delta Concierge, its AI-powered in-app travel assistant.",
+      "whyItMatters": "The rollout put AI into a customer-facing workflow where reliability, personalization, data access, and escalation behavior are measurable.",
+      "urgency": "medium",
+      "sourceId": "s23"
+    },
+    {
+      "date": "2025-12-03",
+      "event": "Delta described deployment of AI and automation for bag movement on its Atlanta ramp.",
+      "whyItMatters": "Production AI is now tied to operational performance, creating demand for reliable software, data pipelines, and governed change.",
+      "urgency": "medium",
+      "sourceId": "s15"
+    },
+    {
+      "date": "2026-01-06",
+      "event": "Delta announced Rahul Samant's retirement and named Amala Duggirala Chief Digital & Technology Officer.",
+      "whyItMatters": "A new executive took responsibility for a combined digital and technology function, creating a current mandate and architecture decision point.",
+      "urgency": "high",
+      "sourceId": "s6"
+    },
+    {
+      "date": "2026-03-05",
+      "event": "Delta announced a broad leadership transition, including a new president, chief operating officer, chief financial officer, and chief marketing and product officer.",
+      "whyItMatters": "New operating, financial, and product ownership creates a window to align technology work to reliability, customer, and financial outcomes.",
+      "urgency": "high",
+      "sourceId": "s7"
+    },
+    {
+      "date": "2026-08-31",
+      "event": "Delta expanded Delta Concierge to all SkyMiles members.",
+      "whyItMatters": "An AI product moved from selected-user beta to broad availability, increasing the operational, quality, privacy, and change-management surface.",
+      "urgency": "high",
+      "sourceId": "s14"
+    },
+    {
+      "date": "2026-09-15",
+      "event": "Delta published Ramnik Bajaj's remit leading the Enterprise Data and AI Office.",
+      "whyItMatters": "A named data and AI owner can sponsor governed AI engineering work alongside the new Chief Digital & Technology Officer.",
+      "urgency": "high",
+      "sourceId": "s10"
+    }
+  ],
+  "techEstate": {
+    "stack": [
+      {
+        "technology": "Hybrid mainframe and cloud architecture",
+        "evidence": "Delta's Chief Technology Officer owns cloud transformation, infrastructure, operations and reliability, mainframe, enterprise architecture, and cloud and quality centers of expertise.",
+        "sourceId": "s9"
+      },
+      {
+        "technology": "IBM and Red Hat OpenShift",
+        "evidence": "IBM describes moving hundreds of Delta workloads and modernizing operations on an open hybrid-cloud architecture built with Red Hat OpenShift.",
+        "sourceId": "s12"
+      },
+      {
+        "technology": "Amazon Web Services",
+        "evidence": "AWS was selected as Delta's preferred cloud provider under a multi-year agreement; this 2022 source is potentially stale and the current workload split is not public.",
+        "sourceId": "s16"
+      },
+      {
+        "technology": "Customer, servicing, and employee software estate",
+        "evidence": "Delta's software-engineering remit includes delta.com, the Fly Delta app, airport customer-service technology, and employee-facing systems.",
+        "sourceId": "s8"
+      },
+      {
+        "technology": "Enterprise data, analytics, and AI",
+        "evidence": "The Enterprise Data and AI Office oversees enterprise data, analytics, and artificial intelligence.",
+        "sourceId": "s10"
+      },
+      {
+        "technology": "Delta Concierge",
+        "evidence": "Delta's AI-powered assistant is broadly available in the Fly Delta app for disruption support, customer-initiated cancellations, bag tracking, and other travel needs.",
+        "sourceId": "s14"
+      },
+      {
+        "technology": "Operational AI and automation",
+        "evidence": "Delta publicly describes AI and automation in baggage operations at its Atlanta ramp.",
+        "sourceId": "s15"
+      }
+    ],
+    "patterns": [
+      {
+        "pattern": "SDLC and PDLC maintenance",
+        "supported": true,
+        "theirEstate": "A named software-engineering organization maintains customer-facing, servicing, and employee technology. Repository count, delivery tooling, coding assistant, and queue measures are not public.",
+        "sourceId": "s8"
+      },
+      {
+        "pattern": "Modernization and migration",
+        "supported": true,
+        "theirEstate": "Delta runs a named cloud-transformation program while retaining mainframes and has moved hundreds of workloads to an IBM and Red Hat OpenShift hybrid architecture.",
+        "sourceId": "s12"
+      },
+      {
+        "pattern": "Patching, vulnerabilities and risk",
+        "supported": true,
+        "theirEstate": "Delta has a named CISO responsible for cyber resilience, and the 2024 CrowdStrike incident exposed the operational consequences of third-party software change. No public source quantifies Delta's current vulnerability backlog or patch service levels.",
+        "sourceId": "s11"
+      }
+    ]
+  },
+  "fit": {
+    "verdict": "strong fit",
+    "score": 28,
+    "summary": "Delta has a very large, software-dependent operating estate, a named hybrid modernization program, a newly unified Digital & Technology mandate, production AI, and unusually visible resilience stakes. The pursuit should start with a bounded non-safety-critical workflow because incumbent platforms, stringent controls, fuel pressure, and the CrowdStrike experience will raise the approval threshold.",
+    "rubric": [
+      {
+        "dimension": "Engineering scale",
+        "score": 5,
+        "rationale": "Delta serves approximately 200 million annual customers, and its software organization spans web, mobile, airport servicing, and employee systems; engineering headcount and repository count are not public.",
+        "sourceId": "s8"
+      },
+      {
+        "dimension": "Legacy and modernization pressure",
+        "score": 5,
+        "rationale": "Delta publicly names a hybrid mainframe-and-cloud estate, cloud transformation, and hundreds of migrated workloads.",
+        "sourceId": "s12"
+      },
+      {
+        "dimension": "Regulated or risk scope",
+        "score": 5,
+        "rationale": "Delta operates safety- and time-critical aviation workflows, protects customer information, and has a CISO explicitly accountable for cyber resilience.",
+        "sourceId": "s11"
+      },
+      {
+        "dimension": "AI mandate and executive sponsor",
+        "score": 5,
+        "rationale": "A newly appointed Chief Digital & Technology Officer owns a combined function, while the Chief Data Officer leads the Enterprise Data and AI Office and customer and operational AI are in production.",
+        "sourceId": "s6"
+      },
+      {
+        "dimension": "Budget and catalyst timing",
+        "score": 4,
+        "rationale": "Delta affirmed $3 billion to $4 billion of 2026 free cash flow guidance and has a current executive transition, but record fuel expense increases scrutiny on discretionary programs.",
+        "sourceId": "s3"
+      },
+      {
+        "dimension": "Access and security posture",
+        "score": 4,
+        "rationale": "Delta has adopted IBM, Red Hat, and AWS and runs external AI technology, showing willingness to use outside platforms; the CrowdStrike dispute and aviation risk make code and production access harder.",
+        "sourceId": "s17"
+      }
+    ],
+    "reasonsFor": [
+      {
+        "point": "The executive sponsor is new and owns a combined digital and technology function.",
+        "evidence": "Amala Duggirala joined as Chief Digital & Technology Officer in 2026 after Delta combined the functions.",
+        "sourceId": "s6"
+      },
+      {
+        "point": "The modernization boundary is named rather than hypothetical.",
+        "evidence": "Delta's estate combines mainframes, cloud transformation, and hundreds of workloads moved onto a hybrid architecture.",
+        "sourceId": "s12"
+      },
+      {
+        "point": "There are customer and operational AI workflows with measurable outcomes.",
+        "evidence": "Delta Concierge is broadly available, and Delta uses AI and automation in baggage operations.",
+        "sourceId": "s14"
+      },
+      {
+        "point": "Software resilience has board-level business consequences.",
+        "evidence": "The CrowdStrike outage litigation concerns 7,000 canceled Delta flights.",
+        "sourceId": "s17"
+      }
+    ],
+    "reasonsAgainst": [
+      {
+        "point": "IBM, Red Hat, and AWS are entrenched platform incumbents.",
+        "evidence": "Delta has an open hybrid-cloud program with IBM and Red Hat and a multi-year preferred-cloud agreement with AWS.",
+        "sourceId": "s12"
+      },
+      {
+        "point": "The CrowdStrike outage likely raises the bar for third-party software access and change.",
+        "evidence": "Delta's litigation attributes 7,000 flight cancellations to the July 2024 outage.",
+        "sourceId": "s17"
+      },
+      {
+        "point": "Fuel pressure can crowd out an unbounded productivity purchase.",
+        "evidence": "Delta reported its highest quarterly fuel expense in the June quarter of 2026.",
+        "sourceId": "s3"
+      },
+      {
+        "point": "AI pricing scrutiny can slow governance approvals.",
+        "evidence": "Federal lawmakers sought answers from Delta about its use of AI in pricing.",
+        "sourceId": "s18"
+      }
+    ],
+    "disqualifiers": [
+      "Delta will not name a bounded non-safety-critical backlog, accountable owner, delivery baseline, and business date.",
+      "Security, legal, or architecture cannot approve useful read access to representative code and delivery artifacts.",
+      "The incumbent IBM, Red Hat, AWS, or internal workflow already meets the agreed completion, quality, and audit threshold.",
+      "No funded route or conditional paid next step exists before technical work begins."
+    ]
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Amala Duggirala",
+      "title": "Executive Vice President and Chief Digital & Technology Officer",
+      "scope": "Global Digital & Technology, including enterprise technology strategy, architecture modernization, cybersecurity, digital experience, and AI-driven innovation.",
+      "role": "economic buyer",
+      "tenure": "Joined Delta in 2026 after the role was announced on January 6, 2026.",
+      "whyStartHere": "She has a new, combined mandate and can align engineering modernization, AI, digital product, and governance around one measurable outcome.",
+      "opener": "As you unify digital and technology, which non-safety-critical backlog is most visibly limiting reliability or customer experience this year?",
+      "confidence": "confirmed",
+      "sourceId": "s5"
+    },
+    {
+      "rank": 2,
+      "name": "Matt Cincera",
+      "title": "Senior Vice President, Software Engineering",
+      "scope": "Customer-facing technology, including delta.com and the Fly Delta app, airport servicing technology, and employee-facing software.",
+      "role": "champion",
+      "tenure": "Current role confirmed on Delta's leadership page as accessed September 24, 2026.",
+      "whyStartHere": "He owns the engineering organization and can identify a representative backlog, baseline delivery performance, and technical acceptance criteria.",
+      "opener": "Across customer, servicing, and employee platforms, where could one representative issue prove faster completion without weakening tests, review, or resilience?",
+      "confidence": "confirmed",
+      "sourceId": "s8"
+    },
+    {
+      "rank": 3,
+      "name": "Narayanan (KK) Krishnakumar",
+      "title": "Chief Technology Officer",
+      "scope": "RAISE organization, cloud transformation, infrastructure, operations and reliability, mainframe, enterprise architecture, and cloud and quality centers of expertise.",
+      "role": "champion",
+      "tenure": "Chief Technology Officer since 2018.",
+      "whyStartHere": "He owns the named modernization and reliability boundaries where a governed engineering workflow must fit.",
+      "opener": "Where does the mainframe-and-cloud boundary still create repetitive engineering work or slow a reliability objective?",
+      "confidence": "confirmed",
+      "sourceId": "s9"
+    },
+    {
+      "rank": 4,
+      "name": "Ramnik Bajaj",
+      "title": "Senior Vice President and Chief Data Officer",
+      "scope": "Enterprise Data and AI Office, including enterprise data, analytics, and artificial intelligence.",
+      "role": "champion",
+      "tenure": "Current remit confirmed on Delta's leadership page published September 15, 2026.",
+      "whyStartHere": "He can connect AI engineering work to enterprise data controls, model governance, and business-owned outcomes.",
+      "opener": "Which governed data or AI delivery queue has a measurable business owner but is still constrained by cross-system engineering work?",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 5,
+      "name": "Deborah Wheeler",
+      "title": "Chief Information Security Officer",
+      "scope": "Information security, protection of Delta and customer information, and airline cyber resilience.",
+      "role": "gatekeeper",
+      "tenure": "Current role confirmed on Delta's leadership page as accessed September 24, 2026.",
+      "whyStartHere": "She should define the code, identity, model, logging, retention, third-party, and production-control boundary before any technical assessment.",
+      "opener": "What code-access, model-routing, identity, logging, retention, and human-approval controls would make a low-blast-radius assessment acceptable?",
+      "confidence": "confirmed",
+      "sourceId": "s11"
+    },
+    {
+      "rank": 6,
+      "name": "Heather Winkle",
+      "title": "Vice President, Digital Experience",
+      "scope": "Digital customer experience.",
+      "role": "practitioner",
+      "tenure": "Current role confirmed on Delta's leadership page as accessed September 24, 2026.",
+      "whyStartHere": "She can supply a customer-facing workflow and adoption measure for work in the Fly Delta experience.",
+      "opener": "Which customer journey still requires too many handoffs or releases to improve, and what customer measure would prove the change mattered?",
+      "confidence": "confirmed",
+      "sourceId": "s24"
+    },
+    {
+      "rank": 7,
+      "name": "Dan Janki",
+      "title": "Executive Vice President and Chief Operating Officer",
+      "scope": "All aspects of Delta's safe and reliable operation.",
+      "role": "economic buyer",
+      "tenure": "Chief Operating Officer since April 1, 2026.",
+      "whyStartHere": "As a newly appointed operations owner, he can sponsor a reliability outcome and enforce a low-risk operating boundary.",
+      "opener": "Which operational workflow has the clearest reliability cost today but can be improved without putting safety-critical execution in scope?",
+      "confidence": "confirmed",
+      "sourceId": "s25"
+    },
+    {
+      "rank": 8,
+      "name": "Ranjan Goswami",
+      "title": "Chief Marketing and Product Officer",
+      "scope": "Global marketing and customer-experience design.",
+      "role": "influencer",
+      "tenure": "Expanded title announced March 5, 2026.",
+      "whyStartHere": "He can connect digital engineering work to a customer and product outcome rather than a generic productivity claim.",
+      "opener": "Where is a customer-experience commitment waiting on coordinated product and engineering work across Delta's digital estate?",
+      "confidence": "confirmed",
+      "sourceId": "s7"
+    },
+    {
+      "rank": 9,
+      "name": "Joe Esposito",
+      "title": "Executive Vice President and Chief Commercial Officer",
+      "scope": "Network planning, revenue management, sales, and loyalty.",
+      "role": "influencer",
+      "tenure": "Named Chief Commercial Officer in December 2025.",
+      "whyStartHere": "He can identify revenue-management or loyalty workflows where data and software delivery have a clear commercial measure.",
+      "opener": "Which loyalty or revenue-management workflow has a measurable commercial opportunity but is constrained by delivery speed or system boundaries?",
+      "confidence": "confirmed",
+      "sourceId": "s26"
+    }
+  ],
+  "competition": [
+    {
+      "vendor": "IBM and Red Hat",
+      "position": "Strategic hybrid-cloud modernization and consulting incumbents.",
+      "tradeoff": "They are better positioned where Delta's workloads, architecture knowledge, delivery teams, and OpenShift operating model already sit.",
+      "sourceId": "s12"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "position": "Preferred-cloud incumbent under a multi-year agreement announced in 2022; current scope requires re-verification.",
+      "tradeoff": "AWS is better positioned for workloads and AI services already operating under Delta's cloud landing zones, identity, procurement, and support controls.",
+      "sourceId": "s16"
+    },
+    {
+      "vendor": "Fetcherr",
+      "position": "Published AI-pricing technology provider in Delta's revenue-management workflow.",
+      "tradeoff": "Fetcherr is better positioned for airline pricing optimization and already has domain-specific deployment evidence inside Delta.",
+      "sourceId": "s18"
+    },
+    {
+      "vendor": "Internal Digital & Technology organization",
+      "position": "Strong status-quo alternative across software engineering, architecture, data, AI, and reliability.",
+      "tradeoff": "Internal teams already have production access, aviation context, approved controls, and direct accountability for Delta's customer and operating systems.",
+      "sourceId": "s8"
+    },
+    {
+      "vendor": "CrowdStrike or incumbent endpoint-security stack",
+      "position": "A visible security incumbent whose relationship with Delta is contested after the 2024 outage.",
+      "tradeoff": "An incumbent security platform is better positioned for endpoint telemetry and response, but Delta's litigation makes this relationship a caution rather than an uncomplicated advantage.",
+      "sourceId": "s17"
+    }
+  ],
+  "objections": [
+    {
+      "objection": "IBM, Red Hat, and AWS already support our modernization.",
+      "response": "Treat them as the architecture, not as displacement targets. Test one workflow they do not already complete end to end, and stop if the incumbent path meets Delta's written threshold."
+    },
+    {
+      "objection": "The CrowdStrike outage makes another third-party engineering tool unacceptable.",
+      "response": "Start read-only on a non-safety-critical repository, document every data and action path, require human approval, prohibit production changes, and let security define the exit conditions."
+    },
+    {
+      "objection": "Airline systems are too safety-critical for an agent.",
+      "response": "Exclude flight control, dispatch, crew legality, and production operations. Choose a representative low-blast-radius maintenance workflow with existing tests, review, and rollback."
+    },
+    {
+      "objection": "Fuel costs leave no room for a broad platform program.",
+      "response": "Do not propose a broad program. Use one buyer-owned backlog and one defensible unit, then continue only if accepted work improves without higher defects, review effort, or control risk."
+    },
+    {
+      "objection": "Our internal AI and software teams can build this.",
+      "response": "Compare against their current workflow on the same issue class. If the internal path meets the agreed completion, quality, audit, and cost threshold, do not add another tool."
+    }
+  ],
+  "unknowns": [
+    {
+      "question": "Which named customer, servicing, employee, cloud, data, or reliability backlog is missing a business date, who owns it, and why?",
+      "whyItMatters": "Without buyer-confirmed pain, an accountable owner, and a date, there is no defensible pilot or value case.",
+      "searched": "2025 Form 10-K, 2026 quarterly releases, executive biographies, leadership announcements, IBM material, Delta technology stories, and recent trade coverage."
+    },
+    {
+      "question": "Which private source hosts, ticketing systems, CI/CD platforms, test frameworks, code-review tools, and coding assistants govern the target team?",
+      "whyItMatters": "The answer determines technical feasibility, incumbent competition, integration effort, and the baseline measurement plan.",
+      "searched": "Delta leadership biographies, Delta Technology Hub, public web searches for engineering jobs and GitHub, IBM and AWS material, and cloud-modernization coverage."
+    },
+    {
+      "question": "What code, model, identity, logging, retention, privacy, audit, third-party-change, human-approval, rollback, and production-separation controls are required?",
+      "whyItMatters": "These controls determine whether useful repository access can be approved after the CrowdStrike incident.",
+      "searched": "Delta CISO biography, 2025 Form 10-K risk disclosures, Delta privacy and security material, CrowdStrike litigation coverage, and TSA cybersecurity material."
+    },
+    {
+      "question": "What applications remain on the mainframe, which workloads are still scheduled for migration, and what are their decommission dates and owners?",
+      "whyItMatters": "A modernization proof needs a real system boundary, target state, owner, and business date.",
+      "searched": "CTO biography, IBM case study, CIO coverage, AWS agreement, 2025 Form 10-K, and Delta technology pages."
+    },
+    {
+      "question": "What are the target team's repository count, accepted-issue volume, active effort, elapsed time, review delay, defect rate, rework rate, and production-change failure rate?",
+      "whyItMatters": "Public company scale cannot substitute for buyer-owned engineering measures in a bottom-up value case.",
+      "searched": "Executive biographies, Technology Hub, engineering job searches, cloud case studies, investor materials, and public GitHub searches."
+    },
+    {
+      "question": "Which vulnerability, dependency, SAST, DAST, secrets, endpoint, and cloud-finding queues exist, and what service levels govern them?",
+      "whyItMatters": "A patching or vulnerability use case requires a named backlog, acceptance rules, and risk owner.",
+      "searched": "CISO biography, SEC risk disclosures, Delta privacy and security pages, TSA cybersecurity requirements, and CrowdStrike litigation coverage."
+    },
+    {
+      "question": "How are AI use cases approved across Duggirala's Digital & Technology organization and Bajaj's Enterprise Data and AI Office?",
+      "whyItMatters": "The named sponsors are public, but decision rights for model routing, data classes, evaluation, monitoring, and production approval are not.",
+      "searched": "Chief Digital & Technology Officer and Chief Data Officer biographies, Delta Concierge releases, AI-pricing statements, investor materials, and privacy material."
+    },
+    {
+      "question": "Who owns the applicable budget, what procurement path applies, and which operating peaks, freezes, or planning dates constrain a decision?",
+      "whyItMatters": "A technically successful proof cannot convert without a legitimate paper process and timing window.",
+      "searched": "Investor relations, 2025 Form 10-K, 2026 earnings releases, fiscal calendar, leadership announcements, and public procurement searches."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Delta Air Lines 2025 Form 10-K",
+      "url": "https://ir.delta.com/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf",
+      "publisher": "Delta Air Lines",
+      "date": "2026-02-10",
+      "primary": true
+    },
+    {
+      "id": "s2",
+      "title": "Delta Air Lines Announces March Quarter 2026 Financial Results",
+      "url": "https://news.delta.com/delta-air-lines-announces-march-quarter-2026-financial-results",
+      "publisher": "Delta Air Lines",
+      "date": "2026-04-08",
+      "primary": true
+    },
+    {
+      "id": "s3",
+      "title": "Delta Air Lines Announces June Quarter 2026 Financial Results",
+      "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-June-Quarter-2026-Financial-Results/default.aspx",
+      "publisher": "Delta Air Lines",
+      "date": "2026-07-10",
+      "primary": true
+    },
+    {
+      "id": "s4",
+      "title": "Ed Bastian, Chief Executive Officer",
+      "url": "https://news.delta.com/leader-bio-ed-bastian-chief-executive-officer",
+      "publisher": "Delta Air Lines",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s5",
+      "title": "Amala Duggirala, Executive Vice President and Chief Digital and Technology Officer",
+      "url": "https://news.delta.com/amala-duggirala-evp-and-chief-digital-and-technology-officer",
+      "publisher": "Delta Air Lines",
+      "date": "2026-04-09",
+      "primary": true
+    },
+    {
+      "id": "s6",
+      "title": "Delta CIO Rahul Samant to retire after leading technology transformation",
+      "url": "https://news.delta.com/delta-cio-rahul-samant-retire-after-leading-technology-transformation",
+      "publisher": "Delta Air Lines",
+      "date": "2026-01-06",
+      "primary": true
+    },
+    {
+      "id": "s7",
+      "title": "Delta announces leadership changes as John Laughter concludes distinguished 30-year career",
+      "url": "https://news.delta.com/delta-announces-leadership-changes-john-laughter-concludes-distinguished-30-year-career",
+      "publisher": "Delta Air Lines",
+      "date": "2026-03-05",
+      "primary": true
+    },
+    {
+      "id": "s8",
+      "title": "Matt Cincera, Senior Vice President, Software Engineering",
+      "url": "https://news.delta.com/matt-cincera-svp-software-engineering",
+      "publisher": "Delta Air Lines",
+      "date": "2026-06-05",
+      "primary": true
+    },
+    {
+      "id": "s9",
+      "title": "Narayanan (KK) Krishnakumar, Chief Technology Officer",
+      "url": "https://news.delta.com/narayanan-kk-krishnakumar-chief-technology-officer",
+      "publisher": "Delta Air Lines",
+      "date": "2026-06-19",
+      "primary": true
+    },
+    {
+      "id": "s10",
+      "title": "Ramnik Bajaj, Senior Vice President and Chief Data Officer",
+      "url": "https://news.delta.com/ramnik-bajaj-senior-vice-president-chief-data-officer",
+      "publisher": "Delta Air Lines",
+      "date": "2026-09-15",
+      "primary": true
+    },
+    {
+      "id": "s11",
+      "title": "Deborah Wheeler, Chief Information Security Officer",
+      "url": "https://news.delta.com/deborah-wheeler-chief-information-security-officer",
+      "publisher": "Delta Air Lines",
+      "date": "2026-07-21",
+      "primary": true
+    },
+    {
+      "id": "s12",
+      "title": "Delta Air Lines hybrid cloud migration case study",
+      "url": "https://www.ibm.com/case-studies/delta-air-lines",
+      "publisher": "IBM",
+      "date": "accessed 2026-09-24",
+      "primary": false
+    },
+    {
+      "id": "s13",
+      "title": "Delta takes off with modernized blend of mainframes and cloud",
+      "url": "https://www.cio.com/article/463987/delta-takes-off-with-modernized-blend-of-mainframes-and-cloud.html",
+      "publisher": "CIO",
+      "date": "2025-05-27",
+      "primary": false
+    },
+    {
+      "id": "s14",
+      "title": "More control, fewer taps: Delta Concierge expands to all SkyMiles Members",
+      "url": "https://news.delta.com/more-control-fewer-taps-delta-concierge-expands-all-skymiles-members",
+      "publisher": "Delta Air Lines",
+      "date": "2026-08-31",
+      "primary": true
+    },
+    {
+      "id": "s15",
+      "title": "Delta spurs innovation on the world's busiest ramp",
+      "url": "https://news.delta.com/delta-spurs-innovation-worlds-busiest-ramp",
+      "publisher": "Delta Air Lines",
+      "date": "2025-12-03",
+      "primary": true
+    },
+    {
+      "id": "s16",
+      "title": "AWS Selected as Delta's Preferred Cloud Provider",
+      "url": "https://press.aboutamazon.com/2022/7/aws-selected-as-deltas-preferred-cloud-provider",
+      "publisher": "Amazon Web Services",
+      "date": "2022-07-12",
+      "primary": false
+    },
+    {
+      "id": "s17",
+      "title": "Delta can sue CrowdStrike over computer outage that caused 7,000 flight cancellations",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/delta-can-sue-crowdstrike-over-computer-outage-that-caused-7000-flight-cancellations-2025-05-19/",
+      "publisher": "Reuters",
+      "date": "2025-05-19",
+      "primary": false
+    },
+    {
+      "id": "s18",
+      "title": "U.S. House lawmakers probe Delta Air Lines on use of AI in ticket pricing",
+      "url": "https://www.reuters.com/world/us/us-house-lawmakers-probe-delta-air-lines-use-ai-ticket-pricing-2025-11-05/",
+      "publisher": "Reuters",
+      "date": "2025-11-05",
+      "primary": false
+    },
+    {
+      "id": "s20",
+      "title": "Middle East disruptions and high fuel prices halve airline profit outlook",
+      "url": "https://www.iata.org/en/pressroom/2026-releases/06-07-middle-east-disruptions-and-high-fuel-prices-halve-airline-profit-outlook/",
+      "publisher": "International Air Transport Association",
+      "date": "2026-06-07",
+      "primary": true
+    },
+    {
+      "id": "s21",
+      "title": "Optimizing decisions amid aviation supply chain turmoil",
+      "url": "https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/optimizing-decisions-amid-aviation-supply-chain-turmoil/",
+      "publisher": "International Air Transport Association",
+      "date": "2026-04-19",
+      "primary": true
+    },
+    {
+      "id": "s22",
+      "title": "Air Traffic Control Systems: Ambitious New Modernization Effort Faces Significant Challenges",
+      "url": "https://www.gao.gov/products/gao-26-107992",
+      "publisher": "U.S. Government Accountability Office",
+      "date": "2026-09-14",
+      "primary": true
+    },
+    {
+      "id": "s23",
+      "title": "Smarter journeys start here: Delta Concierge now in beta rollout",
+      "url": "https://news.delta.com/smarter-journeys-start-here-delta-concierge-now-beta-rollout",
+      "publisher": "Delta Air Lines",
+      "date": "2025-10-29",
+      "primary": true
+    },
+    {
+      "id": "s24",
+      "title": "Heather Winkle, Vice President, Digital Experience",
+      "url": "https://news.delta.com/heather-winkle-vp-digital-experience",
+      "publisher": "Delta Air Lines",
+      "date": "2025-09-23",
+      "primary": true
+    },
+    {
+      "id": "s25",
+      "title": "Dan Janki, Executive Vice President and Chief Operating Officer",
+      "url": "https://news.delta.com/dan-janki-evp-and-chief-operating-officer",
+      "publisher": "Delta Air Lines",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s26",
+      "title": "Delta President Glen Hauenstein to retire after storied career",
+      "url": "https://news.delta.com/delta-president-glen-hauenstein-retire-after-storied-career",
+      "publisher": "Delta Air Lines",
+      "date": "2025-12-17",
+      "primary": true
+    }
+  ]
+}

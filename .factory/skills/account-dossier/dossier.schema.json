@@ -1,0 +1,345 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prospect dossier",
+  "description": "Structured account research. Every factual field that carries a number or a claim must reference a source id from the sources array.",
+  "type": "object",
+  "required": [
+    "company",
+    "generatedAt",
+    "confidence",
+    "overview",
+    "trends",
+    "catalysts",
+    "techEstate",
+    "fit",
+    "targets",
+    "competition",
+    "objections",
+    "unknowns",
+    "sources"
+  ],
+  "properties": {
+    "company": {
+      "type": "object",
+      "required": ["name", "summary"],
+      "properties": {
+        "name": { "type": "string" },
+        "ticker": { "type": "string" },
+        "headquarters": { "type": "string" },
+        "employees": { "type": "string" },
+        "fiscalYearEnd": { "type": "string" },
+        "industry": { "type": "string" },
+        "summary": { "type": "string", "description": "Two or three sentences. What they do and the situation they are in." }
+      }
+    },
+    "generatedAt": { "type": "string" },
+    "confidence": { "enum": ["sourced", "partially sourced", "hypothesis"] },
+
+    "overview": {
+      "type": "object",
+      "required": ["whatTheyDo", "scale"],
+      "properties": {
+        "whatTheyDo": { "type": "string" },
+        "scale": {
+          "type": "array",
+          "description": "Headline scale metrics shown as stat tiles.",
+          "items": {
+            "type": "object",
+            "required": ["label", "value"],
+            "properties": {
+              "label": { "type": "string" },
+              "value": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "segments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "note"],
+            "properties": {
+              "name": { "type": "string" },
+              "note": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "trends": {
+      "type": "object",
+      "required": ["trajectory", "financials", "industry"],
+      "properties": {
+        "trajectory": { "type": "string", "description": "One paragraph: where the business is heading and why." },
+        "financials": {
+          "type": "array",
+          "description": "Reported figures only, quoted as published. Never annualize or derive.",
+          "items": {
+            "type": "object",
+            "required": ["period", "metric", "value"],
+            "properties": {
+              "period": { "type": "string" },
+              "metric": { "type": "string" },
+              "value": { "type": "string" },
+              "direction": { "enum": ["up", "down", "flat", "unknown"] },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "guidance": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["item", "value"],
+            "properties": {
+              "item": { "type": "string" },
+              "value": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "industry": {
+          "type": "array",
+          "description": "Macro and sector forces, each with the implication for engineering spend.",
+          "items": {
+            "type": "object",
+            "required": ["trend", "implication"],
+            "properties": {
+              "trend": { "type": "string" },
+              "implication": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "pressures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["pressure", "evidence"],
+            "properties": {
+              "pressure": { "type": "string" },
+              "evidence": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "catalysts": {
+      "type": "array",
+      "description": "Dated events in the last 12-18 months that make now the right time, or not.",
+      "items": {
+        "type": "object",
+        "required": ["date", "event", "whyItMatters"],
+        "properties": {
+          "date": { "type": "string" },
+          "event": { "type": "string" },
+          "whyItMatters": { "type": "string" },
+          "urgency": { "enum": ["high", "medium", "low"] },
+          "sourceId": { "type": "string" }
+        }
+      }
+    },
+
+    "techEstate": {
+      "type": "object",
+      "required": ["stack", "patterns"],
+      "properties": {
+        "stack": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["technology", "evidence"],
+            "properties": {
+              "technology": { "type": "string" },
+              "evidence": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "patterns": {
+          "type": "array",
+          "description": "The three Factory operating patterns, each either supported by named systems or explicitly unsupported.",
+          "items": {
+            "type": "object",
+            "required": ["pattern", "supported", "theirEstate"],
+            "properties": {
+              "pattern": { "enum": ["SDLC and PDLC maintenance", "Modernization and migration", "Patching, vulnerabilities and risk"] },
+              "supported": { "type": "boolean" },
+              "theirEstate": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "fit": {
+      "type": "object",
+      "required": ["verdict", "score", "rubric", "reasonsFor", "reasonsAgainst"],
+      "properties": {
+        "verdict": { "enum": ["strong fit", "moderate fit", "weak fit", "not a fit"] },
+        "score": { "type": "integer", "minimum": 0, "maximum": 30 },
+        "summary": { "type": "string" },
+        "rubric": {
+          "type": "array",
+          "description": "Six dimensions, each scored 0-5 with the evidence behind the score.",
+          "items": {
+            "type": "object",
+            "required": ["dimension", "score", "rationale"],
+            "properties": {
+              "dimension": {
+                "enum": [
+                  "Engineering scale",
+                  "Legacy and modernization pressure",
+                  "Regulated or risk scope",
+                  "AI mandate and executive sponsor",
+                  "Budget and catalyst timing",
+                  "Access and security posture"
+                ]
+              },
+              "score": { "type": "integer", "minimum": 0, "maximum": 5 },
+              "rationale": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "reasonsFor": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["point", "evidence"],
+            "properties": {
+              "point": { "type": "string" },
+              "evidence": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "reasonsAgainst": {
+          "type": "array",
+          "description": "Required. A dossier with no reasons against is a sales brochure.",
+          "items": {
+            "type": "object",
+            "required": ["point", "evidence"],
+            "properties": {
+              "point": { "type": "string" },
+              "evidence": { "type": "string" },
+              "sourceId": { "type": "string" }
+            }
+          }
+        },
+        "disqualifiers": {
+          "type": "array",
+          "description": "Conditions that would end the pursuit this year.",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "targets": {
+      "type": "array",
+      "description": "Up to 10 people to approach, ranked by who to contact first. Public role information only.",
+      "minItems": 1,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": ["rank", "name", "title", "role", "whyStartHere"],
+        "properties": {
+          "rank": { "type": "integer", "minimum": 1 },
+          "name": { "type": "string", "description": "Use 'Unknown by name' when the role is identified but the person is not public." },
+          "title": { "type": "string" },
+          "scope": { "type": "string" },
+          "role": { "enum": ["economic buyer", "champion", "gatekeeper", "practitioner", "influencer"] },
+          "tenure": { "type": "string" },
+          "whyStartHere": { "type": "string" },
+          "opener": { "type": "string", "description": "One sentence you would actually say or send." },
+          "confidence": { "enum": ["confirmed", "likely", "unconfirmed"] },
+          "sourceId": { "type": "string" }
+        }
+      }
+    },
+
+    "competition": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["vendor", "position"],
+        "properties": {
+          "vendor": { "type": "string" },
+          "position": { "type": "string" },
+          "tradeoff": { "type": "string", "description": "Where they are genuinely better positioned than Factory." },
+          "sourceId": { "type": "string" }
+        }
+      }
+    },
+
+    "objections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["objection", "response"],
+        "properties": {
+          "objection": { "type": "string" },
+          "response": { "type": "string" }
+        }
+      }
+    },
+
+    "dealModel": {
+      "type": "object",
+      "properties": {
+        "unit": { "type": "string", "description": "The bottom-up unit the value case is built from." },
+        "assumptions": { "type": "array", "items": { "type": "string" } },
+        "ladder": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["rung", "gate"],
+            "properties": {
+              "rung": { "type": "string" },
+              "seats": { "type": "string" },
+              "annualValue": { "type": "string" },
+              "gate": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "unknowns": {
+      "type": "array",
+      "description": "Required and load-bearing. Each becomes a first-call question.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["question", "whyItMatters"],
+        "properties": {
+          "question": { "type": "string" },
+          "whyItMatters": { "type": "string" },
+          "searched": { "type": "string" }
+        }
+      }
+    },
+
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "url"],
+        "properties": {
+          "id": { "type": "string", "description": "Short stable id referenced by sourceId fields, for example s1." },
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "publisher": { "type": "string" },
+          "date": { "type": "string" },
+          "primary": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

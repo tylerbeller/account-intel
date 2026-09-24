@@ -1,0 +1,826 @@
+{
+  "company": {
+    "name": "Lowe's Companies, Inc.",
+    "ticker": "LOW [s2]",
+    "headquarters": "Mooresville, North Carolina [s3]",
+    "employees": "Approximately 167,000 full-time and 109,000 part-time associates as of January 30, 2026 [s3]",
+    "fiscalYearEnd": "Friday nearest January 31; fiscal 2025 ended January 30, 2026 [s3]",
+    "industry": "Home improvement retail and Pro building-products distribution [s3][s4]",
+    "summary": "Lowe's is an omnichannel home-improvement retailer with 1,761 stores and a growing Pro distribution footprint [s1][s4]. Its near-term agenda combines FBM and ADG integration, continued digital and AI investment, and operating discipline amid soft discretionary DIY demand [s1][s4][s25]."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "partially sourced",
+  "overview": {
+    "whatTheyDo": "Lowe's sells home-improvement products and services through stores and digital channels and serves professional customers through Lowe's Pro Supply, FBM, ADG, and related capabilities [s3][s4][s25].",
+    "scale": [
+      {
+        "label": "Fiscal 2025 sales",
+        "value": "$86.3 billion",
+        "sourceId": "s2"
+      },
+      {
+        "label": "Retail stores",
+        "value": "1,761 as of July 31, 2026",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Retail selling space",
+        "value": "196.0 million square feet as of July 31, 2026",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Pro distribution branches",
+        "value": "More than 540 U.S. and Canadian branches as of January 30, 2026",
+        "sourceId": "s3"
+      }
+    ],
+    "segments": [
+      {
+        "name": "Retail Home Improvement",
+        "note": "Lowe's single reportable segment.",
+        "sourceId": "s3"
+      },
+      {
+        "name": "Other",
+        "note": "Non-reportable operations include FBM's Ceilings and Wall Systems and Commercial Doors and Hardware businesses and ADG's Interior Finishes business.",
+        "sourceId": "s3"
+      }
+    ]
+  },
+  "trends": {
+    "trajectory": "Growth is being led by Pro, online, and home services while discretionary DIY demand remains soft. Acquisitions expand Lowe's addressable Pro market but are currently adding integration work and margin dilution [s1][s4][s25].",
+    "financials": [
+      {
+        "period": "Q1 fiscal 2026",
+        "metric": "Sales",
+        "value": "$23.1 billion",
+        "direction": "up",
+        "sourceId": "s27"
+      },
+      {
+        "period": "Q1 fiscal 2026",
+        "metric": "Comparable sales",
+        "value": "Increased 0.6%",
+        "direction": "up",
+        "sourceId": "s27"
+      },
+      {
+        "period": "Q1 fiscal 2026",
+        "metric": "Net earnings",
+        "value": "$1.6 billion",
+        "direction": "unknown",
+        "sourceId": "s27"
+      },
+      {
+        "period": "Q1 fiscal 2026",
+        "metric": "Gross margin",
+        "value": "32.7%, down 70 basis points",
+        "direction": "down",
+        "sourceId": "s28"
+      },
+      {
+        "period": "Q2 fiscal 2026",
+        "metric": "Sales",
+        "value": "$26.0 billion",
+        "direction": "up",
+        "sourceId": "s1"
+      },
+      {
+        "period": "Q2 fiscal 2026",
+        "metric": "Comparable sales",
+        "value": "Increased 0.2%",
+        "direction": "up",
+        "sourceId": "s1"
+      },
+      {
+        "period": "Q2 fiscal 2026",
+        "metric": "Net earnings",
+        "value": "$2.4 billion",
+        "direction": "unknown",
+        "sourceId": "s1"
+      },
+      {
+        "period": "Q2 fiscal 2026",
+        "metric": "Adjusted operating margin",
+        "value": "14.0%, down 62 basis points",
+        "direction": "down",
+        "sourceId": "s29"
+      }
+    ],
+    "guidance": [
+      {
+        "item": "Fiscal 2026 sales",
+        "value": "Approximately $92 billion",
+        "sourceId": "s1"
+      },
+      {
+        "item": "Fiscal 2026 comparable sales",
+        "value": "Approximately flat",
+        "sourceId": "s1"
+      },
+      {
+        "item": "Fiscal 2026 adjusted operating margin",
+        "value": "Approximately 11.6%",
+        "sourceId": "s1"
+      },
+      {
+        "item": "Fiscal 2026 adjusted diluted EPS",
+        "value": "Approximately $12.25",
+        "sourceId": "s1"
+      },
+      {
+        "item": "Fiscal 2026 capital expenditures",
+        "value": "Up to approximately $2.5 billion",
+        "sourceId": "s1"
+      }
+    ],
+    "industry": [
+      {
+        "trend": "Remodeling growth is forecast to slow to 0.5% by the second quarter of 2027.",
+        "implication": "Broad technology programs face a higher proof threshold; engineering work should tie directly to conversion, margin, or operating leverage.",
+        "sourceId": "s30"
+      },
+      {
+        "trend": "DIY's share of improvement spending fell to 15.9% in 2023 while professional spending grew from 2021 through 2023.",
+        "implication": "Integrated Pro quoting, ordering, credit, product-substitution, and fulfillment workflows become more strategically important.",
+        "sourceId": "s31"
+      },
+      {
+        "trend": "Remodeler input costs rose 6.6% year over year in Q2 2026 and had risen for 11 consecutive quarters.",
+        "implication": "Pro systems need current cost, availability, substitution, quote-validity, and margin controls.",
+        "sourceId": "s32"
+      }
+    ],
+    "pressures": [
+      {
+        "pressure": "Soft discretionary DIY demand",
+        "evidence": "Management moved its annual outlook to the low end of its prior range while Pro, online, and home services offset softer discretionary DIY demand.",
+        "sourceId": "s1"
+      },
+      {
+        "pressure": "Acquisition-related margin dilution",
+        "evidence": "Q1 gross margin fell 70 basis points, with adjusted operating-margin pressure attributed primarily to acquisition dilution.",
+        "sourceId": "s28"
+      },
+      {
+        "pressure": "Central cost discipline",
+        "evidence": "Lowe's eliminated about 600 corporate and support roles, less than 1% of its workforce, to redirect resources toward stores.",
+        "sourceId": "s5"
+      }
+    ]
+  },
+  "catalysts": [
+    {
+      "date": "2025-06-02",
+      "event": "Lowe's completed its acquisition of Artisan Design Group.",
+      "whyItMatters": "ADG adds another acquired Pro platform and operating estate whose workflows may need integration.",
+      "urgency": "medium",
+      "sourceId": "s33"
+    },
+    {
+      "date": "2025-10-09",
+      "event": "Lowe's completed its $8.8 billion acquisition of Foundation Building Materials.",
+      "whyItMatters": "FBM added 370 locations and a separate distribution and digital estate, creating a current integration boundary.",
+      "urgency": "high",
+      "sourceId": "s4"
+    },
+    {
+      "date": "2026-02-13",
+      "event": "Lowe's announced the elimination of about 600 corporate and support roles.",
+      "whyItMatters": "Technology teams face pressure to complete integration and modernization work with fewer central resources.",
+      "urgency": "medium",
+      "sourceId": "s5"
+    },
+    {
+      "date": "2026-05-21",
+      "event": "Lowe's launched AI-driven material lists for Pro quotes.",
+      "whyItMatters": "Generative AI now sits in a revenue workflow where reliability, product data, and governance matter.",
+      "urgency": "medium",
+      "sourceId": "s7"
+    },
+    {
+      "date": "2026-08-11",
+      "event": "Target announced that Chandhu Nair, Lowe's SVP of data, AI, and innovation, would become Target's chief AI officer.",
+      "whyItMatters": "The departure preceded a consolidation of Lowe's information and AI leadership.",
+      "urgency": "high",
+      "sourceId": "s9"
+    },
+    {
+      "date": "2026-09-01",
+      "event": "Five EVP appointments took effect, including Seemantini Godbole as EVP and chief information and AI officer.",
+      "whyItMatters": "A newly enlarged executive remit now spans technology, engineering, product, data, analytics, innovation, and AI.",
+      "urgency": "high",
+      "sourceId": "s10"
+    },
+    {
+      "date": "2026-09-24",
+      "event": "Lowe's launched a drone-delivery pilot with Wing and DoorDash in Matthews, North Carolina.",
+      "whyItMatters": "A new fulfillment channel introduces another customer-order integration and operational-control surface.",
+      "urgency": "low",
+      "sourceId": "s34"
+    }
+  ],
+  "techEstate": {
+    "stack": [
+      {
+        "technology": "Public GitHub and Backstage-derived tooling",
+        "evidence": "Lowe's public GitHub organization exposes JVM audit tooling, a Kafka MirrorMaker lag exporter, a virtual-file-system library, and a Backstage fork.",
+        "sourceId": "s15"
+      },
+      {
+        "technology": "Google Cloud engineering platform",
+        "evidence": "Lowe's has used Google Cloud to replace a legacy technology stack and support Lowes.com and broader software delivery.",
+        "sourceId": "s12"
+      },
+      {
+        "technology": "Vertex AI Vector Search",
+        "evidence": "Google describes Lowe's use of Vertex AI Vector Search and visual AI for ecommerce recommendations.",
+        "sourceId": "s20"
+      },
+      {
+        "technology": "OpenAI",
+        "evidence": "Lowe's built Mylow and Mylow Companion with OpenAI.",
+        "sourceId": "s22"
+      },
+      {
+        "technology": "NVIDIA Omniverse Enterprise",
+        "evidence": "Lowe's uses NVIDIA technology for store digital-twin work.",
+        "sourceId": "s23"
+      },
+      {
+        "technology": "Oracle Fusion AI Data Platform and OCI",
+        "evidence": "Lowe's selected Oracle Fusion AI Data Platform, Autonomous AI Warehouse, and OCI for finance analytics, with KPMG assisting implementation.",
+        "sourceId": "s35"
+      },
+      {
+        "technology": "ReliaQuest GreyMatter",
+        "evidence": "ReliaQuest supports Lowe's security operations.",
+        "sourceId": "s19"
+      }
+    ],
+    "patterns": [
+      {
+        "pattern": "SDLC and PDLC maintenance",
+        "supported": true,
+        "theirEstate": "Public evidence supports a JVM, Kafka, and Backstage-adjacent open-source footprint. Private repository scale, ownership, and review queues are not public.",
+        "sourceId": "s15"
+      },
+      {
+        "pattern": "Modernization and migration",
+        "supported": true,
+        "theirEstate": "Lowe's has an established Google Cloud modernization program, while FBM and ADG add current acquisition-integration boundaries. Their application maps and decommission plans are not public.",
+        "sourceId": "s12"
+      },
+      {
+        "pattern": "Patching, vulnerabilities and risk",
+        "supported": false,
+        "theirEstate": "The cybersecurity risk envelope and security-operations vendor are public, but no public source establishes Lowe's CVE volume, patch SLA, dependency scanner, or remediation queue.",
+        "sourceId": "s3"
+      }
+    ]
+  },
+  "fit": {
+    "verdict": "strong fit",
+    "score": 26,
+    "summary": "Lowe's has a large software-dependent retail estate, named modernization and acquisition-integration work, a newly consolidated AI mandate, and demonstrated willingness to use outside platforms. The pursuit still depends on proving a named backlog, control path, and budget route.",
+    "rubric": [
+      {
+        "dimension": "Engineering scale",
+        "score": 4,
+        "rationale": "The 1,761-store omnichannel estate, more than 540 Pro branches, public software hiring, and open-source footprint imply substantial software operations, but engineering headcount and repository count are not public.",
+        "sourceId": "s3"
+      },
+      {
+        "dimension": "Legacy and modernization pressure",
+        "score": 5,
+        "rationale": "Lowe's has a named Google Cloud legacy-replacement program and must integrate the FBM and ADG estates.",
+        "sourceId": "s12"
+      },
+      {
+        "dimension": "Regulated or risk scope",
+        "score": 4,
+        "rationale": "Lowe's handles personal and payment-card information and maintains a global cybersecurity program, though no public source quantifies its application-remediation backlog.",
+        "sourceId": "s3"
+      },
+      {
+        "dimension": "AI mandate and executive sponsor",
+        "score": 5,
+        "rationale": "Seemantini Godbole was newly appointed chief information and AI officer with an enterprise remit covering technology, engineering, product, data, analytics, innovation, and AI.",
+        "sourceId": "s10"
+      },
+      {
+        "dimension": "Budget and catalyst timing",
+        "score": 4,
+        "rationale": "Fiscal 2026 capital-expenditure guidance is up to approximately $2.5 billion and acquisition integration is current, but the applicable software budget and procurement calendar are not public.",
+        "sourceId": "s1"
+      },
+      {
+        "dimension": "Access and security posture",
+        "score": 4,
+        "rationale": "Lowe's has active relationships with Google Cloud, OpenAI, NVIDIA, Mirakl, Oracle, KPMG, and ReliaQuest, showing outside-vendor adoption; repository-access and AI-governance requirements remain unknown.",
+        "sourceId": "s35"
+      }
+    ],
+    "reasonsFor": [
+      {
+        "point": "A newly appointed executive owns both information technology and AI.",
+        "evidence": "Godbole's expanded remit took effect September 1, 2026.",
+        "sourceId": "s10"
+      },
+      {
+        "point": "Acquisition integration creates bounded, business-visible workflows.",
+        "evidence": "FBM added 370 locations, while ADG added a nationwide design, distribution, and installation business.",
+        "sourceId": "s4"
+      },
+      {
+        "point": "The software estate is heterogeneous enough for cross-tool engineering work.",
+        "evidence": "Public evidence spans Google Cloud, OpenAI, Vertex AI, Oracle, NVIDIA, Mirakl, and ReliaQuest.",
+        "sourceId": "s20"
+      }
+    ],
+    "reasonsAgainst": [
+      {
+        "point": "Cost pressure could delay a new platform purchase.",
+        "evidence": "Lowe's eliminated about 600 corporate and support roles and guided to approximately flat fiscal 2026 comparable sales.",
+        "sourceId": "s5"
+      },
+      {
+        "point": "Powerful incumbents may already cover the target workflow.",
+        "evidence": "Google Cloud and OpenAI are established AI partners, and Lowe's actual coding assistant is not public.",
+        "sourceId": "s22"
+      },
+      {
+        "point": "No buyer-confirmed engineering pain or security path is public.",
+        "evidence": "The reviewed sources do not name a late backlog, repository-access standard, coding assistant, or remediation queue.",
+        "sourceId": "s15"
+      }
+    ],
+    "disqualifiers": [
+      "Lowe's will not name a specific backlog, business date, accountable owner, and measurable baseline before technical work.",
+      "Security or AI governance cannot approve any deployment pattern that permits useful work on representative code.",
+      "No budget owner, procurement route, or conditional paid next step is documented before a free proof begins."
+    ]
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Seemantini Godbole",
+      "title": "Executive Vice President, Chief Information and AI Officer",
+      "scope": "Enterprise technology, engineering, product, data, analytics, innovation, and AI.",
+      "role": "economic buyer",
+      "tenure": "Expanded remit effective September 1, 2026.",
+      "whyStartHere": "Her newly combined mandate spans the platform, governance, and engineering outcomes a pilot must satisfy.",
+      "opener": "You have brought information technology and AI under one mandate while integrating Pro businesses; where is engineering coordination now limiting a business date?",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 2,
+      "name": "Joseph M. McFarland III",
+      "title": "Executive Vice President, Pro and Home Services",
+      "scope": "Pro and home-services growth, including customer-facing workflows affected by FBM integration.",
+      "role": "champion",
+      "tenure": "Current remit effective September 1, 2026.",
+      "whyStartHere": "He can identify a visible Pro or acquisition-integration outcome and pair a business owner with Godbole's technology team.",
+      "opener": "Which Pro or FBM workflow has the clearest customer or revenue date but is slowed by cross-system engineering work?",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 3,
+      "name": "Marc H. Varner",
+      "title": "Senior Vice President, Chief Information Security Officer",
+      "scope": "Global cybersecurity strategy and protection of Lowe's information assets and technology.",
+      "role": "gatekeeper",
+      "tenure": "Current role confirmed on Lowe's leadership page as accessed September 24, 2026.",
+      "whyStartHere": "His organization should define code-access, model-routing, identity, logging, retention, and deployment controls before a pilot.",
+      "opener": "Before connecting a repository, can your team define the approved code, model, identity, audit, retention, and human-approval boundary?",
+      "confidence": "confirmed",
+      "sourceId": "s17"
+    },
+    {
+      "rank": 4,
+      "name": "Juliette W. Pryor",
+      "title": "Executive Vice President, Chief Legal Officer and Corporate Secretary",
+      "scope": "Legal, compliance, enterprise risk management, and privacy.",
+      "role": "gatekeeper",
+      "tenure": "Current role confirmed on Lowe's leadership page as accessed September 24, 2026.",
+      "whyStartHere": "Her remit covers the privacy, risk, legal, and AI terms likely to govern an outside engineering agent.",
+      "opener": "Which privacy, enterprise-risk, and AI contracting requirements should shape a low-risk technical assessment from day one?",
+      "confidence": "confirmed",
+      "sourceId": "s18"
+    },
+    {
+      "rank": 5,
+      "name": "Jennifer Wilson",
+      "title": "Executive Vice President, Chief Marketing and Digital Commerce Officer",
+      "scope": "Marketing and digital commerce.",
+      "role": "influencer",
+      "tenure": "Expanded remit effective September 1, 2026.",
+      "whyStartHere": "She owns a customer-facing digital remit that can supply measurable conversion and experience outcomes for engineering work.",
+      "opener": "Where is a digital-commerce business outcome waiting on a cross-system change that technology and product teams can measure end to end?",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 6,
+      "name": "Adam Filipponi",
+      "title": "Executive Vice President, Chief Strategy and Business Development Officer",
+      "scope": "Enterprise strategy and business development.",
+      "role": "influencer",
+      "tenure": "Current remit effective September 1, 2026.",
+      "whyStartHere": "He can connect acquisition strategy to the integration outcomes and investment logic required for expansion.",
+      "opener": "Which acquisition-integration milestone would be valuable enough to sponsor if a bounded engineering workflow could prove faster completion under existing controls?",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 7,
+      "name": "Unknown by name",
+      "title": "Engineering director or staff engineer owning the selected platform-maintenance or FBM integration workflow",
+      "scope": "Target service architecture, repository, tests, review path, and delivery baseline.",
+      "role": "practitioner",
+      "tenure": "Not public.",
+      "whyStartHere": "This person must validate the workflow, establish the baseline, and judge whether completed changes meet Lowe's standards.",
+      "opener": "Use one real issue, your repository, your tests, and your review rules; what would make the assessment technically representative without touching a critical path?",
+      "confidence": "unconfirmed",
+      "sourceId": "s15"
+    }
+  ],
+  "competition": [
+    {
+      "vendor": "Google Cloud",
+      "position": "Primary documented engineering-platform and retail-AI incumbent.",
+      "tradeoff": "Google is better positioned where Lowe's work, identity, data, and models already live in Google Cloud and Vertex AI.",
+      "sourceId": "s20"
+    },
+    {
+      "vendor": "OpenAI",
+      "position": "Product-AI incumbent supporting Mylow and Mylow Companion.",
+      "tradeoff": "OpenAI has an approved relationship and direct experience with Lowe's customer and associate AI products.",
+      "sourceId": "s22"
+    },
+    {
+      "vendor": "Oracle and KPMG",
+      "position": "Finance analytics platform and implementation incumbents.",
+      "tradeoff": "They are better positioned for finance-data workloads and implementation work already centered on Oracle Fusion and OCI.",
+      "sourceId": "s35"
+    },
+    {
+      "vendor": "NVIDIA",
+      "position": "Digital-twin and accelerated-computing incumbent.",
+      "tradeoff": "NVIDIA is better positioned for Omniverse-based simulation and digital-twin workloads.",
+      "sourceId": "s23"
+    },
+    {
+      "vendor": "Mirakl",
+      "position": "Online marketplace platform provider.",
+      "tradeoff": "Mirakl owns specialized marketplace capabilities and an existing integration surface.",
+      "sourceId": "s24"
+    },
+    {
+      "vendor": "ReliaQuest",
+      "position": "Security-operations incumbent through GreyMatter.",
+      "tradeoff": "ReliaQuest already operates inside Lowe's security processes and has established telemetry and response workflows.",
+      "sourceId": "s19"
+    },
+    {
+      "vendor": "Internal build or status quo",
+      "position": "Credible alternative because Lowe's already develops AI products and engineering-platform capabilities.",
+      "tradeoff": "Internal teams have estate knowledge, approved access, and no incremental vendor review.",
+      "sourceId": "s8"
+    }
+  ],
+  "objections": [
+    {
+      "objection": "We already use Google and OpenAI.",
+      "response": "Treat those as the expected architecture. Test whether the incumbent workflow already completes one governed engineering task across the repository, ticket, CI, and review systems, and stop if it clears Lowe's threshold."
+    },
+    {
+      "objection": "Security will not allow source code into another model.",
+      "response": "Let security define the boundary first. Begin read-only, document every data path and retention rule, prohibit secrets and production actions, and require human approval."
+    },
+    {
+      "objection": "FBM integration is too important for a pilot.",
+      "response": "Do not start on a critical cutover. Choose a representative low-blast-radius issue with production-like standards, explicit acceptance tests, and rollback."
+    },
+    {
+      "objection": "We reduced corporate roles and cannot absorb another tool.",
+      "response": "Use one owned backlog and one measurement plan. End the test if setup or review work rises without accepted work being completed."
+    },
+    {
+      "objection": "Show enterprise ROI first.",
+      "response": "First establish a defensible unit: one comparable issue moved from ready for engineering to an approved change. Scale only after Lowe's supplies its own volume and cost inputs."
+    }
+  ],
+  "dealModel": {
+    "unit": "One comparable, buyer-accepted issue moved from ready for engineering to an approved change, including implementation, tests, review, and rework.",
+    "assumptions": [
+      "Illustrative planning assumption, not a Lowe's baseline: 15 comparable accepted issues in one quarter.",
+      "Illustrative planning assumption, not a Lowe's baseline: 24 active engineer-hours per issue before the pilot.",
+      "Illustrative planning assumption, not a Lowe's commitment: 16.8 active engineer-hours per pilot issue, representing a 30% reduction.",
+      "Illustrative planning assumption, not a Factory quote: $2,400 per seat per year.",
+      "Lowe's must replace all workload, effort, cost, threshold, and price inputs before using the model for a purchase decision."
+    ],
+    "ladder": [
+      {
+        "rung": "Technical proof",
+        "seats": "5 illustrative seats",
+        "annualValue": "$0; unpaid and not annualized",
+        "gate": "Written exit criterion, representative low-blast-radius issue, approved data boundary, baseline, and conditional paid-pilot decision."
+      },
+      {
+        "rung": "Paid pilot",
+        "seats": "12 illustrative seats",
+        "annualValue": "$28,800 assumed annual value",
+        "gate": "Sourcing confirms the legitimate procurement route, scope is signed, baseline is captured, and the buyer pre-agrees the measured and control thresholds."
+      },
+      {
+        "rung": "First expansion",
+        "seats": "50 illustrative seats",
+        "annualValue": "$120,000 assumed annual value",
+        "gate": "The pilot clears its written threshold without worsening defects or security outcomes, finance accepts the method, and a funded service group is named."
+      },
+      {
+        "rung": "Platform",
+        "seats": "250 illustrative seats",
+        "annualValue": "$600,000 assumed annual value",
+        "gate": "Security, privacy, architecture, identity, logging, support, and model-routing controls are approved at scale and two teams reproduce the result."
+      },
+      {
+        "rung": "Enterprise agreement",
+        "seats": "1,000 illustrative seats",
+        "annualValue": "$2,400,000 assumed annual value",
+        "gate": "Lowe's finance accepts its bottom-up case, procurement selects an enterprise vehicle, adoption is funded, and portfolio governance is operational."
+      }
+    ]
+  },
+  "unknowns": [
+    {
+      "question": "Which named Pro, FBM, Lowes.com, or platform backlog is missing a business date, who owns it, and why?",
+      "whyItMatters": "Without buyer-confirmed pain and an accountable owner, there is no defensible pilot or value case.",
+      "searched": "Acquisition releases, annual report, quarterly results, leadership filing, corporate technology stories, and trade coverage."
+    },
+    {
+      "question": "Which private source host, ticketing system, CI/CD platform, code-review workflow, testing stack, and coding assistant govern the target team?",
+      "whyItMatters": "The answer determines integration feasibility, incumbent competition, and the measurement design.",
+      "searched": "Lowe's careers pages, public GitHub, corporate technology stories, Google Cloud material, vendor case studies, and recent job postings."
+    },
+    {
+      "question": "What code, model, identity, logging, retention, privacy, audit, human-approval, and rollback controls are required?",
+      "whyItMatters": "These controls determine whether any useful repository access can be approved.",
+      "searched": "Annual-report cybersecurity disclosures, CISO material, vendor security case studies, leadership pages, and public AI stories."
+    },
+    {
+      "question": "What are the FBM and ADG integration architectures, milestones, system owners, and decommission dates?",
+      "whyItMatters": "A bounded integration workflow needs a real system boundary and business date.",
+      "searched": "Acquisition announcements, annual report, quarterly filings and results, leadership filing, and trade coverage."
+    },
+    {
+      "question": "What are the target team's repository count, engineering capacity, review delays, issue volume, rework rate, and accepted-issue baseline?",
+      "whyItMatters": "The bottom-up model cannot use public workforce scale as a substitute for buyer-owned engineering measures.",
+      "searched": "Annual report, careers sites, public GitHub, engineering content, leadership biographies, and job postings."
+    },
+    {
+      "question": "Which CVE, dependency, SAST, DAST, secrets, and cloud-finding queues exist, and what service levels govern them?",
+      "whyItMatters": "The patching and vulnerability pattern remains unsupported until a named backlog and acceptance rules exist.",
+      "searched": "SEC cybersecurity disclosures, CISO material, security jobs, ReliaQuest material, vulnerability-disclosure material, and public breach notices."
+    },
+    {
+      "question": "Who now approves AI use cases, model routing, data classes, and production deployment under Godbole's expanded remit?",
+      "whyItMatters": "The executive sponsor is public, but the operating governance and approvers are not.",
+      "searched": "September 2026 8-K, leadership pages, AI Day stories, Google Cloud, OpenAI, NVIDIA, Oracle, and security material."
+    },
+    {
+      "question": "Who owns the budget, what procurement threshold and contract set apply, and which planning, freeze, or peak-season dates constrain a decision?",
+      "whyItMatters": "A technically successful proof cannot convert without a legitimate paper path and timing window.",
+      "searched": "Investor relations, annual report, fiscal calendar, procurement-facing pages, earnings releases, and public web searches."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Lowe's Reports Second Quarter 2026 Sales and Earnings Results",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-reports-second-quarter-2026-sales-and-earnings-results-08-19-26",
+      "publisher": "Lowe's",
+      "date": "2026-08-19",
+      "primary": true
+    },
+    {
+      "id": "s2",
+      "title": "2026 Proxy Statement",
+      "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000056/a2026lowescompaniesinc.htm",
+      "publisher": "Lowe's Companies / SEC",
+      "date": "2026-04-16",
+      "primary": true
+    },
+    {
+      "id": "s3",
+      "title": "Fiscal 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000029/low-20260130.htm",
+      "publisher": "Lowe's Companies / SEC",
+      "date": "2026-03-23",
+      "primary": true
+    },
+    {
+      "id": "s4",
+      "title": "Lowe's Completes Acquisition of Foundation Building Materials",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-completes-acquisition-foundation-building-materials-10-09-25",
+      "publisher": "Lowe's",
+      "date": "2025-10-09",
+      "primary": true
+    },
+    {
+      "id": "s5",
+      "title": "Lowe's cuts 600 corporate and support roles to focus on store employees",
+      "url": "https://www.reuters.com/business/lowes-cuts-600-corporate-support-roles-wsj-reports-2026-02-13/",
+      "publisher": "Reuters",
+      "date": "2026-02-13",
+      "primary": false
+    },
+    {
+      "id": "s7",
+      "title": "Lowe's Boosts Pro Efficiency with AI-Driven Material Lists",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-boosts-pro-efficiency-ai-driven-material-lists-new-tool-delivers-product-quotes-minutes-05-21-26",
+      "publisher": "Lowe's",
+      "date": "2026-05-21",
+      "primary": true
+    },
+    {
+      "id": "s8",
+      "title": "AI Day Highlights How Lowe's Associates are Putting AI to Work",
+      "url": "https://corporate.lowes.com/newsroom/stories/fresh-thinking/ai-day-highlights-how-lowes-associates-are-putting-ai-work",
+      "publisher": "Lowe's",
+      "date": "2026-08-03",
+      "primary": true
+    },
+    {
+      "id": "s9",
+      "title": "Target appoints chief AI officer Chandhu Nair",
+      "url": "https://www.cnbc.com/2026/08/11/target-appoints-chief-ai-officer-chandhu-nair.html",
+      "publisher": "CNBC",
+      "date": "2026-08-11",
+      "primary": false
+    },
+    {
+      "id": "s10",
+      "title": "Form 8-K reporting executive appointments",
+      "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000119/low-20260828.htm",
+      "publisher": "Lowe's Companies / SEC",
+      "date": "2026-09-02",
+      "primary": true
+    },
+    {
+      "id": "s12",
+      "title": "How Google Cloud services helped Lowe's transform ecommerce",
+      "url": "https://cloud.google.com/blog/topics/retail/how-google-cloud-services-helped-lowes-transform-ecommerce",
+      "publisher": "Google Cloud",
+      "date": "2022-03-11",
+      "primary": false
+    },
+    {
+      "id": "s15",
+      "title": "Lowe's GitHub organization",
+      "url": "https://github.com/lowes",
+      "publisher": "GitHub / Lowe's",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s17",
+      "title": "Marc H. Varner leadership biography",
+      "url": "https://corporate.lowes.com/who-we-are/lowes-leadership/senior-leadership/marc-h-varner",
+      "publisher": "Lowe's",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s18",
+      "title": "Juliette W. Pryor leadership biography",
+      "url": "https://corporate.lowes.com/who-we-are/lowes-leadership/executive-leadership/juliette-w-pryor",
+      "publisher": "Lowe's",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s19",
+      "title": "Lowe's Accelerates Threat Detection and Response by 70%",
+      "url": "https://reliaquest.com/campaigns/beyond-mdr/lowes-case-study",
+      "publisher": "ReliaQuest",
+      "date": "2025-12-23",
+      "primary": false
+    },
+    {
+      "id": "s20",
+      "title": "How Vertex AI Vector Search helps create interactive shopping experiences",
+      "url": "https://cloud.google.com/blog/topics/retail/how-vertex-ai-vector-search-helps-create-interactive-shopping-experiences",
+      "publisher": "Google Cloud",
+      "date": "2025-04-29",
+      "primary": false
+    },
+    {
+      "id": "s22",
+      "title": "Lowe's Deploys First At-Scale AI Assistant for Retail Associates",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-deploys-first-scale-ai-assistant-retail-associates-05-05-25",
+      "publisher": "Lowe's",
+      "date": "2025-05-05",
+      "primary": true
+    },
+    {
+      "id": "s23",
+      "title": "Reinventing Retail: Lowe's Teams With NVIDIA and Magic Leap",
+      "url": "https://blogs.nvidia.com/blog/lowes-retail-digital-twins-omniverse/",
+      "publisher": "NVIDIA",
+      "date": "2024-12-12",
+      "primary": false
+    },
+    {
+      "id": "s24",
+      "title": "Lowe's Accelerates Its Online Marketplace, Announces Partnership With Mirakl",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-accelerates-its-online-marketplace-announces-partnership-mirakl-05-21-25",
+      "publisher": "Lowe's",
+      "date": "2025-05-21",
+      "primary": true
+    },
+    {
+      "id": "s25",
+      "title": "Lowe's Strengthens Pro Experience for Small to Medium-Size Pro",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-strengthens-pro-experience-small-medium-size-pro-02-17-26",
+      "publisher": "Lowe's",
+      "date": "2026-02-17",
+      "primary": true
+    },
+    {
+      "id": "s27",
+      "title": "Lowe's Reports First Quarter 2026 Sales and Earnings Results",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-reports-first-quarter-2026-sales-and-earnings-results-05-20-26",
+      "publisher": "Lowe's",
+      "date": "2026-05-20",
+      "primary": true
+    },
+    {
+      "id": "s28",
+      "title": "First Quarter 2026 supplemental earnings exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000062/exhibit992-05202026.htm",
+      "publisher": "Lowe's Companies / SEC",
+      "date": "2026-05-20",
+      "primary": true
+    },
+    {
+      "id": "s29",
+      "title": "Second Quarter 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000117/low-20260731.htm",
+      "publisher": "Lowe's Companies / SEC",
+      "date": "2026-08-27",
+      "primary": true
+    },
+    {
+      "id": "s30",
+      "title": "Remodeling Spending Poised for Further Slowdown",
+      "url": "https://www.jchs.harvard.edu/blog/remodeling-spending-poised-further-slowdown",
+      "publisher": "Harvard Joint Center for Housing Studies",
+      "date": "2026-07-23",
+      "primary": false
+    },
+    {
+      "id": "s31",
+      "title": "Home Improvement Spending Has Shifted Away from DIY",
+      "url": "https://www.jchs.harvard.edu/blog/home-improvement-spending-has-shifted-away-diy",
+      "publisher": "Harvard Joint Center for Housing Studies",
+      "date": "2026-09-21",
+      "primary": false
+    },
+    {
+      "id": "s32",
+      "title": "Q2 2026 Remodeling Market Update: Labor and Nonlabor Input Costs",
+      "url": "https://eyeonhousing.org/2026/09/q2-2026-remodeling-market-update-labor-and-nonlabor-input-costs/",
+      "publisher": "NAHB Eye on Housing",
+      "date": "2026-09-23",
+      "primary": false
+    },
+    {
+      "id": "s33",
+      "title": "Lowe's Completes Acquisition of Artisan Design Group",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-completes-acquisition-artisan-design-group-06-02-25",
+      "publisher": "Lowe's",
+      "date": "2025-06-02",
+      "primary": true
+    },
+    {
+      "id": "s34",
+      "title": "Lowe's Becomes First Home Improvement Retailer to Offer Drone Delivery",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-becomes-first-home-improvement-retailer-offer-drone-delivery-09-24-26",
+      "publisher": "Lowe's",
+      "date": "2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s35",
+      "title": "Lowe's innovates with Oracle Fusion AI Data Platform",
+      "url": "https://blogs.oracle.com/analytics/lowes-innovates-with-oracle-fusion-ai-data-platform",
+      "publisher": "Oracle",
+      "date": "2025-12-17",
+      "primary": false
+    }
+  ]
+}
