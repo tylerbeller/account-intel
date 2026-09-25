@@ -559,6 +559,14 @@ const server = createServer(async (req, res) => {
 });
 
 await mkdir(dataDir, { recursive: true });
+server.on('error', (err) => {
+  if (err.code === 'EADDRINUSE') {
+    console.error(`Port ${PORT} is already in use — a dossier server is probably already running.`);
+    console.error(`Open http://localhost:${PORT} directly, or stop the other process first.`);
+    process.exit(1);
+  }
+  throw err;
+});
 server.listen(PORT, () => {
   console.log(`Prospect dossier app  →  http://localhost:${PORT}`);
   console.log(`Droid CLI             →  ${resolveDroid()}`);
