@@ -1,0 +1,259 @@
+{
+  "company": "UnitedHealth Group Incorporated",
+  "generatedAt": "2026-09-24",
+  "basedOnDossier": "2026-09-24",
+  "pointOfView": {
+    "whyAnything": {
+      "claim": "UnitedHealth cannot treat software maintenance and modernization as routine work while legacy technology, regulatory scrutiny, and an enterprise push for automation make every change more consequential and more in need of durable evidence.",
+      "evidence": [
+        {
+          "point": "UnitedHealth said legacy technology at Change Healthcare magnified the 2024 ransomware attack and complicated recovery.",
+          "sourceId": "s6"
+        },
+        {
+          "point": "External reviews led UnitedHealth to commit to more automation, standardization, and other operational changes across Optum businesses.",
+          "sourceId": "s21"
+        },
+        {
+          "point": "Proposed HIPAA Security Rule changes would strengthen requirements around asset inventory, control implementation, testing, remediation, and evidence for electronic protected health information.",
+          "sourceId": "s7"
+        }
+      ],
+      "risk": "UnitedHealth may reasonably say these are security, compliance, and operating-model priorities rather than evidence of a software-delivery bottleneck, because no public source quantifies its repository backlog, cycle time, defect rate, or remediation queue."
+    },
+    "whyFactory": {
+      "claim": "Factory should earn a role only by completing one governed maintenance, migration, or remediation workflow under UnitedHealth's controls and beating the current end-to-end baseline, not by asking the company to replace its internal platform, IDE copilot, Microsoft, AWS, or implementation partners.",
+      "evidence": [
+        {
+          "point": "UnitedHealth's nearly $1.5 billion 2026 AI investment indicates substantial internal build capacity.",
+          "sourceId": "s4"
+        },
+        {
+          "point": "UnitedHealth's active software, cloud, and AI hiring adds further evidence of internal engineering capacity.",
+          "sourceId": "s15"
+        },
+        {
+          "point": "Microsoft is already working with Optum on cloud and AI capabilities for claims and reimbursement workflows.",
+          "sourceId": "s19"
+        },
+        {
+          "point": "UnitedHealth's published responsible-AI principles emphasize reliability, accountability, transparency, privacy, and security.",
+          "sourceId": "s24"
+        },
+        {
+          "point": "The Change Healthcare breach makes narrow access, human review, and auditable execution central to any credible evaluation.",
+          "sourceId": "s6"
+        }
+      ],
+      "risk": "UnitedHealth's internal tooling or an approved incumbent may already meet the selected workflow's completion, quality, control, and cost thresholds, and exceptional security scrutiny may prevent the repository access needed to demonstrate incremental value.",
+      "versus": [
+        "Do nothing and keep the current workflow",
+        "UnitedHealth's internal engineering and AI platforms",
+        "An IDE copilot UnitedHealth may already use",
+        "Microsoft",
+        "Amazon Web Services",
+        "Traditional consulting and systems-integration partners"
+      ]
+    },
+    "whyNow": {
+      "claim": "The credible window is the active 2026 operating reset: UnitedHealth has funded nearly $1.5 billion of AI work, committed to automation and standardization after external reviews, and is adding a chief administrative officer on September 28, but there is no public procurement deadline.",
+      "evidence": [
+        {
+          "point": "Management described nearly $1.5 billion of 2026 AI investment as a core part of the operating turnaround.",
+          "sourceId": "s4"
+        },
+        {
+          "point": "UnitedHealth published external-review results in December 2025 and committed to operational changes including more automation and standardization.",
+          "sourceId": "s21"
+        },
+        {
+          "point": "Jodee Kozlak is scheduled to join as chief administrative officer on September 28, 2026, although her detailed technology remit is not public.",
+          "sourceId": "s30"
+        }
+      ],
+      "risk": "The funded program and leadership change create executive attention, not a confirmed buying event; the new administrative remit is still unclear, and the turnaround may favor internal execution or freeze additional vendors."
+    },
+    "theAsk": {
+      "ask": "Schedule a 30-minute working session with Sandeep Dadlani and Julie Durham to select one non-production Optum Insight maintenance or migration workflow, name its owner, and agree on the baseline, security boundary, acceptance criteria, and stop conditions for a scoped pilot.",
+      "why": "The session requires no platform commitment or production access and disqualifies the opportunity early if there is no measurable backlog, safe repository, or advantage over the current workflow.",
+      "fallback": "Hold a 20-minute scoping call with Julie Durham and the repository owner to identify one representative issue and the control evidence Heather Cianfrocco's organization would require before any pilot."
+    },
+    "soundbite": "UnitedHealth already has engineering scale, AI funding, and strong platform partners; it does not need another generic coding tool. Factory should prove one governed maintenance or migration workflow end to end under UnitedHealth's controls, then stop unless the measured result beats the incumbent path.",
+    "doNotSay": [
+      {
+        "claim": "Factory will deliver a specific ROI, productivity gain, or headcount reduction at UnitedHealth.",
+        "reason": "The dossier contains no buyer-owned baseline for workflow volume, cycle time, accepted changes, engineering effort, defects, or cost."
+      },
+      {
+        "claim": "Factory will replace UnitedHealth's internal AI platform, Microsoft, AWS, or its systems integrators.",
+        "reason": "UnitedHealth has substantial internal build capacity and established partners with security, procurement, architecture, and workflow context."
+      },
+      {
+        "claim": "Factory would have prevented the Change Healthcare attack or materially reduced its impact.",
+        "reason": "The evidence identifies legacy technology as an aggravating factor but does not establish that Factory could have prevented, detected, contained, or remediated the attack."
+      },
+      {
+        "claim": "UnitedHealth has a confirmed repository backlog or software-delivery bottleneck that Factory can immediately clear.",
+        "reason": "The named backlog, repository count, pull-request queues, cycle times, release measures, and acceptance rates are not public."
+      },
+      {
+        "claim": "Factory can access protected health information, train on UnitedHealth code, or operate autonomously in production.",
+        "reason": "No approved source-code, model-hosting, data-residency, production-access, or training boundary for a third-party engineering agent is public."
+      },
+      {
+        "claim": "The September 28 chief administrative officer start date creates a budget or procurement deadline.",
+        "reason": "The appointment is public, but Jodee Kozlak's detailed technology remit and any associated buying timetable are not."
+      },
+      {
+        "claim": "Factory has a published health-insurer reference that proves equivalent results for UnitedHealth.",
+        "reason": "The public warm-path search did not confirm a same-vertical Factory customer reference with published results suitable for this claim."
+      }
+    ]
+  },
+  "warmPaths": [
+    {
+      "kind": "partner or vendor",
+      "path": "Microsoft's Optum Real account and partnership team",
+      "evidence": "Optum and Microsoft publicly expanded their collaboration in March 2026 around cloud and AI capabilities for claims and reimbursement. A Factory relationship with the Microsoft account team is not established.",
+      "sourceId": "s19",
+      "confidence": "confirmed",
+      "action": "Ask Factory's alliances and customer teams for an approved mutual contact on the Microsoft Optum account, then request an introduction to Sandeep Dadlani for one engineering workflow that complements the existing Microsoft control plane."
+    },
+    {
+      "kind": "partner or vendor",
+      "path": "AWS's UnitedHealth Group cloud account team",
+      "evidence": "AWS published architecture work with UnitedHealth Group on disaster recovery for machine-to-machine authentication, but the cited case dates to 2022 and the current account relationship is not public.",
+      "sourceId": "s18",
+      "confidence": "likely",
+      "action": "First ask Factory's alliances team to verify the current AWS account owner and relationship; if active, request an introduction to Julie Durham around a bounded workflow inside UnitedHealth's approved AWS controls."
+    }
+  ],
+  "outreach": [
+    {
+      "targetName": "Sandeep Dadlani",
+      "targetTitle": "Chief Executive Officer, Optum Insight",
+      "angle": "Prove one governed software workflow inside the active automation and AI mandate without challenging the internal platform.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One governed proof for Optum Insight",
+          "body": "Sandeep,\n\nUnitedHealth is investing nearly $1.5 billion in AI this year, while external reviews have put more automation and standardization on the operating agenda. Rather than propose another broad AI program, I would ask you and Julie Durham to choose one non-production Optum Insight maintenance or migration workflow and set the baseline, controls, and stop conditions.\n\nCould we schedule 30 minutes to determine whether that test would add anything beyond your current platform?",
+          "why": "Connect the ask to the funded mandate while making duplication an explicit disqualifier.",
+          "sourceIds": [
+            "s4",
+            "s21"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 5",
+          "subject": "A test against the incumbent path",
+          "body": "Sandeep,\n\nUnitedHealth's nearly $1.5 billion 2026 AI investment and active technology hiring give the internal platform a major context and access advantage. Microsoft also has an active role in Optum's cloud and AI work for claims and reimbursement.\n\nThat is why the useful comparison is narrow: one accepted change, measured end to end against the incumbent workflow. If Factory does not improve completion, quality, or auditability under the same controls, it should not expand.",
+          "why": "Acknowledge the two strongest alternatives and define a falsifiable comparison.",
+          "sourceIds": [
+            "s4",
+            "s15",
+            "s19"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "voicemail",
+          "timing": "Day 10",
+          "body": "Sandeep, UnitedHealth has tied legacy technology to the severity and recovery burden of the Change Healthcare attack. I am not claiming an engineering agent solves that event. I am asking whether one bounded maintenance or migration queue now needs better traceability, testing, and human-approved execution. If Julie Durham can name the queue, we can determine quickly whether a pilot is safe and measurable.",
+          "why": "Use the modernization pressure without overclaiming a cybersecurity outcome.",
+          "sourceIds": [
+            "s6",
+            "s25"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Julie Durham",
+      "targetTitle": "Executive Vice President and Chief Information Officer, Optum Insight",
+      "angle": "Let the technology owner choose the repository, baseline, controls, and acceptance test.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "Your baseline for one Optum Insight workflow",
+          "body": "Julie,\n\nYour Optum Insight remit covers commercial software, data, analytics, and technology delivery. I would not try to infer the bottleneck from outside. Would you spend 30 minutes selecting one repetitive maintenance or migration issue in a non-production repository, then define the current cycle time, acceptance test, review effort, and security stop conditions?\n\nFactory should proceed only if the same issue improves under your measures and controls.",
+          "why": "Give the likely technical champion ownership of both the test and the rejection criteria.",
+          "sourceIds": [
+            "s25"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "linkedin",
+          "timing": "Day 4",
+          "body": "UnitedHealth has said legacy Change Healthcare technology magnified the ransomware attack and hampered recovery. That makes a generic coding-speed demo the wrong starting point. A credible assessment would use synthetic data, a non-production repository, least privilege, human approval, and exportable evidence of actions and tests. Is there one modernization queue where those controls could support a fair comparison with the current workflow?",
+          "why": "Lead with control design and ask for a specific modernization queue.",
+          "sourceIds": [
+            "s6"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 9",
+          "subject": "Map the proof to UnitedHealth's AI principles",
+          "body": "Julie,\n\nUnitedHealth's responsible-AI principles emphasize reliability, accountability, transparency, privacy, and security. Those should be acceptance criteria, not slideware: logged actions, reproducible tests, required human review, and no production execution in the first evaluation.\n\nIf your team already has a tool that meets those criteria end to end, that is the answer. If one workflow remains uncovered, I can bring a one-page pilot design for your team to reject or revise.",
+          "why": "Translate published governance principles into a practical evaluation gate.",
+          "sourceIds": [
+            "s24"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Patrick Conway",
+      "targetTitle": "Chief Executive Officer, Optum",
+      "angle": "Attach one measurable engineering workflow to the operating standardization mandate without creating another transformation program.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One measured workflow for the Optum reset",
+          "body": "Patrick,\n\nExternal reviews led UnitedHealth to commit to more automation and standardization across Optum. I would not add another enterprise transformation to that agenda. The smaller test is one Optum Insight maintenance or migration workflow, with Julie Durham setting the baseline and control boundary and Sandeep Dadlani owning the business outcome.\n\nWould you support a 30-minute working session to name that workflow and stop early if it is not measurable or safe?",
+          "why": "Tie the pilot to his operating mandate while keeping business and technical ownership explicit.",
+          "sourceIds": [
+            "s10",
+            "s21",
+            "s12",
+            "s25"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 6",
+          "subject": "No enterprise productivity assumption",
+          "body": "Patrick,\n\nUnitedHealthcare expected 2026 membership to decline by 2.3 million to 2.8 million as it repriced and exited unprofitable business. That makes a top-down engineering productivity claim especially hard to defend.\n\nThe commercial case should start with one unit of accepted software work and Optum's own inputs for volume, effort, quality, and cost. If that bottom-up result does not survive finance review, there should be no expansion proposal.",
+          "why": "Address turnaround discipline with a buyer-owned, bottom-up value test.",
+          "sourceIds": [
+            "s22"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 11",
+          "subject": "Security can disqualify this first",
+          "body": "Patrick,\n\nThe Change Healthcare attack affected an enormous sensitive-data estate and drove leadership and control changes. A third-party engineering agent should therefore be disqualified before a pilot if it cannot operate in a non-production repository with synthetic data, least privilege, no training on UnitedHealth code, human approval, and an exportable audit record.\n\nWould Heather Cianfrocco's team review those stop conditions before Julie Durham spends time selecting a workflow?",
+          "why": "Invite the gatekeeper in before technical effort is committed.",
+          "sourceIds": [
+            "s6",
+            "s10"
+          ]
+        }
+      ]
+    }
+  ]
+}

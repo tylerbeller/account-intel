@@ -1,0 +1,735 @@
+{
+  "company": {
+    "name": "Target Corporation",
+    "ticker": "TGT [s1]",
+    "headquarters": "Minneapolis, Minnesota [s3]",
+    "employees": "More than 400,000 team members [s1]",
+    "fiscalYearEnd": "Saturday nearest January 31; fiscal 2025 ended January 31, 2026 [s5]",
+    "industry": "General merchandise retail and digital commerce [s1]",
+    "summary": "Target is a U.S. omnichannel general merchandise retailer operating more than 2,000 stores and Target.com with more than 400,000 team members [s1]. Under CEO Michael Fiddelke, it is funding a turnaround centered on merchandising, guest experience, technology and AI while managing a large hybrid estate, explicit technical debt, and margin pressure [s3][s4][s10][s17]."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "partially sourced",
+  "overview": {
+    "whatTheyDo": "Target sells general merchandise and food through more than 2,000 U.S. stores and digital channels, with store-based fulfillment, same-day delivery, a third-party marketplace, a retail media business, and paid loyalty membership [s1][s4].",
+    "scale": [
+      {
+        "label": "Fiscal 2025 net sales",
+        "value": "$104.8 billion",
+        "sourceId": "s3"
+      },
+      {
+        "label": "U.S. stores",
+        "value": "More than 2,000",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Team members",
+        "value": "More than 400,000",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Q2 2026 net sales",
+        "value": "$26.5 billion",
+        "sourceId": "s1"
+      }
+    ],
+    "segments": [
+      {
+        "name": "Single operating segment",
+        "note": "Target reports as one segment; virtually all consolidated revenue is generated in the United States through stores and digital channels.",
+        "sourceId": "s5"
+      },
+      {
+        "name": "Non-merchandise businesses",
+        "note": "Roundel advertising, Target Circle 360 membership, and Target Plus marketplace revenue grew more than 20% in Q2 2026.",
+        "sourceId": "s1"
+      }
+    ]
+  },
+  "trends": {
+    "trajectory": "Target moved from a difficult fiscal 2025, when net sales fell 1.7% to $104.8 billion and adjusted operating margin was 4.6%, to reported growth in both Q1 and Q2 2026 [s2][s3]. Q2 net sales grew 5.3% to $26.5 billion and digital comparable sales grew 8.7%, but the quarter included a $994 million tariff-refund benefit, so the underlying turnaround still has to prove durable [s1]. Management is spending into technology, stores, supply chain and AI while holding teams accountable for cost, technical debt and stability [s4][s17].",
+    "financials": [
+      {
+        "period": "Q1 2026",
+        "metric": "Net sales",
+        "value": "$25.4 billion, up 6.7% year over year",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 2026",
+        "metric": "Comparable sales",
+        "value": "Up 5.6%",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 2026",
+        "metric": "GAAP and adjusted EPS",
+        "value": "$1.71",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 2026",
+        "metric": "Operating income margin rate",
+        "value": "4.5%",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Net sales",
+        "value": "$26.5 billion, up 5.3% year over year",
+        "direction": "up",
+        "sourceId": "s1"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Comparable sales",
+        "value": "Up 3.8%",
+        "direction": "up",
+        "sourceId": "s1"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "GAAP and adjusted EPS",
+        "value": "$4.11, including $1.65 from tariff refunds",
+        "direction": "up",
+        "sourceId": "s1"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Operating income",
+        "value": "$2.6 billion, including a $994 million tariff-refund benefit",
+        "direction": "up",
+        "sourceId": "s1"
+      }
+    ],
+    "guidance": [
+      {
+        "item": "Full-year 2026 net sales growth",
+        "value": "Around 5%",
+        "sourceId": "s1"
+      },
+      {
+        "item": "Full-year 2026 operating income margin rate",
+        "value": "Around 6%, including approximately 90 basis points from Q2 tariff refunds",
+        "sourceId": "s1"
+      },
+      {
+        "item": "Full-year 2026 GAAP and adjusted EPS",
+        "value": "$9.90 to $10.90, including approximately $1.65 from Q2 tariff refunds",
+        "sourceId": "s1"
+      }
+    ],
+    "industry": [
+      {
+        "trend": "NRF forecast 2026 U.S. retail sales growth of 4.4% over 2025, while warning that consumer strength would remain uneven by income group.",
+        "implication": "Target must compete for growth with faster personalization, availability and fulfillment while keeping engineering spend tied to measurable conversion, cost or reliability outcomes.",
+        "sourceId": "s23"
+      },
+      {
+        "trend": "Retail AI is moving into shopping channels and employee workflows; Target has deployed ChatGPT Enterprise to 18,000 headquarters employees and announced a Target app in ChatGPT.",
+        "implication": "Engineering investment shifts from isolated AI experiments toward governed production systems, integrations, evaluation and maintenance.",
+        "sourceId": "s9"
+      }
+    ],
+    "pressures": [
+      {
+        "pressure": "Turnaround economics and margin scrutiny",
+        "evidence": "Fiscal 2025 net sales decreased 1.7% to $104.8 billion and full-year operating income declined 8.1% to $5.1 billion.",
+        "sourceId": "s3"
+      },
+      {
+        "pressure": "Technical debt and estate complexity",
+        "evidence": "Target describes millions of hardware and software assets across data centers, public cloud, stores and distribution centers, with unsupported or outdated components tracked as a dedicated engineering-health dimension.",
+        "sourceId": "s17"
+      },
+      {
+        "pressure": "Database operations and patching load",
+        "evidence": "Target says thousands of databases support checkout, inventory and personalization, while database administrators had been burdened by patching, backups and monitoring before DBaaS automation.",
+        "sourceId": "s18"
+      },
+      {
+        "pressure": "AI coordination",
+        "evidence": "Target appointed Chandhu Nair as its first chief AI officer to drive a more coordinated enterprise approach to AI.",
+        "sourceId": "s8"
+      }
+    ]
+  },
+  "catalysts": [
+    {
+      "date": "2025-05-21",
+      "event": "Target created a multi-year Enterprise Acceleration Office to simplify cross-company processes and use technology and data in new ways.",
+      "whyItMatters": "The program creates an executive-backed route for cross-functional automation and modernization rather than a tool-only developer pitch.",
+      "urgency": "medium",
+      "sourceId": "s7"
+    },
+    {
+      "date": "2025-08-20",
+      "event": "Target named Michael Fiddelke CEO effective February 1, 2026.",
+      "whyItMatters": "Fiddelke entered the role with an explicit mandate to return Target to growth, accelerate technology and reshape operations.",
+      "urgency": "high",
+      "sourceId": "s6"
+    },
+    {
+      "date": "2025-11-19",
+      "event": "Target and OpenAI expanded their partnership, including a Target app in ChatGPT and continued use of OpenAI APIs and ChatGPT Enterprise.",
+      "whyItMatters": "A strategic AI vendor relationship proves outside-tool access and creates immediate governance, integration and software-delivery work around production AI.",
+      "urgency": "high",
+      "sourceId": "s9"
+    },
+    {
+      "date": "2026-03-03",
+      "event": "Target committed an incremental $2 billion in 2026, including more than $1 billion of additional capital expenditure and $1 billion of additional operating investment.",
+      "whyItMatters": "The current fiscal year contains an unusually explicit investment window for technology, AI, stores and supply chain.",
+      "urgency": "high",
+      "sourceId": "s4"
+    },
+    {
+      "date": "2026-08-11",
+      "event": "Target appointed Chandhu Nair as senior vice president and its first chief AI officer, and named Purvi Shah senior vice president of user experience.",
+      "whyItMatters": "Two newly appointed leaders have visible mandates and need repeatable ways to move AI and user-experience work from idea to production.",
+      "urgency": "high",
+      "sourceId": "s8"
+    },
+    {
+      "date": "2026-08-19",
+      "event": "Target reported Q2 net sales growth of 5.3% and raised full-year guidance, while disclosing that tariff refunds materially benefited earnings.",
+      "whyItMatters": "Improved momentum supports selective investment, but one-time benefits increase pressure to prove recurring operational value.",
+      "urgency": "high",
+      "sourceId": "s1"
+    }
+  ],
+  "techEstate": {
+    "stack": [
+      {
+        "technology": "Hybrid multi-cloud and edge",
+        "evidence": "Target described a hybrid multi-cloud architecture spanning private data centers, public cloud and edge systems in stores and distribution centers; the detailed provider inventory is from 2022 and may be stale.",
+        "sourceId": "s19"
+      },
+      {
+        "technology": "Target Application Platform",
+        "evidence": "Target built TAP as a homegrown control plane for Linux containers, virtual machines, in-store Kubernetes, Google Kubernetes Engine and Azure Container Instances; the provider detail is from 2022 and may be stale.",
+        "sourceId": "s19"
+      },
+      {
+        "technology": "Java, Python, Kubernetes and microservices",
+        "evidence": "Target reported Java and Python among its top runtimes and described an event-driven microservices estate running on Kubernetes and hybrid infrastructure; this detailed architecture source is older than 24 months.",
+        "sourceId": "s19"
+      },
+      {
+        "technology": "Kafka platform",
+        "evidence": "Target runs Kafka and mirroring clusters in its data centers and Google Cloud Platform, with Java or Kotlin automation, mTLS, self-service APIs and a custom management portal.",
+        "sourceId": "s17"
+      },
+      {
+        "technology": "Database-as-a-Service",
+        "evidence": "Target's hybrid multi-cloud DBaaS supports PostgreSQL, MySQL, MongoDB and Cassandra, using Ansible, Prometheus, Grafana, Vault and automated patching, backup and recovery.",
+        "sourceId": "s18"
+      },
+      {
+        "technology": "Enterprise Cart & Checkout",
+        "evidence": "ECCO is Target's cloud-native microservices checkout platform across Target.com, its mobile app and stores, using Kubernetes health probes, Elasticsearch, Kibana, InfluxDB and Grafana; this detailed source is older than 24 months.",
+        "sourceId": "s20"
+      },
+      {
+        "technology": "OpenAI APIs and ChatGPT Enterprise",
+        "evidence": "Target uses OpenAI APIs and rolled ChatGPT Enterprise out to 18,000 headquarters employees, alongside shopping, service-center and store AI applications.",
+        "sourceId": "s9"
+      },
+      {
+        "technology": "LLM recommendation systems",
+        "evidence": "Target's GRAM production system uses LLMs and human review for accessory recommendations; its February 2025 A/B test reported approximately 11% higher interaction, roughly 12% higher display-to-conversion, and more than 9% attributable-demand growth.",
+        "sourceId": "s21"
+      },
+      {
+        "technology": "Open-source engineering",
+        "evidence": "Target's public GitHub organization listed 108 repositories and active projects in Go, Python, Java, Kotlin and TypeScript when accessed on September 24, 2026.",
+        "sourceId": "s22"
+      }
+    ],
+    "patterns": [
+      {
+        "pattern": "SDLC and PDLC maintenance",
+        "supported": true,
+        "theirEstate": "Thousands of engineers maintain hundreds of technology products and millions of assets. Infra Showback tracks stability, cost and technical debt, while internal platforms expose self-service APIs and developer workflows.",
+        "sourceId": "s17"
+      },
+      {
+        "pattern": "Modernization and migration",
+        "supported": true,
+        "theirEstate": "Target is standardizing thousands of databases through a hybrid multi-cloud DBaaS and continues to operate a mix of containers, virtual machines, private cloud, public cloud and store edge systems.",
+        "sourceId": "s18"
+      },
+      {
+        "pattern": "Patching, vulnerabilities and risk",
+        "supported": true,
+        "theirEstate": "DBaaS automates patching and embeds audit logs, RBAC, encrypted connections and recovery; Infra Showback flags unsupported or outdated first-party and third-party components for remediation.",
+        "sourceId": "s18"
+      }
+    ]
+  },
+  "fit": {
+    "verdict": "strong fit",
+    "score": 27,
+    "summary": "Target is a strong fit because it combines a very large software estate, public evidence of technical debt and patching work, a newly centralized AI mandate, and a dated 2026 investment window [s4][s8][s17][s18]. The main risks are a mature internal platform organization, an incumbent OpenAI relationship, and turnaround scrutiny that will reject a broad transformation pitch without a tightly measured first workflow [s3][s9][s17].",
+    "rubric": [
+      {
+        "dimension": "Engineering scale",
+        "score": 5,
+        "rationale": "Target reports thousands of engineers, hundreds of technology products and millions of hardware and software assets across cloud, data centers and edge locations.",
+        "sourceId": "s17"
+      },
+      {
+        "dimension": "Legacy and modernization pressure",
+        "score": 5,
+        "rationale": "Target explicitly tracks unsupported and outdated components as technical debt and built DBaaS to standardize thousands of databases whose manual lifecycle work slowed developers.",
+        "sourceId": "s18"
+      },
+      {
+        "dimension": "Regulated or risk scope",
+        "score": 3,
+        "rationale": "Target's CIO owns cybersecurity, and its platforms embed compliance controls, audit logs, encrypted connections and security posture scoring. Public sources reviewed do not quantify the current vulnerability or audit backlog.",
+        "sourceId": "s11"
+      },
+      {
+        "dimension": "AI mandate and executive sponsor",
+        "score": 5,
+        "rationale": "Target appointed its first chief AI officer in August 2026, while the CIO owns AI-enabled product and engineering and the CEO has made technology acceleration a strategic priority.",
+        "sourceId": "s8"
+      },
+      {
+        "dimension": "Budget and catalyst timing",
+        "score": 5,
+        "rationale": "Target committed an incremental $2 billion in 2026 and planned approximately $5 billion of total capital investment, including technology and supply chain.",
+        "sourceId": "s4"
+      },
+      {
+        "dimension": "Access and security posture",
+        "score": 4,
+        "rationale": "Target uses OpenAI APIs and ChatGPT Enterprise at scale and operates public open-source programs, proving it can adopt external technology. The approval path for a software-engineering agent is not public.",
+        "sourceId": "s9"
+      }
+    ],
+    "reasonsFor": [
+      {
+        "point": "The estate is large enough for repeatable engineering automation.",
+        "evidence": "Target describes thousands of engineers, hundreds of products and millions of assets.",
+        "sourceId": "s17"
+      },
+      {
+        "point": "The pain is named, not inferred.",
+        "evidence": "Target publicly identifies outdated components, patching load, reliability, cost and technical debt as operating concerns.",
+        "sourceId": "s18"
+      },
+      {
+        "point": "Executive timing is unusually favorable.",
+        "evidence": "A CEO in his first year, a first chief AI officer appointed in August 2026, and an incremental $2 billion 2026 investment program create a current decision window.",
+        "sourceId": "s4"
+      },
+      {
+        "point": "Target can deploy outside AI technology.",
+        "evidence": "OpenAI APIs and ChatGPT Enterprise are already in use, with ChatGPT Enterprise deployed to 18,000 headquarters employees.",
+        "sourceId": "s9"
+      }
+    ],
+    "reasonsAgainst": [
+      {
+        "point": "A capable internal platform organization may prefer to build.",
+        "evidence": "Target has built TAP, Infra Showback, DBaaS, Kafka automation and custom security-intelligence tooling.",
+        "sourceId": "s17"
+      },
+      {
+        "point": "OpenAI is already a strategic AI incumbent.",
+        "evidence": "Target uses OpenAI APIs and ChatGPT Enterprise and is jointly building customer-facing commerce experiences.",
+        "sourceId": "s9"
+      },
+      {
+        "point": "Turnaround scrutiny raises the proof threshold.",
+        "evidence": "Fiscal 2025 net sales and operating income declined, and Q2 2026 earnings included a material one-time tariff-refund benefit.",
+        "sourceId": "s1"
+      },
+      {
+        "point": "The most detailed cloud inventory may be stale.",
+        "evidence": "The public architecture naming Google Cloud, Azure, private cloud, Kubernetes and virtual machines was published in October 2022.",
+        "sourceId": "s19"
+      }
+    ],
+    "disqualifiers": [
+      "Target has standardized an incumbent coding-agent platform across the target teams with no remaining workflow gap.",
+      "Security policy prohibits external model access to the relevant repositories or build telemetry.",
+      "The 2026 investment program has no uncommitted operating budget for developer productivity or modernization.",
+      "A pilot cannot be tied to an agreed baseline for cycle time, escaped defects, remediation throughput or cost."
+    ]
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Prat Vemana",
+      "title": "Executive Vice President and Chief Information and Product Officer",
+      "scope": "All Target technology, including cybersecurity, data platforms, data science, infrastructure, product engineering, enterprise product teams and user experience.",
+      "role": "economic buyer",
+      "tenure": "Joined Target in 2022; current expanded remit confirmed on an undated company biography accessed September 24, 2026.",
+      "whyStartHere": "He owns the engineering, product, infrastructure, data and security functions that must jointly approve and scale an engineering-agent platform.",
+      "opener": "Your teams already score technical debt and stability at product level; could we test whether agents can close one class of those findings faster without weakening your controls?",
+      "confidence": "confirmed",
+      "sourceId": "s11"
+    },
+    {
+      "rank": 2,
+      "name": "Chandhu Nair",
+      "title": "Senior Vice President and Chief AI Officer",
+      "scope": "Enterprise AI coordination, including inventory management, frontline tools and faster business decisions.",
+      "role": "champion",
+      "tenure": "Appointed August 2026.",
+      "whyStartHere": "He is newly appointed, has an enterprise-wide coordination mandate and needs a visible operating result beyond customer-facing AI.",
+      "opener": "You called for a more coordinated AI approach; would a governed agent pilot on database patching or tech-debt remediation give you a measurable enterprise proof point?",
+      "confidence": "confirmed",
+      "sourceId": "s8"
+    },
+    {
+      "rank": 3,
+      "name": "Michael Fiddelke",
+      "title": "Chief Executive Officer",
+      "scope": "Enterprise strategy and the four priorities of merchandising authority, guest experience, technology acceleration, and team and communities.",
+      "role": "economic buyer",
+      "tenure": "CEO since February 1, 2026; more than 20 years at Target.",
+      "whyStartHere": "He owns the turnaround and explicitly positioned technology acceleration as one of four priorities, but should be approached after a technical sponsor validates a bounded use case.",
+      "opener": "Your 2026 plan funds technology and AI while demanding operating discipline; we would propose one workflow with a hard baseline and a stop-or-scale gate.",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 4,
+      "name": "Purvi Shah",
+      "title": "Senior Vice President of User Experience",
+      "scope": "User experience leadership for Target's next phase of digital and AI-enabled experiences.",
+      "role": "champion",
+      "tenure": "Appointed August 2026.",
+      "whyStartHere": "She can connect engineering delivery speed to visible guest and team experiences and is newly appointed with a mandate to show progress.",
+      "opener": "Where are UX improvements waiting longest on repetitive engineering work, and would you sponsor a pilot that measures time from approved design to production?",
+      "confidence": "confirmed",
+      "sourceId": "s8"
+    },
+    {
+      "rank": 5,
+      "name": "Sarah Travis",
+      "title": "Executive Vice President and Chief Digital and Revenue Officer",
+      "scope": "Digital business, site merchandising, digital operations, Target Plus, social commerce and Roundel.",
+      "role": "influencer",
+      "tenure": "Joined Target in 2021; current role confirmed on an undated company biography accessed September 24, 2026.",
+      "whyStartHere": "Her portfolio provides measurable, high-frequency software outcomes in commerce, marketplace and retail media.",
+      "opener": "Which digital or marketplace maintenance queue is currently slowing revenue experiments enough to justify a tightly scoped engineering-agent pilot?",
+      "confidence": "confirmed",
+      "sourceId": "s12"
+    },
+    {
+      "rank": 6,
+      "name": "Jeff England",
+      "title": "Executive Vice President and Chief Supply Chain Officer",
+      "scope": "Replenishment, fulfillment, global trade and transportation, food and beverage operations, and distribution.",
+      "role": "influencer",
+      "tenure": "Joined Target in 2026.",
+      "whyStartHere": "He is new, explicitly charged with modernization through technology and engineering, and owns systems where reliability and operational speed are measurable.",
+      "opener": "You joined with a modernization mandate; which supply-chain software bottleneck has the clearest baseline for testing faster, controlled engineering throughput?",
+      "confidence": "confirmed",
+      "sourceId": "s16"
+    },
+    {
+      "rank": 7,
+      "name": "Grant McGee",
+      "title": "Executive Vice President and Chief Legal and Compliance Officer",
+      "scope": "Legal, risk, compliance and government affairs.",
+      "role": "gatekeeper",
+      "tenure": "Joined Target in 2026.",
+      "whyStartHere": "His organization will shape model, data, intellectual-property and audit requirements for an engineering-agent deployment.",
+      "opener": "Before any pilot, we would like to map your non-negotiables for repository access, model retention, change approval and audit evidence.",
+      "confidence": "confirmed",
+      "sourceId": "s15"
+    },
+    {
+      "rank": 8,
+      "name": "Jim Lee",
+      "title": "Executive Vice President and Chief Financial Officer",
+      "scope": "Corporate finance, enterprise strategy, partnerships, corporate development, internal audit and risk management.",
+      "role": "economic buyer",
+      "tenure": "Joined Target in 2024.",
+      "whyStartHere": "He owns investment discipline and enterprise partnerships and will require a bottom-up value case before expansion.",
+      "opener": "We would baseline one repeatable engineering unit, price the pilot against verified labor and incident outcomes, and ask you to scale only if the unit economics hold.",
+      "confidence": "confirmed",
+      "sourceId": "s14"
+    },
+    {
+      "rank": 9,
+      "name": "Lisa Roath",
+      "title": "Executive Vice President and Chief Operating Officer",
+      "scope": "More than 2,000 stores, global supply chain, fulfillment services, enterprise services and properties.",
+      "role": "influencer",
+      "tenure": "Joined Target in 2006; current role confirmed on an undated company biography accessed September 24, 2026.",
+      "whyStartHere": "She owns the frontline operating systems and service outcomes that can supply concrete pilot workflows and reliability measures.",
+      "opener": "Which store or fulfillment software workflow creates the most repetitive engineering work while still affecting frontline speed or reliability?",
+      "confidence": "confirmed",
+      "sourceId": "s13"
+    }
+  ],
+  "competition": [
+    {
+      "vendor": "OpenAI",
+      "position": "Strategic incumbent for OpenAI APIs, ChatGPT Enterprise and customer-facing agentic commerce; 18,000 headquarters employees had ChatGPT Enterprise access.",
+      "tradeoff": "OpenAI has executive sponsorship, existing security review and broad model reach, so Factory must win on autonomous software-delivery workflows, controls and measurable engineering outcomes rather than generic AI access.",
+      "sourceId": "s9"
+    },
+    {
+      "vendor": "Target internal platform engineering",
+      "position": "TAP, Infra Showback, DBaaS, Kafka automation and security-intelligence tooling already provide self-service automation and engineering-health controls.",
+      "tradeoff": "Internal teams know Target's estate and can integrate directly with proprietary systems; Factory must complement those platforms and avoid proposing functionality Target has already built.",
+      "sourceId": "s17"
+    },
+    {
+      "vendor": "Google Cloud and Microsoft Azure",
+      "position": "Target publicly described Google Cloud and Azure components in its hybrid architecture, but the detailed provider inventory dates to October 2022 and needs re-verification.",
+      "tradeoff": "Cloud-native developer and AI tooling may bundle well with existing infrastructure commitments and procurement paths.",
+      "sourceId": "s19"
+    },
+    {
+      "vendor": "GitHub and open-source tooling",
+      "position": "Target maintains an active public GitHub organization with 108 repositories and a formal open-source program; public evidence does not establish its private coding-assistant standard.",
+      "tradeoff": "A familiar repository platform and open-source tools may have lower adoption friction for developers, while Factory would need to prove differentiated end-to-end task completion.",
+      "sourceId": "s22"
+    }
+  ],
+  "objections": [
+    {
+      "objection": "We already have ChatGPT Enterprise and OpenAI APIs.",
+      "response": "Do not compete on model access. Scope the evaluation to governed software work across repositories, tests, change review and audit evidence, with an outcome baseline that the existing deployment can be measured against."
+    },
+    {
+      "objection": "Our platform teams already built TAP, Infra Showback and DBaaS.",
+      "response": "Use those systems as the control and telemetry layer. Start with an exposed backlog, such as outdated components or patching tasks, rather than replacing Target's platforms."
+    },
+    {
+      "objection": "The turnaround cannot absorb another broad transformation.",
+      "response": "Propose one bounded workflow, one accountable owner, existing controls, a short measurement window and a stop-or-scale gate. Avoid an enterprise rollout request."
+    },
+    {
+      "objection": "Repository and production data cannot leave our security boundary.",
+      "response": "Treat deployment architecture, retention, model access, secrets, logging and human approval as pre-pilot gates. Do not claim fit until Target confirms that an approved design is possible."
+    }
+  ],
+  "unknowns": [
+    {
+      "question": "Which coding assistants or autonomous engineering agents are approved for Target's private repositories today?",
+      "whyItMatters": "This determines whether Factory is replacing an incumbent, filling a workflow gap or blocked by an existing standard.",
+      "searched": "Target Tech blog, Target public GitHub organization, corporate announcements, OpenAI partnership coverage and technology job pages; no current private-repository tool standard was disclosed."
+    },
+    {
+      "question": "What are the current engineering baselines for pull-request cycle time, technical-debt remediation, patch service levels, escaped defects and incident toil?",
+      "whyItMatters": "A credible pilot and value model require a measured starting unit rather than a top-down productivity estimate.",
+      "searched": "Infra Showback, DBaaS, Kafka platform, cloud architecture and annual-report materials; public sources describe outcomes and percentage improvements but not current enterprise baselines."
+    },
+    {
+      "question": "Which 2026 budget owner and cost center can fund an engineering-agent pilot and expansion?",
+      "whyItMatters": "The public investment commitment names technology and AI but does not allocate budget to developer productivity or name the approval chain.",
+      "searched": "2026 growth strategy, Q1 and Q2 earnings releases, 2025 annual report, leadership biographies and Enterprise Acceleration Office announcement."
+    },
+    {
+      "question": "What security architecture is approved for source code, build logs, secrets and production telemetry used by external AI systems?",
+      "whyItMatters": "The answer determines deployment feasibility, data boundaries, model choice, retention and audit design.",
+      "searched": "CIO biography, DBaaS security controls, Infra Showback, public cybersecurity pages and OpenAI partnership materials; no repository-specific external-agent architecture was public."
+    },
+    {
+      "question": "Which modernization backlog has both executive urgency and a repeatable unit of work suitable for a first pilot?",
+      "whyItMatters": "The strongest entry point could be dependency remediation, database lifecycle work, store-edge maintenance, checkout services or supply-chain software, but choosing without an owner would be speculation.",
+      "searched": "Target Tech articles on cloud, Kafka, DBaaS, checkout, Infra Showback and AI recommendations, plus executive scope pages."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Target Corporation Reports Second Quarter Earnings",
+      "url": "https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings",
+      "publisher": "Target Corporation",
+      "date": "2026-08-19",
+      "primary": true
+    },
+    {
+      "id": "s2",
+      "title": "Target Corporation Reports First Quarter Earnings",
+      "url": "https://corporate.target.com/press/release/2026/05/target-corporation-reports-first-quarter-earnings",
+      "publisher": "Target Corporation",
+      "date": "2026-05-20",
+      "primary": true
+    },
+    {
+      "id": "s3",
+      "title": "Target Corporation Reports Fourth Quarter and Full-Year 2025 Earnings",
+      "url": "https://corporate.target.com/press/release/2026/03/target-corporation-reports-fourth-quarter-and-full-year-2025-earnings",
+      "publisher": "Target Corporation",
+      "date": "2026-03-03",
+      "primary": true
+    },
+    {
+      "id": "s4",
+      "title": "Target Outlines Strategic Plan for a New Chapter of Growth in 2026 and Beyond",
+      "url": "https://corporate.target.com/press/release/2026/03/target-outlines-strategic-plan-for-a-new-chapter-of-growth-in-2026-and-beyond",
+      "publisher": "Target Corporation",
+      "date": "2026-03-03",
+      "primary": true
+    },
+    {
+      "id": "s5",
+      "title": "2025 Annual Report",
+      "url": "https://corporate.target.com/investors/annual/2025-annual-report",
+      "publisher": "Target Corporation",
+      "date": "2026-03-11",
+      "primary": true
+    },
+    {
+      "id": "s6",
+      "title": "Target Appoints Michael Fiddelke As Chief Executive Officer",
+      "url": "https://corporate.target.com/press/release/2025/08/target-appoints-michael-fiddelke-as-chief-executive-officer",
+      "publisher": "Target Corporation",
+      "date": "2025-08-20",
+      "primary": true
+    },
+    {
+      "id": "s7",
+      "title": "Target Corporation Announces Multi-Year Enterprise Acceleration Office",
+      "url": "https://corporate.target.com/press/release/2025/05/target-corporation-announces-multi-year-enterprise-acceleration-office",
+      "publisher": "Target Corporation",
+      "date": "2025-05-21",
+      "primary": true
+    },
+    {
+      "id": "s8",
+      "title": "Target appoints its first chief AI officer as big retailers bet on AI",
+      "url": "https://www.cnbc.com/2026/08/11/target-appoints-chief-ai-officer-chandhu-nair.html",
+      "publisher": "CNBC",
+      "date": "2026-08-11",
+      "primary": false
+    },
+    {
+      "id": "s9",
+      "title": "OpenAI and Target partner to bring new AI-powered experiences across retail",
+      "url": "https://openai.com/index/target-partnership/",
+      "publisher": "OpenAI",
+      "date": "2025-11-19",
+      "primary": true
+    },
+    {
+      "id": "s10",
+      "title": "Michael Fiddelke",
+      "url": "https://corporate.target.com/about/leadership-team/michael-fiddelke",
+      "publisher": "Target Corporation",
+      "date": "accessed 2026-09-24; page undated",
+      "primary": true
+    },
+    {
+      "id": "s11",
+      "title": "Prat Vemana",
+      "url": "https://corporate.target.com/about/leadership-team/prat-vemana",
+      "publisher": "Target Corporation",
+      "date": "accessed 2026-09-24; page undated",
+      "primary": true
+    },
+    {
+      "id": "s12",
+      "title": "Sarah Travis",
+      "url": "https://corporate.target.com/about/leadership-team/sarah-travis",
+      "publisher": "Target Corporation",
+      "date": "accessed 2026-09-24; page undated",
+      "primary": true
+    },
+    {
+      "id": "s13",
+      "title": "Lisa Roath",
+      "url": "https://corporate.target.com/about/leadership-team/lisa-roath",
+      "publisher": "Target Corporation",
+      "date": "accessed 2026-09-24; page undated",
+      "primary": true
+    },
+    {
+      "id": "s14",
+      "title": "Jim Lee",
+      "url": "https://corporate.target.com/about/leadership-team/jim-lee",
+      "publisher": "Target Corporation",
+      "date": "accessed 2026-09-24; page undated",
+      "primary": true
+    },
+    {
+      "id": "s15",
+      "title": "Grant McGee",
+      "url": "https://corporate.target.com/about/leadership-team/grant-mcgee",
+      "publisher": "Target Corporation",
+      "date": "accessed 2026-09-24; page undated",
+      "primary": true
+    },
+    {
+      "id": "s16",
+      "title": "Jeff England",
+      "url": "https://corporate.target.com/about/leadership-team/jeff-england",
+      "publisher": "Target Corporation",
+      "date": "accessed 2026-09-24; page undated",
+      "primary": true
+    },
+    {
+      "id": "s17",
+      "title": "How Infra Showback Is Shaping Target's Engineering Culture at Scale",
+      "url": "https://tech.target.com/blog/infra-showback",
+      "publisher": "Target Tech",
+      "date": "2025-04-17",
+      "primary": true
+    },
+    {
+      "id": "s18",
+      "title": "Accelerating Developer Velocity with Database-as-a-Service",
+      "url": "https://tech.target.com/blog/accelerating-developer-velocity-dbaas",
+      "publisher": "Target Tech",
+      "date": "2025-10-13",
+      "primary": true
+    },
+    {
+      "id": "s19",
+      "title": "Target's Cloud Journey",
+      "url": "https://tech.target.com/blog/targets-cloud-journey",
+      "publisher": "Target Tech",
+      "date": "2022-10-21",
+      "primary": true
+    },
+    {
+      "id": "s20",
+      "title": "Target's ECCO Platform: Achieving Resiliency and High Availability",
+      "url": "https://tech.target.com/blog/ecco-platform",
+      "publisher": "Target Tech",
+      "date": "2022-12-01",
+      "primary": true
+    },
+    {
+      "id": "s21",
+      "title": "Improving Accessory Recommendations with LLMs at Target",
+      "url": "https://tech.target.com/blog/accessory-recommendations-with-llms",
+      "publisher": "Target Tech",
+      "date": "2025-07-01",
+      "primary": true
+    },
+    {
+      "id": "s22",
+      "title": "Target open-source organization",
+      "url": "https://github.com/target",
+      "publisher": "GitHub",
+      "date": "accessed 2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s23",
+      "title": "NRF is forecasting U.S. retail sales to grow 4.4% in 2026",
+      "url": "https://nrf.com/blog/nrf-is-forecasting-u-s-retail-sales-to-grow-4-4-in-2026",
+      "publisher": "National Retail Federation",
+      "date": "2026-03-19",
+      "primary": true
+    }
+  ]
+}

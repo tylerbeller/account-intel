@@ -1,0 +1,179 @@
+{
+  "company": "Medtronic plc",
+  "generatedAt": "2026-09-24",
+  "basedOnDossier": "2026-09-24",
+
+  "pointOfView": {
+    "whyAnything": {
+      "claim": "Medtronic has to keep funding software-heavy growth platforms while operating margin falls, engineering teams shrink, and every connected device line now carries enforceable lifecycle patching obligations, so the cost of maintaining existing software has become a growth constraint, not an IT line item.",
+      "evidence": [
+        { "point": "FY26 non-GAAP operating margin fell to 24.4%, down 130 basis points year over year, in the same year R&D expense ran $2.873 billion under FDA design controls that make every software change expensive to verify and document.", "sourceId": "s1" },
+        { "point": "The growth engines are the most software-intensive franchises: Cardiac Ablation Solutions grew 88% in Q1 FY27 and Hugo gained a real-time AI computing platform in July 2026.", "sourceId": "s2" },
+        { "point": "FDA's June 2025 cybersecurity guidance made SBOMs and lifecycle vulnerability management enforceable under Section 524B, so every connected device line carries a continuing patch-and-remediation burden.", "sourceId": "s23" },
+        { "point": "Restructuring is cutting engineering capacity in the same period: cardiovascular job cuts reported in May 2026, a reported Santa Rosa closure, and 81 diabetes roles cut ahead of the MiniMed separation.", "sourceId": "s13" }
+      ],
+      "risk": "A sharp buyer responds that this is a company at its strongest in a decade, not one in distress: FY26 was the fastest annual growth in ten years and FY27 guidance was raised. The counter is to concede the point and reframe: the margin compression and the enforceable patching burden sit inside the success story, and the growth platforms are exactly where software maintenance cost compounds fastest."
+    },
+    "whyFactory": {
+      "claim": "Factory is built for the work that actually dominates Medtronic's software cost, maintaining, patching, and modernizing large existing codebases, while their internal AI strength is pointed at product features and a copilot accelerates writing new code rather than keeping validated legacy estates current.",
+      "evidence": [
+        { "point": "The workload is maintenance-heavy by construction: a $2.873 billion FY26 R&D program across implantable firmware, robotics, and monitoring platforms, all under design controls.", "sourceId": "s1" },
+        { "point": "Medtronic's celebrated AI capability is product-facing: GI Genius, AccuRhythm, and Hugo real-time AI are shipping products, and the CEO's 'every business unit needs an AI plan' push is about the portfolio, not the engineering process.", "sourceId": "s21" },
+        { "point": "The modernization queue is long and dated: the MiniMed carve-out requires disentangling shared IT and R&D systems, and FY26 added CathWorks plus announced Scientia Vascular and SPR Therapeutics estates to integrate.", "sourceId": "s11" },
+        { "point": "They demonstrably adopt outside technology when it is strategic, NVIDIA, Cosmo, and the September 2026 Cornerstone partnership, so this is an evaluation they know how to run.", "sourceId": "s9" }
+      ],
+      "risk": "The honest objection is build-vs-buy: with a Global Chief AI Officer, unit-level CAIOs, and shipping regulated AI products, Medtronic can credibly build developer tooling itself. Do not argue they cannot. Argue that their strength makes them the best possible evaluator, and propose a measured benchmark on one codebase where cycle time and hours recovered decide it either way.",
+      "versus": [
+        "Do nothing: absorb maintenance cost inside the $2.873 billion R&D line and accept slower roadmap delivery on the growth platforms",
+        "Build it in-house: the Global Chief AI Officer's organization builds developer tooling internally",
+        "An IDE copilot they may already have: accelerates writing new code, not maintaining validated legacy estates",
+        "Hyperscaler-bundled tooling: whatever coding assistant arrives attached to their cloud contract, if one exists"
+      ]
+    },
+    "whyNow": {
+      "claim": "Three dated windows are open at once: a CTO in month ten and a CIO in month five are still forming their vendor stack, FY27 budget was just funded alongside a guidance raise and $700 million in growth investments on September 1, and the April 2026 breach has given patching and vulnerability remediation fresh executive budget justification.",
+      "evidence": [
+        { "point": "Jim Peichel was named CTO in November 2025 and Sean Lennon joined as CIO on April 29, 2026; both are inside their first year and still putting their stamp on the estate.", "sourceId": "s4" },
+        { "point": "On September 1, 2026 Medtronic raised FY27 organic growth guidance to 7.25-7.75% and announced roughly $700 million for Cornerstone Robotics plus $80 million for Pi-Cardia, signaling open budgets for technology initiatives this fiscal year.", "sourceId": "s9" },
+        { "point": "The April 2026 breach, disclosed by 8-K on April 27 with roughly 3.8 million individuals notified from July, keeps security posture and remediation speed board-level topics right now.", "sourceId": "s16" }
+      ],
+      "expiresOn": "2027-04-30",
+      "risk": "The same breach that creates budget also creates the freeze risk: post-incident vendor review may block any new tool in the engineering environment this fiscal year regardless of merit. If security review is closed, no amount of urgency framing opens it, and pushing harder marks the rep as someone who does not understand their situation."
+    },
+    "theAsk": {
+      "ask": "A 30-minute working session with Jim Peichel's office and one portfolio software engineering lead to walk the security-first deployment model and scope a 20-25 seat pilot on a single non-product or test-infrastructure repository, measured in hours recovered per engineer per week.",
+      "why": "It costs them one meeting and no commitment: the pilot starts outside the design-controlled SDLC, the security package is on the table before anyone has to ask for it, and the value model is sized from their own published R&D line with every input exposed for their finance team to substitute.",
+      "fallback": "Send the security architecture and deployment documentation for their post-breach review files with no meeting attached, and offer a 20-minute technical briefing whenever a portfolio team raises developer tooling."
+    },
+    "soundbite": "Medtronic's growth platforms are the most software-heavy part of the company, its margin is under activist scrutiny, and its new CTO and CIO are still forming their stack. A bounded pilot on one non-product codebase shows in measured hours whether recovered engineering time is real, before anyone commits budget.",
+    "doNotSay": [
+      { "claim": "AI can accelerate your FDA-regulated product code today.", "reason": "FDA design controls and the June 2025 cybersecurity guidance require validated processes; the dossier itself concludes early adoption would be confined to non-product IT and tooling code (s23). Promising product-code use on a first call tells a regulated buyer we have not understood their world." },
+      { "claim": "A named ROI figure, such as 31x faster delivery or 96% shorter migrations.", "reason": "Those numbers come from other customers in other industries and are not published Medtronic measurements. Quoting them invites the question 'for whom, in what vertical' and the honest answer weakens the case." },
+      { "claim": "A named medical device or healthcare customer reference.", "reason": "No published Factory reference in medtech exists in the evidence gathered. An unnamed reference, or one from a different vertical presented without the gap named, violates the evidence rules and is the fastest way to lose a senior buyer." },
+      { "claim": "This will let you reduce engineering headcount.", "reason": "Nobody has promised that, the value model is built on hours redirected to roadmap work, and in a company running cardiovascular layoffs and site closures (s13) the claim is both unsupported and inflammatory." },
+      { "claim": "We can be deployed before your security review finishes.", "reason": "After the April 2026 breach (s16), vendor security review is the long pole and is likely hardened. Implying a shortcut around it tells their CISO organization we do not take their situation seriously." },
+      { "claim": "Your current copilot deployment is not working.", "reason": "The dossier searched and found no disclosed developer-AI tooling deployment at Medtronic. Assuming an incumbent exists, and disparaging it, is an invented fact and hands the conversation to whoever actually holds that contract, if anyone does." }
+    ]
+  },
+
+  "warmPaths": [
+    {
+      "kind": "partner or vendor",
+      "path": "NVIDIA, which is both an investor in Factory and the edge-AI platform embedded in Medtronic's GI Genius product line",
+      "evidence": "NVIDIA participated in Factory's $50 million Series B (Business Wire, 2025-09-25) and has been integrated into Medtronic's GI Genius via Holoscan and IGX since March 2023 (dossier s19).",
+      "sourceId": "s19",
+      "confidence": "likely",
+      "action": "Ask Factory's NVIDIA relationship (NVentures and the Holoscan ecosystem team) for an introduction into Medtronic's surgical-AI and endoscopy software organization, positioning Factory as complementary to the Holoscan layer NVIDIA already owns there."
+    },
+    {
+      "kind": "board or investor overlap",
+      "path": "Blackstone, an investor in Factory and a long-standing funding partner to Medtronic's diabetes business",
+      "evidence": "Blackstone participated in Factory's Series C (Factory announcement, 2026-04-16); Blackstone Life Sciences has funded Medtronic diabetes R&D since 2020 and the dossier's FY26 margin discussion names a MiniMed Blackstone payment (s1).",
+      "sourceId": "s1",
+      "confidence": "speculative",
+      "action": "Ask Factory's Blackstone growth-equity contact whether their operating-partner network touches medtech R&D productivity; treat this as a research question, not a warm intro, until they confirm a real connection."
+    },
+    {
+      "kind": "community or conference",
+      "path": "The MedTech Conference (AdvaMed), Boston, October 18-21, 2026, the fall event where Medtronic senior leadership reliably appears",
+      "evidence": "AdvaMed's flagship conference runs October 18-21, 2026 in Boston with 400+ speakers and a CEOs Unplugged track (themedtechconference.com; MedTech Dive conference list, 2026-06-29). No dossier target is a confirmed speaker, so this is attendance-level access, not a stage.",
+      "confidence": "speculative",
+      "action": "Register and use the conference partnering system to request side meetings with Medtronic technology and AI attendees, rather than counting on a named executive appearance."
+    }
+  ],
+
+  "outreach": [
+    {
+      "targetName": "Jim Peichel",
+      "targetTitle": "Chief Technology Officer",
+      "angle": "A first-year CTO can turn engineering maintenance cost from a margin drag into a visible win, proven on one measured pilot.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "The maintenance line inside your R&D budget",
+          "body": "Jim, congratulations on the CTO role. One observation from the outside: Medtronic's FY26 operating margin fell 130 basis points while R&D ran $2.87 billion, and the growth engines, cardiac ablation up 88% in Q1 and Hugo's new real-time AI platform, are the most software-heavy parts of the portfolio. That makes engineering maintenance cost a growth constraint, not an IT line item. I would like to show you how teams maintain and patch large regulated codebases faster, starting with one non-product repo. Worth 30 minutes?",
+          "why": "Open with his inherited problem in his own numbers; the ask is one meeting and the entry point deliberately avoids the regulated SDLC objection.",
+          "sourceIds": ["s1", "s2", "s20"]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 6",
+          "subject": "Cornerstone and MiniMed both land on engineering",
+          "body": "One more reason the timing matters: the roughly $700 million Cornerstone partnership and the MiniMed separation both create software integration and disentanglement work that lands on your teams this fiscal year. The engineering leaders we work with use a bounded pilot, 20 to 25 engineers on one codebase measured in hours recovered per week, to find out whether outside leverage is real before committing budget. Happy to bring the model with every input exposed for your team to challenge.",
+          "why": "Adds two new dated facts rather than bumping the thread, and pre-answers the Elliott-era scrutiny question with a bottom-up measurement offer.",
+          "sourceIds": ["s9", "s11"]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 14",
+          "subject": "Closing the loop",
+          "body": "Last note. The April breach and the FDA's Section 524B obligations push the same direction: vulnerability remediation and patching across every connected device line now carry enforceable expectations and fresh executive attention. If faster maintenance work is on your FY27 agenda, I will bring our security architecture and a pilot design built to respect your validated processes. If not, I will stop writing. Either answer is useful.",
+          "why": "A respectful close that ties the two highest-urgency pressures together and makes clear the security review is expected, not routed around.",
+          "sourceIds": ["s16", "s23"]
+        }
+      ]
+    },
+    {
+      "targetName": "Sean Lennon",
+      "targetTitle": "Chief Information Officer",
+      "angle": "Control first: a new CIO can modernize the engineering environment without weakening the post-breach security bar.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "Security review first, pitch second",
+          "body": "Sean, five months into the CIO role you own the environment every engineering tool has to survive, and after April that bar is rightly higher. So I will lead with the part most vendors bury: our deployment keeps source code inside your boundary, we do not train on your code, and we have a review package built for post-incident CISO teams. If it clears your bar, the productivity conversation is worth having. May I send it?",
+          "why": "He is the gatekeeper, so the sequence is about risk and control, not productivity; leading with the security package respects the post-breach posture.",
+          "sourceIds": ["s5", "s16", "s17"]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 7",
+          "subject": "The cost side of the same coin",
+          "body": "The other half of the argument: with Elliott's Operating committee reviewing spend and FY26 margin down 130 basis points, any new tooling has to pay for itself in measured hours, not slideware. Our pilots are sized bottom-up, one team and one repo, hours recovered per engineer per week, with every assumption visible so your finance partners can substitute their own numbers. If the security package passes review, that is the evaluation I would propose.",
+          "why": "Connects the security-safe deployment to the cost discipline his CFO and the Operating committee actually enforce, so he can forward it upward.",
+          "sourceIds": ["s12", "s1"]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 15",
+          "subject": "No meeting required",
+          "body": "If this is not an FY27 priority, the useful version of this thread is short: I will send the security architecture and deployment documentation for your team's files, and you can reach us when the timing is right, for instance when the MiniMed separation work frees up capacity or when a portfolio asks about developer tooling. No sequence after this. Thanks for reading.",
+          "why": "A clean exit that still delivers the asset he needs for a future evaluation, and names a dated internal event that could reopen the door.",
+          "sourceIds": ["s11"]
+        }
+      ]
+    },
+    {
+      "targetName": "Rodolphe Katra",
+      "targetTitle": "Vice President and Global Chief Artificial Intelligence Officer",
+      "angle": "Extend Medtronic's AI lead from its products to the engineers who build them, and let a measurement, not a vendor, settle build-vs-buy.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "linkedin",
+          "timing": "Day 1",
+          "body": "Rodolphe, Medtronic's AI products are ahead of the market: GI Genius, AccuRhythm, and now real-time AI on Hugo. The question I keep coming back to is whether your engineers get the same leverage your devices do. I work with engineering teams at large regulated companies on exactly that gap and would enjoy comparing notes sometime.",
+          "why": "Practitioner-to-practitioner framing on the channel that fits his level; credits his organization's real achievements before raising the gap.",
+          "sourceIds": ["s21", "s20"]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 8",
+          "subject": "The build-vs-buy question, decided by measurement",
+          "body": "Your organization can genuinely build developer tooling in-house, which is rare, and it makes you the hardest and best evaluator we could meet. The honest proposal: benchmark an outside platform against an internal build on one maintenance-heavy codebase, measured in cycle time and hours recovered over a few weeks, with your teams keeping the scorecard. If the internal build wins, you walk away with the numbers to defend that decision to the Operating committee.",
+          "why": "Respects the strongest honest objection in the dossier, the in-house build case, and converts it into the evaluation itself.",
+          "sourceIds": ["s21", "s6", "s12"]
+        }
+      ]
+    }
+  ]
+}

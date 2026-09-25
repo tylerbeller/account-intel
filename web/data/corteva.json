@@ -1,0 +1,315 @@
+{
+  "company": {
+    "name": "Corteva, Inc.",
+    "ticker": "CTVA",
+    "headquarters": "Indianapolis, Indiana (current); post-separation, New Corteva in Indianapolis and Vylor in Johnston, Iowa",
+    "employees": "21,649 (March 2026, per Revelio Labs estimate)",
+    "fiscalYearEnd": "December 31",
+    "industry": "Agriculture: seed and genetics, crop protection, biologicals",
+    "summary": "Corteva is a global pure-play agriculture company formed from the 2017 DowDuPont merger, selling seed and genetics (Pioneer), crop protection, and biologicals. It is one week from separating into two publicly traded companies on October 1, 2026: New Corteva (crop protection, Indianapolis) and Vylor (seed and genetics, Johnston, Iowa). The split forces a full disentanglement of a shared SAP ERP estate, data platforms, and an in-house AI portfolio (Granular, CARL, a seed-business digital twin) that the company has not publicly allocated between the two entities."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "sourced",
+
+  "overview": {
+    "whatTheyDo": "Corteva develops and sells seed and genetics (about $9.9B of FY2025 net sales), crop protection chemicals and biologicals (about $7.5B), and digital products for farmers. It operates in four regions (North America, EMEA, Latin America, Asia Pacific) and is executing a board-approved separation into two companies effective October 1, 2026.",
+    "scale": [
+      { "label": "FY2025 net sales", "value": "$17.40B, up 3% vs FY2024", "sourceId": "s1" },
+      { "label": "FY2025 operating EBITDA", "value": "$3.85B, up 14% vs FY2024", "sourceId": "s1" },
+      { "label": "FY2025 free cash flow", "value": "$2.9B, up 69% vs FY2024", "sourceId": "s1" },
+      { "label": "Employees", "value": "21,649 as of March 2026 (Revelio Labs estimate)", "sourceId": "s14" },
+      { "label": "H1 2026 net sales", "value": "$11.3B, up 4% vs H1 2025", "sourceId": "s9" },
+      { "label": "Separation date", "value": "Targeted October 1, 2026", "sourceId": "s10" }
+    ],
+    "segments": [
+      { "name": "Seed", "note": "FY2025 net sales $9.898B, up 4%; segment operating EBITDA $2.636B, up 19%. Pioneer brand, out-licensing growing; becomes Vylor at separation.", "sourceId": "s1" },
+      { "name": "Crop Protection", "note": "FY2025 net sales $7.503B, up 2% on 5% volume growth and 2% price decline; segment operating EBITDA $1.350B, up 6%. Becomes New Corteva at separation.", "sourceId": "s1" }
+    ]
+  },
+
+  "trends": {
+    "trajectory": "Corteva is shrinking to grow: management concluded the integrated seed-plus-chemistry model no longer earns a valuation premium and is splitting into a seed/genetics company (Vylor) and a crop protection company (New Corteva) on October 1, 2026. Financially the core business is performing - FY2025 operating EBITDA up 14% and H1 2026 up 10% with raised full-year guidance - but the next four quarters will be dominated by separation execution: two ERP landscapes, two data platforms, two AI portfolios, and two freshly-minted executive teams, all under the shadow of a multi-state attorneys general attempt to enjoin the split over PFAS liabilities.",
+    "financials": [
+      { "period": "FY2025", "metric": "Net sales (GAAP)", "value": "$17.40B, up 3% vs FY2024", "direction": "up", "sourceId": "s1" },
+      { "period": "FY2025", "metric": "Operating EBITDA (non-GAAP)", "value": "$3.85B, up 14% vs FY2024", "direction": "up", "sourceId": "s1" },
+      { "period": "FY2025", "metric": "Operating EPS (non-GAAP)", "value": "$3.34, up 30% vs FY2024", "direction": "up", "sourceId": "s1" },
+      { "period": "FY2025", "metric": "Free cash flow (non-GAAP)", "value": "$2.9B, up 69% vs FY2024", "direction": "up", "sourceId": "s1" },
+      { "period": "Q4 2025", "metric": "GAAP loss from continuing operations", "value": "$537M loss vs $50M loss in Q4 2024 (seasonal quarter)", "direction": "down", "sourceId": "s1" },
+      { "period": "Q2 2026", "metric": "Net sales", "value": "$6,379M (missed consensus; EPS beat)", "direction": "unknown", "sourceId": "s8" },
+      { "period": "Q2 2026", "metric": "Net income", "value": "$1.16B (AP); $1,161M per Simply Wall St", "direction": "unknown", "sourceId": "s11" },
+      { "period": "H1 2026", "metric": "Net sales", "value": "$11.3B, up 4% vs H1 2025", "direction": "up", "sourceId": "s9" },
+      { "period": "H1 2026", "metric": "Operating EBITDA", "value": "$3.7B, up 10% vs H1 2025", "direction": "up", "sourceId": "s9" }
+    ],
+    "guidance": [
+      { "item": "FY2026 operating EBITDA (raised at Q2 2026)", "value": "$4.1B to $4.3B", "sourceId": "s10" },
+      { "item": "FY2026 operating EBITDA (initial, Feb 2026)", "value": "$4.0B to $4.2B; operating EPS $3.45 to $3.70", "sourceId": "s1" },
+      { "item": "Separation timing", "value": "October 1, 2026 target confirmed at Q2 2026", "sourceId": "s10" },
+      { "item": "Estimated 2026 tariff impact", "value": "~$80M, included in guidance", "sourceId": "s1" },
+      { "item": "2026 restructuring charges (crop protection network)", "value": "~$80M to $90M net pre-tax", "sourceId": "s1" },
+      { "item": "Long-term royalty ambition", "value": "$1B net royalty income position by 2035; royalty neutrality reached 2026, two years early, after Bayer litigation resolution", "sourceId": "s1" }
+    ],
+    "industry": [
+      { "trend": "Sustained farm economy downturn: commodity prices well off 2022 highs and input costs elevated, straining row-crop farmer margins into 2026.", "implication": "Corteva's customers are cash-constrained, so its price-for-value seed strategy must keep proving ROI; internally, that pressure translates into productivity programs and appetite for automation that reduces cost per acre of R&D and per filing of regulatory work.", "sourceId": "s21" },
+      { "trend": "Crop protection pricing pressure persists in Latin America and Asia Pacific even as volumes grow.", "implication": "New Corteva's margin plan leans on cost improvement and operational excellence, which favors engineering efficiency tooling over headcount growth.", "sourceId": "s1" },
+      { "trend": "AI adoption in agriculture is becoming a competitive axis: MarketsandMarkets sizes the AI-in-agriculture market at $1.7B in 2023 growing to $4.7B by 2028, a 23.1% CAGR.", "implication": "Both successor companies have publicly committed to AI-led differentiation (CARL, digital twin, agentic AI), so engineering capacity for AI product delivery is a board-level topic, not an IT topic.", "sourceId": "s25" },
+      { "trend": "Consolidation reversal: after a decade of ag mega-mergers, Corteva's split bets that focus beats scale.", "implication": "Every duplicated system built for the combined company must now be split, cloned, or retired - a one-time modernization window that will not repeat.", "sourceId": "s5" }
+    ],
+    "pressures": [
+      { "pressure": "Separation execution risk", "evidence": "Company's own risk factors cite management distraction, unexpected costs, and possible litigation relating to the separation; separation costs are excluded from operating EBITDA.", "sourceId": "s1" },
+      { "pressure": "PFAS litigation threatening the split itself", "evidence": "California and other states and cities sought a temporary injunction in September 2026 to stop the separation, alleging it would shield PFAS liabilities; Corteva publicly rejected the allegations.", "sourceId": "s13" },
+      { "pressure": "Customer financial stress", "evidence": "Reuters documents widening cracks in the US farm economy - low prices, high costs, and banks tightening - which caps near-term pricing power.", "sourceId": "s22" },
+      { "pressure": "Analyst skepticism on the split", "evidence": "Bloomberg Intelligence, Oppenheimer, and Bank of America analysts questioned the strategic logic, warning of lost R&D synergies versus Syngenta and Bayer.", "sourceId": "s6" }
+    ]
+  },
+
+  "catalysts": [
+    { "date": "2025-10-01", "event": "Board unanimously approves plan to separate into two publicly traded companies.", "whyItMatters": "Starts the clock on disentangling one shared ERP, data, and AI estate into two standalone stacks - the single largest modernization trigger this account will see this decade.", "urgency": "high", "sourceId": "s4" },
+    { "date": "2026-02-03", "event": "Comprehensive Bayer litigation resolution finalized: $610M cash outflow, royalty neutrality accelerated to 2026, ~$1B aggregate earnings upside over the decade.", "whyItMatters": "Removes legal overhang and funds the separation; signals willingness to spend one-time cash for strategic clarity.", "urgency": "medium", "sourceId": "s1" },
+    { "date": "2026-04-14", "event": "Both successor executive teams named, including a chief digital and information officer for each company: Brian Lutz (Vylor) and Jim Alcombright (New Corteva).", "whyItMatters": "Two new CDIOs, each standing up an independent technology organization, each needing visible wins in their first year. New leaders with a mandate are the best entry point in this rubric.", "urgency": "high", "sourceId": "s2" },
+    { "date": "2026-05-12", "event": "SpinCo named Vylor and headquartered in Johnston, Iowa; New Corteva stays in Indianapolis.", "whyItMatters": "Physical and organizational separation is real: two HQs, two budgets, two vendor relationships to establish.", "urgency": "medium", "sourceId": "s7" },
+    { "date": "2026-07-31", "event": "Q2 2026 results: guidance raised and October 1, 2026 separation date confirmed.", "whyItMatters": "The separation window is now measured in days; every un-split system becomes a Day 1 gap or a costly transition services agreement.", "urgency": "high", "sourceId": "s10" },
+    { "date": "2026-09-14", "event": "Corteva publicly rejects attempt by state attorneys general to enjoin the separation over alleged PFAS liabilities.", "whyItMatters": "A live legal risk to the timeline; if the injunction bites, separation spend freezes and any new-vendor conversation pauses with it.", "urgency": "high", "sourceId": "s12" },
+    { "date": "2026-09-15", "event": "Investor days for both companies at the NYSE, laying out standalone strategies.", "whyItMatters": "Both management teams just made public commitments they must now fund and execute - the freshest possible statement of where technology dollars go.", "urgency": "medium", "sourceId": "s23" }
+  ],
+
+  "techEstate": {
+    "stack": [
+      { "technology": "SAP ERP estate (treasury, supply chain, commercial modules)", "evidence": "Active postings for SAP Treasury Solution Engineer, Solution Engineer - ERP Supply Chain, and ERP Commercial Solution Engineer on an 'Integrated Enterprise Solutions' team (posting text captured 2026-09-24; job links expire, quote preserved here).", "sourceId": "s19" },
+      { "technology": "SAP ERP commercial and supply chain modules (S/4HANA landscape)", "evidence": "Active posting for an ERP Commercial Solution Engineer on the 'Integrated Enterprise Solutions' team, alongside an ERP Supply Chain solution engineer role (posting text captured 2026-09-24; job links expire, quote preserved here).", "sourceId": "s20" },
+      { "technology": "AWS (containerized ML pipelines)", "evidence": "Corteva-authored AWS blog on ML with AWS Fargate and CodePipeline. Note: 2018, stale as evidence of current state, but establishes a long AWS relationship.", "sourceId": "s16" },
+      { "technology": "Google Cloud AI", "evidence": "Google public policy profile describes Corteva using Google AI in its agriscience work (undated page, accessed 2026-09-24).", "sourceId": "s18" },
+      { "technology": "Adobe experience platform", "evidence": "Adobe case study (December 2025) describes Corteva unifying global teams on one Adobe platform for data-driven content and insights.", "sourceId": "s17" },
+      { "technology": "Granular (acquired 2017, rebuilt in-house)", "evidence": "Farm management platform repositioned from farmer-facing product to internal sales enablement, rebuilt by Corteva's digital team with AI models over weather, soil, genetics, and trial data.", "sourceId": "s6" },
+      { "technology": "CARL gen-AI agronomic assistant", "evidence": "ChatGPT-style internal tool augmented with decades of proprietary agronomic research and Pioneer product data, integrated into Granular.", "sourceId": "s6" },
+      { "technology": "Seed-business digital twin ('One Seed' initiative)", "evidence": "In-house ecosystem of AI, mathematical optimization, and mechanistic models representing the seed value chain end to end.", "sourceId": "s6" },
+      { "technology": "Federated data platform (data-as-products)", "evidence": "Self-serve federated data infrastructure where domain owners register, maintain, and monitor their data - designed, intentionally or not, in a way that could ease a two-way split.", "sourceId": "s6" },
+      { "technology": "Gen-AI regulatory document drafting and internal agentic AI", "evidence": "Deployed tool drafts regulatory filings ('thousands of annual filings'); additional agentic AI in development for breeding and seed production teams.", "sourceId": "s6" }
+    ],
+    "patterns": [
+      { "pattern": "SDLC and PDLC maintenance", "supported": true, "theirEstate": "A large in-house-built software portfolio (Granular rebuild, CARL, digital twin, agentic AI for breeding and production) plus thousands of annual regulatory filings already touched by gen-AI. Maintenance load is real and owned by named teams.", "sourceId": "s6" },
+      { "pattern": "Modernization and migration", "supported": true, "theirEstate": "The October 1, 2026 separation forces cloning or splitting a shared SAP ERP estate, a federated data platform, and AI assets whose post-split ownership Corteva has publicly declined to clarify. This is a dated, funded, company-defining migration.", "sourceId": "s6" },
+      { "pattern": "Patching, vulnerabilities and risk", "supported": true, "theirEstate": "Regulated ag-chemical business with EPA filings at scale, active PFAS litigation from multiple state AGs, and a 10-K risk factor naming industrial espionage and IT/network disruption - audit evidence and vulnerability hygiene are expensive and scrutinized.", "sourceId": "s12" }
+    ]
+  },
+
+  "fit": {
+    "verdict": "strong fit",
+    "score": 26,
+    "summary": "A dated corporate separation one week out, two brand-new CDIOs standing up independent technology organizations, a public AI mandate, and a regulated estate built on legacy Dow/DuPont systems: the timing and mandate dimensions are as strong as this rubric produces. The discount comes from execution risk - both organizations are in separation lockdown, an AG injunction attempt is live, and the in-house AI team may read external engineering tooling as competitive rather than complementary.",
+    "rubric": [
+      { "dimension": "Engineering scale", "score": 3, "rationale": "~21,649 employees with named digital, ERP, and data organizations and a meaningful in-house software portfolio, but this is an agriculture company, not a software estate on the scale of a bank or retailer.", "sourceId": "s14" },
+      { "dimension": "Legacy and modernization pressure", "score": 5, "rationale": "Systems inherited from the 2017 DowDuPont merger must now be split into two companies by October 1, 2026 - named legacy, a public separation program, and an integration-divestiture challenge simultaneously.", "sourceId": "s4" },
+      { "dimension": "Regulated or risk scope", "score": 4, "rationale": "EPA-regulated chemistry with thousands of annual regulatory filings, SOX as a public company, and active multi-state PFAS litigation make audit evidence and change control expensive.", "sourceId": "s6" },
+      { "dimension": "AI mandate and executive sponsor", "score": 5, "rationale": "AI ownership is named at the executive level on both sides: Sam Eathington (CTO, Vylor; former chief technology and digital officer), Brian Lutz (CDIO, Vylor), Jim Alcombright (CDIO, New Corteva), Reza Rasoulpour (CTO, New Corteva). Lutz testified to Congress on Corteva's AI program in 2025.", "sourceId": "s6" },
+      { "dimension": "Budget and catalyst timing", "score": 5, "rationale": "A confirmed October 1, 2026 separation date, raised FY2026 guidance ($4.1-4.3B operating EBITDA), $2.9B FY2025 free cash flow, and fresh investor-day commitments made September 15, 2026.", "sourceId": "s10" },
+      { "dimension": "Access and security posture", "score": 4, "rationale": "Published vendor relationships with AWS, Google, Adobe, and SAP plus deployed internal gen-AI show they can adopt outside technology; deduction for heightened security sensitivity around proprietary genetics IP and current litigation posture.", "sourceId": "s18" }
+    ],
+    "reasonsFor": [
+      { "point": "The separation is a once-in-a-decade migration trigger with a hard date", "evidence": "October 1, 2026 target confirmed at Q2 2026; every shared system (ERP, data, AI) must land in one company, be cloned, or ride a transition services agreement.", "sourceId": "s10" },
+      { "point": "Two newly-empowered digital executives who need visible wins", "evidence": "Both CDIO roles were created and named April 14, 2026; new leaders in new companies rank above seniority in this rubric by design.", "sourceId": "s2" },
+      { "point": "AI is already an executive-owned, congressionally-described program", "evidence": "VP of digital Brian Lutz testified to Congress in 2025 that 'AI is transforming everything we do at Corteva'; internal agentic AI development is public.", "sourceId": "s6" },
+      { "point": "They pay for strategic clarity with real cash", "evidence": "$610M Bayer settlement funded from free cash flow to accelerate royalty neutrality by two years; FY2025 free cash flow of $2.9B.", "sourceId": "s1" },
+      { "point": "Margin pressure favors engineering efficiency", "evidence": "Crop protection pricing pressure in Latin America and Asia Pacific plus $80-90M of 2026 restructuring charges put productivity programs at the center of the plan.", "sourceId": "s1" }
+    ],
+    "reasonsAgainst": [
+      { "point": "Separation lockdown: new vendors are frozen until Day 1 and beyond", "evidence": "With the split one week out and transition services agreements being finalized, both IT organizations are incentivized to defer every non-separation decision; the company's own risk factors cite management distraction by the separation.", "sourceId": "s1" },
+      { "point": "A live injunction attempt could slip the entire timeline", "evidence": "California and other states and cities asked a judge in September 2026 to stop the split over PFAS liabilities; an adverse ruling freezes the catalyst that makes this account attractive.", "sourceId": "s13" },
+      { "point": "A strong in-house AI team may see external engineering tooling as a threat", "evidence": "Corteva builds its AI in-house (digital twin 'all developed in-house', agentic AI under internal development) and dissolved an acquired startup to do it; the build-not-buy instinct is demonstrated, not hypothetical.", "sourceId": "s6" },
+      { "point": "Analyst skepticism raises the bar for discretionary spend", "evidence": "Bloomberg Intelligence, Oppenheimer, and Bank of America publicly questioned the split's logic; both new companies will be under immediate margin scrutiny and may cut rather than invest.", "sourceId": "s6" },
+      { "point": "Customer financial stress caps the business's own appetite", "evidence": "The farm economy downturn squeezing farmer margins is the same force behind Corteva's productivity programs - it cuts both ways for new vendor budgets.", "sourceId": "s22" }
+    ],
+    "disqualifiers": [
+      "A court grants the state AGs' injunction and the October 1 separation is enjoined or materially delayed.",
+      "Both CDIOs announce that all external tooling decisions are deferred until transition services agreements expire.",
+      "Post-separation restructuring eliminates the centralized digital organizations rather than splitting them."
+    ]
+  },
+
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Brian Lutz",
+      "title": "Chief Digital and Information Officer, Vylor (seed and genetics SpinCo)",
+      "scope": "Digital and IT for the seed company: the digital twin, Granular, CARL, federated data platform, and the 'One Seed' integration he championed as VP of digital.",
+      "role": "champion",
+      "tenure": "Named to the role April 14, 2026; previously VP of digital on Corteva's digital transformation team; testified to Congress on Corteva's AI program in 2025.",
+      "whyStartHere": "Newly elevated from VP of digital to CDIO of a new public company, he owns the most mature AI estate and needs visible Day 1 wins; he already speaks publicly about the build.",
+      "opener": "You told Congress AI is transforming everything at Corteva - as you stand up Vylor's own stack by October 1, where is engineering capacity, not ambition, the binding constraint?",
+      "confidence": "confirmed",
+      "sourceId": "s3"
+    },
+    {
+      "rank": 2,
+      "name": "Jim Alcombright",
+      "title": "Chief Digital and Information Officer, New Corteva (crop protection)",
+      "scope": "Digital and enterprise platforms for the new crop protection company; previously Corteva's executive IT leader for digital and enterprise platforms in Iowa.",
+      "role": "champion",
+      "tenure": "Named April 14, 2026; assumes the role at separation.",
+      "whyStartHere": "He must build an independent IT organization for New Corteva from a shared estate, and crop protection's digital maturity trails the seed side - the gap is his mandate.",
+      "opener": "New Corteva inherits the less mature half of the digital estate - what's the one capability you refuse to let ride a transition services agreement past Day 1?",
+      "confidence": "confirmed",
+      "sourceId": "s2"
+    },
+    {
+      "rank": 3,
+      "name": "Sam Eathington",
+      "title": "Chief Technology Officer, Vylor",
+      "scope": "Technology and innovation strategy for the seed company; led Corteva's integrated digital transformation as chief technology and digital officer since 2022.",
+      "role": "economic buyer",
+      "tenure": "Joined Corteva as CTO in 2021 from Monsanto's Climate unit, where he was chief science officer; named Vylor CTO April 14, 2026.",
+      "whyStartHere": "He built the federated data and AI program the split now divides; he knows exactly what breaks on October 1 and controls the budget to fix it.",
+      "opener": "You architected the federated data model that now has to serve two companies - how much of the next two quarters is rebuilding versus advancing?",
+      "confidence": "confirmed",
+      "sourceId": "s3"
+    },
+    {
+      "rank": 4,
+      "name": "Reza Rasoulpour",
+      "title": "Chief Technology Officer, New Corteva",
+      "scope": "Technology strategy for the crop protection company, including biologicals and the R&D partnership contemplated with Vylor.",
+      "role": "influencer",
+      "tenure": "Named April 14, 2026; assumes role at separation.",
+      "whyStartHere": "Owns the innovation agenda for a company whose investor pitch is 'innovation-driven in both its product portfolio and its operating model' - engineering throughput is his lever.",
+      "opener": "New Corteva's pitch pairs product innovation with an asset-light operating model - where does software engineering capacity show up in that equation?",
+      "confidence": "confirmed",
+      "sourceId": "s2"
+    },
+    {
+      "rank": 5,
+      "name": "Luke Kissam",
+      "title": "Chief Executive Officer, New Corteva",
+      "scope": "CEO of the crop protection company; former Albemarle chairman, president and CEO; joined Corteva June 1, 2026 ahead of separation.",
+      "role": "economic buyer",
+      "tenure": "Joined June 1, 2026; CEO at separation.",
+      "whyStartHere": "An outside CEO hired to run a focused company will benchmark every inherited process; early in tenure, his priorities are still being set, and he just made public investor-day commitments.",
+      "opener": "You have run a specialty chemicals P&L through a downturn - what does 'operational excellence' at New Corteva mean in engineering hours, not just headcount?",
+      "confidence": "confirmed",
+      "sourceId": "s2"
+    },
+    {
+      "rank": 6,
+      "name": "Chuck Magro",
+      "title": "Chief Executive Officer, Vylor (currently Corteva CEO)",
+      "scope": "Leads the seed and genetics company; driving the separation strategy and the price-for-value seed technology agenda; incoming chair of CropLife International effective January 1, 2026.",
+      "role": "economic buyer",
+      "tenure": "Corteva CEO since 2021; becomes Vylor CEO at separation.",
+      "whyStartHere": "The separation is his strategic bet and he publicly framed Vylor's future around 'sustained investment in advanced technology' - a top-down reference for any engineering investment.",
+      "opener": "You have said farmers will pay for high-tech seed - what convinces a farmer the software behind the seed is as differentiated as the genetics?",
+      "confidence": "confirmed",
+      "sourceId": "s24"
+    },
+    {
+      "rank": 7,
+      "name": "Ralph Ford",
+      "title": "Chief Integrated Operations Officer, New Corteva",
+      "scope": "Integrated operations for the crop protection company: manufacturing network, supply chain, and the ERP landscape that runs them through the separation.",
+      "role": "practitioner",
+      "tenure": "Named April 14, 2026; assumes role at separation.",
+      "whyStartHere": "He owns the operational systems most exposed by the split - the SAP supply chain and manufacturing stack - and feels Day 1 breakage first.",
+      "opener": "When the shared SAP landscape splits on October 1, which order-to-cash or supply-chain process keeps you up at night?",
+      "confidence": "confirmed",
+      "sourceId": "s2"
+    },
+    {
+      "rank": 8,
+      "name": "Judd O'Connor",
+      "title": "Chief Commercial and Operations Officer, Vylor",
+      "scope": "Commercial and operations for the seed company, including the Granular-based sales enablement platform reps use in the field.",
+      "role": "practitioner",
+      "tenure": "Named April 14, 2026; assumes role at separation.",
+      "whyStartHere": "Granular and CARL are his sellers' daily tools; their post-split performance is his revenue problem, which makes him a ground-truth reference for the digital team's priorities.",
+      "opener": "Your reps live in Granular and CARL through the separation - what breaks first for them if the digital team is rebuilding plumbing for two quarters?",
+      "confidence": "confirmed",
+      "sourceId": "s3"
+    },
+    {
+      "rank": 9,
+      "name": "Jeff Rudolph",
+      "title": "Chief Financial Officer, New Corteva",
+      "scope": "CFO of the crop protection company; owns the separation budget, dis-synergies, and the standalone cost structure.",
+      "role": "gatekeeper",
+      "tenure": "Named April 14, 2026; assumes role at separation.",
+      "whyStartHere": "Every new vendor line item in a company under margin scrutiny crosses his desk; bring him the bottom-up model early or meet his spreadsheet later.",
+      "opener": "Separation budgets punish recurring spend - if an engineering efficiency pilot paid back inside the TSA window, is that fundable this fiscal year?",
+      "confidence": "confirmed",
+      "sourceId": "s2"
+    },
+    {
+      "rank": 10,
+      "name": "David Johnson",
+      "title": "Chief Financial Officer, Vylor",
+      "scope": "CFO of the seed company; owns capital allocation for the higher-margin, higher-R&D half of the split.",
+      "role": "gatekeeper",
+      "tenure": "Named April 14, 2026; assumes role at separation.",
+      "whyStartHere": "Vylor's story is premium technology at premium prices, and he must defend that R&D intensity to investors; he is the check on any engineering platform spend.",
+      "opener": "Vylor's multiple depends on R&D productivity - how are you measuring output per engineering dollar going into the first standalone year?",
+      "confidence": "confirmed",
+      "sourceId": "s3"
+    }
+  ],
+
+  "competition": [
+    { "vendor": "Bayer (Crop Science / Climate FieldView)", "position": "Primary integrated competitor; the February 2026 litigation resolution reset the relationship to licensing counterparty, and FieldView remains the incumbent farmer-facing digital platform.", "tradeoff": "FieldView is deployed on tens of millions of acres with a direct farmer relationship Corteva deliberately abandoned when it turned Granular inward - Bayer owns the farmer digital channel.", "sourceId": "s1" },
+    { "vendor": "Syngenta", "position": "Integrated seed-plus-chemistry competitor analysts cite as the beneficiary of Corteva's split, with its own Cropwise digital platform.", "tradeoff": "Syngenta keeps the integrated model Corteva is abandoning, so it can sell full-acre solutions and fund digital from a larger combined P&L while Corteva splits its teams in two.", "sourceId": "s6" },
+    { "vendor": "Corteva's own in-house AI organization", "position": "The real incumbent for engineering-AI budget: a demonstrated build-not-buy culture (in-house digital twin, agentic AI in development, Granular rebuilt internally).", "tradeoff": "Their team holds decades of proprietary agronomic data and has already shipped gen-AI products; an external tool must complement that capability, not claim to replace it.", "sourceId": "s6" },
+    { "vendor": "Hyperscaler AI stacks (Google Cloud, AWS)", "position": "Existing cloud relationships on both sides create a default path where developer AI arrives bundled through the cloud commit rather than as a separate platform decision.", "tradeoff": "Bundled hyperscaler tooling comes with procurement already done and no new vendor security review - the path of least resistance during a separation freeze.", "sourceId": "s18" }
+  ],
+
+  "objections": [
+    { "objection": "We are one week from separating two companies. Nobody is onboarding a new vendor.", "response": "Agreed - do not ask for an enterprise decision now. Scope a pilot to the separation backlog itself: cloning, splitting, and reconciling two ERP and data estates is exactly the work agents accelerate, and the payoff lands inside the transition services window where every month has a price." },
+    { "objection": "We build our AI in-house. Our digital twin and agentic tools are proprietary.", "response": "They should be - that is agronomy-domain IP. The offer is the undifferentiated heavy lifting around it: maintenance, migration, and vulnerability work on the SAP and platform estate, so the in-house team spends its hours on the twin, not the plumbing." },
+    { "objection": "Our genetics and chemistry IP cannot touch an external agent.", "response": "Correct posture for a company whose 10-K names industrial espionage as a risk. Deployment stays inside their cloud boundary and their tenant, with audit evidence for every change - the same standard their regulatory filings already meet." },
+    { "objection": "The farm economy is down and both new companies are under margin scrutiny.", "response": "Which is why the model is bottom-up from engineering hours reclaimed on dated work - separation disentanglement, restructuring-driven consolidation - with inputs their own CFO can substitute, not a top-down productivity claim." },
+    { "objection": "A court could enjoin the whole separation over PFAS. Why talk now?", "response": "Because the ruling cuts both ways: if the split proceeds, the team that already scoped the separation backlog moves first; if it slips, the same automation shortens a longer transition window. Either outcome rewards being ready." }
+  ],
+
+  "dealModel": {
+    "unit": "Engineer-week reclaimed from separation-driven migration and maintenance work (estimate, not a sourced figure).",
+    "assumptions": [
+      "ESTIMATE: Corteva's combined internal software and data engineering organization numbers in the low hundreds, inferred from the scope of Granular, CARL, the digital twin, and the SAP estate - no public engineering headcount exists.",
+      "ESTIMATE: 25-40% of that capacity is consumed by separation-related migration, cloning, and reconciliation work through mid-2027, based on the October 1, 2026 date and typical 12-24 month transition services windows - the TSA duration itself is not public.",
+      "ESTIMATE: fully-loaded cost per engineer-week of $4,000-5,000 for a US Midwest enterprise - the buyer substitutes their own loaded rate.",
+      "All value figures are illustrative estimates built from the unit above; no top-down percentage-of-revenue logic is used."
+    ],
+    "ladder": [
+      { "rung": "Pilot: one separation workstream (e.g., ERP clone-and-split reconciliation)", "seats": "15-25", "annualValue": "ESTIMATE: $0.3-0.6M in reclaimed engineer-weeks at the stated unit cost", "gate": "Measurable cycle-time reduction on a named separation backlog, reviewed with the CDIO before Day 1 + 90 days" },
+      { "rung": "One company-wide deployment (Vylor or New Corteva digital org)", "seats": "75-150", "annualValue": "ESTIMATE: $1.5-3.5M annualized", "gate": "Pilot gate passed plus security review cleared inside their cloud tenant" },
+      { "rung": "Both successor companies", "seats": "200-400", "annualValue": "ESTIMATE: $4-9M annualized", "gate": "TSA expiry creates duplicated demand; second company adopts only after the first publishes internal results" }
+    ]
+  },
+
+  "unknowns": [
+    { "question": "How are the shared digital and AI assets - CARL, Granular, the digital twin, and the centralized digital transformation team - actually divided between Vylor and New Corteva?", "whyItMatters": "Determines which company owns the champion use cases, which must rebuild, and where duplicated spend (and the opening for external tooling) appears. AgFunderNews reports Corteva declined to clarify.", "searched": "AgFunderNews separation analysis, both April 2026 leadership press releases, September 2026 investor day coverage." },
+    { "question": "What are the terms and duration of the transition services agreements, and which systems (SAP instances, data platform) ride them?", "whyItMatters": "The TSA window is the forcing function for the whole value case: its length sets the deadline pressure, and its scope names the systems in play. Form 10 detail was not located in public reporting.", "searched": "SEC EDGAR filings list, Reuters and trade coverage of the separation, Corteva investor relations pages." },
+    { "question": "What is the one-time separation IT budget, and who owns it in each company?", "whyItMatters": "A funded separation envelope is the difference between a pilot paid from existing budget and a deal waiting for FY2027 planning. Not disclosed in earnings materials reviewed.", "searched": "Q4 2025 and Q2 2026 earnings releases and transcripts, September 15, 2026 investor day materials." },
+    { "question": "Will either successor company consolidate onto a single cloud provider, and does the Google/AWS split follow the business split?", "whyItMatters": "Cloud consolidation decisions made in the next two quarters determine which hyperscaler's bundled AI tooling becomes the default competitor inside each account.", "searched": "AWS and Google public case materials, Adobe case study, job postings; no current-state cloud architecture disclosure found." },
+    { "question": "What is the status and likely ruling timeline of the state attorneys general injunction attempt over PFAS liabilities?", "whyItMatters": "An injunction delays or restructures the October 1 separation, which freezes the catalyst this entire dossier is built on. Litigation posture as of September 24, 2026 is contested and unresolved.", "searched": "Des Moines Register, Corteva's September 14, 2026 rebuttal release, PRNewswire distribution of the same." }
+  ],
+
+  "sources": [
+    { "id": "s1", "title": "Corteva Reports Fourth Quarter and Full Year 2025 Results (8-K Exhibit 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000002/a4q_2025xearningsxnewsxr.htm", "publisher": "Corteva, Inc. via SEC EDGAR", "date": "2026-02-03", "primary": true },
+    { "id": "s2", "title": "Corteva Announces Executive Leadership Team of its Future Crop Protection Company", "url": "https://www.corteva.com/resources/media-center/corteva-announces-executive-leadership-team-of-its-future-crop-protection-company.html", "publisher": "Corteva, Inc.", "date": "2026-04-14", "primary": true },
+    { "id": "s3", "title": "Corteva Announces Executive Leadership Team of its Future Advanced Seed and Genetics Company", "url": "https://www.corteva.com/resources/media-center/corteva-announces-executive-leadership-team-of-its-future-advanced-seed-and-genetics-company.html", "publisher": "Corteva, Inc.", "date": "2026-04-14", "primary": true },
+    { "id": "s4", "title": "Corteva Announces Plan to Separate into Two Industry-Leading Public Companies", "url": "https://www.corteva.com/resources/media-center/corteva-announces-plan-to-separate-into-two-industry-leading-public-companies.html", "publisher": "Corteva, Inc.", "date": "2025-10-01", "primary": true },
+    { "id": "s5", "title": "Corteva to split seeds, pesticide units into separate listed companies", "url": "https://www.reuters.com/legal/transactional/corteva-split-seeds-pesticide-units-into-separate-listed-companies-2025-10-01/", "publisher": "Reuters", "date": "2025-10-01" },
+    { "id": "s6", "title": "How will Corteva divide AI and data assets in business separation?", "url": "https://agfundernews.com/cortevas-planned-separation-raises-questions-about-ai-and-data-split", "publisher": "AgFunderNews", "date": "2025-10-14" },
+    { "id": "s7", "title": "Corteva Announces Headquarters for Two Future Companies Following Separation", "url": "https://www.corteva.com/resources/media-center/corteva-announces-headquarters-for-two-future-companies-following-planned-separation.html", "publisher": "Corteva, Inc.", "date": "2026-05-12", "primary": true },
+    { "id": "s8", "title": "Why Corteva (CTVA) Raised EPS Guidance After Weaker Q2 Results", "url": "https://simplywall.st/stocks/us/materials/nyse-ctva/corteva/news/why-corteva-ctva-raised-eps-guidance-after-weaker-q2-results", "publisher": "Simply Wall St", "date": "2026-08-06" },
+    { "id": "s9", "title": "Earnings call transcript: Corteva Q2 2026 beats EPS, stock drops", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-corteva-q2-2026-beats-eps-stock-drops-93CH-4190349", "publisher": "Investing.com", "date": "2026-07-31" },
+    { "id": "s10", "title": "Corteva forecasts $4.1B-$4.3B operating EBITDA and targets October 1 separation date", "url": "https://seekingalpha.com/news/4623002-corteva-forecasts-4_1b-4_3b-operating-ebitda-and-targets-october-1-separation-date", "publisher": "Seeking Alpha", "date": "2026-07-31" },
+    { "id": "s11", "title": "Corteva, Inc.: Q2 Earnings Snapshot (AP)", "url": "https://wtop.com/news/2026/07/corteva-inc-q2-earnings-snapshot/", "publisher": "Associated Press via WTOP", "date": "2026-07-30" },
+    { "id": "s12", "title": "Corteva Categorically Rejects Unfounded, Unprecedented Allegations by State Attorneys General", "url": "https://www.corteva.com/resources/media-center/corteva-rejects-allegations-by-state-attorneys-general.html", "publisher": "Corteva, Inc.", "date": "2026-09-14", "primary": true },
+    { "id": "s13", "title": "California, other states ask judge to stop Corteva split over PFAS", "url": "https://www.desmoinesregister.com/story/money/agriculture/2026/09/15/california-other-states-ask-judge-to-stop-corteva-split-over-pfas/", "publisher": "Des Moines Register", "date": "2026-09-15" },
+    { "id": "s14", "title": "Corteva Number of Employees 2026 - Revelio Labs", "url": "https://www.reveliolabs.com/companies/corteva/employees", "publisher": "Revelio Labs", "date": "2026-08-31" },
+    { "id": "s16", "title": "Machine Learning with AWS Fargate and AWS CodePipeline at Corteva Agriscience (note: 2018, stale as current-state evidence)", "url": "https://aws.amazon.com/blogs/compute/machine-learning-with-aws-fargate-and-aws-codepipeline-at-corteva-agriscience/", "publisher": "AWS Compute Blog", "date": "2018-08-13" },
+    { "id": "s17", "title": "How Corteva built a future-ready digital foundation with Adobe", "url": "https://business.adobe.com/blog/how-corteva-transformed-at-speed-and-scale", "publisher": "Adobe", "date": "2025-12-01" },
+    { "id": "s18", "title": "How Agriscience Innovator Corteva is Using Google AI", "url": "https://publicpolicy.google/stories/corteva-indiana/", "publisher": "Google Public Policy", "date": "undated, accessed 2026-09-24" },
+    { "id": "s19", "title": "Corteva Careers - technology and ERP engineering postings (SAP Treasury Solution Engineer role quoted as posted; captured 2026-09-24; individual posting links expire)", "url": "https://careers.corteva.com/", "publisher": "Corteva Careers", "date": "accessed 2026-09-24", "primary": true },
+    { "id": "s20", "title": "ERP Commercial Solution Engineer - Corteva, Integrated Enterprise Solutions team (job posting; quoted requirement captured 2026-09-24)", "url": "https://freehire.me/jobs/erp-commercial-solution-engineer-corteva-bfb32v4s", "publisher": "freehire", "date": "accessed 2026-09-24" },
+    { "id": "s21", "title": "Declining Farm Economy Continues to Pressure Profitability", "url": "https://www.fb.org/market-intel/declining-farm-economy-continues-to-pressure-profitability", "publisher": "American Farm Bureau Federation", "date": "2025-10-06" },
+    { "id": "s22", "title": "US farm economy shows widening cracks as costs rise, jobs vanish", "url": "https://www.reuters.com/world/us/us-farm-economy-shows-widening-cracks-costs-jobs-vanish-2026-01-15/", "publisher": "Reuters", "date": "2026-01-15" },
+    { "id": "s23", "title": "Corteva to Webcast Investor Days for Two New Companies", "url": "https://www.corteva.com/resources/media-center/corteva-to-webcast-investor-days-for-two-new-companies.html", "publisher": "Corteva, Inc.", "date": "2026-03-09", "primary": true },
+    { "id": "s24", "title": "Corteva Says Farmers Are Willing to Pay Up for High-Tech Seeds", "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-03-2026/card/corteva-says-farmers-are-willing-to-pay-up-for-high-tech-seeds-8yRqmkhvbRzIq9z8E2gB", "publisher": "Wall Street Journal", "date": "2026-09-03" },
+    { "id": "s25", "title": "Artificial Intelligence in Agriculture Market worth $4.7 billion by 2028", "url": "https://www.marketsandmarkets.com/Market-Reports/ai-in-agriculture-market-159957009.html", "publisher": "MarketsandMarkets", "date": "2023-2028 forecast period" }
+  ]
+}

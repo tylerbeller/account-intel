@@ -1,0 +1,173 @@
+{
+  "company": "Corteva, Inc.",
+  "generatedAt": "2026-09-24",
+  "basedOnDossier": "2026-09-24",
+
+  "pointOfView": {
+    "whyAnything": {
+      "claim": "On October 1, 2026, one shared SAP estate, one federated data platform, and one AI portfolio must become two standalone company stacks, and every system not split or cloned by then becomes a Day 1 gap or a metered transition services charge.",
+      "evidence": [
+        { "point": "The board approved the separation on October 1, 2025, starting a one-year clock to disentangle systems built for the combined company.", "sourceId": "s4" },
+        { "point": "The October 1, 2026 separation date was confirmed at Q2 2026 results on July 31, 2026, alongside raised FY2026 guidance.", "sourceId": "s10" },
+        { "point": "Corteva has publicly declined to clarify how its AI and data assets (CARL, Granular, the digital twin, the federated data platform) will be divided between the two companies.", "sourceId": "s6" },
+        { "point": "Active postings show a live shared SAP treasury, supply chain, and commercial estate on the Integrated Enterprise Solutions team that must be split or cloned.", "sourceId": "s19" },
+        { "point": "The company's own risk factors cite management distraction, unexpected costs, and possible litigation relating to the separation.", "sourceId": "s1" }
+      ],
+      "risk": "A sharp buyer says the separation program has been funded and staffed for a year with systems integrators already engaged, so the disentanglement is handled and the 'unacceptable status quo' framing overstates the gap. The honest counter is that the program covers the split itself, not the engineering capacity question of who rebuilds versus advances after Day 1, but a rep who claims the separation is under-resourced without evidence loses the room."
+    },
+    "whyFactory": {
+      "claim": "Corteva's in-house team should keep building the agronomy IP (the digital twin, CARL, agentic breeding tools); Factory takes the undifferentiated engineering around it, the migration, cloning, reconciliation, and maintenance work on the SAP and platform estate, with audit evidence for every change, deployed inside their own cloud boundary rather than bundled invisibly into a hyperscaler commit.",
+      "evidence": [
+        { "point": "Corteva demonstrably builds its AI in-house (in-house digital twin, internal agentic AI development, Granular rebuilt internally), so the offer must complement that capability, not claim to replace it.", "sourceId": "s6" },
+        { "point": "The estate needing undifferentiated work is concrete and named: SAP treasury, supply chain, and commercial modules on the Integrated Enterprise Solutions team.", "sourceId": "s20" },
+        { "point": "Both successor companies named chief digital and information officers on April 14, 2026, each standing up an independent technology organization that must decide what to build, buy, or delegate.", "sourceId": "s2" },
+        { "point": "As an EPA-regulated business with active multi-state PFAS litigation, every change to regulated systems needs inspectable audit evidence, which is the shape of Factory's output.", "sourceId": "s12" }
+      ],
+      "risk": "The demonstrated build-not-buy instinct is the real objection: Corteva dissolved an acquired startup to rebuild in-house, and its AI team may read external engineering tooling as a threat rather than a complement. If the rep cannot draw the line between agronomy IP (theirs) and plumbing (delegable) in the first meeting, the in-house team kills the deal before the CDIOs ever see it.",
+      "versus": [
+        "Do nothing and ride transition services agreements until they expire",
+        "Corteva's own in-house AI organization builds the tooling themselves",
+        "Bundled hyperscaler AI tooling arriving through the existing Google Cloud or AWS commits",
+        "An IDE copilot the engineering teams may already have, which accelerates typing but not audited migration workstreams"
+      ]
+    },
+    "whyNow": {
+      "claim": "The separation executes in one week on a confirmed date, two CDIOs named in April owe visible Day 1 wins in their first year, and both management teams made public investor-day commitments on September 15, 2026 that they must now fund, which makes this the one quarter where scoping the separation backlog is still a pre-decision conversation.",
+      "evidence": [
+        { "point": "The October 1, 2026 separation date was confirmed at Q2 2026 results; the window is now measured in days.", "sourceId": "s10" },
+        { "point": "Brian Lutz (Vylor) and Jim Alcombright (New Corteva) were named chief digital and information officers on April 14, 2026, both new leaders with a mandate.", "sourceId": "s2" },
+        { "point": "Both successor executive teams presented standalone strategies at investor days at the NYSE on September 15, 2026, nine days before this writing.", "sourceId": "s23" },
+        { "point": "Corteva's leadership framed the seed company's future around sustained investment in advanced technology, and the WSJ reports farmers will pay for high-tech seed, so digital delivery is part of the equity story.", "sourceId": "s24" }
+      ],
+      "risk": "A court could grant the state attorneys general injunction over PFAS liabilities and enjoin or delay the separation, which freezes the catalyst this pillar rests on; Corteva publicly rejected the allegations on September 14, 2026, but the ruling is unresolved. The claim also decays on its own: after Day 1, new-vendor lockdown deepens and the same conversation becomes a harder post-separation budget fight.",
+      "expiresOn": "2026-10-01"
+    },
+    "theAsk": {
+      "ask": "A 30-minute working session with Brian Lutz (CDIO, Vylor) and Sam Eathington (CTO, Vylor) before October 1 to map one named separation workstream, the clone-and-reconcile split of the shared data platform, against a scoped pilot that measures cycle-time and pays back inside the transition services window.",
+      "why": "It asks for time, not a purchase decision, during the exact week when a full vendor evaluation is impossible; it targets the two people who own the asset being split; and a pilot scoped to separation work finishes inside the TSA window where every month already has a price, so the CFO can judge it against a real cost line rather than a new one.",
+      "fallback": "A one-page written scoping memo on the data-platform split, delivered for asynchronous review, with the bottom-up engineer-week model and its inputs shown so their team can substitute its own numbers without taking a meeting."
+    },
+    "soundbite": "Corteva has one week to turn one ERP, one data platform, and one AI estate into two companies. We take the undifferentiated migration and maintenance work off your in-house team, inside your own cloud boundary with audit evidence for every change, so the people who built the twin and CARL keep building them instead of plumbing.",
+    "doNotSay": [
+      { "claim": "Factory will reduce your engineering headcount.", "reason": "Nobody promised reductions, and both successor companies are under immediate margin scrutiny from analysts who questioned the split. The value model is reclaimed engineer-weeks on dated separation work, not layoffs; promising headcount cuts invites the CFO to test a claim the evidence does not contain." },
+      { "claim": "A named ROI multiple or productivity percentage (for example '30 percent faster engineering').", "reason": "No sourced figure exists. The dossier's value model is explicitly an estimate built from an assumed engineer-week unit, and it notes there is no public engineering headcount for Corteva. Quoting a percentage turns a labeled estimate into a fabrication." },
+      { "claim": "Agriculture companies like yours already use Factory.", "reason": "Research found no published Factory customer reference in agriculture. Any customer reference used must be quoted as published with its source and the vertical gap named out loud; implying an ag reference that does not exist ends the relationship if checked." },
+      { "claim": "We know your TSA terms and separation IT budget, and the pilot fits them.", "reason": "The TSA scope and duration and the separation IT budget are documented unknowns; Corteva declined to clarify the AI asset split publicly. Claiming knowledge of terms that are not public is a lie the buyer can expose with one question." },
+      { "claim": "The injunction attempt is noise; the October 1 date is certain.", "reason": "The state AG action is live and unresolved as of September 2026, and Corteva itself was forced to issue a public rebuttal. Guaranteeing the timeline hands credibility to the buyer's own risk factors, which name separation litigation explicitly." },
+      { "claim": "Give us access to your genetics and chemistry data and we will show value fast.", "reason": "Corteva's 10-K names industrial espionage as a risk and its proprietary genetics IP is the crown jewels of Vylor. The correct posture is deployment inside their cloud tenant with their data never leaving it; overpromising data access triggers the security review that kills the deal." },
+      { "claim": "Your in-house AI team cannot build this themselves.", "reason": "They demonstrably can and do: an in-house digital twin, internal agentic AI development, and a rebuilt Granular platform. The argument is about where their hours go, not about their capability, and insulting the team that built CARL makes an enemy of the champion." }
+    ]
+  },
+
+  "warmPaths": [
+    {
+      "kind": "partner or vendor",
+      "path": "Google Cloud and AWS account teams already inside Corteva. Both successor companies inherit hyperscaler relationships, and Factory deploys inside the customer's cloud tenant, so a co-sell or marketplace route lets the deal ride an existing vendor relationship instead of triggering a new-vendor security review during separation lockdown.",
+      "evidence": "Google's public policy profile describes Corteva using Google AI in its agriscience work (undated page, accessed 2026-09-24); a Corteva-authored AWS blog establishes a long AWS relationship (2018, stale as current-state evidence but directionally useful).",
+      "sourceId": "s18",
+      "confidence": "likely",
+      "action": "Ask Factory's cloud partnerships lead to open a co-sell conversation with the Google Cloud and AWS account teams covering Corteva, with the goal of a joint introduction to the Vylor CDIO office ahead of Day 1."
+    },
+    {
+      "kind": "community or conference",
+      "path": "World Agri-Tech Innovation Summit, San Francisco, March 9-10, 2027. It is the first major ag-tech stage after separation where Vylor and New Corteva will establish standalone brands, and their digital leaders already speak publicly (Brian Lutz testified to Congress on Corteva's AI program in 2025 and has a prior conference speaking record).",
+      "evidence": "worldagritechusa.com lists the San Francisco summit for March 9-10, 2027 (accessed 2026-09-24); Lutz's public speaking and testimony record is documented in the dossier (s6). Their attendance is inferred, not confirmed.",
+      "sourceId": "s6",
+      "confidence": "likely",
+      "action": "Submit a speaking proposal framed as 'standing up an independent AI stack post-separation' and ask the organizers to facilitate an introduction to Vylor's digital leadership as part of programming."
+    },
+    {
+      "kind": "board or investor overlap",
+      "path": "J.P. Morgan is a disclosed Factory Series B investor and maintains agribusiness investment banking and research coverage that includes Corteva. The investor relationship is a legitimate, public route to request an introduction through a firm both sides already trust.",
+      "evidence": "BusinessWire, 'Factory Unleashes the Droids, Raises $50 Million Series B from NEA, Sequoia Capital, NVIDIA, and J.P. Morgan,' September 25, 2025. J.P. Morgan's specific Corteva coverage relationship is plausible but not confirmed in the dossier sources.",
+      "confidence": "speculative",
+      "action": "Ask Factory's J.P. Morgan investor contact whether their agribusiness banking or research team will broker a warm introduction to either successor company's CDIO office."
+    }
+  ],
+
+  "outreach": [
+    {
+      "targetName": "Brian Lutz",
+      "targetTitle": "Chief Digital and Information Officer, Vylor",
+      "angle": "Engineering capacity, not ambition, is the binding constraint in standing up Vylor's independent stack by Day 1.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "Vylor's Day 1 stack",
+          "body": "Brian, you told Congress last year that AI is transforming everything at Corteva. As of October 1, that program runs on a stack Vylor has to stand up alone: Granular, CARL, the digital twin, and the federated data platform behind them. The ambition is clearly not the constraint; engineering hours are. I would like 30 minutes with you and Sam Eathington before Day 1 to map one separation workstream, the clone-and-reconcile split of the shared data platform, against a pilot that pays back inside the transition services window. Worth a session?",
+          "why": "Open on his own public words, name the dated event, and make one concrete ask with two named attendees. Short enough for a new CDIO in separation week.",
+          "sourceIds": ["s6", "s10", "s3"]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 7",
+          "subject": "The question AgFunderNews could not get answered",
+          "body": "One more thought, Brian. AgFunderNews reported that Corteva declined to say how CARL, Granular, and the digital twin get divided between the two companies. Wherever those assets land, the work of splitting the plumbing underneath them is undifferentiated. It is not agronomy IP, and it should not consume the people who build agronomy IP. If a meeting is premature while separation decisions are locked, I will send a one-page scoping memo on the data-platform split instead, with the engineer-week model shown so your team can substitute its own numbers. Say the word.",
+          "why": "Adds new information (the unresolved asset split) rather than bumping the thread, and offers the smaller fallback ask unprompted.",
+          "sourceIds": ["s6"]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 16",
+          "subject": "What Vylor told investors on September 15",
+          "body": "Last note, then I will close the loop. Vylor's investor day committed to a premium technology story, and the Wall Street Journal reports farmers are willing to pay for high-tech seed. That multiple depends on shipping digital product through the separation, not just surviving it. The pilot I am proposing is scoped to one named separation backlog, with cycle time measured against it and results reviewed with you before Day 1 plus 90 days. If the answer is no, a one-line reply closes it out cleanly.",
+          "why": "Third touch earns its place with the freshest public event (investor day and the WSJ piece), ties the pilot to the equity story, and gives an easy out.",
+          "sourceIds": ["s23", "s24"]
+        }
+      ]
+    },
+    {
+      "targetName": "Jim Alcombright",
+      "targetTitle": "Chief Digital and Information Officer, New Corteva",
+      "angle": "New Corteva inherits the less mature half of the digital estate; nothing core should ride a transition services agreement past Day 1.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "What refuses to ride a TSA",
+          "body": "Jim, you were named New Corteva's chief digital and information officer in April, and at separation on October 1 you inherit the less mature half of the digital estate. Every capability still riding a transition services agreement after Day 1 is a metered dependency on a company you no longer control. I would like 30 minutes to walk through how agentic engineering absorbs the clone-and-reconcile work on the shared SAP and data estate, so your team builds New Corteva's own platform instead of servicing the old one. Worth a session?",
+          "why": "Mirrors his mandate (the digital maturity gap is his problem) and frames the TSA as a priced dependency, which is the language of separation week.",
+          "sourceIds": ["s2", "s10", "s19"]
+        },
+        {
+          "order": 2,
+          "channel": "linkedin",
+          "timing": "Day 8",
+          "body": "Jim, one addition to my note last week. New Corteva carries roughly $80 to $90 million of 2026 restructuring charges on the crop protection network, and analysts publicly questioned the split's lost R&D synergies, so any new spend has to defend itself to your CFO on day one. The model I would bring is bottom-up: engineer-weeks reclaimed on named separation work, with the inputs shown so Jeff Rudolph's team can substitute its own numbers. Happy to send the one-page version here if email is buried this month.",
+          "why": "LinkedIn suits a second touch to a newly named executive; it preempts the CFO objection with the bottom-up model and names the gatekeeper respectfully.",
+          "sourceIds": ["s1", "s6"]
+        }
+      ]
+    },
+    {
+      "targetName": "Sam Eathington",
+      "targetTitle": "Chief Technology Officer, Vylor",
+      "angle": "He architected the federated data model that must now serve two companies; the question is how much of the next two quarters is rebuilding versus advancing.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "Rebuild versus advance",
+          "body": "Sam, you architected the federated data platform that now has to serve two companies after October 1, and you know better than anyone which parts split cleanly and which do not. My question is narrow: how much of Vylor's next two quarters goes to rebuilding plumbing versus advancing the digital twin and CARL? If the rebuild share is material, I would like 30 minutes to show how agentic engineering takes the undifferentiated half, deployed inside your own cloud boundary with audit evidence for every change. Worth a session?",
+          "why": "An EVP-level economic buyer gets one short email with one narrow question that only he can answer; the technical specificity signals the sender did the reading.",
+          "sourceIds": ["s6", "s3", "s10"]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 9",
+          "subject": "The estate around the twin",
+          "body": "One concrete observation before I stop, Sam. Corteva's own postings show a live SAP treasury, supply chain, and commercial estate on the Integrated Enterprise Solutions team, the layer around the twin that separation must clone or split. That is maintenance and migration work, not agronomy IP, and it is exactly where agents produce auditable output your regulators and auditors can inspect. If a session is premature during separation lockdown, I will send the one-page scoping memo instead and you can judge it on paper.",
+          "why": "Second and final touch adds new evidence (the SAP estate postings) and lowers the ask to the fallback memo, respecting that he may be in lockdown.",
+          "sourceIds": ["s19", "s20", "s6"]
+        }
+      ]
+    }
+  ]
+}

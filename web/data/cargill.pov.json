@@ -1,0 +1,293 @@
+{
+  "company": "Cargill, Incorporated",
+  "generatedAt": "2026-09-24",
+  "basedOnDossier": "2026-09-24",
+  "pointOfView": {
+    "whyAnything": {
+      "claim": "Cargill cannot leave post-simplification platform ownership, legacy modernization, and regulatory data work to business-as-usual delivery while asking a leaner organization to respond faster to volatile markets.",
+      "evidence": [
+        {
+          "point": "Cargill completed a two-year simplification from five enterprises to three and from 23 business groups to 14.",
+          "sourceId": "s1"
+        },
+        {
+          "point": "Cargill Risk Management has multiple legacy applications in a modernization program toward a cloud-first AWS platform.",
+          "sourceId": "s9"
+        },
+        {
+          "point": "Ocean Transportation uses a bespoke data solution for regulatory compliance and operational workflows across approximately 650 chartered vessels and more than 4,500 annual voyages.",
+          "sourceId": "s8"
+        },
+        {
+          "point": "Cargill cut about 5% of its workforce, approximately 8,000 jobs, during its restructuring.",
+          "sourceId": "s5"
+        }
+      ],
+      "risk": "The public evidence establishes organizational and technical change, but it does not show a late project, an unowned repository, or a measured software-delivery bottleneck."
+    },
+    "whyFactory": {
+      "claim": "Factory should earn a role only by completing one governed, code-heavy maintenance or migration workflow across Cargill's existing platforms and beating the current end-to-end baseline without replacing AWS, Veson, SAP, an IDE copilot, or Cargill's internal teams.",
+      "evidence": [
+        {
+          "point": "Cargill Risk Management has legacy trading applications moving toward a cloud-first AWS platform.",
+          "sourceId": "s9"
+        },
+        {
+          "point": "Cargill maintains internal software, cloud, data, AI, application-development, and cybersecurity capabilities.",
+          "sourceId": "s15"
+        },
+        {
+          "point": "AWS supports Cargill's shipping data and compliance solution.",
+          "sourceId": "s8"
+        },
+        {
+          "point": "Veson has a longstanding strategic maritime relationship with Cargill Ocean Transportation.",
+          "sourceId": "s10"
+        },
+        {
+          "point": "SAP is embedded in operational maintenance scheduling across 35 Cargill facilities.",
+          "sourceId": "s18"
+        }
+      ],
+      "risk": "Cargill's internal engineering organization or an incumbent may already meet the selected workflow's speed, quality, cost, and control requirements, while security policy may prevent the repository access needed for a fair test.",
+      "versus": [
+        "Do nothing and continue with the current delivery process",
+        "Cargill's internal Digital Technology and Data organization",
+        "An IDE copilot Cargill may already use, but has not publicly named",
+        "Amazon Web Services",
+        "Veson Nautical",
+        "SAP and SAP-specialist partners",
+        "Existing modernization consultancies"
+      ]
+    },
+    "whyNow": {
+      "claim": "The credible window is this quarter, after Cargill reported completing its two-year operating-model simplification and publicly elevated enterprise AI, but there is no public procurement or implementation deadline.",
+      "evidence": [
+        {
+          "point": "Cargill's fiscal 2026 annual report said the simplification to three enterprises and 14 business groups was complete.",
+          "sourceId": "s1"
+        },
+        {
+          "point": "Cargill received a 2026 award for applying AI across farming, operations, supply chains, and customer co-creation.",
+          "sourceId": "s7"
+        },
+        {
+          "point": "Fiscal 2026 revenue recovered to $164 billion from $154 billion in fiscal 2025.",
+          "sourceId": "s2"
+        },
+        {
+          "point": "Cargill cut about 5% of its workforce during its restructuring, keeping the proof threshold for a new vendor high.",
+          "sourceId": "s5"
+        }
+      ],
+      "risk": "The simplification is already complete and the AI mandate may favor internal delivery, so these events create executive attention rather than a confirmed budget, buying event, or hard deadline."
+    },
+    "theAsk": {
+      "ask": "Schedule a 30-minute working session with Jennifer Hartsock and Eric Aboussouan to choose one non-production maritime maintenance or integration workflow and agree on its baseline, security boundary, acceptance criteria, and stop conditions.",
+      "why": "The session commits Cargill only to testing whether one already-relevant workflow is measurable and safe; it requires no platform replacement, production action, or enterprise rollout.",
+      "fallback": "Hold a 15-minute call with Eric Aboussouan to identify one representative issue and the engineering and security owners who could reject or scope it."
+    },
+    "soundbite": "Cargill has simplified its operating model while modernizing legacy and regulated systems across strong incumbent platforms. Factory should prove one governed engineering workflow against Cargill's own baseline and controls, then stop unless it beats the current path.",
+    "doNotSay": [
+      {
+        "claim": "Factory will deliver a specific ROI, productivity gain, or headcount reduction at Cargill.",
+        "reason": "The dossier contains no buyer-owned baseline for workflow volume, cycle time, accepted changes, engineering effort, defects, or cost."
+      },
+      {
+        "claim": "Cargill's workforce reduction proves that engineering capacity is inadequate.",
+        "reason": "The cuts are public, but their effect on software teams, delivery capacity, and specific backlogs is not."
+      },
+      {
+        "claim": "Cargill completed the sale of its metals trading unit.",
+        "reason": "The dossier found a target completion window but no authoritative completion announcement."
+      },
+      {
+        "claim": "Cargill's existing AI program or internal engineering organization is failing.",
+        "reason": "Cargill has public evidence of substantial internal capability and AI adoption, and no source establishes failure."
+      },
+      {
+        "claim": "Cargill uses GitHub Copilot or another named coding assistant.",
+        "reason": "The approved AI coding tools and source-code platforms are not public."
+      },
+      {
+        "claim": "Factory can replace AWS, Veson, SAP, or Cargill's modernization partners.",
+        "reason": "Those vendors have established infrastructure, domain, ERP, and delivery positions; the evidence supports only a complementary workflow test."
+      },
+      {
+        "claim": "Cargill security will approve third-party model or repository access.",
+        "reason": "No public source establishes approved model endpoints, code-access rules, data residency, retention, or production permissions."
+      },
+      {
+        "claim": "Factory has a published food-and-agriculture reference that proves equivalent results for Cargill.",
+        "reason": "The public warm-path search did not confirm a same-vertical Factory customer reference with published results."
+      }
+    ]
+  },
+  "warmPaths": [
+    {
+      "kind": "partner or vendor",
+      "path": "AWS account team supporting Cargill Ocean Transportation",
+      "evidence": "AWS publicly describes Cargill Ocean Transportation's bespoke AWS data solution for emissions, regulatory compliance, and operational workflows.",
+      "sourceId": "s8",
+      "confidence": "confirmed",
+      "action": "Ask Factory's AWS alliances owner to identify the Cargill account lead and request an introduction to Jennifer Hartsock or Eric Aboussouan for a complementary engineering-workflow assessment."
+    },
+    {
+      "kind": "partner or vendor",
+      "path": "Veson Nautical's Cargill Ocean Transportation account team",
+      "evidence": "Veson and Cargill publicly announced an expanded strategic technology agreement for maritime digital transformation.",
+      "sourceId": "s10",
+      "confidence": "confirmed",
+      "action": "Ask Factory's partnerships team to approach the Veson account owner for an introduction to Eric Aboussouan around one code-heavy integration or maintenance workflow outside Veson's packaged product scope."
+    },
+    {
+      "kind": "partner or vendor",
+      "path": "Sockeye's Cargill SAP maintenance team",
+      "evidence": "Sockeye published a Cargill case study covering SAP-based maintenance scheduling across 35 facilities.",
+      "sourceId": "s18",
+      "confidence": "confirmed",
+      "action": "Ask Factory's services-partner lead to verify the active Sockeye relationship and, if current, request a referral to the Cargill owner of SAP-adjacent custom engineering and integration work."
+    },
+    {
+      "kind": "partner or vendor",
+      "path": "Solution Design Group's Cargill Risk Management modernization team",
+      "evidence": "Solution Design Group published work with Cargill Risk Management on cloud-hybrid architecture, agile delivery, and legacy application modernization; the source is from June 2024 and the current relationship is not public.",
+      "sourceId": "s9",
+      "confidence": "likely",
+      "action": "First verify whether Solution Design Group still serves Cargill Risk Management; if it does, ask its account lead for an introduction to the owner of a bounded legacy-maintenance backlog."
+    }
+  ],
+  "outreach": [
+    {
+      "targetName": "Jennifer Hartsock",
+      "targetTitle": "Chief Information and Digital Officer",
+      "angle": "Use the completed operating-model simplification to choose one governed engineering workflow and measure it before discussing scale.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One workflow after Cargill's simplification",
+          "body": "Jennifer,\n\nCargill has completed its move from five enterprises to three and from 23 business groups to 14 while elevating AI across its value chain. Rather than propose another broad platform, I would ask you and Eric Aboussouan to choose one non-production maintenance or integration workflow and define its baseline, controls, and stop conditions.\n\nCould we schedule 30 minutes to determine whether that test would add anything beyond your current teams and partners?",
+          "why": "Connect the completed organizational change to a small, falsifiable next step.",
+          "sourceIds": [
+            "s1",
+            "s7",
+            "s11"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "email",
+          "timing": "Day 5",
+          "subject": "A test that respects the incumbent estate",
+          "body": "Jennifer,\n\nCargill already has internal software, cloud, data, AI, application-development, and cybersecurity capability, plus established AWS, Veson, and SAP relationships. That makes replacement the wrong frame. The useful comparison is one accepted engineering change, measured end to end against the incumbent workflow under the same security and review rules. If Factory does not improve completion, quality, or evidence, it should not expand.",
+          "why": "Acknowledge Cargill's internal strength and incumbents instead of presenting a greenfield pitch.",
+          "sourceIds": [
+            "s15",
+            "s8",
+            "s10",
+            "s18"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "voicemail",
+          "timing": "Day 10",
+          "body": "Jennifer, Cargill Risk Management has publicly described legacy applications moving toward a cloud-first AWS platform, while the company has kept a high bar on cost through restructuring. I am calling with a narrow proposal: test one representative maintenance or migration issue with buyer-owned measures and stop if the current process already performs well. Eric Aboussouan's maritime estate may provide a measurable starting point.",
+          "why": "Add a named modernization pressure while preserving the cost-control objection.",
+          "sourceIds": [
+            "s9",
+            "s5",
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Eric Aboussouan",
+      "targetTitle": "Strategy and Digitalization Lead, Cargill Ocean Transportation",
+      "angle": "Anchor the evaluation in one maritime workflow with clear operational and compliance acceptance criteria.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One maritime workflow, measured end to end",
+          "body": "Eric,\n\nCargill Ocean Transportation has connected shipping data on AWS for emissions, compliance, and operational workflows across approximately 650 chartered vessels and more than 4,500 annual voyages. That makes a real maintenance or integration issue a stronger test than a generic coding demo. Would you and Jennifer Hartsock spend 30 minutes choosing one non-production issue with a clear baseline, acceptance test, and security owner?",
+          "why": "Ask the named digitalization lead to nominate a bounded workflow with operational evidence.",
+          "sourceIds": [
+            "s8",
+            "s10",
+            "s11"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "linkedin",
+          "timing": "Day 4",
+          "body": "Your expanded Veson agreement shows that Cargill already has a strong domain platform for maritime software and data. I would not compete with that. The useful gap, if one exists, is a code-heavy integration, maintenance, testing, or compliance-evidence task around the platform that still consumes internal engineering time. Is there one workflow where a measured comparison would be fair?",
+          "why": "Position the evaluation beside Veson, not against its packaged maritime capabilities.",
+          "sourceIds": [
+            "s10"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 9",
+          "subject": "Controls before repository access",
+          "body": "Eric,\n\nCargill's maritime solution supports regulatory compliance, so speed alone is the wrong measure. A credible test should require approved access, reproducible tests, human review, logged actions, and evidence that the resulting change meets the same operational controls as the current path. If your security team can define that boundary, Factory can be rejected before a pilot if it cannot meet it.",
+          "why": "Make auditability and security explicit acceptance gates for a regulated workflow.",
+          "sourceIds": [
+            "s8",
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "targetName": "Florian Schattenmann",
+      "targetTitle": "Chief Technology Officer and Vice President, Innovation and Research & Development",
+      "angle": "Test whether one governed software workflow can shorten the path from Food R&D work to a repeatable production process.",
+      "touches": [
+        {
+          "order": 1,
+          "channel": "email",
+          "timing": "Day 1",
+          "subject": "One governed bridge from R&D to production",
+          "body": "Florian,\n\nYour remit covers innovation and R&D for Cargill's Food enterprise, while Cargill is applying AI across operations, supply chains, and customer co-creation. I would not start with a broad productivity promise. Would you and Jennifer Hartsock spend 30 minutes identifying one software-heavy handoff from R&D to a repeatable production workflow, then define its baseline, controls, and acceptance test?",
+          "why": "Tie the ask to the target's named remit and Cargill's public AI mandate.",
+          "sourceIds": [
+            "s13",
+            "s7",
+            "s11"
+          ]
+        },
+        {
+          "order": 2,
+          "channel": "linkedin",
+          "timing": "Day 4",
+          "body": "Cargill extended SAP-based maintenance scheduling across 35 facilities and has publicly highlighted AI-enabled work across its value chain. A useful engineering assessment should therefore attach to one real integration, test, or evidence task, not another isolated model experiment. If Food R&D has such a handoff, the test can use Cargill's own measures and stop if the incumbent process wins.",
+          "why": "Add a production-oriented example and define a falsifiable evaluation.",
+          "sourceIds": [
+            "s18",
+            "s7"
+          ]
+        },
+        {
+          "order": 3,
+          "channel": "email",
+          "timing": "Day 9",
+          "subject": "No enterprise ROI assumption",
+          "body": "Florian,\n\nCargill has substantial internal software, data, AI, cloud, and cybersecurity capability. That is why the value case should begin with one unit of accepted work and Cargill's inputs for effort, review, rework, and quality. If the result does not survive technical and finance review, there should be no expansion proposal. Who owns the best candidate handoff in the Food enterprise?",
+          "why": "Address internal capability and ask for a buyer-owned, bottom-up baseline.",
+          "sourceIds": [
+            "s15",
+            "s13"
+          ]
+        }
+      ]
+    }
+  ]
+}

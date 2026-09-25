@@ -1,0 +1,637 @@
+{
+  "company": {
+    "name": "Cargill, Incorporated",
+    "ticker": "Privately held; no public ticker [s1]",
+    "headquarters": "Wayzata, Minnesota [s11]",
+    "employees": "More than 160,000 employees in a June 2024 Cargill release; potentially stale because the source is older than 24 months [s16]",
+    "fiscalYearEnd": "Fiscal year ended May 31, 2026 [s1]",
+    "industry": "Food, agriculture, commodities trading, animal nutrition, and industrial products [s1]",
+    "summary": "Cargill is a privately held global food and agriculture company that sources, processes, trades, and delivers food, agricultural, and industrial products [s1]. It reported $164 billion of fiscal 2026 revenue after completing a two-year simplification from five enterprises to three and from 23 business groups to 14, while publicly elevating AI, data, and supply-chain digitization [s1][s2][s6][s7]."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "partially sourced",
+  "overview": {
+    "whatTheyDo": "Cargill connects farmers and producers with markets and supplies food manufacturers, foodservice operators, retailers, consumers, and industrial customers with food ingredients, agricultural solutions, animal nutrition, risk-management, transportation, and industrial products [s1].",
+    "scale": [
+      {
+        "label": "Fiscal 2026 revenue",
+        "value": "$164 billion",
+        "sourceId": "s2"
+      },
+      {
+        "label": "Fiscal 2025 revenue",
+        "value": "$154 billion",
+        "sourceId": "s2"
+      },
+      {
+        "label": "Employees",
+        "value": "More than 160,000 in June 2024; potentially stale",
+        "sourceId": "s16"
+      },
+      {
+        "label": "Ocean Transportation fleet",
+        "value": "Approximately 650 chartered vessels",
+        "sourceId": "s8"
+      }
+    ],
+    "segments": [
+      {
+        "name": "Food",
+        "note": "Food ingredients, protein, edible oils, and related customer solutions within the simplified enterprise structure.",
+        "sourceId": "s1"
+      },
+      {
+        "name": "Ag & Trading",
+        "note": "Agricultural supply chains, commodity origination, trading, risk management, and transportation.",
+        "sourceId": "s1"
+      },
+      {
+        "name": "Specialized Portfolio",
+        "note": "A portfolio of businesses managed separately under the three-enterprise structure.",
+        "sourceId": "s5"
+      }
+    ]
+  },
+  "trends": {
+    "trajectory": "Revenue recovered to $164 billion in fiscal 2026 from $154 billion in fiscal 2025 [s2]. Management paired that recovery with a completed two-year structural simplification and a public thesis that AI and faster decision-making are essential to future growth [s1]. The opportunity is therefore tied to executing modernization inside a leaner operating model, but cost discipline and existing cloud and maritime-platform partners raise the proof threshold for another engineering vendor [s5][s8][s10].",
+    "financials": [
+      {
+        "period": "Fiscal 2026",
+        "metric": "Revenue",
+        "value": "$164 billion",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Fiscal 2025",
+        "metric": "Revenue",
+        "value": "$154 billion",
+        "direction": "down",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Fiscal 2025",
+        "metric": "Net income",
+        "value": "$3.6 billion",
+        "direction": "up",
+        "sourceId": "s4"
+      },
+      {
+        "period": "Q1 fiscal 2026",
+        "metric": "Profit",
+        "value": "Increased 86% year over year",
+        "direction": "up",
+        "sourceId": "s3"
+      }
+    ],
+    "guidance": [],
+    "industry": [
+      {
+        "trend": "Commodity and geopolitical volatility continued to shape trading performance; Bloomberg reported that volatility benefited Cargill's fiscal 2026 annual adjusted earnings.",
+        "implication": "Trading, risk, and supply-chain systems must absorb policy and market changes quickly, favoring automation with strong controls and auditability.",
+        "sourceId": "s20"
+      },
+      {
+        "trend": "Maritime emissions and reporting requirements are increasing the data burden on Cargill Ocean Transportation, which manages approximately 650 chartered vessels and more than 4,500 voyages annually.",
+        "implication": "Regulatory data pipelines and vessel workflows create bounded modernization, maintenance, and evidence-generation use cases.",
+        "sourceId": "s8"
+      },
+      {
+        "trend": "Cargill says it is applying AI across farming, operations, supply chains, and customer co-creation.",
+        "implication": "AI adoption increases demand for governed software delivery, reusable platforms, security review, and reliable integration with operational systems.",
+        "sourceId": "s7"
+      },
+      {
+        "trend": "U.S. tariff policy changed the economics of Brazilian beef-tallow exports, leading Cargill to study domestic biodiesel use.",
+        "implication": "Policy shocks can force rapid changes to sourcing, trading, compliance, and operational systems across jurisdictions.",
+        "sourceId": "s19"
+      }
+    ],
+    "pressures": [
+      {
+        "pressure": "Cost and organization discipline",
+        "evidence": "Cargill began cutting about 5% of its workforce, approximately 8,000 jobs, after revenue and earnings pressure.",
+        "sourceId": "s5"
+      },
+      {
+        "pressure": "Portfolio focus",
+        "evidence": "Cargill pursued the sale of its metals trading unit in 2026 to refocus on core food and agriculture operations.",
+        "sourceId": "s17"
+      },
+      {
+        "pressure": "Operational and regulatory data complexity",
+        "evidence": "The AWS maritime case describes a bespoke data solution built to connect shipping data, support regulatory compliance, and improve operational efficiency.",
+        "sourceId": "s8"
+      }
+    ]
+  },
+  "catalysts": [
+    {
+      "date": "2026-01-15",
+      "event": "Cargill was named a 2026 BIG Innovation Award winner and Top 10 Innovator for large-scale AI- and data-driven work.",
+      "whyItMatters": "AI is a visible enterprise priority, creating a timely opening for a governed engineering pilot tied to an existing operational workflow.",
+      "urgency": "high",
+      "sourceId": "s6"
+    },
+    {
+      "date": "2026-04-01",
+      "event": "Cargill received a 2026 BIG AI Excellence Award for applying AI across its value chain.",
+      "whyItMatters": "The public mandate spans multiple operating domains, so reusable delivery and security controls are likely more valuable than another isolated model experiment.",
+      "urgency": "high",
+      "sourceId": "s7"
+    },
+    {
+      "date": "2026-06-22",
+      "event": "Reuters reported that Cargill aimed to complete the sale of its metals trading unit by August 2026.",
+      "whyItMatters": "Portfolio separation can create application decommissioning, data disentanglement, access cleanup, and migration work, although the sale's final status must be confirmed.",
+      "urgency": "medium",
+      "sourceId": "s17"
+    },
+    {
+      "date": "2026-08-04",
+      "event": "Cargill's fiscal 2026 annual report said the company had completed a two-year simplification from five enterprises to three and from 23 business groups to 14.",
+      "whyItMatters": "A smaller operating structure creates a near-term need to consolidate platforms, ownership, controls, and backlogs across formerly separate groups.",
+      "urgency": "high",
+      "sourceId": "s1"
+    },
+    {
+      "date": "2025-08-07",
+      "event": "AWS published Cargill Ocean Transportation's bespoke cloud data solution for emissions, compliance, and operational workflows.",
+      "whyItMatters": "This is a named, production-oriented estate where maintenance, integration, and regulatory evidence can support a measurable pilot.",
+      "urgency": "medium",
+      "sourceId": "s8"
+    }
+  ],
+  "techEstate": {
+    "stack": [
+      {
+        "technology": "Amazon Web Services",
+        "evidence": "Cargill Ocean Transportation built a bespoke AWS solution to connect shipping data, support regulatory compliance, and improve operational efficiency.",
+        "sourceId": "s8"
+      },
+      {
+        "technology": "AWS cloud-hybrid application architecture",
+        "evidence": "A Cargill Risk Management case study describes multiple legacy applications and an application-modernization program toward a cloud-first AWS platform; the June 2024 source is older than 24 months and should be revalidated in discovery.",
+        "sourceId": "s9"
+      },
+      {
+        "technology": "Veson maritime software and data suite",
+        "evidence": "Cargill expanded its longstanding Veson partnership under a strategic technology agreement to accelerate maritime digital transformation.",
+        "sourceId": "s10"
+      },
+      {
+        "technology": "SAP",
+        "evidence": "A 2025 case study says Cargill replaced spreadsheet-based maintenance scheduling by extending SAP across 35 facilities.",
+        "sourceId": "s18"
+      },
+      {
+        "technology": "Digital Technology and Data organization",
+        "evidence": "Cargill's current careers site publicly recruits across software, data, AI, application development, cloud, and cybersecurity.",
+        "sourceId": "s15"
+      }
+    ],
+    "patterns": [
+      {
+        "pattern": "SDLC and PDLC maintenance",
+        "supported": true,
+        "theirEstate": "Public evidence shows internal software, application-development, cloud, data, AI, and cybersecurity functions, plus bespoke AWS shipping software and a Cargill Risk Management trading platform.",
+        "sourceId": "s15"
+      },
+      {
+        "pattern": "Modernization and migration",
+        "supported": true,
+        "theirEstate": "Named examples include legacy trading applications moving toward a cloud-first AWS platform, SAP workflow extension, and post-reorganization platform consolidation pressure.",
+        "sourceId": "s9"
+      },
+      {
+        "pattern": "Patching, vulnerabilities and risk",
+        "supported": true,
+        "theirEstate": "Cargill publicly recruits cybersecurity talent and operates regulated shipping, food, trading, and cloud systems, but no public vulnerability backlog or patch-volume baseline was found.",
+        "sourceId": "s15"
+      }
+    ]
+  },
+  "fit": {
+    "verdict": "strong fit",
+    "score": 25,
+    "summary": "Cargill combines a very large software and operational estate, named legacy-to-cloud work, regulatory data obligations, an executive AI mandate, and evidence of outside technology partnerships. The fit is strong, but entry should be a bounded workflow with hard operational evidence because Cargill has recently cut costs, reorganized, and built substantial internal AI and engineering capacity.",
+    "rubric": [
+      {
+        "dimension": "Engineering scale",
+        "score": 4,
+        "rationale": "Cargill maintains a global Digital Technology and Data organization spanning software, cloud, data, AI, application development, and cybersecurity, but it does not publish a current engineering-headcount total.",
+        "sourceId": "s15"
+      },
+      {
+        "dimension": "Legacy and modernization pressure",
+        "score": 5,
+        "rationale": "Public evidence names legacy trading applications, cloud-first modernization, bespoke shipping data software, SAP workflow change, and enterprise consolidation.",
+        "sourceId": "s9"
+      },
+      {
+        "dimension": "Regulated or risk scope",
+        "score": 4,
+        "rationale": "Cargill operates food, commodity-trading, maritime, and cloud estates where compliance and operational evidence matter; the AWS case explicitly names regulatory compliance.",
+        "sourceId": "s8"
+      },
+      {
+        "dimension": "AI mandate and executive sponsor",
+        "score": 5,
+        "rationale": "Cargill has a named Chief Information and Digital Officer responsible for the global technology portfolio and publicly describes enterprise AI deployment across its value chain.",
+        "sourceId": "s11"
+      },
+      {
+        "dimension": "Budget and catalyst timing",
+        "score": 3,
+        "rationale": "Fiscal 2026 revenue recovered and the reorganization creates immediate integration work, but recent workforce cuts indicate a high bar for discretionary spend.",
+        "sourceId": "s2"
+      },
+      {
+        "dimension": "Access and security posture",
+        "score": 4,
+        "rationale": "Cargill adopts external platforms and partners including AWS, Veson, SAP specialists, and modernization consultancies, while maintaining explicit cybersecurity functions.",
+        "sourceId": "s8"
+      }
+    ],
+    "reasonsFor": [
+      {
+        "point": "Named modernization estate",
+        "evidence": "The public estate includes legacy trading applications, cloud-hybrid AWS architecture, bespoke shipping data software, SAP workflows, and maritime platforms.",
+        "sourceId": "s9"
+      },
+      {
+        "point": "Executive AI and data mandate",
+        "evidence": "Cargill's CIDO owns the global technology portfolio, and the company has publicly highlighted AI deployment across operations and supply chains.",
+        "sourceId": "s11"
+      },
+      {
+        "point": "Measurable regulatory workflows",
+        "evidence": "Ocean Transportation has named compliance and data workflows across approximately 650 chartered vessels and more than 4,500 voyages annually.",
+        "sourceId": "s8"
+      },
+      {
+        "point": "Active organizational catalyst",
+        "evidence": "The completed simplification from five enterprises to three and 23 business groups to 14 creates consolidation and ownership work.",
+        "sourceId": "s1"
+      }
+    ],
+    "reasonsAgainst": [
+      {
+        "point": "Cost control can delay new vendors",
+        "evidence": "Cargill cut about 5% of its workforce, approximately 8,000 jobs, during its restructuring.",
+        "sourceId": "s5"
+      },
+      {
+        "point": "Strong incumbents already cover parts of the problem",
+        "evidence": "AWS supports bespoke shipping software, Veson supplies maritime software and data, and external modernization partners have worked on trading systems.",
+        "sourceId": "s8"
+      },
+      {
+        "point": "Substantial internal AI and engineering capability",
+        "evidence": "Cargill publicly recruits across software, cloud, data, AI, application development, and cybersecurity and is already deploying AI across its value chain.",
+        "sourceId": "s15"
+      },
+      {
+        "point": "Private-company opacity weakens qualification",
+        "evidence": "Cargill does not publicly provide a complete current application inventory, engineering headcount, modernization budget, or regular quarterly guidance.",
+        "sourceId": "s1"
+      }
+    ],
+    "disqualifiers": [
+      "No executive owner will provide a bounded backlog, baseline cycle time, or acceptance criteria for a pilot.",
+      "Security policy prevents approved model access to representative code or test environments.",
+      "The relevant workflow is contractually locked to an incumbent platform with no extensibility or replacement window.",
+      "Post-reorganization cost controls prohibit new engineering-tool spend in fiscal 2027."
+    ]
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Jennifer Hartsock",
+      "title": "Chief Information and Digital Officer",
+      "scope": "Cargill's global technology portfolio and Digital Technology and Data operating model.",
+      "role": "economic buyer",
+      "tenure": "Current role confirmed on Cargill's executive biography; start date was not stated on the current page.",
+      "whyStartHere": "She owns the enterprise technology portfolio and has publicly reshaped the operating model around business-aligned products, insourcing, data, and AI.",
+      "opener": "You have already moved Cargill toward business-aligned technology products; where is the new model still losing the most time to legacy change, evidence gathering, or cross-team handoffs?",
+      "confidence": "confirmed",
+      "sourceId": "s11"
+    },
+    {
+      "rank": 2,
+      "name": "Unknown by name",
+      "title": "Vice President, Digital Technology & Data - Food North America",
+      "scope": "Technology and data leadership for the Food North America enterprise.",
+      "role": "champion",
+      "tenure": "Role was publicly recruited in February 2026; current appointee was not found.",
+      "whyStartHere": "A business-aligned technology leader can nominate a bounded maintenance or modernization workflow and own measurable operating outcomes.",
+      "opener": "Which Food North America software workflow has a clear backlog and business owner but remains slow because engineers must reconstruct context across legacy systems?",
+      "confidence": "unconfirmed",
+      "sourceId": "s15"
+    },
+    {
+      "rank": 3,
+      "name": "Eric Aboussouan",
+      "title": "Strategy and Digitalization Lead, Cargill Ocean Transportation",
+      "scope": "Strategy and digitalization for Cargill's ocean-transportation business.",
+      "role": "champion",
+      "tenure": "Publicly identified in the March 2025 Veson partnership announcement; current tenure should be reverified.",
+      "whyStartHere": "He is closest to a named digital estate with regulatory, emissions, voyage, and customer workflows and an established external-partner model.",
+      "opener": "Your team has already connected maritime data and expanded Veson; which remaining workflow still requires the most manual code change or compliance evidence?",
+      "confidence": "likely",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 4,
+      "name": "Unknown by name",
+      "title": "Global Head of Cyber Engineering and Technology Operations",
+      "scope": "Cyber engineering, cloud and application security, and security operations.",
+      "role": "gatekeeper",
+      "tenure": "The function is evidenced by Cargill's current cybersecurity recruiting; the current leader's name was not confirmed.",
+      "whyStartHere": "Security approval, model governance, code access, and audit evidence will determine whether an engineering-agent pilot can run.",
+      "opener": "What evidence would your team require before an AI engineering system could touch a representative Cargill repository, even in a read-only pilot?",
+      "confidence": "unconfirmed",
+      "sourceId": "s15"
+    },
+    {
+      "rank": 5,
+      "name": "Florian Schattenmann",
+      "title": "Chief Technology Officer and Vice President, Innovation and Research & Development",
+      "scope": "Innovation and R&D for Cargill's Food enterprise and its global R&D team.",
+      "role": "influencer",
+      "tenure": "Current role confirmed on Cargill's executive biography; start date was not stated.",
+      "whyStartHere": "He can connect AI-enabled engineering capacity to the Food enterprise's innovation portfolio, though his remit is R&D rather than enterprise IT.",
+      "opener": "Where could faster, governed software change remove a bottleneck between Food R&D experiments and repeatable production workflows?",
+      "confidence": "confirmed",
+      "sourceId": "s13"
+    },
+    {
+      "rank": 6,
+      "name": "Patrick Jourdain",
+      "title": "Customer Lead, Cargill Ocean Transportation",
+      "scope": "Customer-facing work in Cargill Ocean Transportation.",
+      "role": "practitioner",
+      "tenure": "Publicly identified in the March 2025 Veson partnership announcement; current tenure should be reverified.",
+      "whyStartHere": "He can test whether proposed workflow automation improves customer-facing speed and reliability rather than only internal engineering metrics.",
+      "opener": "Which customer request still triggers the most manual coordination across voyage, emissions, and commercial data?",
+      "confidence": "likely",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 7,
+      "name": "Brian Sikes",
+      "title": "Board Chair and Chief Executive Officer",
+      "scope": "Enterprise strategy, operating performance, and the completed company simplification.",
+      "role": "economic buyer",
+      "tenure": "Current title confirmed by Cargill's executive team page.",
+      "whyStartHere": "He is the executive sponsor for the leaner operating model and AI-led growth thesis, but outreach should follow proof from a business and technology owner.",
+      "opener": "Your annual report links simplification and AI to speed; which operating metric would make an engineering automation program material at enterprise level?",
+      "confidence": "confirmed",
+      "sourceId": "s14"
+    }
+  ],
+  "competition": [
+    {
+      "vendor": "Amazon Web Services",
+      "position": "AWS is a proven cloud incumbent supporting Cargill's bespoke ocean-transportation data and compliance solution and a cloud-first trading-platform modernization.",
+      "tradeoff": "AWS is better positioned for infrastructure-native services and direct integration with workloads already on its cloud.",
+      "sourceId": "s8"
+    },
+    {
+      "vendor": "Veson Nautical",
+      "position": "Veson has a longstanding strategic relationship with Cargill Ocean Transportation and supplies domain-specific maritime software and data.",
+      "tradeoff": "Veson is better positioned for packaged maritime workflows and industry data than a horizontal engineering platform.",
+      "sourceId": "s10"
+    },
+    {
+      "vendor": "SAP and SAP-specialist partners",
+      "position": "SAP is embedded in operational maintenance workflows, including a published extension across 35 facilities.",
+      "tradeoff": "SAP and its specialists are better positioned for native ERP workflow configuration and packaged maintenance processes.",
+      "sourceId": "s18"
+    },
+    {
+      "vendor": "Cargill internal Digital Technology and Data organization",
+      "position": "Cargill maintains internal software, cloud, data, AI, application-development, and cybersecurity capabilities and has publicly emphasized insourcing technology talent.",
+      "tradeoff": "Internal teams have deeper business context, existing access, and fewer vendor-governance hurdles.",
+      "sourceId": "s12"
+    },
+    {
+      "vendor": "Existing modernization consultancies",
+      "position": "Cargill Risk Management has used an external partner for cloud-hybrid architecture, agile coaching, and application modernization.",
+      "tradeoff": "Incumbent consultancies may already hold delivery relationships and detailed knowledge of the legacy estate.",
+      "sourceId": "s9"
+    }
+  ],
+  "objections": [
+    {
+      "objection": "We already have AWS, Veson, SAP partners, and internal AI teams.",
+      "response": "Do not compete with those platforms. Propose one code-heavy maintenance, migration, or security workflow that crosses them and measure cycle time, accepted changes, and evidence quality."
+    },
+    {
+      "objection": "The restructuring makes this the wrong time for another tool.",
+      "response": "Treat restructuring as a constraint: use a short pilot on an already-funded backlog, require no platform replacement, and stop unless it removes measurable work."
+    },
+    {
+      "objection": "Our code and operational data cannot leave approved environments.",
+      "response": "Begin with architecture and security review, least-privilege repository access, approved model endpoints, full audit logs, and a representative non-production codebase."
+    },
+    {
+      "objection": "Generic developer-productivity claims will not survive finance review.",
+      "response": "Avoid percentage-based productivity claims. Baseline one workflow using completed tickets, engineer hours, rework, review latency, and evidence preparation, then price only against observed results."
+    }
+  ],
+  "unknowns": [
+    {
+      "question": "Which executive owns the fiscal 2027 application-modernization portfolio and budget below the CIDO?",
+      "whyItMatters": "Jennifer Hartsock is the clear enterprise sponsor, but a named budget owner and operating champion are needed for a pilot.",
+      "searched": "Cargill executive pages, Digital Technology and Data careers pages, current leadership searches, and 2025-2026 technology interviews; no complete current DT&D leadership chart was public."
+    },
+    {
+      "question": "What are Cargill's current application count, source-code hosts, primary CI/CD platforms, and approved AI coding tools?",
+      "whyItMatters": "These determine integration effort, competitive displacement, security review, and the size of the reachable engineering estate.",
+      "searched": "Cargill careers pages, public case studies, engineering and cloud searches, vendor references, and public repositories; isolated technologies were found but no authoritative current inventory."
+    },
+    {
+      "question": "Which post-reorganization backlog has a measurable baseline for cycle time, rework, defects, and audit-evidence effort?",
+      "whyItMatters": "A bottom-up value case requires an observable unit of work rather than a top-down productivity estimate.",
+      "searched": "Fiscal 2026 annual-report material, restructuring coverage, AWS and Veson case studies, and technology-leadership interviews; no backlog-level baseline was disclosed."
+    },
+    {
+      "question": "Did Cargill complete the metals-unit sale, and what application separation or decommissioning work remains?",
+      "whyItMatters": "A completed divestiture could create a time-bound modernization and access-cleanup opportunity; an abandoned sale would invalidate that catalyst.",
+      "searched": "Reuters and public-news searches through 2026-09-24; a target completion window was found, but no authoritative completion announcement was located."
+    },
+    {
+      "question": "What current fiscal 2027 spending controls apply to new engineering software and outside services?",
+      "whyItMatters": "The workforce reduction and restructuring may limit new-vendor spend despite revenue recovery and a strong AI mandate.",
+      "searched": "Annual reports, earnings coverage, restructuring reporting, procurement searches, and technology interviews; no public fiscal 2027 engineering budget or procurement threshold was found."
+    },
+    {
+      "question": "What were Cargill's last two fully reported quarterly revenue, profit, and margin results?",
+      "whyItMatters": "Current quarterly momentum would sharpen timing and budget qualification.",
+      "searched": "Cargill annual reports and newsroom, Reuters, Bloomberg, Transport Topics, trade press, and quarterly-result searches; only a reported Q1 fiscal 2026 year-over-year profit increase was found, not two complete public quarterly statements."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Cargill Annual Report 2026",
+      "url": "https://www.cargill.com/about/doc/1451394341550/2026-cargill-annual-report.pdf",
+      "publisher": "Cargill",
+      "date": "2026-08-18",
+      "primary": true
+    },
+    {
+      "id": "s2",
+      "title": "Cargill revenue grows amid shifting food landscape",
+      "url": "https://www.world-grain.com/articles/23071-cargill-revenue-grows-amid-shifting-food-landscape",
+      "publisher": "World Grain",
+      "date": "2026-08-06",
+      "primary": false
+    },
+    {
+      "id": "s3",
+      "title": "Cargill Profit Spikes 86% With Boost From Trump Tax Bill",
+      "url": "https://www.ttnews.com/articles/cargill-earnings-q1-2026",
+      "publisher": "Transport Topics",
+      "date": "2025-10-21",
+      "primary": false
+    },
+    {
+      "id": "s4",
+      "title": "Cargill owners see record payout as profit rises",
+      "url": "https://www.feedstuffs.com/agribusiness-news/cargill-owners-see-record-payout-as-profit-rises",
+      "publisher": "Feedstuffs",
+      "date": "2025-08-13",
+      "primary": false
+    },
+    {
+      "id": "s5",
+      "title": "Commodities trading giant Cargill plans to cut around 8,000 jobs",
+      "url": "https://www.reuters.com/markets/commodities/cargill-plans-cut-around-5-global-workforce-2024-12-03/",
+      "publisher": "Reuters",
+      "date": "2024-12-03",
+      "primary": false
+    },
+    {
+      "id": "s6",
+      "title": "Cargill wins 2026 BIG Innovation Award",
+      "url": "https://www.cargill.com/2026/cargill-wins-2026-big-innovation-award",
+      "publisher": "Cargill",
+      "date": "2026-01-20",
+      "primary": true
+    },
+    {
+      "id": "s7",
+      "title": "Cargill Wins 2026 BIG Artificial Intelligence Excellence Award",
+      "url": "https://www.cargill.com/2026/cargill-wins-2026-big-artificial-intelligence-excellence-award",
+      "publisher": "Cargill",
+      "date": "2026-04-01",
+      "primary": true
+    },
+    {
+      "id": "s8",
+      "title": "Navigating to net zero: How Cargill unlocks carbon-neutral transport on AWS",
+      "url": "https://aws.amazon.com/blogs/supply-chain/navigating-to-net-zero-how-cargill-unlocks-carbon-neutral-transport-on-aws/",
+      "publisher": "Amazon Web Services",
+      "date": "2025-08-07",
+      "primary": false
+    },
+    {
+      "id": "s9",
+      "title": "Cargill: Commodities trading, in the cloud",
+      "url": "https://solutiondesign.com/case_studies/cargill",
+      "publisher": "Solution Design Group",
+      "date": "2024-06-24",
+      "primary": false
+    },
+    {
+      "id": "s10",
+      "title": "Veson Nautical and Cargill Expand Long-standing Partnership with Strategic Technology Agreement",
+      "url": "https://www.globenewswire.com/news-release/2025/03/05/3037281/0/en/Veson-Nautical-and-Cargill-Expand-Long-standing-Partnership-with-Strategic-Technology-Agreement.html",
+      "publisher": "Veson Nautical via GlobeNewswire",
+      "date": "2025-03-05",
+      "primary": true
+    },
+    {
+      "id": "s11",
+      "title": "Jennifer Hartsock",
+      "url": "https://www.cargill.com/about/jennifer-hartsock",
+      "publisher": "Cargill",
+      "date": "2026-09-24 (accessed; publication date not shown)",
+      "primary": true
+    },
+    {
+      "id": "s12",
+      "title": "Jennifer Hartsock Reshapes Cargill's Technology Operating Model",
+      "url": "https://www.forbes.com/sites/peterhigh/2025/07/02/jennifer-hartsock-reshapes-cargills-technology-operating-model/",
+      "publisher": "Forbes",
+      "date": "2025-07-02",
+      "primary": false
+    },
+    {
+      "id": "s13",
+      "title": "Florian Schattenmann",
+      "url": "https://www.cargill.com/about/florian-schattenmann",
+      "publisher": "Cargill",
+      "date": "2026-09-24 (accessed; publication date not shown)",
+      "primary": true
+    },
+    {
+      "id": "s14",
+      "title": "Executive Team",
+      "url": "https://www.cargill.com/about/executive-team",
+      "publisher": "Cargill",
+      "date": "2026-09-24 (accessed; publication date not shown)",
+      "primary": true
+    },
+    {
+      "id": "s15",
+      "title": "Digital Technology and Data",
+      "url": "https://careers.cargill.com/en/DigitalTech",
+      "publisher": "Cargill",
+      "date": "2026-07-18",
+      "primary": true
+    },
+    {
+      "id": "s16",
+      "title": "Cargill Establishes Atlanta Office Hub, Creating 400 Tech Jobs",
+      "url": "https://www.cargill.com/2024/tech-hire-ga",
+      "publisher": "Cargill",
+      "date": "2024-06-18",
+      "primary": true
+    },
+    {
+      "id": "s17",
+      "title": "Cargill aims to complete metals unit sale by August, sources say",
+      "url": "https://www.reuters.com/legal/transactional/cargill-aims-complete-metals-unit-sale-by-august-sources-say-2026-06-22/",
+      "publisher": "Reuters",
+      "date": "2026-06-22",
+      "primary": false
+    },
+    {
+      "id": "s18",
+      "title": "Cargill Streamlines SAP Maintenance Scheduling with Sockeye",
+      "url": "https://www.getsockeye.com/case-studies/cargill-incorporated/",
+      "publisher": "Sockeye",
+      "date": "2025-11-23",
+      "primary": false
+    },
+    {
+      "id": "s19",
+      "title": "Cargill studies beef tallow for Brazil biodiesel as US tariffs bite",
+      "url": "https://www.reuters.com/business/energy/cargill-studies-beef-tallow-brazil-biodiesel-us-tariffs-bite-2026-06-16/",
+      "publisher": "Reuters",
+      "date": "2026-06-16",
+      "primary": false
+    },
+    {
+      "id": "s20",
+      "title": "Cargill's Annual Earnings Rise as Volatility Benefits Trading",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/cargill-s-annual-earnings-rise-as-volatility-benefits-trading",
+      "publisher": "Bloomberg",
+      "date": "2026-08-18",
+      "primary": false
+    }
+  ]
+}

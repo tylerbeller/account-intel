@@ -1,0 +1,781 @@
+{
+  "company": {
+    "name": "UnitedHealth Group Incorporated",
+    "ticker": "NYSE: UNH [s1]",
+    "headquarters": "Eden Prairie, Minnesota [s1]",
+    "employees": "Approximately 390,000 employees at December 31, 2025 [s1]",
+    "fiscalYearEnd": "December 31 [s1]",
+    "industry": "Health benefits, health care delivery, pharmacy care services, data, analytics and health care technology [s1]",
+    "summary": "UnitedHealth Group operates UnitedHealthcare and Optum, combining health benefits with care delivery, pharmacy services, data, analytics and technology [s1]. The company is rebuilding margins and trust after the Change Healthcare cyberattack, leadership turnover, elevated medical costs and government scrutiny while making AI and automation central to its operating plan [s3][s4][s6][s20]."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "partially sourced",
+  "overview": {
+    "whatTheyDo": "UnitedHealthcare provides health benefits, while Optum delivers care, pharmacy services, data, analytics, technology and other health services [s1]. The integrated model gives the company both a very large software estate and direct responsibility for regulated clinical, claims, payment and pharmacy workflows [s1].",
+    "scale": [
+      {
+        "label": "Full-year 2025 revenue",
+        "value": "$447.6 billion",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Employees",
+        "value": "Approximately 390,000 at December 31, 2025",
+        "sourceId": "s1"
+      },
+      {
+        "label": "Q2 2026 revenue",
+        "value": "$112.0 billion",
+        "sourceId": "s3"
+      }
+    ],
+    "segments": [
+      {
+        "name": "UnitedHealthcare",
+        "note": "Provides employer and individual, Medicare and retirement, and community and state health-benefit products and services.",
+        "sourceId": "s1"
+      },
+      {
+        "name": "Optum Health",
+        "note": "Provides care through employed and affiliated physicians and other health professionals, supported by technology and data.",
+        "sourceId": "s1"
+      },
+      {
+        "name": "Optum Insight",
+        "note": "Provides data, analytics, technology, consulting and managed services to health-system participants.",
+        "sourceId": "s1"
+      },
+      {
+        "name": "Optum Rx",
+        "note": "Provides pharmacy care services, including benefit management, specialty pharmacy and community pharmacy capabilities.",
+        "sourceId": "s1"
+      }
+    ]
+  },
+  "trends": {
+    "trajectory": "UnitedHealth entered 2026 after reporting $447.6 billion of 2025 revenue but with a reset operating plan and expected membership contraction [s1][s22]. Q1 and Q2 2026 revenue reached $111.7 billion and $112.0 billion, respectively, and the company raised full-year adjusted earnings guidance after Q2 [s2][s3]. Management is using pricing, market exits, medical management, operating standardization, automation and an approximately $1.5 billion 2026 AI investment to restore performance [s3][s4][s21][s22].",
+    "financials": [
+      {
+        "period": "Q1 2026",
+        "metric": "Revenue",
+        "value": "$111.7 billion, up 2% year over year",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 2026",
+        "metric": "Diluted earnings per share",
+        "value": "$6.90",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q1 2026",
+        "metric": "Adjusted earnings per share",
+        "value": "$7.23",
+        "direction": "up",
+        "sourceId": "s2"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Revenue",
+        "value": "$112.0 billion",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Earnings from operations",
+        "value": "$8.0 billion",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Diluted earnings per share",
+        "value": "$6.04",
+        "direction": "up",
+        "sourceId": "s3"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Medical care ratio",
+        "value": "86.7%",
+        "direction": "down",
+        "sourceId": "s3"
+      },
+      {
+        "period": "Q2 2026",
+        "metric": "Cash flow from operations",
+        "value": "$11.1 billion",
+        "direction": "up",
+        "sourceId": "s3"
+      }
+    ],
+    "guidance": [
+      {
+        "item": "Full-year 2026 adjusted earnings per share",
+        "value": "$19.50 to $20.00",
+        "sourceId": "s3"
+      },
+      {
+        "item": "Full-year 2026 reported earnings per share",
+        "value": "$18.45 to $18.95",
+        "sourceId": "s3"
+      },
+      {
+        "item": "Full-year 2026 AI investment",
+        "value": "Nearly $1.5 billion",
+        "sourceId": "s4"
+      }
+    ],
+    "industry": [
+      {
+        "trend": "CMS finalized a 2.48% average Medicare Advantage payment increase for 2027 after initially proposing 0.09%.",
+        "implication": "Payment-method changes and annual bids force rapid, auditable changes across pricing, benefit design, actuarial data, claims and member systems.",
+        "sourceId": "s8"
+      },
+      {
+        "trend": "HHS proposed significant HIPAA Security Rule changes intended to strengthen protection of electronic protected health information.",
+        "implication": "UnitedHealth must be able to demonstrate asset inventory, control implementation, testing, remediation and evidence across a large, interconnected estate.",
+        "sourceId": "s7"
+      },
+      {
+        "trend": "UnitedHealthcare is removing prior authorization requirements for approximately 1,700 procedure codes beginning October 1, 2026.",
+        "implication": "Policy simplification still requires coordinated, tested changes across provider, member, claims, rules and communications systems.",
+        "sourceId": "s23"
+      }
+    ],
+    "pressures": [
+      {
+        "pressure": "Medical-cost and membership reset",
+        "evidence": "UnitedHealthcare expected 2026 membership to fall by 2.3 million to 2.8 million across Medicare Advantage, Medicaid and commercial products as it repriced and exited unprofitable business.",
+        "sourceId": "s22"
+      },
+      {
+        "pressure": "Cybersecurity remediation",
+        "evidence": "UnitedHealth said legacy technology at Change Healthcare magnified the February 2024 ransomware attack and hampered recovery; HHS later listed approximately 192.7 million affected people.",
+        "sourceId": "s6"
+      },
+      {
+        "pressure": "Government scrutiny",
+        "evidence": "UnitedHealth publicly confirmed in July 2025 that it was responding to formal criminal and civil requests from the U.S. Department of Justice.",
+        "sourceId": "s20"
+      },
+      {
+        "pressure": "Operational standardization",
+        "evidence": "External reviews led UnitedHealth to commit to more automation, standardization and other operational changes across Optum businesses.",
+        "sourceId": "s21"
+      }
+    ]
+  },
+  "catalysts": [
+    {
+      "date": "2025-04-29",
+      "event": "UnitedHealth appointed Patrick Conway CEO of Optum and moved Heather Cianfrocco into an enterprise governance, compliance and information-security remit.",
+      "whyItMatters": "New operating and control ownership creates a window for a narrowly governed engineering-productivity program tied to measurable reliability and audit outcomes.",
+      "urgency": "high",
+      "sourceId": "s10"
+    },
+    {
+      "date": "2025-05-13",
+      "event": "Stephen Hemsley returned as chief executive officer after Andrew Witty stepped down, and the company suspended its 2025 outlook.",
+      "whyItMatters": "The leadership reset raised the bar for initiatives to show direct operating and trust-recovery value.",
+      "urgency": "high",
+      "sourceId": "s9"
+    },
+    {
+      "date": "2025-07-31",
+      "event": "UnitedHealth appointed Wayne DeVeydt chief financial officer, effective September 2, 2025.",
+      "whyItMatters": "A relatively new CFO is likely to scrutinize transformation economics; a bottom-up pilot case is more credible than an enterprise-wide productivity estimate.",
+      "urgency": "medium",
+      "sourceId": "s11"
+    },
+    {
+      "date": "2025-09-19",
+      "event": "Sandeep Dadlani was appointed chief executive officer of Optum Insight.",
+      "whyItMatters": "Optum Insight owns major data, analytics, technology and services assets and is a logical sponsor for a modernization or SDLC proof point.",
+      "urgency": "high",
+      "sourceId": "s12"
+    },
+    {
+      "date": "2025-12-19",
+      "event": "UnitedHealth published results of external reviews and committed to operational changes including more automation and standardization.",
+      "whyItMatters": "The recommendations create named workstreams where software maintenance, migration and evidence generation can attach to an executive mandate.",
+      "urgency": "high",
+      "sourceId": "s21"
+    },
+    {
+      "date": "2026-04-21",
+      "event": "Management described a 2026 AI investment of nearly $1.5 billion as a core part of the operating turnaround.",
+      "whyItMatters": "Funding and executive attention exist now, but Factory must complement rather than duplicate UnitedHealth's large internal AI program.",
+      "urgency": "high",
+      "sourceId": "s4"
+    },
+    {
+      "date": "2026-09-24",
+      "event": "UnitedHealth announced Jodee Kozlak would join as chief administrative officer effective September 28, 2026.",
+      "whyItMatters": "A new enterprise administrative leader may influence operating-model, workforce and cross-company transformation priorities, but her technology remit is not yet public.",
+      "urgency": "medium",
+      "sourceId": "s30"
+    }
+  ],
+  "techEstate": {
+    "stack": [
+      {
+        "technology": "Large in-house software engineering organization",
+        "evidence": "UnitedHealth's public filings describe technology-intensive benefits, care, pharmacy, payments, data and analytics businesses, while its careers site shows active software, cloud and AI engineering hiring.",
+        "sourceId": "s1"
+      },
+      {
+        "technology": "Java, Python, SQL, Angular and React",
+        "evidence": "UnitedHealth technology job listings in 2026 named Java, Python, SQL, Angular and React across AI/ML and full-stack engineering roles; postings are time-sensitive and the careers category was accessed on September 24, 2026.",
+        "sourceId": "s15"
+      },
+      {
+        "technology": "Cloud and AI operations",
+        "evidence": "UnitedHealth advertised lead cloud engineering and AI operations roles in 2026, but the public evidence does not establish one enterprise-wide cloud standard.",
+        "sourceId": "s15"
+      },
+      {
+        "technology": "AWS",
+        "evidence": "An AWS architecture case study, potentially stale because it was published more than 24 months ago, describes UnitedHealth Group improving disaster recovery for machine-to-machine authentication on AWS.",
+        "sourceId": "s18"
+      },
+      {
+        "technology": "Microsoft cloud and AI services",
+        "evidence": "Optum Real and Microsoft announced work using real-time data and AI to improve claims and reimbursement workflows.",
+        "sourceId": "s19"
+      },
+      {
+        "technology": "Optum open source and GitHub",
+        "evidence": "Optum operates an open-source program office and a public GitHub organization with 88 repositories visible when accessed; this does not disclose the private repository estate.",
+        "sourceId": "s16"
+      },
+      {
+        "technology": "Enterprise responsible-AI governance",
+        "evidence": "UnitedHealth publishes enterprise Responsible AI Guiding Principles covering reliability, fairness, accountability, transparency, privacy and security.",
+        "sourceId": "s24"
+      },
+      {
+        "technology": "Change Healthcare legacy systems",
+        "evidence": "UnitedHealth's then-CEO said legacy technology at Change Healthcare magnified the ransomware attack's impact and complicated restoration.",
+        "sourceId": "s6"
+      }
+    ],
+    "patterns": [
+      {
+        "pattern": "SDLC and PDLC maintenance",
+        "supported": true,
+        "theirEstate": "The broad application stack, active technology hiring, AI investment and public open-source program support a high-volume software-maintenance use case. Engineering headcount, private repository count, pull-request queues, coding-assistant deployment and release metrics are not public.",
+        "sourceId": "s15"
+      },
+      {
+        "pattern": "Modernization and migration",
+        "supported": true,
+        "theirEstate": "Change Healthcare's acknowledged legacy technology, the external-review commitment to standardization and automation, and current cloud and AI programs support modernization demand. The named application backlog and migration calendar are not public.",
+        "sourceId": "s6"
+      },
+      {
+        "pattern": "Patching, vulnerabilities and risk",
+        "supported": true,
+        "theirEstate": "The Change Healthcare breach, HIPAA obligations, responsible-AI controls and DOJ scrutiny create a strong need for controlled remediation and durable audit evidence.",
+        "sourceId": "s7"
+      }
+    ]
+  },
+  "fit": {
+    "verdict": "strong fit",
+    "score": 28,
+    "summary": "UnitedHealth is a strong fit because it combines exceptional engineering scale, a documented legacy-modernization problem, regulated data, funded AI work and active operating change. The pursuit should start with one low-risk, measurable maintenance or modernization workflow because the company has powerful in-house teams, Microsoft and AWS relationships, and a security posture likely to make broad third-party access difficult.",
+    "rubric": [
+      {
+        "dimension": "Engineering scale",
+        "score": 5,
+        "rationale": "A company with approximately 390,000 employees and technology-intensive businesses spanning benefits, care, pharmacy, payments, data and analytics has an obviously large software estate, although engineering headcount is not public in the reviewed primary sources.",
+        "sourceId": "s1"
+      },
+      {
+        "dimension": "Legacy and modernization pressure",
+        "score": 5,
+        "rationale": "UnitedHealth publicly linked Change Healthcare legacy technology to greater cyberattack impact and separately committed to more automation and standardization after external reviews.",
+        "sourceId": "s6"
+      },
+      {
+        "dimension": "Regulated or risk scope",
+        "score": 5,
+        "rationale": "The company handles electronic protected health information and regulated claims, pharmacy and payment workflows under HIPAA and other federal and state requirements.",
+        "sourceId": "s1"
+      },
+      {
+        "dimension": "AI mandate and executive sponsor",
+        "score": 5,
+        "rationale": "Management committed nearly $1.5 billion to AI in 2026, and Optum Insight CEO Sandeep Dadlani publicly frames AI as central to health care transformation.",
+        "sourceId": "s4"
+      },
+      {
+        "dimension": "Budget and catalyst timing",
+        "score": 5,
+        "rationale": "The funded 2026 AI program, raised Q2 guidance, external-review action plan and multiple relatively new executives create an active investment window.",
+        "sourceId": "s3"
+      },
+      {
+        "dimension": "Access and security posture",
+        "score": 3,
+        "rationale": "Published Microsoft and AWS work shows that UnitedHealth adopts outside technology, but the Change Healthcare breach and sensitive-data estate imply a demanding access and assurance process.",
+        "sourceId": "s19"
+      }
+    ],
+    "reasonsFor": [
+      {
+        "point": "Very large engineering surface",
+        "evidence": "UnitedHealth's technology-intensive businesses, broad public stack and active engineering hiring make repetitive maintenance, migration and evidence work material even when scoped to a small initial domain.",
+        "sourceId": "s15"
+      },
+      {
+        "point": "Named legacy and resilience problem",
+        "evidence": "UnitedHealth stated that legacy Change Healthcare technology worsened the cyberattack's impact and slowed recovery.",
+        "sourceId": "s6"
+      },
+      {
+        "point": "Funded AI mandate",
+        "evidence": "Management said the company was on track to invest nearly $1.5 billion in AI during 2026.",
+        "sourceId": "s4"
+      },
+      {
+        "point": "Executive-backed standardization",
+        "evidence": "External reviews produced commitments to more automation and standardization in core Optum operations.",
+        "sourceId": "s21"
+      },
+      {
+        "point": "High cost of weak change evidence",
+        "evidence": "HIPAA cybersecurity requirements, DOJ requests and prior breach experience increase the value of reproducible testing, traceability and remediation records.",
+        "sourceId": "s7"
+      }
+    ],
+    "reasonsAgainst": [
+      {
+        "point": "Strong internal build capability",
+        "evidence": "Nearly $1.5 billion in 2026 AI investment, more than 1,000 reported production AI use cases and active software and AI hiring mean UnitedHealth can build internal tooling and will demand proof that an external platform adds differentiated value.",
+        "sourceId": "s4"
+      },
+      {
+        "point": "Entrenched platform partners",
+        "evidence": "Public Microsoft and AWS relationships give incumbent vendors a security, procurement and integration advantage.",
+        "sourceId": "s19"
+      },
+      {
+        "point": "Elevated security and data-access friction",
+        "evidence": "The Change Healthcare breach affected an enormous volume of sensitive data and drove leadership and control changes, so third-party code and data access are likely to face exceptional scrutiny.",
+        "sourceId": "s6"
+      },
+      {
+        "point": "Turnaround spending discipline",
+        "evidence": "Membership contraction, market exits and operating standardization make an unbounded enterprise transformation pitch poorly timed despite improving earnings.",
+        "sourceId": "s22"
+      },
+      {
+        "point": "AI-governance and reputational exposure",
+        "evidence": "UnitedHealth publishes rigorous responsible-AI principles; any engineering agent must fit its reliability, fairness, accountability, transparency, privacy and security requirements.",
+        "sourceId": "s24"
+      }
+    ],
+    "disqualifiers": [
+      "No approved path for a third-party engineering agent to access a non-production repository under UnitedHealth's security controls.",
+      "The buyer requires model training on UnitedHealth code or protected health information.",
+      "An incumbent platform already meets the selected workflow's acceptance criteria at lower switching cost.",
+      "The pilot cannot be measured against a bounded maintenance, migration or remediation unit."
+    ]
+  },
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Sandeep Dadlani",
+      "title": "Chief Executive Officer, Optum Insight",
+      "scope": "Optum's data, analytics, technology, consulting and managed-services business.",
+      "role": "economic buyer",
+      "tenure": "Appointed to the CEO role in September 2025.",
+      "whyStartHere": "He owns the business where software platforms, client delivery and AI most directly intersect and is early enough in tenure to value a visible modernization win.",
+      "opener": "Your team is scaling AI while standardizing a large health-technology estate; where is maintenance or migration work consuming the most senior engineering capacity today?",
+      "confidence": "confirmed",
+      "sourceId": "s12"
+    },
+    {
+      "rank": 2,
+      "name": "Julie Durham",
+      "title": "Executive Vice President and Chief Information Officer, Optum Insight",
+      "scope": "Commercial software, data, analytics and technology delivery within Optum Insight.",
+      "role": "champion",
+      "tenure": "Current public profile verified September 24, 2026; start date in this exact role was not found in reviewed sources.",
+      "whyStartHere": "Her remit is closest to selecting a bounded repository, migration or software-maintenance workflow and defining engineering acceptance criteria.",
+      "opener": "Could we benchmark one repetitive maintenance workflow in Optum Insight against your existing cycle time, test quality and audit-evidence standard?",
+      "confidence": "likely",
+      "sourceId": "s25"
+    },
+    {
+      "rank": 3,
+      "name": "Patrick Conway",
+      "title": "Chief Executive Officer, Optum",
+      "scope": "Optum's care, pharmacy, insight and health-services portfolio.",
+      "role": "economic buyer",
+      "tenure": "Appointed CEO of Optum in May 2025.",
+      "whyStartHere": "He owns the broader operating-transformation agenda created by margin pressure and the external reviews.",
+      "opener": "Your external reviews call for more automation and standardization; which software-change bottleneck is most directly constraining that operating plan?",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 4,
+      "name": "Heather Cianfrocco",
+      "title": "Executive Vice President, Governance, Compliance and Information Security, UnitedHealth Group",
+      "scope": "Enterprise governance, compliance and information-security oversight.",
+      "role": "gatekeeper",
+      "tenure": "Moved into the enterprise role in May 2025.",
+      "whyStartHere": "Her organization can define whether repository access, model use, evidence retention and human review are acceptable before a technical team spends time on a pilot.",
+      "opener": "What control evidence would an engineering agent need to produce for your team to permit a non-production pilot on regulated software?",
+      "confidence": "confirmed",
+      "sourceId": "s10"
+    },
+    {
+      "rank": 5,
+      "name": "Stephen J. Hemsley",
+      "title": "Chief Executive Officer, UnitedHealth Group",
+      "scope": "Enterprise strategy and operating turnaround across UnitedHealthcare and Optum.",
+      "role": "economic buyer",
+      "tenure": "Returned as CEO in May 2025 after previously leading the company.",
+      "whyStartHere": "He is the executive sponsor for the company-wide reset, but should be approached after a business-unit owner can present a quantified proof point.",
+      "opener": "We would like to prove one governed engineering workflow against the turnaround's automation, reliability and cost goals before discussing any broader deployment.",
+      "confidence": "confirmed",
+      "sourceId": "s9"
+    },
+    {
+      "rank": 6,
+      "name": "Wayne S. DeVeydt",
+      "title": "Chief Financial Officer, UnitedHealth Group",
+      "scope": "Enterprise finance, capital allocation and performance management.",
+      "role": "economic buyer",
+      "tenure": "Appointed effective September 2, 2025.",
+      "whyStartHere": "He will care whether productivity claims survive finance review and whether a pilot ties to the cost and margin reset.",
+      "opener": "We propose pricing the proof around one measured unit of software work, with your baseline and no enterprise-wide productivity assumption.",
+      "confidence": "confirmed",
+      "sourceId": "s11"
+    },
+    {
+      "rank": 7,
+      "name": "Tim Noel",
+      "title": "Chief Executive Officer, UnitedHealthcare",
+      "scope": "UnitedHealth Group's health-benefits business.",
+      "role": "economic buyer",
+      "tenure": "Appointed in January 2025.",
+      "whyStartHere": "UnitedHealthcare is changing pricing, products, markets and prior-authorization policies, all of which create coordinated software-change demand.",
+      "opener": "As prior-authorization and benefit rules change, where do release coordination and regression evidence slow the policy-to-production path?",
+      "confidence": "confirmed",
+      "sourceId": "s31"
+    },
+    {
+      "rank": 8,
+      "name": "Sarosh Shetty",
+      "title": "Senior Vice President and Chief Information Officer, Optum Insight Provider",
+      "scope": "Provider-market technology and digital innovation within Optum Insight.",
+      "role": "champion",
+      "tenure": "Publicly reported in the role in July 2026.",
+      "whyStartHere": "A newly promoted technology leader with a provider-market remit may have a concrete migration or application-maintenance backlog suitable for a bounded proof.",
+      "opener": "Which provider-market application family has the clearest modernization backlog and the safest non-production environment for a measured pilot?",
+      "confidence": "likely",
+      "sourceId": "s14"
+    },
+    {
+      "rank": 9,
+      "name": "Jodee Kozlak",
+      "title": "Chief Administrative Officer, UnitedHealth Group",
+      "scope": "New enterprise administrative remit; detailed technology ownership was not public at announcement.",
+      "role": "influencer",
+      "tenure": "Effective September 28, 2026.",
+      "whyStartHere": "Her arrival may reshape enterprise operating-model and workforce programs, but the remit should be confirmed before positioning her as a buyer.",
+      "opener": "As you establish the administrative agenda, where can engineering automation create measurable operating leverage without weakening control?",
+      "confidence": "confirmed",
+      "sourceId": "s30"
+    },
+    {
+      "rank": 10,
+      "name": "Unknown by name",
+      "title": "Enterprise owner for AI developer tooling",
+      "scope": "Policy, platform, adoption and measurement for AI-assisted software engineering across UnitedHealth Group.",
+      "role": "practitioner",
+      "tenure": "Not found in public company pages, filings, technology job listings or reviewed reporting.",
+      "whyStartHere": "This role would know the incumbent toolchain, approved models, repository controls and adoption metrics needed to avoid duplicating an internal program.",
+      "opener": "How are you measuring approved agent use across repositories, and which maintenance workflows remain outside the current platform's reach?",
+      "confidence": "unconfirmed",
+      "sourceId": "s15"
+    }
+  ],
+  "competition": [
+    {
+      "vendor": "UnitedHealth internal engineering and AI platforms",
+      "position": "The primary alternative is internal development backed by nearly $1.5 billion of 2026 AI investment and more than 1,000 reported production AI use cases.",
+      "tradeoff": "Internal tools may have better data access, workflow context, security approval and integration with proprietary systems.",
+      "sourceId": "s4"
+    },
+    {
+      "vendor": "Microsoft",
+      "position": "Microsoft is a published Optum Real partner for cloud, real-time data and AI-enabled claims and reimbursement work.",
+      "tradeoff": "Microsoft may be better positioned where Azure identity, data, governance and procurement are already approved.",
+      "sourceId": "s19"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "position": "AWS has published UnitedHealth architecture work, including disaster recovery for machine-to-machine authentication; the cited case is older than 24 months and should be reverified.",
+      "tradeoff": "AWS is better positioned for cloud-native engineering workflows already standardized on its infrastructure and controls.",
+      "sourceId": "s18"
+    },
+    {
+      "vendor": "Traditional consulting and systems-integration partners",
+      "position": "UnitedHealth used external consulting firms for operational reviews, but the public sources reviewed do not identify the firms or establish which implementation partners own follow-on work.",
+      "tradeoff": "An incumbent integrator may combine transformation design, staff augmentation, system knowledge and procurement coverage that a software platform alone does not provide.",
+      "sourceId": "s21"
+    }
+  ],
+  "objections": [
+    {
+      "objection": "We already have a large AI and engineering organization.",
+      "response": "Do not pitch generic code generation. Propose one backlog category the internal platform has not cleared, use UnitedHealth's baseline and stop unless the pilot improves cycle time and accepted-change quality."
+    },
+    {
+      "objection": "Our security and HIPAA controls will not allow an outside agent into the estate.",
+      "response": "Start in a non-production repository with synthetic data, least-privilege access, no training on customer code, human approval and an exportable record of every action and test."
+    },
+    {
+      "objection": "Microsoft or AWS can provide this inside our approved cloud.",
+      "response": "Treat the incumbent as the baseline. Proceed only if Factory can show a differentiated end-to-end result on a real maintenance or migration unit while fitting the existing identity and control plane."
+    },
+    {
+      "objection": "We cannot add another transformation during the turnaround.",
+      "response": "Avoid a transformation program. Scope a short proof to an already funded automation, standardization, migration or remediation backlog with no platform-wide commitment."
+    },
+    {
+      "objection": "AI in health care creates unacceptable clinical and reputational risk.",
+      "response": "Keep the first use case away from clinical decisions, claims adjudication and member-facing output. Use software maintenance or test remediation with mandatory human review and UnitedHealth's responsible-AI controls."
+    }
+  ],
+  "unknowns": [
+    {
+      "question": "Who owns AI developer tooling and agent policy across UnitedHealth Group, and what platforms are already approved?",
+      "whyItMatters": "This determines the real champion, incumbent baseline and whether Factory fills a gap or duplicates an internal program.",
+      "searched": "UnitedHealth and Optum leadership pages, 2025 Form 10-K, 2025-2026 leadership announcements, technology careers pages, public reporting on the AI program and public LinkedIn role pages."
+    },
+    {
+      "question": "Which business unit has the highest-priority repository-level maintenance or migration backlog, and what is its baseline cycle time and acceptance rate?",
+      "whyItMatters": "A defensible pilot and value model require a bounded work unit and buyer-owned baseline rather than a top-down engineering productivity estimate.",
+      "searched": "UnitedHealth earnings materials, external-review reporting, Change Healthcare remediation coverage, Optum technology pages, public engineering roles and open-source repositories."
+    },
+    {
+      "question": "What source-code, model-hosting, data-residency and audit controls apply to a third-party engineering agent?",
+      "whyItMatters": "The answer may materially constrain architecture, deployment model, repository selection and time to security approval.",
+      "searched": "2025 Form 10-K risk disclosures, HIPAA Security Rule materials, UnitedHealth responsible-AI principles, Change Healthcare breach coverage and public security leadership information."
+    },
+    {
+      "question": "Which cloud, source-control, CI/CD and coding-assistant platforms are enterprise standards by business unit?",
+      "whyItMatters": "Public evidence shows AWS, Microsoft, GitHub and a broad application stack, but not the current standards or contract boundaries that shape integration and competition.",
+      "searched": "UnitedHealth technology jobs, Optum open-source sites, GitHub organization, AWS architecture case study, Microsoft partnership reporting and company technology pages."
+    },
+    {
+      "question": "Which implementation partners received follow-on work from the 2025 external reviews?",
+      "whyItMatters": "Those firms may be competitors, channel partners or the practical route into the modernization backlog.",
+      "searched": "UnitedHealth announcements, Reuters and Healthcare Dive coverage of the reviews, 2025 Form 10-K and 2026 earnings materials; the reviewed public sources did not name the firms."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "UnitedHealth Group 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "date": "2026-03-02",
+      "primary": true
+    },
+    {
+      "id": "s2",
+      "title": "UnitedHealth Group Reports First Quarter 2026 Results",
+      "url": "https://www.businesswire.com/news/home/20260420382912/en/UnitedHealth-Group-Reports-First-Quarter-2026-Results",
+      "publisher": "UnitedHealth Group via Business Wire",
+      "date": "2026-04-21",
+      "primary": true
+    },
+    {
+      "id": "s3",
+      "title": "UnitedHealth Group Reports Second Quarter 2026 Results",
+      "url": "https://www.businesswire.com/news/home/20260716830877/en/UnitedHealth-Group-Reports-Second-Quarter-2026-Results",
+      "publisher": "UnitedHealth Group via Business Wire",
+      "date": "2026-07-16",
+      "primary": true
+    },
+    {
+      "id": "s4",
+      "title": "UnitedHealth Group on track to invest $1.5 billion in AI",
+      "url": "https://www.healthcarefinancenews.com/news/unitedhealth-group-track-invest-15b-ai",
+      "publisher": "Healthcare Finance News",
+      "date": "2026-04-23",
+      "primary": false
+    },
+    {
+      "id": "s6",
+      "title": "Change Healthcare cyberattack: 5 technical takeaways",
+      "url": "https://www.cybersecuritydive.com/news/unitedhealth-change-attack-tech-takeaways/715246/",
+      "publisher": "Cybersecurity Dive",
+      "date": "2024-05-06",
+      "primary": false
+    },
+    {
+      "id": "s7",
+      "title": "HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information",
+      "url": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information",
+      "publisher": "Federal Register",
+      "date": "2025-01-06",
+      "primary": true
+    },
+    {
+      "id": "s8",
+      "title": "CMS finalizes higher Medicare Advantage rates for 2027",
+      "url": "https://www.healthcaredive.com/news/cms-finalizes-higher-medicare-advantage-rates-2027/804608/",
+      "publisher": "Healthcare Dive",
+      "date": "2026-04-07",
+      "primary": false
+    },
+    {
+      "id": "s9",
+      "title": "UnitedHealth Group Announces Leadership Transition",
+      "url": "https://www.unitedhealthgroup.com/newsroom/2025/2025-05-13-uhg-announces-leadership-transition.html",
+      "publisher": "UnitedHealth Group",
+      "date": "2025-05-13",
+      "primary": true
+    },
+    {
+      "id": "s10",
+      "title": "UnitedHealth Group Announces Executive Leadership Team Changes",
+      "url": "https://www.unitedhealthgroup.com/newsroom/2025/2025-04-29-uhg-announces-executive-leadership-team-changes.html",
+      "publisher": "UnitedHealth Group",
+      "date": "2025-04-29",
+      "primary": true
+    },
+    {
+      "id": "s11",
+      "title": "UnitedHealth Group Announces Changes to Leadership Team",
+      "url": "https://www.unitedhealthgroup.com/newsroom/2025/2025-07-31-uhg-announces-changes-to-leadership-team.html",
+      "publisher": "UnitedHealth Group",
+      "date": "2025-07-31",
+      "primary": true
+    },
+    {
+      "id": "s12",
+      "title": "Optum Insight names new CEO",
+      "url": "https://www.healthcaredive.com/news/optum-insight-ceo-sandeep-dadlani/760714/",
+      "publisher": "Healthcare Dive",
+      "date": "2025-09-22",
+      "primary": false
+    },
+    {
+      "id": "s14",
+      "title": "UnitedHealth Group Promotes Sarosh Shetty to Chief Information Officer, Optum Insight Provider",
+      "url": "https://hrtoday.in/unitedhealth-group-promotes-sarosh-shetty-to-chief-information-officer-optum-insight-provider/",
+      "publisher": "HR Today",
+      "date": "2026-07-02",
+      "primary": false
+    },
+    {
+      "id": "s15",
+      "title": "Technology jobs at UnitedHealth Group",
+      "url": "https://careers.unitedhealthgroup.com/category/technology-jobs/34088/81405/1",
+      "publisher": "UnitedHealth Group Careers",
+      "date": "Accessed 2026-09-24; individual cited listings were published in 2026",
+      "primary": true
+    },
+    {
+      "id": "s16",
+      "title": "Optum public repositories",
+      "url": "https://github.com/orgs/Optum/repositories",
+      "publisher": "Optum on GitHub",
+      "date": "Accessed 2026-09-24; page has no publication date",
+      "primary": true
+    },
+    {
+      "id": "s18",
+      "title": "How UnitedHealth Group Improved Disaster Recovery for Machine-to-Machine Authentication",
+      "url": "https://aws.amazon.com/blogs/architecture/how-unitedhealth-group-improved-disaster-recovery-for-machine-to-machine-authentication/",
+      "publisher": "Amazon Web Services",
+      "date": "2022-02-10",
+      "primary": false
+    },
+    {
+      "id": "s19",
+      "title": "Optum Real, Microsoft partner on AI for claims and reimbursement",
+      "url": "https://www.healthcarefinancenews.com/news/optum-real-microsoft-partner-ai-claims-and-reimbursement",
+      "publisher": "Healthcare Finance News",
+      "date": "2026-03-06",
+      "primary": false
+    },
+    {
+      "id": "s20",
+      "title": "UnitedHealth says it is cooperating with DOJ investigations into Medicare billing",
+      "url": "https://www.cnbc.com/2025/07/24/unitedhealthcare-doj-investigation-medicare-billing.html",
+      "publisher": "CNBC",
+      "date": "2025-07-24",
+      "primary": false
+    },
+    {
+      "id": "s21",
+      "title": "UnitedHealth pledges operational changes after external audits",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/unitedhealth-pledges-operational-changes-after-external-audits-2025-12-20/",
+      "publisher": "Reuters",
+      "date": "2025-12-20",
+      "primary": false
+    },
+    {
+      "id": "s22",
+      "title": "UnitedHealthcare projects up to 2.8 million fewer members in 2026",
+      "url": "https://www.beckerspayer.com/financial/unitedhealthcare-projects-up-to-2-8-million-fewer-members-in-2026/",
+      "publisher": "Becker's Payer Issues",
+      "date": "2026-01-28",
+      "primary": false
+    },
+    {
+      "id": "s23",
+      "title": "UnitedHealthcare cuts prior authorization from 1,700 codes",
+      "url": "https://www.healthcaredive.com/news/unitedhealthcare-prior-authorization-codes-cut/806770/",
+      "publisher": "Healthcare Dive",
+      "date": "2026-09-02",
+      "primary": false
+    },
+    {
+      "id": "s24",
+      "title": "Making Health Care Work Smarter, For Everyone",
+      "url": "https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html",
+      "publisher": "UnitedHealth Group",
+      "date": "Accessed 2026-09-24; page has no publication date",
+      "primary": true
+    },
+    {
+      "id": "s25",
+      "title": "Julie Durham public professional profile",
+      "url": "https://www.linkedin.com/in/durhamjulie/",
+      "publisher": "LinkedIn",
+      "date": "Profile accessed 2026-09-24; profile page first indexed 2015-02-05",
+      "primary": false
+    },
+    {
+      "id": "s30",
+      "title": "UnitedHealth Group Announces Addition to Leadership Team",
+      "url": "https://www.unitedhealthgroup.com/newsroom/2026/2026-09-24-uhg-announces-addition-to-leadership-team.html",
+      "publisher": "UnitedHealth Group",
+      "date": "2026-09-24",
+      "primary": true
+    },
+    {
+      "id": "s31",
+      "title": "UnitedHealthcare has a new CEO",
+      "url": "https://www.npr.org/2025/01/24/nx-s1-5273716/unitedhealthcare-brian-thompson-ceo-tim-noel",
+      "publisher": "NPR",
+      "date": "2025-01-24",
+      "primary": false
+    }
+  ]
+}

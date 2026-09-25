@@ -1,0 +1,364 @@
+{
+  "company": {
+    "name": "Medtronic plc",
+    "ticker": "NYSE: MDT",
+    "headquarters": "Galway, Ireland (operational headquarters: Minneapolis, Minnesota, USA)",
+    "employees": "95,000+",
+    "fiscalYearEnd": "Late April (FY26 ended April 24, 2026)",
+    "industry": "Medical devices / healthcare technology",
+    "summary": "Medtronic is the world's largest dedicated medical device company, spanning cardiovascular, neuroscience, medical surgical, and (until its separation completes) diabetes businesses across more than 150 countries. It just posted its strongest annual revenue growth in 10 years (FY26 revenue of $36.4 billion) and raised FY27 guidance after a Q1 beat, while separating its Diabetes business as MiniMed and absorbing an activist investor (Elliott) onto its board agenda. An April 2026 breach of corporate IT systems that ultimately triggered notifications to roughly 3.8 million people sits in the background of every technology conversation this year."
+  },
+  "generatedAt": "2026-09-24",
+  "confidence": "sourced",
+
+  "overview": {
+    "whatTheyDo": "Medtronic designs, manufactures, and sells device-based medical therapies: cardiac rhythm and ablation systems, structural heart and coronary devices, spinal and cranial technologies, neuromodulation, surgical instruments and the Hugo robotic-assisted surgery system, patient monitoring, and insulin pumps/CGMs through the separating MiniMed business. Software is embedded across the portfolio, from implantable device firmware and real-time AI endoscopy (GI Genius) to surgical robotics and remote monitoring platforms.",
+    "scale": [
+      { "label": "FY26 revenue (ended Apr 24, 2026)", "value": "$36.4 billion, +8.4% as reported", "sourceId": "s1" },
+      { "label": "Q1 FY27 revenue (ended Jul 31, 2026)", "value": "$9.76 billion", "sourceId": "s2" },
+      { "label": "Employees", "value": "95,000+", "sourceId": "s1" },
+      { "label": "FY26 R&D expense (GAAP)", "value": "$2.873 billion (7.9% of net sales)", "sourceId": "s1" },
+      { "label": "Countries served", "value": "150+", "sourceId": "s1" },
+      { "label": "FY26 free cash flow", "value": "$5.4 billion", "sourceId": "s1" }
+    ],
+    "segments": [
+      { "name": "Cardiovascular Portfolio", "note": "Q4 FY26 revenue $3.797 billion, +13.8% as reported and +10.1% organic; Cardiac Ablation Solutions grew 78% globally in Q4 and 88% in Q1 FY27, the current growth engine.", "sourceId": "s1" },
+      { "name": "Neuroscience Portfolio", "note": "Q4 FY26 revenue $2.751 billion, +3.0% organic; new portfolio president Kweli Thompson effective June 1, 2026 after Brett Wall's departure.", "sourceId": "s8" },
+      { "name": "Medical Surgical Portfolio", "note": "Q4 FY26 revenue $2.388 billion, +5.1% organic; houses the Hugo RAS robot, which gained a real-time AI computing platform in July 2026.", "sourceId": "s1" },
+      { "name": "Diabetes (separating as MiniMed)", "note": "Q4 FY26 revenue $837 million, +8.1% organic; MiniMed completed a $538 million IPO in March 2026 and Medtronic launched an exchange offer in September 2026 to complete the separation.", "sourceId": "s11" }
+    ]
+  },
+
+  "trends": {
+    "trajectory": "Medtronic is in its strongest top-line position in a decade: FY26 delivered 5.8% organic growth, Q1 FY27 beat estimates, and management raised FY27 organic growth guidance to 7.25-7.75%. The strategy is a deliberate rotation into higher-growth platforms (pulsed field ablation, renal denervation, the Hugo robot, and now Cornerstone Robotics' Sentire system via a $700 million partnership) funded by portfolio pruning, most visibly the MiniMed separation. The counterweight is activist investor Elliott, whose August 2025 arrival produced two new board directors and Growth and Operating committees explicitly tasked with tuck-in M&A and earnings growth, so every investment is being weighed against margin delivery in a year where non-GAAP operating margin fell 130 basis points.",
+    "financials": [
+      { "period": "Q1 FY27 (ended Jul 31, 2026)", "metric": "Revenue", "value": "$9.76 billion, above $9.55 billion LSEG consensus", "direction": "up", "sourceId": "s2" },
+      { "period": "Q1 FY27", "metric": "Revenue growth year over year", "value": "13.7% (per earnings call coverage)", "direction": "up", "sourceId": "s3" },
+      { "period": "Q1 FY27", "metric": "Adjusted diluted EPS", "value": "$1.45, above $1.39 consensus", "direction": "up", "sourceId": "s2" },
+      { "period": "Q1 FY27", "metric": "Cardiovascular segment revenue", "value": "$3.93 billion, +19.5%", "direction": "up", "sourceId": "s2" },
+      { "period": "Q4 FY26 (ended Apr 24, 2026)", "metric": "Revenue", "value": "$9.807 billion, +9.9% as reported and +6.6% organic", "direction": "up", "sourceId": "s1" },
+      { "period": "Q4 FY26", "metric": "Non-GAAP diluted EPS", "value": "$1.55, ahead of guidance", "direction": "up", "sourceId": "s1" },
+      { "period": "FY26 (ended Apr 24, 2026)", "metric": "Revenue", "value": "$36.364 billion, +8.4% as reported and +5.8% organic (highest annual growth in 10 years)", "direction": "up", "sourceId": "s1" },
+      { "period": "FY26", "metric": "Non-GAAP operating margin", "value": "24.4%, down 130 basis points year over year (tariffs and the MiniMed Blackstone payment were named contributors)", "direction": "down", "sourceId": "s1" },
+      { "period": "FY26", "metric": "R&D expense (GAAP)", "value": "$2.873 billion, 7.9% of net sales", "direction": "flat", "sourceId": "s1" },
+      { "period": "FY26", "metric": "Free cash flow", "value": "$5.426 billion, +4.6%", "direction": "up", "sourceId": "s1" }
+    ],
+    "guidance": [
+      { "item": "FY27 organic revenue growth", "value": "7.25% to 7.75%, raised from 6.75% to 7.25% at the Q1 FY27 print", "sourceId": "s2" },
+      { "item": "FY27 diluted non-GAAP EPS", "value": "$5.94 to $6.00 (lower end raised from $5.90)", "sourceId": "s2" }
+    ],
+    "industry": [
+      { "trend": "Surgical soft-tissue robotics is the most contested category in medtech, with J&J entering the US market and Medtronic answering with both Hugo and a $700 million Cornerstone Robotics partnership.", "implication": "Robotics programs are software-heavy, FDA-regulated platforms under schedule pressure, which raises the value of engineering throughput and of keeping device software current without breaking validated states.", "sourceId": "s24" },
+      { "trend": "FDA finalized updated premarket cybersecurity guidance in June 2025, making SBOMs and lifecycle patch obligations enforceable expectations under Section 524B of the FD&C Act.", "implication": "Every device line now carries a continuing vulnerability-management and evidence burden; tooling that shortens patch and remediation cycles has a regulatory budget hook, not just a productivity one.", "sourceId": "s23" },
+      { "trend": "Tariffs are a live margin variable: Medtronic took roughly 80 basis points of tariff impact in Q4 FY26 operating margin, and Q1 FY27 refunds were not assumed to repeat in guidance.", "implication": "Margin pressure keeps executive attention on engineering efficiency and cost-to-serve, which cuts both ways: appetite for productivity tooling, but hard scrutiny of new vendor spend.", "sourceId": "s1" },
+      { "trend": "Pulsed field ablation is growing explosively (Medtronic CAS +78% in Q4 FY26, +88% in Q1 FY27) and competitors are pouring into the category.", "implication": "The growth franchises are exactly the ones with the newest, fastest-moving software estates, where development velocity is a competitive weapon rather than a cost line.", "sourceId": "s2" }
+    ],
+    "pressures": [
+      { "pressure": "Margin delivery under activist scrutiny", "evidence": "FY26 non-GAAP operating margin fell 130 basis points; Elliott's 2025 arrival created board Operating and Growth committees focused on earnings growth.", "sourceId": "s12" },
+      { "pressure": "Post-breach remediation and litigation exposure", "evidence": "April 2026 unauthorized access to corporate IT systems led to notifications to approximately 3.8 million individuals and class action filings.", "sourceId": "s18" },
+      { "pressure": "Organizational churn", "evidence": "Cardiovascular restructuring with reported job cuts (May 2026), a reported Santa Rosa site closure, 81 diabetes roles cut ahead of the MiniMed separation, and senior departures including Jason Weidman (to Teleflex as CEO) and Brett Wall.", "sourceId": "s13" }
+    ]
+  },
+
+  "catalysts": [
+    { "date": "2026-09-01", "event": "Medtronic announced an approximately $700 million strategic investment in Cornerstone Robotics with distribution rights to the Sentire surgical system in select markets, plus an $80 million investment in Pi-Cardia with a $210 million option to buy.", "whyItMatters": "Large, dated investment commitments signal open budgets for growth platforms, and integrating a partner robotics stack creates real software integration and maintenance work.", "urgency": "high", "sourceId": "s9" },
+    { "date": "2026-09-01", "event": "Q1 FY27 results beat consensus and FY27 organic growth and EPS guidance were raised.", "whyItMatters": "A confident, investing management team is easier to sell capability to than one in retreat; new initiatives get funded in years like this.", "urgency": "high", "sourceId": "s2" },
+    { "date": "2026-04-27", "event": "Medtronic disclosed via 8-K that an unauthorized party accessed data in certain corporate IT systems; roughly 3.8 million individuals were notified starting July 2026, with the ShinyHunters group claiming responsibility.", "whyItMatters": "Security posture, vendor vetting, and vulnerability management are board-level topics right now; any tool touching source code must clear a hardened review, and patching/risk work has fresh budget justification.", "urgency": "high", "sourceId": "s16" },
+    { "date": "2026-03-31", "event": "MiniMed completed its IPO on Nasdaq (MMED); Medtronic received $538 million in IPO proceeds and launched a split-off exchange offer in September 2026 to complete the separation.", "whyItMatters": "Carving a $3+ billion revenue business out of shared IT and R&D systems is a multi-quarter modernization and separation program with real legacy disentanglement work.", "urgency": "high", "sourceId": "s11" },
+    { "date": "2025-08-19", "event": "Elliott Investment Management emerged as one of Medtronic's largest shareholders; the board added John Groetelaars and Bill Jellison and formed Growth and Operating committees.", "whyItMatters": "Activist oversight means operating efficiency has a named executive audience; a bottom-up productivity case lands in a receptive (but demanding) environment.", "urgency": "high", "sourceId": "s12" },
+    { "date": "2025-11-25", "event": "Jim Peichel, a 25-year Medtronic veteran, was named Chief Technology Officer after Ken Washington's retirement.", "whyItMatters": "A CTO in his first year owns the technology agenda and typically wants visible wins; he is still forming his vendor stack.", "urgency": "medium", "sourceId": "s4" },
+    { "date": "2026-02-17", "event": "Sean Lennon was named Chief Information Officer, joining April 29, 2026, to lead global IT strategy.", "whyItMatters": "The CIO owns the engineering environment and developer tooling decisions; he is five months into the role and still putting his stamp on the estate.", "urgency": "medium", "sourceId": "s5" },
+    { "date": "2026-05-18", "event": "Kweli Thompson was promoted to EVP and President of the Neuroscience Portfolio effective June 1, 2026, replacing the departing Brett Wall.", "whyItMatters": "New portfolio presidents review their cost base and delivery timelines in the first two quarters; Neuromodulation and CST are software-intensive franchises.", "urgency": "medium", "sourceId": "s8" },
+    { "date": "2026-07-21", "event": "Medtronic added a real-time AI computing platform to the Hugo surgical robot, debuting at the Society of Robotic Surgery meeting.", "whyItMatters": "Confirms robotics software is an active, funded development surface where engineering velocity matters competitively.", "urgency": "medium", "sourceId": "s20" },
+    { "date": "2026-05-07", "event": "Medtronic restructured its cardiovascular business amid employee-reported job cuts, following reports of a Santa Rosa site closure.", "whyItMatters": "Restructuring creates both pressure (do more with fewer engineers) and resistance (frozen discretionary spend); timing and message have to be right.", "urgency": "low", "sourceId": "s13" }
+  ],
+
+  "techEstate": {
+    "stack": [
+      { "technology": "NVIDIA Holoscan and IGX edge AI platform", "evidence": "NVIDIA collaboration integrating Holoscan (real-time AI software platform) and IGX hardware into the GI Genius endoscopy module; note this source is from March 2023 and flagged as potentially stale, though the platform remains shipping product.", "sourceId": "s19" },
+      { "technology": "Hugo RAS with real-time AI computing platform", "evidence": "Medtronic added a real-time AI computing platform to the Hugo robotic-assisted surgery system, shown at the Society of Robotic Surgery meeting in July 2026.", "sourceId": "s20" },
+      { "technology": "GI Genius AI Access platform (with Cosmo Intelligent Medical Devices)", "evidence": "A developer-facing platform hosting third-party AI algorithms as software-as-a-medical-device applications on the GI Genius operating system.", "sourceId": "s19" },
+      { "technology": "Cornerstone Robotics Sentire system (partner stack)", "evidence": "September 2026 partnership gives Medtronic distribution rights and an investment stake, implying integration work between partner and in-house robotics software.", "sourceId": "s9" },
+      { "technology": "Large embedded and enterprise software organization", "evidence": "Medtronic's careers portal shows continuous hiring across software and embedded engineering roles supporting implantables, robotics, and monitoring (job posting URLs expire quickly; verified via the live MedtronicCareers portal, accessed 2026-09-24).", "sourceId": "s28" }
+    ],
+    "patterns": [
+      { "pattern": "SDLC and PDLC maintenance", "supported": true, "theirEstate": "A $2.873 billion FY26 R&D program spread across implantable firmware, surgical robotics, monitoring platforms, and AI modules, all under FDA design controls that make every change expensive to verify and document.", "sourceId": "s1" },
+      { "pattern": "Modernization and migration", "supported": true, "theirEstate": "The MiniMed carve-out requires separating shared IT and R&D systems; serial tuck-in acquisitions (CathWorks completed, Scientia Vascular and SPR Therapeutics announced in FY26) each bring estates to integrate; cardiovascular restructuring consolidates teams and systems.", "sourceId": "s1" },
+      { "pattern": "Patching, vulnerabilities and risk", "supported": true, "theirEstate": "April 2026 breach of corporate IT with ~3.8 million notifications, plus FDA Section 524B obligations requiring SBOMs and lifecycle vulnerability management for every connected device line.", "sourceId": "s16" }
+    ]
+  },
+
+  "fit": {
+    "verdict": "strong fit",
+    "score": 25,
+    "summary": "Medtronic combines a very large regulated software estate, a fresh security incident, new technology leadership in its first year, and dated investment commitments. The brakes are real: post-breach vendor scrutiny, activist-driven cost discipline, and a strong in-house build culture.",
+    "rubric": [
+      { "dimension": "Engineering scale", "score": 5, "rationale": "95,000+ employees, FY26 R&D expense of $2.873 billion (7.9% of net sales), and continuous software/embedded hiring across device, robotics, and monitoring lines.", "sourceId": "s1" },
+      { "dimension": "Legacy and modernization pressure", "score": 4, "rationale": "The MiniMed separation is a named, in-flight carve-out of shared systems, and FY26 alone added CathWorks (completed) plus announced Scientia Vascular and SPR Therapeutics deals to integrate.", "sourceId": "s1" },
+      { "dimension": "Regulated or risk scope", "score": 5, "rationale": "FDA design controls, Section 524B cybersecurity/SBOM obligations, SOX, and GDPR all apply; the April 2026 breach with ~3.8 million notifications shows the cost of getting risk wrong.", "sourceId": "s23" },
+      { "dimension": "AI mandate and executive sponsor", "score": 4, "rationale": "A named VP and Global Chief AI Officer (Rodolphe Katra) and a CEO on record wanting every business unit to have an AI plan; the public AI emphasis is product-facing rather than developer-productivity-facing, which holds this short of a 5.", "sourceId": "s6" },
+      { "dimension": "Budget and catalyst timing", "score": 4, "rationale": "$700 million Cornerstone and $80 million Pi-Cardia commitments announced alongside a guidance raise on September 1, 2026; Elliott's Operating committee keeps every dollar under review.", "sourceId": "s9" },
+      { "dimension": "Access and security posture", "score": 3, "rationale": "A published record of adopting outside technology (NVIDIA, Cosmo, Cornerstone), but the April 2026 breach will harden vendor security review for anything touching engineering systems.", "sourceId": "s19" }
+    ],
+    "reasonsFor": [
+      { "point": "Regulated software maintenance is structurally expensive here", "evidence": "$2.873 billion FY26 R&D under FDA design controls, with SBOM and lifecycle patch obligations finalized in the FDA's June 2025 cybersecurity guidance.", "sourceId": "s23" },
+      { "point": "The technology leadership is new and still forming its stack", "evidence": "CTO Jim Peichel (November 2025), CIO Sean Lennon (April 2026), and a new innovation-finance role held by Eric Lenard (2026) are all inside their first year.", "sourceId": "s4" },
+      { "point": "The breach creates an opening for risk-reduction work", "evidence": "April 2026 unauthorized access to corporate IT, ~3.8 million individuals notified; patching and vulnerability remediation have fresh executive attention.", "sourceId": "s18" },
+      { "point": "They demonstrably buy outside technology when it is strategic", "evidence": "NVIDIA (2023), Cosmo IMD, and the September 2026 Cornerstone Robotics partnership all show a partnering muscle rather than pure not-invented-here behavior.", "sourceId": "s9" }
+    ],
+    "reasonsAgainst": [
+      { "point": "Post-breach security review will slow or block new developer tooling", "evidence": "The April 2026 incident and subsequent notifications mean any vendor touching source code faces heightened scrutiny, longer procurement, and possible outright freezes.", "sourceId": "s17" },
+      { "point": "Activist-enforced cost discipline squeezes discretionary software spend", "evidence": "Elliott-driven Operating committee, a cardiovascular restructuring with reported job cuts, a reported Santa Rosa closure, and 81 diabetes roles cut all point to a cost-first environment.", "sourceId": "s12" },
+      { "point": "Strong in-house AI capability creates build-vs-buy resistance", "evidence": "A Global Chief AI Officer, unit-level Chief AI Officers, and shipping AI products (GI Genius, AccuRhythm, Hugo AI) mean they may see engineering AI as a solved internal problem.", "sourceId": "s21" },
+      { "point": "The regulated SDLC limits where AI-generated code can land", "evidence": "FDA design controls and the June 2025 cybersecurity guidance require validated processes, so early adoption would likely be confined to non-product IT and tooling code.", "sourceId": "s23" },
+      { "point": "Senior leadership churn keeps priorities unstable", "evidence": "Jason Weidman left for the Teleflex CEO role, Brett Wall departed Neuroscience, and Sean Salmon's Cardiovascular tenure ended within the past year.", "sourceId": "s25" }
+    ],
+    "disqualifiers": [
+      "A breach-related freeze on new third-party software in the engineering environment that extends past FY27.",
+      "An Elliott-driven across-the-board SG&A cut that explicitly targets external tooling vendors.",
+      "An exclusive hyperscaler or dev-tools agreement that contractually forecloses an outside coding platform."
+    ]
+  },
+
+  "targets": [
+    {
+      "rank": 1,
+      "name": "Jim Peichel",
+      "title": "Chief Technology Officer",
+      "scope": "Corporate technology strategy and R&D technology direction across all portfolios",
+      "role": "champion",
+      "tenure": "Named CTO November 2025; 25+ years at Medtronic, previously VP of the Cardiac Implantables Technology Development Center",
+      "whyStartHere": "A first-year CTO who came up through device engineering owns exactly the maintenance-and-modernization problem, and needs visible wins that are his, not his predecessor's.",
+      "opener": "You inherited one of the largest regulated software estates in medtech; I'd like to show you how engineering teams maintain and patch device software faster without touching your validated processes.",
+      "confidence": "confirmed",
+      "sourceId": "s4"
+    },
+    {
+      "rank": 2,
+      "name": "Sean Lennon",
+      "title": "Chief Information Officer",
+      "scope": "Global IT strategy, including the engineering environment and developer tooling",
+      "role": "gatekeeper",
+      "tenure": "Joined April 29, 2026",
+      "whyStartHere": "Five months into the CIO role, he owns the environment any engineering tool must live in, and post-breach he is the person who decides what gets near source code.",
+      "opener": "New CIOs usually get one budget cycle to modernize the engineering environment; here's how peers in regulated industries did it without weakening their security review.",
+      "confidence": "confirmed",
+      "sourceId": "s5"
+    },
+    {
+      "rank": 3,
+      "name": "Rodolphe Katra",
+      "title": "Vice President and Global Chief Artificial Intelligence Officer",
+      "scope": "Enterprise AI strategy and AI outcomes across Medtronic",
+      "role": "champion",
+      "tenure": "In the global CAIO role since at least 2024 per public profiles (verify current scope)",
+      "whyStartHere": "He already owns the AI mandate and has public credibility on the line; extending AI from product features into the engineering process is a natural next chapter for him.",
+      "opener": "Your AI products are ahead of the market; the open question is whether your engineers get the same leverage as your devices do, and I'd like to compare notes.",
+      "confidence": "likely",
+      "sourceId": "s6"
+    },
+    {
+      "rank": 4,
+      "name": "Eric Lenard",
+      "title": "Vice President and CFO, Innovation, Development and Quality",
+      "scope": "Finance leadership for R&D, innovation, and quality spend (newly created role)",
+      "role": "economic buyer",
+      "tenure": "Hired from Johnson & Johnson in 2026 into a newly created position",
+      "whyStartHere": "A new finance owner for innovation spend is literally paid to find leverage in the R&D budget, and a bottom-up, inputs-visible value model is built for exactly his scrutiny.",
+      "opener": "You own the innovation P&L now; here's a bottom-up model of engineering time recovered per team, with every input shown so you can substitute your own numbers.",
+      "confidence": "likely",
+      "sourceId": "s7"
+    },
+    {
+      "rank": 5,
+      "name": "Kweli Thompson",
+      "title": "Executive Vice President and President, Neuroscience Portfolio",
+      "scope": "P&L for Neuromodulation, Cranial & Spinal Technologies, and Specialty Therapies",
+      "role": "influencer",
+      "tenure": "Effective June 1, 2026",
+      "whyStartHere": "New portfolio presidents audit delivery timelines and cost base in their first two quarters; his franchises ship software-intensive implanted and navigation systems.",
+      "opener": "Neuromodulation and CST run on software that has to be maintained for a decade or more; here's how to cut that maintenance cost without regulatory risk.",
+      "confidence": "confirmed",
+      "sourceId": "s27"
+    },
+    {
+      "rank": 6,
+      "name": "Ha Hong",
+      "title": "Chief Artificial Intelligence Officer, Endoscopy",
+      "scope": "AI strategy and commercialization within the Endoscopy business (GI Genius line)",
+      "role": "practitioner",
+      "tenure": "Publicly active in the role since at least 2023",
+      "whyStartHere": "He runs the most software-forward AI business in the company and speaks publicly about it; a practitioner win here becomes an internal reference.",
+      "opener": "GI Genius proved Medtronic can ship AI as a product; I'd like to show your team how the same leverage applies to building and maintaining that product.",
+      "confidence": "likely",
+      "sourceId": "s22"
+    },
+    {
+      "rank": 7,
+      "name": "Thierry Piéton",
+      "title": "Chief Financial Officer",
+      "scope": "Corporate finance; owns the guidance and margin story to the board and Elliott",
+      "role": "economic buyer",
+      "tenure": "CFO since 2022",
+      "whyStartHere": "With operating margin down 130 basis points in FY26 and an activist on the register, the CFO's office is where productivity cases get funded or killed.",
+      "opener": "Your margin bridge is public; here's an engineering-efficiency lever sized from your own R&D line, with the assumptions exposed for your team to challenge.",
+      "confidence": "confirmed",
+      "sourceId": "s1"
+    },
+    {
+      "rank": 8,
+      "name": "Geoff Martha",
+      "title": "Chairman and Chief Executive Officer",
+      "scope": "Overall strategy; leads the board's Growth and Operating committees",
+      "role": "economic buyer",
+      "tenure": "CEO since 2020, chairman since 2021",
+      "whyStartHere": "Not a first call, but his public 'every business unit needs an AI plan' stance and the Operating committee make him the air cover for any enterprise-wide adoption.",
+      "opener": "You've said every business needs an AI plan; the same standard applied to your engineering organization would show up directly in the Operating committee's numbers.",
+      "confidence": "confirmed",
+      "sourceId": "s21"
+    },
+    {
+      "rank": 9,
+      "name": "Unknown by name",
+      "title": "Chief Information Security Officer",
+      "scope": "Security review and approval for any vendor touching engineering systems or source code",
+      "role": "gatekeeper",
+      "tenure": "Unknown",
+      "whyStartHere": "After the April 2026 breach, security sign-off is the long pole in any deal; engaging early with a security-first story shortens the cycle later.",
+      "opener": "We expect your review bar to be higher after April; here's our security architecture and deployment model up front, before you have to ask.",
+      "confidence": "unconfirmed",
+      "sourceId": "s16"
+    },
+    {
+      "rank": 10,
+      "name": "Unknown by name",
+      "title": "VP-level head of software engineering or digital R&D (per-portfolio)",
+      "scope": "Day-to-day engineering leadership for device and digital software teams",
+      "role": "practitioner",
+      "tenure": "Unknown",
+      "whyStartHere": "The pilot lands on a team like this; identifying the right portfolio software lead is the first discovery task once a champion opens the door.",
+      "opener": "Your teams carry both new development and years of validated legacy code; here's how a pilot on one maintenance-heavy repo could free up roadmap capacity.",
+      "confidence": "unconfirmed",
+      "sourceId": "s28"
+    }
+  ],
+
+  "competition": [
+    {
+      "vendor": "NVIDIA (Holoscan, IGX, Clara)",
+      "position": "Entrenched as the edge-AI platform inside Medtronic's GI Genius product line since 2023.",
+      "tradeoff": "NVIDIA owns the device AI runtime relationship and hardware roadmap, a layer Factory does not compete in; the risk is Medtronic assuming its AI strategy is complete because the product layer is covered.",
+      "sourceId": "s19"
+    },
+    {
+      "vendor": "Cosmo Intelligent Medical Devices (GI Genius AI Access / Innovation Center)",
+      "position": "Owns the GI Genius operating system and the developer program through which third-party AI apps reach Medtronic's installed base.",
+      "tradeoff": "Cosmo is embedded in the product architecture and revenue model of a flagship AI franchise, a much deeper integration than a tooling vendor can claim.",
+      "sourceId": "s19"
+    },
+    {
+      "vendor": "Cornerstone Robotics",
+      "position": "New strategic partner (September 2026, ~$700 million investment) whose Sentire system extends Medtronic's surgical robotics reach outside the US.",
+      "tradeoff": "As a portfolio-level partner with board visibility, Cornerstone's software integration needs may absorb the engineering capacity and attention a tooling pilot would otherwise get.",
+      "sourceId": "s9"
+    },
+    {
+      "vendor": "In-house AI and software platform teams",
+      "position": "A named Global Chief AI Officer, unit-level CAIOs, and shipping AI products (GI Genius, AccuRhythm, Hugo real-time AI) demonstrate strong internal capability.",
+      "tradeoff": "Internal teams genuinely understand regulated AI better than any outside vendor and can credibly argue they should build developer tooling themselves.",
+      "sourceId": "s21"
+    }
+  ],
+
+  "objections": [
+    {
+      "objection": "Our product software is FDA-regulated; AI-generated code cannot enter our design-controlled SDLC.",
+      "response": "Agreed, and that is why the entry point is non-product code: internal tools, test infrastructure, and IT systems where design controls do not apply. Product-code use cases come later, inside your validated processes, with your quality team defining the evidence trail."
+    },
+    {
+      "objection": "We just disclosed a breach. We are not onboarding new vendors into our engineering environment.",
+      "response": "That is the right instinct, so lead with the security conversation: deployment options that keep source code inside your boundary, no training on your code, and a review package built for a post-incident CISO. The same incident is also the argument for faster patching and vulnerability remediation, which is workload the tool addresses."
+    },
+    {
+      "objection": "We have a Global Chief AI Officer and real AI products; we can build this ourselves.",
+      "response": "Your AI strength is exactly why this should be a fast evaluation: your teams can benchmark an outside tool against an internal build on cycle time and maintenance cost in a few weeks, and the R&D budget math decides it either way."
+    },
+    {
+      "objection": "Elliott is on our board pushing cost discipline; new software spend is a hard sell.",
+      "response": "Frame it in the Operating committee's own terms: engineering hours recovered per dollar spent, sized bottom-up from your $2.87 billion R&D line with every assumption exposed. If the model does not survive your finance team's scrutiny, we should not be in the building."
+    }
+  ],
+
+  "dealModel": {
+    "unit": "One software engineer on a maintenance-heavy, regulated codebase; value measured as engineering hours redirected from maintenance and vulnerability remediation to roadmap work.",
+    "assumptions": [
+      "Sourced input: FY26 R&D expense of $2.873 billion (Medtronic Q4 FY26 release, 2026-06-03).",
+      "Estimate (label as such): a meaningful minority of that R&D line is software labor; the exact split is an unknown and a first-call question, so no dollar headline is claimed here.",
+      "Estimate (label as such): pilot success is measured in hours per engineer per week on one repo, not as a percentage of the total R&D budget; the buyer can scale the result with their own team counts."
+    ],
+    "ladder": [
+      { "rung": "Pilot", "seats": "20-25 engineers on one non-product or test-infrastructure codebase", "annualValue": "Sized from measured hours recovered during the pilot (estimate, inputs shown)", "gate": "CISO security review passes post-breach bar; pilot metrics accepted by the sponsoring engineering leader" },
+      { "rung": "Portfolio expansion", "seats": "200-300 engineers across one portfolio (for example Neuroscience under its new president)", "annualValue": "Extrapolated from pilot per-seat hours using the portfolio's own team counts (estimate, inputs shown)", "gate": "Quality/regulatory sign-off on where AI-assisted code may land; procurement clears under Elliott-era spend scrutiny" },
+      { "rung": "Enterprise", "seats": "1,000+ engineers across R&D and IT", "annualValue": "Board-level productivity case built on two quarters of measured portfolio results (estimate, inputs shown)", "gate": "CFO and Operating committee approval; separation-era IT architecture (MiniMed carve-out) confirmed stable" }
+    ]
+  },
+
+  "unknowns": [
+    {
+      "question": "What changed in Medtronic's vendor security requirements after the April 2026 breach, and is there a freeze on new tools in the engineering environment?",
+      "whyItMatters": "It determines whether any deal is possible this fiscal year and which deployment model (fully in-boundary) is table stakes.",
+      "searched": "SEC 8-K filing of 2026-04-27, Medtronic's official breach statement, HIPAA Journal and SecurityWeek coverage; none disclose revised vendor policies."
+    },
+    {
+      "question": "Which hyperscaler, if any, is Medtronic's primary cloud and developer-platform commitment?",
+      "whyItMatters": "A dominant cloud partnership shapes procurement path, deployment model, and which ecosystem the tool must integrate with.",
+      "searched": "Web searches for Medtronic plus Azure, AWS, and Google Cloud partnerships; found healthcare-cloud market commentary but no published Medtronic primary-cloud commitment."
+    },
+    {
+      "question": "Does Medtronic already have a developer-AI tooling deployment (for example GitHub Copilot or a comparable assistant) inside engineering?",
+      "whyItMatters": "An incumbent changes the motion from greenfield sale to displacement or coexistence, and sets the price anchor.",
+      "searched": "Web searches for Medtronic plus Copilot, coding assistant, and developer productivity; found extensive product-AI coverage but no disclosed developer tooling contract."
+    },
+    {
+      "question": "Who now leads the Cardiovascular Portfolio after Sean Salmon's departure?",
+      "whyItMatters": "Cardiovascular is the growth engine (Q1 FY27 +19.5%) and the richest source of software-intensive programs; the target list has a gap until the successor is known.",
+      "searched": "MedTech Dive, MassDevice, and Medtronic leadership pages through September 2026; Salmon's exit is evidenced by his Teleflex board appointment but no successor announcement was found."
+    },
+    {
+      "question": "How large is the software engineering organization specifically, and how is it split between product software and enterprise IT?",
+      "whyItMatters": "The bottom-up value model needs a defensible seat count; using total headcount or total R&D spend would be a top-down shortcut the buyer would discount.",
+      "searched": "Q4 FY26 release, 10-K references, and careers portal; Medtronic publishes total employees (95,000+) and R&D expense but not an engineering headcount breakdown."
+    }
+  ],
+
+  "sources": [
+    { "id": "s1", "title": "Medtronic reports fourth quarter and full year fiscal 2026 results; delivers highest annual revenue growth in 10 years", "url": "https://news.medtronic.com/2026-06-03-Medtronic-reports-fourth-quarter-and-full-year-fiscal-2026-results-delivers-highest-annual-revenue-growth-in-10-years", "publisher": "Medtronic newsroom", "date": "2026-06-03", "primary": true },
+    { "id": "s2", "title": "Medtronic boosts fiscal 2027 forecasts on heart device demand", "url": "https://kelo.com/2026/09/01/medtronic-boosts-fiscal-2027-forecasts-on-heart-device-demand/", "publisher": "Reuters (via KELO)", "date": "2026-09-01", "primary": false },
+    { "id": "s3", "title": "Medtronic (MDT) Fiscal Q1 2027 Earnings Call Highlights", "url": "https://www.tradingkey.com/news/transcripts/262144748-tradingkey", "publisher": "TradingKey", "date": "2026-09-01", "primary": false },
+    { "id": "s4", "title": "Medtronic taps Jim Peichel as CTO", "url": "https://www.medtechdive.com/news/medtronic-name-jim-peichel-cto/806485/", "publisher": "MedTech Dive", "date": "2025-11-25", "primary": false },
+    { "id": "s5", "title": "Sean Lennon Named CIO Of Medtronic", "url": "https://www.metisstrategy.com/sean-lennon-named-cio-of-medtronic/", "publisher": "Metis Strategy", "date": "2026-02-17", "primary": false },
+    { "id": "s6", "title": "Medtronic AI maturity profile (names Rodolphe Katra as VP and Global Chief AI Officer)", "url": "https://www.imd.org/entity-profile/medtronic-ai-maturity-2025/", "publisher": "IMD", "date": "2025-11-10", "primary": false },
+    { "id": "s7", "title": "Top medtech executive moves in 2026 (Eric Lenard to new Medtronic innovation CFO role)", "url": "https://www.medtechdive.com/news/top-medtech-executive-moves-in-2026/819179/", "publisher": "MedTech Dive", "date": "2026-07-13", "primary": false },
+    { "id": "s8", "title": "Medtronic, BD name new leaders (Kweli Thompson to head Neuroscience portfolio)", "url": "https://www.medtechdive.com/news/medtronic-bd-name-new-leaders/820619/", "publisher": "MedTech Dive", "date": "2026-05-19", "primary": false },
+    { "id": "s9", "title": "Cornerstone Robotics Announces Strategic Partnership with Medtronic", "url": "https://en.csrbtx.com/press-release/strategic-partnership", "publisher": "Cornerstone Robotics", "date": "2026-09-01", "primary": true },
+    { "id": "s10", "title": "Medtronic's diabetes spinoff MiniMed files for IPO", "url": "https://www.medtechdive.com/news/medtronic-minimed-ipo/808465/", "publisher": "MedTech Dive", "date": "2025-12-22", "primary": false },
+    { "id": "s11", "title": "MiniMed Spin-Off from Medtronic: MMED IPO Mechanics and Shareholder Considerations", "url": "https://www.tradingcalendar.com/post/medtronic-mmed-spinoff", "publisher": "TradingCalendar", "date": "2026-03-02", "primary": false },
+    { "id": "s12", "title": "Medtronic to add two new directors after Elliott takes large stake", "url": "https://www.reuters.com/sustainability/sustainable-finance-reporting/medtronic-add-two-new-directors-after-elliott-takes-large-stake-2025-08-19/", "publisher": "Reuters", "date": "2025-08-19", "primary": false },
+    { "id": "s13", "title": "Medtronic restructures its heart and circulation business", "url": "https://www.startribune.com/medtronic-restructuring/601838496", "publisher": "Star Tribune", "date": "2026-05-07", "primary": false },
+    { "id": "s14", "title": "Medtronic to reportedly close California site amid rumored layoffs", "url": "https://www.massdevice.com/medtronic-reportedly-close-california-site-layoffs/", "publisher": "MassDevice", "date": "2026-05-11", "primary": false },
+    { "id": "s15", "title": "Medtronic Diabetes to lay off 81 ahead of MiniMed separation", "url": "https://www.drugdeliverybusiness.com/medtronic-diabetes-lay-off-81-minimed/", "publisher": "Drug Delivery Business News", "date": "2026-02-20", "primary": false },
+    { "id": "s16", "title": "Medtronic 8-K (items 7.01, 9.01): unauthorized access to corporate IT systems", "url": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026027272/0001628280-26-027272-index.htm", "publisher": "SEC EDGAR", "date": "2026-04-27", "primary": true },
+    { "id": "s17", "title": "Medtronic statement on unauthorized system access", "url": "https://news.medtronic.com/Medtronic-statement-on-unauthorized-system-access", "publisher": "Medtronic newsroom", "date": "2026-06-29", "primary": true },
+    { "id": "s18", "title": "Medtronic Notifies 3.8M Individuals About April 2026 Cyberattack", "url": "https://www.hipaajournal.com/medical-device-maker-medtronic-data-breach/", "publisher": "HIPAA Journal", "date": "2026-07-09", "primary": false },
+    { "id": "s19", "title": "Medtronic and NVIDIA Collaborate to Build AI Platform for Medical Devices", "url": "https://nvidianews.nvidia.com/news/medtronic-and-nvidia-collaborate-to-build-ai-platform-for-medical-devices", "publisher": "NVIDIA Newsroom", "date": "2023-03-21", "primary": true },
+    { "id": "s20", "title": "Medtronic adds real-time AI to Hugo robot", "url": "https://tech.yahoo.com/ai/articles/medtronic-adds-real-time-ai-111107017.html", "publisher": "Yahoo Tech", "date": "2026-07-21", "primary": false },
+    { "id": "s21", "title": "Medtronic wants every business unit to have a plan for AI", "url": "https://fortune.com/2024/10/07/ai-business-investment-medtronic/", "publisher": "Fortune", "date": "2024-10-07", "primary": false },
+    { "id": "s22", "title": "Medtronic Endoscopy's Chief AI Officer on Transforming Dx through AI", "url": "https://www.devicetalks.com/medtronic-caio-on-how-ai-is-transforming-endoscopy/", "publisher": "DeviceTalks", "date": "2024-10-22", "primary": false },
+    { "id": "s23", "title": "FDA Cybersecurity Guidance: Key Updates for 2025", "url": "https://censinet.com/perspectives/fda-cybersecurity-guidance-key-updates-2025", "publisher": "Censinet", "date": "2025-12-24", "primary": false },
+    { "id": "s24", "title": "Top medtech trends to watch in 2026", "url": "https://www.medtechdive.com/news/medtech-trends-outlook-2026/810902/", "publisher": "MedTech Dive", "date": "2026-01-29", "primary": false },
+    { "id": "s25", "title": "Teleflex picks Medtronic Coronary, Renal Denervation leader Weidman as new CEO", "url": "https://www.massdevice.com/teleflex-medtronic-leader-weidman-new-ceo/", "publisher": "MassDevice", "date": "2026-04-30", "primary": false },
+    { "id": "s26", "title": "Medtronic's Diabetes Spinoff Just Surged - Here's Why", "url": "https://www.investors.com/news/technology/medtronic-minimed-earnings-q1-2027/", "publisher": "Investor's Business Daily", "date": "2026-09-01", "primary": false },
+    { "id": "s27", "title": "Kweli Thompson - EVP and President, Neuroscience Portfolio (bio)", "url": "https://www.medtronic.com/en-us/our-company/leadership/kweli-thompson.html", "publisher": "Medtronic", "date": "2026-09-24", "primary": true },
+    { "id": "s28", "title": "Medtronic Careers - job search portal (software and embedded engineering openings)", "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers", "publisher": "Medtronic (Workday)", "date": "2026-09-24", "primary": true }
+  ]
+}
