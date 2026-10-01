@@ -1,0 +1,89 @@
+name: CI
+
+# The repo's own contract, enforced continuously: schema validation and
+# source-ref integrity for every committed dossier and point of view, plus
+# link resolution for every cited source. Both checks already exist in
+# web/server.mjs and scripts/verify-sources.ps1; this runs them on GitHub for
+# every push and pull request instead of only on demand.
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate every dossier
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+
+      # The server is Node built-ins only: no install step. It exposes the
+      # same validation the web app runs before rendering a dossier.
+      - name: Start the dossier server
+        run: |
+          node web/server.mjs &
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:4317/api/dossiers > /dev/null && break
+            sleep 1
+          done
+          curl -sf http://localhost:4317/api/dossiers > /dev/null || { echo "server did not start"; exit 1; }
+
+      - name: Schema and source-ref validation
+        run: |
+          slugs=$(curl -s http://localhost:4317/api/dossiers | jq -r '.items[].slug')
+          fail=0
+          for slug in $slugs; do
+            result=$(curl -s "http://localhost:4317/api/dossier/$slug")
+            errors=$(echo "$result" | jq '.validation.errors | length')
+            dangling=$(echo "$result" | jq '.validation.dangling | length')
+            fresh=$(echo "$result" | jq -r '.freshness.state')
+            pov_errors=$(echo "$result" | jq '.pov.validation.errors | length')
+            pov_dangling=$(echo "$result" | jq '.pov.validation.dangling | length')
+            echo "$slug: freshness=$fresh schemaErrors=$errors danglingRefs=$dangling povErrors=$pov_errors povDangling=$pov_dangling"
+            if [ "$errors" != "0" ] || [ "$dangling" != "0" ] || [ "$pov_errors" != "0" ] || [ "$pov_dangling" != "0" ]; then
+              echo "  -> $slug FAILED validation:"
+              echo "$result" | jq -r '.validation.errors[]? | "     schema: \(.)"'
+              echo "$result" | jq -r '.validation.dangling[]? | "     refs: \(.)"'
+              echo "$result" | jq -r '.pov.validation.errors[]? | "     pov: \(.)"'
+              echo "$result" | jq -r '.pov.validation.dangling[]? | "     povref: \(.)"'
+              fail=1
+            fi
+          done
+          if [ "$fail" = "0" ]; then echo "All dossiers and points of view valid."; fi
+          exit $fail
+
+  verify-sources:
+    name: Resolve every cited source
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      # Only hard failures (404/410, DNS) fail the gate. Hosts that block
+      # non-browser clients (SEC, Reuters) come back blocked, not dead; job
+      # postings expire by nature. Both are reported, neither fails the run.
+      - name: Verify dossier sources resolve
+        shell: pwsh
+        run: |
+          $files = Get-ChildItem ./web/data -Filter '*.json' | Where-Object { $_.Name -notlike '*.pov.json' }
+          if (-not $files) { Write-Output 'no dossiers to verify'; exit 0 }
+          $fail = 0
+          foreach ($f in $files) {
+            Write-Output "=== $($f.Name) ==="
+            ./scripts/verify-sources.ps1 -Path $f.FullName -Quiet
+            if ($LASTEXITCODE -ne 0) { Write-Output "FAILED: $($f.Name)"; $fail = 1 }
+          }
+          exit $fail
