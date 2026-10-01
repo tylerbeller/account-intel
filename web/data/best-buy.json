@@ -625,11 +625,11 @@
     },
     {
       "id": "s12",
-      "title": "Best Buy launches new marketplace to double product assortment",
-      "url": "https://www.mirakl.com/blog/best-buy-partners-with-mirakl-doubles-product-assortment",
-      "publisher": "Mirakl",
+      "title": "Best Buy launches digital marketplace, more than doubling number of products available online",
+      "url": "https://corporate.bestbuy.com/2025/marketplace/",
+      "publisher": "Best Buy",
       "date": "2025-08-19",
-      "primary": false
+      "primary": true
     },
     {
       "id": "s13",
@@ -674,7 +674,7 @@
     {
       "id": "s18",
       "title": "CTA: Despite Tariffs and Economic Headwinds, U.S. Consumer Tech Revenue to Hit $565 Billion in 2026",
-      "url": "https://www.ces.tech/press-releases/cta-despite-tariffs-and-economic-headwinds-u-s-consumer-tech-revenue-to-hit-565-billion-in-2026/",
+      "url": "https://www.ces.tech/press-releases/cta-despite-tariffs-and-economic-headwinds-us-consumer-tech-revenue-to-hit-565-billion-in-2026",
       "publisher": "Consumer Technology Association",
       "date": "2026-01-04",
       "primary": false
