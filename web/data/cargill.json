@@ -8,7 +8,7 @@
     "industry": "Food, agriculture, commodities trading, animal nutrition, and industrial products [s1]",
     "summary": "Cargill is a privately held global food and agriculture company that sources, processes, trades, and delivers food, agricultural, and industrial products [s1]. It reported $164 billion of fiscal 2026 revenue after completing a two-year simplification from five enterprises to three and from 23 business groups to 14, while publicly elevating AI, data, and supply-chain digitization [s1][s2][s6][s7]."
   },
-  "generatedAt": "2026-09-24",
+  "generatedAt": "2026-10-05",
   "confidence": "partially sourced",
   "overview": {
     "whatTheyDo": "Cargill connects farmers and producers with markets and supplies food manufacturers, foodservice operators, retailers, consumers, and industrial customers with food ingredients, agricultural solutions, animal nutrition, risk-management, transportation, and industrial products [s1].",
@@ -444,12 +444,12 @@
     {
       "question": "Which executive owns the fiscal 2027 application-modernization portfolio and budget below the CIDO?",
       "whyItMatters": "Jennifer Hartsock is the clear enterprise sponsor, but a named budget owner and operating champion are needed for a pilot.",
-      "searched": "Cargill executive pages, Digital Technology and Data careers pages, current leadership searches, and 2025-2026 technology interviews; no complete current DT&D leadership chart was public."
+      "searched": "Cargill executive pages, Digital Technology and Data careers pages, current leadership searches, and 2025-2026 technology interviews, refreshed through 2026-10-05; no complete current DT&D leadership chart was public."
     },
     {
       "question": "What are Cargill's current application count, source-code hosts, primary CI/CD platforms, and approved AI coding tools?",
       "whyItMatters": "These determine integration effort, competitive displacement, security review, and the size of the reachable engineering estate.",
-      "searched": "Cargill careers pages, public case studies, engineering and cloud searches, vendor references, and public repositories; isolated technologies were found but no authoritative current inventory."
+      "searched": "Cargill careers pages, current software, AI-platform, SAP, cloud-security and Agriculture & Trading engineering postings, public case studies, vendor references, and public repositories, refreshed through 2026-10-05; isolated technologies were found but no authoritative current inventory."
     },
     {
       "question": "Which post-reorganization backlog has a measurable baseline for cycle time, rework, defects, and audit-evidence effort?",
@@ -459,17 +459,17 @@
     {
       "question": "Did Cargill complete the metals-unit sale, and what application separation or decommissioning work remains?",
       "whyItMatters": "A completed divestiture could create a time-bound modernization and access-cleanup opportunity; an abandoned sale would invalidate that catalyst.",
-      "searched": "Reuters and public-news searches through 2026-09-24; a target completion window was found, but no authoritative completion announcement was located."
+      "searched": "Reuters, Cargill newsroom, and public-news searches through 2026-10-05; a target completion window was found, but no authoritative completion announcement was located."
     },
     {
       "question": "What current fiscal 2027 spending controls apply to new engineering software and outside services?",
       "whyItMatters": "The workforce reduction and restructuring may limit new-vendor spend despite revenue recovery and a strong AI mandate.",
-      "searched": "Annual reports, earnings coverage, restructuring reporting, procurement searches, and technology interviews; no public fiscal 2027 engineering budget or procurement threshold was found."
+      "searched": "Annual reports, earnings coverage, restructuring reporting, procurement searches, and technology interviews, refreshed through 2026-10-05; no public fiscal 2027 engineering budget or procurement threshold was found."
     },
     {
       "question": "What were Cargill's last two fully reported quarterly revenue, profit, and margin results?",
       "whyItMatters": "Current quarterly momentum would sharpen timing and budget qualification.",
-      "searched": "Cargill annual reports and newsroom, Reuters, Bloomberg, Transport Topics, trade press, and quarterly-result searches; only a reported Q1 fiscal 2026 year-over-year profit increase was found, not two complete public quarterly statements."
+      "searched": "Cargill annual reports and newsroom, Reuters, Bloomberg, Transport Topics, trade press, and quarterly-result searches through 2026-10-05; only a reported Q1 fiscal 2026 year-over-year profit increase was found, not two complete public quarterly statements."
     }
   ],
   "sources": [
@@ -558,7 +558,7 @@
       "title": "Jennifer Hartsock",
       "url": "https://www.cargill.com/about/jennifer-hartsock",
       "publisher": "Cargill",
-      "date": "2026-09-24 (accessed; publication date not shown)",
+      "date": "2026-10-05 (accessed; publication date not shown)",
       "primary": true
     },
     {
@@ -574,7 +574,7 @@
       "title": "Florian Schattenmann",
       "url": "https://www.cargill.com/about/florian-schattenmann",
       "publisher": "Cargill",
-      "date": "2026-09-24 (accessed; publication date not shown)",
+      "date": "2026-10-05 (accessed; publication date not shown)",
       "primary": true
     },
     {
@@ -582,7 +582,7 @@
       "title": "Executive Team",
       "url": "https://www.cargill.com/about/executive-team",
       "publisher": "Cargill",
-      "date": "2026-09-24 (accessed; publication date not shown)",
+      "date": "2026-10-05 (accessed; publication date not shown)",
       "primary": true
     },
     {
